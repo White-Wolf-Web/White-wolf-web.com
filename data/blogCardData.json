@@ -1,0 +1,50 @@
+[
+	{
+		"title": "L'Api RestFul",
+		"description": "Nous allons ici explorer les tenants et les aboutissants de l'API RestFul. ",
+		"image": "/Assets/Images/Webp/blog/blogCardImgApi.webp",
+		"href": "/",
+		"alt": "un 'cloud' version tres moderne représentant une API",
+		"text": "Vinyl News Mag is a responsive multipurpose WordPress magazine theme. It is a powerful platform for creating sophisticated magazine websites in a flash. Vinyl News Mag is a blog and magazine-specialized WordPress theme. You will find a lot of customizable options on the theme. Vinyl News Mag is a WordPress theme with a strong focus on advertisement and publicity."
+	},
+	{
+		"title": "Le tunnel de vente",
+		"description": "Tout savoir sur le Tunnel de vente, ce qu'il en est réelement. ",
+		"image": "/Assets/Images/Webp/blog/blogCardImgTunnel.webp",
+		"href": "/",
+		"alt": "une forme d'entennoir avec de nombreuses couleurs representant les étapes du tunnel de vente",
+		"text": "Vinyl News Mag is a responsive multipurpose WordPress magazine theme. It is a powerful platform for creating sophisticated magazine websites in a flash. Vinyl News Mag is a blog and magazine-specialized WordPress theme. You will find a lot of customizable options on the theme. Vinyl News Mag is a WordPress theme with a strong focus on advertisement and publicity."
+	},
+	{
+		"title": "L'IA du Turing à Tesla",
+		"description": "Tracer l'évolution de l'IA à travers l'histoire",
+		"image": "/Assets/Images/Webp/blog/blogCardImgIA1.webp",
+		"href": "/",
+		"alt": "un beau cerveau electronique représantant l'IA",
+		"text": "Vinyl News Mag is a responsive multipurpose WordPress magazine theme. It is a powerful platform for creating sophisticated magazine websites in a flash. Vinyl News Mag is a blog and magazine-specialized WordPress theme. You will find a lot of customizable options on the theme. Vinyl News Mag is a WordPress theme with a strong focus on advertisement and publicity."
+	},
+	{
+		"title": "Découvrir la puissance de Chat GPT 4",
+		"description": "Un guide complet pour les passionnés de technologies",
+		"image": "/Assets/Images/Webp/blog/blogCardImgChatGPT.webp",
+		"href": "/",
+		"alt": "une femme robot entrain d'ecrire sur sur PC",
+		"text": "Vinyl News Mag is a responsive multipurpose WordPress magazine theme. It is a powerful platform for creating sophisticated magazine websites in a flash. Vinyl News Mag is a blog and magazine-specialized WordPress theme. You will find a lot of customizable options on the theme. Vinyl News Mag is a WordPress theme with a strong focus on advertisement and publicity."
+	},
+	{
+		"title": "Next.js : Le Prochain Chapitre du Développement Web",
+		"description": "Explorez l'avenir du développement web avec Next.js, un framework React qui allie flexibilité et performance.",
+		"image": "/Assets/Images/Webp/blog/blogCardImgNext.webp",
+		"href": "/",
+		"alt": "le logo de Next.js ecrit en blanc",
+		"text": "Vinyl News Mag is a responsive multipurpose WordPress magazine theme. It is a powerful platform for creating sophisticated magazine websites in a flash. Vinyl News Mag is a blog and magazine-specialized WordPress theme. You will find a lot of customizable options on the theme. Vinyl News Mag is a WordPress theme with a strong focus on advertisement and publicity."
+	},
+	{
+		"title": "Liberez la puissance du SEO",
+		"description": "Un guide complet sur le réferencement - SEO, pour améliorer votre visibilité",
+		"image": "/Assets/Images/Webp/blog/blogCardImgSEO.webp",
+		"href": "/",
+		"alt": "en lettres d'or vu à la loupe on peut lire SEO",
+		"text": "Vinyl News Mag is a responsive multipurpose WordPress magazine theme. It is a powerful platform for creating sophisticated magazine websites in a flash. Vinyl News Mag is a blog and magazine-specialized WordPress theme. You will find a lot of customizable options on the theme. Vinyl News Mag is a WordPress theme with a strong focus on advertisement and publicity."
+	}
+]

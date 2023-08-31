@@ -1,0 +1,74 @@
+.navbar-nav .nav-link.active,
+.navbar-nav,
+.show,
+.nav-link,
+navbar {
+	color: whitesmoke;
+	--bs-navbar-active-color: whitesmoke;
+}
+
+.nav-link:hover {
+	color: whitesmoke;
+}
+
+.card-img-top {
+	width: auto !important;
+	height: auto !important;
+	padding: 10px !important;
+	border-bottom: solid 2px #0de0d3;
+}
+.ourServices {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.modal-content {
+	background-color: black;
+	color: white;
+	flex-direction: column;
+	border: 1px solid #0de0d3;
+}
+.modal-footer {
+	display: block;
+}
+.btn-close {
+	color: red !important;
+}
+input {
+	border-radius: 5px;
+	outline-color: transparent !important;
+}
+.card-title {
+	font-size: 1.25rem !important;
+	margin-top: 10px;
+	text-align: center;
+	margin-bottom: 12px;
+	color: whitesmoke !important;
+}
+.card-text {
+	text-align: left !important;
+}
+.card-body {
+    color:aliceblue !important;
+}
+
+@media (min-width: 768px) {
+	.custom-card {
+		flex: 0 0 auto !important;
+		width: auto !important;
+		margin: 10px !important;
+	}
+}
+
+@media (max-width: 768px) {
+	.card-title {
+		font-size: 18px !important;
+	}
+}
+.customCheckbox {
+	color: #0de0d3 !important;
+}
+
+.container-fluid {
+	margin-bottom: 20px !important;
+}

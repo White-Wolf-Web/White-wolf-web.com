@@ -1,0 +1,302 @@
+.allSections {
+	max-width: 1200px;
+	border-bottom: 1px solid #0de0d3;
+	padding: 40px 0;
+	margin: auto;
+}
+
+.card-container {
+	position: absolute;
+}
+.containerTitle {
+	margin: 0.5rem auto 2rem auto;
+	line-height: 1.15;
+	font-size: 2rem;
+	text-align: center;
+	color: aliceblue;
+}
+.cardTitle {
+	font-size: 1.15rem !important;
+	margin: 10px auto 12px auto;
+	text-align: center !important;
+	white-space: pre-line;
+}
+.cardText {
+	color: whitesmoke;
+	text-align: center;
+}
+.cardH2 {
+	margin: 0.5rem 0 2rem 0;
+	line-height: 1.15;
+	font-size: 2rem;
+	text-align: center;
+	color: aliceblue;
+}
+.customCard {
+	border: 2px solid #0de0d3;
+	transition: transform 0.3s;
+	background-color: black;
+	border-radius: 30px;
+	overflow: hidden;
+}
+
+.customCard2 {
+	border: 2px solid #0de0d3;
+	transition: transform 0.3s;
+	background-color: black;
+	border-radius: 30px;
+	height: 860px;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+.customCard:hover {
+	border: 2px solid forestgreen;
+}
+
+.bigCard {
+	transition: transform 0.3s;
+}
+
+.bibCard:hover {
+	transform: translateY(-10px);
+}
+.ourServices {
+	max-width: 1200px !important;
+	--bs-gutter-x: 1.5rem;
+	--bs-gutter-y: 0;
+	display: flex;
+	flex-wrap: wrap;
+	/*padding: auto;*/
+	margin: 20px auto;
+	justify-content: space-around;
+}
+/* FLOATING  CARD */
+.floatingSection {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.stormContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	width: 100%;
+	height: auto;
+	max-width: 1200px;
+	margin: auto;
+}
+.storm {
+	position: relative;
+	height: 50vh;
+	max-width: 1200px;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+}
+.wrapper {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.servicesTitle {
+	text-align: center;
+	margin-top: 60px;
+	color: whitesmoke;
+}
+.container {
+	position: relative;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	height: 50vh;
+	width: 100%;
+	margin: 0;
+	
+}
+.cardContainer {
+	position: absolute;
+	color: white;
+	background-color: black;
+	/*font-weight: 10px;*/
+	z-index: 3;
+	border-radius: 30px;
+	overflow: hidden;
+}
+.card-title {
+	font-size: 10px !important;
+}
+
+.hidden {
+	opacity: 0 !important;
+}
+
+/*   ARTICLES   */
+
+.cardArt {
+	border: 1px solid #0de0d3;
+	border-radius: 8px;
+	padding: 4px;
+	margin: 10px;
+	width: 380px;
+	height: 110px;
+	display: flex;
+	box-sizing: border-box;
+	transition: 0.2s;
+	cursor: pointer;
+}
+.cardArt:hover {
+	border-color: #0aa5a3;
+}
+
+.cardArt:active {
+	transform: scale(0.98);
+}
+.cardArtTitle {
+	margin: 0 0 10px 0;
+	padding: 0 0 0 7px;
+	color: white;
+	font-size: 1.3rem;
+	text-align: left;
+}
+
+.cardArtDescription {
+	margin: 0;
+	padding: 0 0 0 7px;
+	color: aliceblue;
+	font-size: 1rem;
+}
+
+.showLessCards {
+	margin: 0 20px;
+	background-color: #6b0103 !important;
+}
+.showLessCards:hover {
+	background-color: #912e06 !important;
+}
+
+.centerContent {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+
+/** Langage Card ****/
+.langageContainerCard {
+	display: flex;
+	height: auto;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	max-width: 1000px;
+	justify-content: space-around;
+	padding: 30px 0;
+}
+.cardHomeH2MarginTop {
+	margin: 1.5rem auto 0 auto !important;
+	line-height: 1.15;
+	font-size: 2rem;
+	text-align: center !important;
+	color: aliceblue;
+	padding-top: 20px;
+}
+
+.langageCardWrap {
+	flex: 0 0 250px;
+	justify-content: center;
+	margin: 20px;
+	height: 350px;
+	background-color: #fff;
+	border-radius: 20px;
+	border: 5px solid #fff;
+	overflow: hidden;
+	color: var(--color-text);
+	box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+	cursor: pointer;
+	transition: all 0.2s ease-in-out;
+}
+
+.langageCardWrap:hover {
+	transform: scale(1.1);
+}
+.langageCardHeader {
+	height: 75px;
+	width: 250px;
+	background: black;
+	border-radius: 100% 0% 100% 0% / 0% 50% 50% 100%;
+	display: grid;
+	place-items: center;
+}
+
+.langageCardContent {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 90%;
+	margin: 0 auto;
+}
+.langageCardTitle {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 18px;
+	margin-top: 0;
+	margin-bottom: 0;
+	color: black;
+}
+.langageCardText {
+	text-align: center;
+	font-size: 16px;
+	margin-bottom: 20px;
+	color: black;
+}
+.langageCardBtn {
+	border: none;
+	border-radius: 100px;
+	padding: 5px 30px;
+	background-color: black;
+	margin-bottom: 15px;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+/***********************/
+.moreArticlesButtonContainer {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.moreArticlesButton {
+	background-color: #840104;
+	color: white;
+	padding: 15px 25px;
+	border-radius: 5px;
+	box-shadow: 0px 7px 10px rgba(255, 255, 255, 0.2);
+	border: none;
+	outline: none;
+	cursor: pointer;
+	position: relative;
+	transition: all 0.3s ease;
+}
+
+.moreArticlesButton:hover {
+	background-color: #6b0103;
+}
+
+@media (min-width: 768px) {
+	.col-md-4 {
+		flex: 0 0 auto;
+		width: auto;
+		margin: 10px;
+	}
+}
+
+@media (max-width: 768px) {
+	.wrapper {
+		width: auto;
+	}
+}

@@ -1,0 +1,51 @@
+[
+    {
+      "title": "Api RestFul",
+      "image": "/Assets/Images/Webp/blog/Api-restful.webp",
+      "description": "Nous allons ici explorer les tenants et\n les aboutissants de l'API RestFul. ",
+      "href":"/"
+    },
+    {
+      "title": "Tunnel de vente",
+      "image": "/Assets/Images/Webp/blog/tunnel-vente.webp",
+      "description": "Qu'es ce qu'un tunnel de vente ?\nA quoi cela sert ? Est-ce vraiment utile ?",
+      "href":"/"
+    },
+    {
+        "title": "IA de Turing à Tesla",
+        "image": "/Assets/Images/Webp/blog/IA-mini.webp",
+        "description": "C'est le résumé de mon super article.",
+        "href":"/"
+      },
+      {
+        "title": "SEO, améliorez sa visibilité",
+        "image": "/Assets/Images/Webp/blog/SEO-mini.webp",
+        "description": "C'est le résumé de mon autre super article.",
+        "href":"/"
+      },
+      {
+        "title": "GPT4",
+        "image": "/Assets/Images/Webp/blog/chatGPT-mini.webp",
+        "description": "C'est le résumé de mon super article.",
+        "href":"/"
+      },
+      {
+        "title": "Next.js  ...  le futur ",
+        "image": "/Assets/Images/Webp/blog/Next-mini.webp",
+        "description": "C'est le résumé de mon autre super article.",
+        "href":"/"
+      },
+      {
+        "title": "Un super article",
+        "image": "/Assets/Images/Webp/algues.webp",
+        "description": "C'est le résumé de mon super article.",
+        "href":"/"
+      },
+      {
+        "title": "Un autre super article",
+        "image": "/Assets/Images/Webp/algues.webp",
+        "description": "C'est le résumé de mon autre super article.",
+        "href":"/"
+      }
+  ]
+  

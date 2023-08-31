@@ -1,3 +1,103 @@
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0 ;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  background-color: black !important;
+  max-width: 1600px;
+	color: GhostWhite !important;
+  margin: 0 auto;
+
+}
+main {
+	width: 100%;
+	position: relative;
+	margin: 0 auto; 
+	padding: 0 20px 20px 20px;
+}
+
+
+
+a {
+  color: inherit;
+  text-decoration: none !important;
+}
+.lien {
+  color: #0de0d3;
+  text-decoration:underline;
+}
+
+h1 {
+  font-family: 'EB Garamond', serif;
+  font-weight: 700 !important;
+  text-align: center;
+  color: aliceblue;
+  margin: 0 auto 30px auto !important;
+  line-height: 1.15;
+  font-size: 3rem !important;
+  
+}
+@keyframes title {
+	0% {
+		opacity: 0;
+		transform: translateX(-100%);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(0%);
+	}
+}
+
+
+h2 {
+  font-family:"montserrat";
+  font-weight: 700;
+  text-align: left;
+  margin: 2rem auto 1rem auto;
+  font-size: 2rem;
+  color:#0CC7BA;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-family:"montserrat";
+  font-weight: 700;
+  text-align: start;
+  margin: 30px auto 20px auto;
+}
+
+P {
+  font-family: Open_Sans;
+  text-align: justify;
+  line-height: 1.5;
+  font-size: 1.25rem;
+}
+ ul {
+  font-size: 1.25rem;
+  line-height: 1.5;
+  text-align:left;
+  list-style-type: none;  /* Enlève les puces par défaut */
+ }
+
+li {
+  margin-bottom: 5px;
+  text-indent: -3px; 
+  padding-left: 0;
+  margin-left: -10px;
+}
+li::before {
+  content: '👉';  /* Ajoute l'emoji comme puce */
+  margin-left: -12px;
+  padding-right: 10px;  /* Ajoute un espace entre l'emoji et le texte */
+}
+
+/*
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
@@ -105,3 +205,4 @@ a {
     color-scheme: dark;
   }
 }
+*/

@@ -1,0 +1,50 @@
+[
+	{
+		"title": "HTML5",
+		"image": "/Assets/Icons/html5-L.webp",
+		"description": "HTML5 est la structure de base de tout site web. C'est un langage de balisage qui vous permet de créer des pages web statiques. C'est le standard de l'industrie, donc tout navigateur web est capable de l'interpréter.",
+		"backgroundColor": "#E34F26",
+		"color": "black",
+		"href": "/articles/languages/html5"
+	},
+	{
+		"title": "CSS3",
+		"image": "/Assets/Icons/css3-L.webp",
+		"description": "CSS3 est utilisé pour la mise en page. Il permet de contrôler l'apparence des pages (couleurs, tailles, polices, espacements, etc.) pour les rendre plus attrayantes, plus fluides, plus responsives.",
+		"backgroundColor": "#1984D1",
+		"color": "black",
+		"href": "/articles/languages/css3"
+	},
+	{
+		"title": "JavaScript",
+		"image": "/Assets/Icons/javascript-L.webp",
+		"description": "Javascript est un langage de programmation qui permet de rendre les sites interactifs. Il est exécuté sur le client (votre navigateur) et permet d'ajouter des fonctionnalités dynamiques à un site web statique.",
+		"backgroundColor": "#F7DF1E",
+		"color": "black",
+		"href": "/articles/languages/javascript"
+	},
+	{
+		"title": "React",
+		"image": "/Assets/Icons/react-L.webp",
+		"description": "React est une bibliothèque JavaScript crée et utilisé par Facebook (et donc Instagram) qui facilite la création d'interfaces utilisateur interactives. Il permet une mise à jour et un rendu efficaces des composants.",
+		"backgroundColor": "#61DAFB",
+		"color": "black",
+		"href": "/articles/languages/react"
+	},
+	{
+		"title": "Next.js",
+		"image": "/Assets/Icons/next-L.webp",
+		"description": "Next.js est un framework React qui fournit de nombreuses fonctionnalités supplémentaires comme le rendu côté serveur et la génération de sites statiques. Il améliore les performances de votre site. C’est l’avenir.",
+		"backgroundColor": "black",
+		"color": "white",
+		"href": "/articles/languages/next"
+	},
+	{
+		"title": "Bootstrap",
+		"image": "/Assets/Icons/bootstrap-L.webp",
+		"description": "Bootstrap est un framework CSS qui facilite la création de designs responsifs. Il comprend une multitude de composants réutilisables pour la navigation, les modales, ainsi que des utilitaires pour la mise en page",
+		"backgroundColor": "#9364D9",
+		"color": "black",
+		"href": "/articles/languages/bootstrap"
+	}
+]

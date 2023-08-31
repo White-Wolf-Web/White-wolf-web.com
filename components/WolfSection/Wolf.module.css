@@ -1,0 +1,155 @@
+/*  WOLF SECTION */
+
+.floatingWolf {
+	transition: opacity 3s !important;
+}
+.wolfContainer {
+	margin: 45px auto;
+	display: grid;
+    max-width: 1200px;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+.wolfImageSection {
+	grid-column: 2 / 3;
+	grid-row: 2 / 4;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.wolfTextSection {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+	text-align: center;
+	color: whitesmoke;
+	font-size: 18px;
+	line-height: 1.5;
+	height: 100%;
+}
+.wolfP {
+	color: #fff;
+	text-align: center;
+	line-height: 1.5;
+	vertical-align: middle;
+}
+.howCanWeHelp {
+	margin-top: 35px;
+	font-size: 30px;
+	max-width: 1200px;
+	text-align: center !important;
+	color: #f1f1f1e3;
+	text-shadow: 0.1vw 0vw 0.25vw #7476ff, 0.15vw 0vw 0.25vw #7476ff, 0.1vw 0vw 0.1vw #3134ff, 0.15vw 0vw 0.1vw #3134ff, 0.4vw 0vw 0.1vw #3134ff, 0.1vw 0vw 2vw #3134ff,
+		0.15vw 0vw 2vw #3134ff, 0.4vw 0vw 2vw #3134ff, 0.1vw 0vw 1vw #0408fb, 0.15vw 0vw 1vw #0408fb, 0.4vw 0vw 5vw #0408fb, 0.1vw 0vw 5vw #0408fb,
+		0.15vw 0vw 20vw #0408fb, 0.4vw 0vw 10vw #0408fb, 0.1vw 0vw 10vw #0408fb, 0.15vw 0vw 30vw #0408fb, 0.4vw 0vw 10vw #0408fb;
+
+	animation: blink 2s infinite alternate;
+}
+.wolfCenter {
+	margin: auto;
+}
+.centerContent {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.fadeIn {
+	opacity: 1;
+}
+
+.fadeOut {
+	opacity: 0;
+}
+
+.neonCard {
+	max-width: 400px;
+	padding: 10px;
+	box-shadow: 0 0 2vw 0vw #7476ff, 0 0 2vw 0.4vw #0408fb, inset 0 0 0.5vw 0.2vw #7476ff, inset 0 0 0.2vw 0.2vw #3134ff, inset 0 0 0.25vw 0.2vw #0408fb;
+	border-radius: 12px;
+}
+/* WOLF Responsive */
+
+@media (max-width: 920px) {
+	.wolfP {
+		font-size: 24px;
+	}
+}
+@media (max-width: 865px) {
+	.wolfP {
+		font-size: 22px;
+	}
+}
+@media (max-width: 810px) {
+	.wolfP {
+		font-size: 20px;
+	}
+}
+@media (max-width: 768px) {
+	.wolfP {
+		font-size: 18px;
+	}
+	.neonCard {
+		width: 200px;
+		padding: 1px;
+	}
+	.neonCard p {
+		margin: auto 0;
+	}
+}
+
+@media (max-width: 650px) {
+	.neonCard {
+		width: 150px;
+		height: 162px;
+	}
+	.wolfP {
+		font-size: 17px;
+	}
+	.howCanWeHelp {
+		width: 100vw;
+		text-align: center;
+	}
+}
+@media (max-width: 500px) {
+	.wolfP {
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 475px) {
+	.wolfTextSection {
+		height: 100%;
+		padding: 9px 2px;
+		margin: auto 0;
+	}
+	.neonCard {
+		width: 128px;
+		height: 152px;
+	}
+	.wolfP {
+		font-size: 14px;
+	}
+	.howCanWeHelp {
+		margin-top: 10px;
+		font-size: 18px;
+	}
+}
+@media (max-width: 425px) {
+	.neonCard {
+		width: 120px;
+		height: 162px;
+	}
+}
+@media (max-width: 405px) {
+	.neonCard {
+		width: 110px;
+		height: 152px;
+	}
+	.wolfCenter {
+		width: 110px;
+	}
+}
