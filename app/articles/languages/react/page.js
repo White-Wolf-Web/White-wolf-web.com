@@ -1,12 +1,11 @@
 import React from "react";
 import Head from "next/head";
 import Image from "next/image";
-import Styles from "../../../Styles/page.module.css";
-import Style from "../../../Styles/languages.module.css";
-import ReactIcon from "../../../public/Assets/Icons/react-icon.webp"
-import CodeReact from "../../../public/Assets/Images/Webp/languages/code-react.webp"
-import ConditionnelReact from "../../../public/Assets/Images/Webp/languages/rendu-conditionnel-react.webp"
-import FrameworkLangIcons from "../../../Components/FrameworkLangLogo/FrameworkLangIcons"
+import styles from "@/app/page.module.css";
+import ReactIcon from "@/public/Assets/Icons/react-icon.webp";
+import CodeReact from "@/public/Assets/Images/Webp/languages/code-react.webp";
+import ConditionnelReact from "@/public/Assets/Images/Webp/languages/rendu-conditionnel-react.webp";
+import FrameworkLangIcons from "@/components/FrameworkLangLogo/FrameworkLangIcons";
 
 export default function react() {
 	return (
@@ -20,9 +19,9 @@ export default function react() {
 				<link rel="canonical" href="https://www.white-wolf-web.com/articles/languages/react" />
 			</Head>
 
-			<main className={Styles.container}>
+			<main className={styles.container}>
 				<h1>Guide du débutant pour comprendre React</h1>
-				<section className={Style.languageSection}>
+				<section className={styles.languageSection}>
 					<p>
 						React est une bibliothèque JavaScript populaire qui a révolutionné la façon dont nous construisons des applications web. Elle a gagné une immense
 						popularité ces dernières années en raison de sa simplicité, de sa flexibilité et de son évolutivité. Cependant, si vous êtes novice en matière de
@@ -34,9 +33,9 @@ export default function react() {
 						plongeons dans le vif du sujet et commençons !
 					</p>
 				</section>
-        <Image src={ReactIcon} className={Style.languagesIcon} width={112} height={100} alt="icon de React" />
-				<section className={Style.languageSection}>
-					<h2 className={Style.reactColor}>Qu&apos;est-ce que React ?</h2>
+				<Image src={ReactIcon} className={styles.languagesIcon} width={112} height={100} alt="icon de React" />
+				<section className={styles.languageSection}>
+					<h2 className={styles.reactColor}>Qu&apos;est-ce que React ?</h2>
 					<p>
 						React est une bibliothèque JavaScript open-source créée par Facebook pour construire des interfaces utilisateur (UI). Elle permet de créer des
 						composants réutilisables qui peuvent être combinés pour construire des interfaces complexes. La bibliothèque est axée sur la construction de
@@ -44,8 +43,8 @@ export default function react() {
 						application fasse, et React se charge de le faire pour vous.
 					</p>
 				</section>
-				<section className={Style.languageSection}>
-        <h2 className={Style.reactColor}>Pourquoi les débutants devraient-ils apprendre React ?</h2>
+				<section className={styles.languageSection}>
+					<h2 className={styles.reactColor}>Pourquoi les débutants devraient-ils apprendre React ?</h2>
 					<p>
 						React est une bibliothèque très populaire et est utilisée par de nombreuses entreprises de premier plan telles que Facebook, Netflix, Airbnb, et
 						bien d&apos;autres encore. En apprenant React, vous pouvez vous ouvrir à de nombreuses opportunités de carrière dans le domaine de la technologie.
@@ -53,8 +52,8 @@ export default function react() {
 						un rien de temps.
 					</p>
 				</section>
-				<section className={Style.languageSection}>
-        <h2 className={Style.reactColor}>React vs autres frameworks front-end</h2>
+				<section className={styles.languageSection}>
+					<h2 className={styles.reactColor}>React vs autres frameworks front-end</h2>
 					<p>
 						React est souvent comparé à d&apos;autres frameworks front-end populaires comme Angular et Vue.js. Alors, quelle est la différence entre React et
 						ces autres frameworks ? La principale différence est que React est une bibliothèque, tandis qu&apos;Angular et Vue.js sont des frameworks. Cela
@@ -63,8 +62,8 @@ export default function react() {
 						Vue.js ou encore mieux Next.js
 					</p>
 				</section>
-				<section className={Style.languageSection}>
-        <h2 className={Style.reactColor}>Configuration de l&apos;environnement de développement</h2>
+				<section className={styles.languageSection}>
+					<h2 className={styles.reactColor}>Configuration de l&apos;environnement de développement</h2>
 					<p>
 						La première étape pour commencer à utiliser React est de configurer votre environnement de développement. Vous aurez besoin d&apos;un éditeur de
 						code, d&apos;un navigateur web et de Node.js installé sur votre ordinateur. Vous pouvez utiliser n&apos;importe quel éditeur de code pour
@@ -75,9 +74,9 @@ export default function react() {
 						vous suffit d&apos;ouvrir votre terminal et de taper la commande suivante : `npm install react`.
 					</p>
 				</section>
-        <Image src={CodeReact} className={Style.languagesCode} width={646} height={808} alt="Composant react" />
-				<section className={Style.languageSection}>
-        <h2 className={Style.reactColor}>Composants en React</h2>
+				<Image src={CodeReact} className={styles.languagesCode} width={646} height={808} alt="Composant react" />
+				<section className={styles.languageSection}>
+					<h2 className={styles.reactColor}>Composants en React</h2>
 					<p>
 						Les composants sont la pierre angulaire de React. Les composants sont des blocs de code réutilisables qui peuvent être combinés pour créer des
 						interfaces utilisateur complexes. Les composants peuvent être de deux types : les composants de classe et les composants fonctionnels.
@@ -89,8 +88,8 @@ export default function react() {
 						fonctionnalités des composants de classe.
 					</p>
 				</section>
-				<section className={Style.languageSection}>
-        <h2 className={Style.reactColor}>Props et état en React</h2>
+				<section className={styles.languageSection}>
+					<h2 className={styles.reactColor}>Props et état en React</h2>
 					<p>
 						Les props et l&apos;état sont deux concepts clés en React. Les props (propriétés) sont utilisés pour passer des données entre les composants. Les
 						props sont passées aux composants comme des attributs HTML. Les composants peuvent ensuite utiliser ces props pour afficher des données.
@@ -101,8 +100,8 @@ export default function react() {
 						l&apos;interface utilisateur.
 					</p>
 				</section>
-				<section className={Style.languageSection}>
-        <h2 className={Style.reactColor}>Gestion des événements en React</h2>
+				<section className={styles.languageSection}>
+					<h2 className={styles.reactColor}>Gestion des événements en React</h2>
 					<p>
 						La gestion des événements est un autre aspect important de React. Les événements sont des actions que l&apos;utilisateur effectue sur
 						l&apos;interface utilisateur, comme cliquer sur un bouton ou saisir du texte. React utilise une syntaxe similaire à celle des événements
@@ -113,8 +112,8 @@ export default function react() {
 						passée au composant en tant que prop. Vous pouvez également utiliser la méthode bind() pour lier la méthode à la classe du composant.
 					</p>
 				</section>
-				<section className={Style.languageSection}>
-        <h2 className={Style.reactColor}>Rendu conditionnel en React</h2>
+				<section className={styles.languageSection}>
+					<h2 className={styles.reactColor}>Rendu conditionnel en React</h2>
 					<p>
 						Le rendu conditionnel est un moyen de rendre des éléments en fonction de certaines conditions. En React, vous pouvez utiliser des instructions
 						conditionnelles pour rendre différents éléments en fonction de l&apos;état ou des props du composant.
@@ -125,9 +124,9 @@ export default function react() {
 						ou des props. Les opérateurs ternaires sont une façon plus concise de rendre conditionnellement en React.
 					</p>
 				</section>
-        <Image src={ConditionnelReact} className={Style.languagesCode} width={536} height={518} alt="Rendu conditionnel React" />
-				<section className={Style.languageSection}>
-        <h2 className={Style.reactColor}>Listes et clés en React</h2>
+				<Image src={ConditionnelReact} className={styles.languagesCode} width={536} height={518} alt="Rendu conditionnel React" />
+				<section className={styles.languageSection}>
+					<h2 className={styles.reactColor}>Listes et clés en React</h2>
 					<p>
 						Les listes et les clés sont deux concepts importants en React. Les listes sont utilisées pour afficher des données répétitives, comme une liste
 						d&apos;articles de blog ou une liste de produits. Les clés sont utilisées pour aider React à identifier les éléments dans la liste.
@@ -137,32 +136,31 @@ export default function react() {
 						unique pour chaque élément. La clé permet à React de savoir quels éléments ont été ajoutés, modifiés ou supprimés dans la liste.
 					</p>
 				</section>
-        <section className={Style.languageSection}>
-        <h2 className={Style.reactColor}>Meilleures pratiques pour les débutants en React</h2>
-        <p>Voici quelques-unes des meilleures pratiques pour les débutants en React :</p>
-          <ul>
-            <li>Écrire des composants réutilisables.</li>
-            <li>Utiliser l&apos;état et les props judicieusement.</li>
-            <li>Éviter de manipuler directement le DOM.</li>
-            <li>Utiliser des outils tels que Babel pour transpiler votre code.</li>
-            <li>Écrire des tests pour votre code.</li>
-            <li>Utiliser des conventions de nommage cohérentes.</li>
-          </ul>
-        </section>
-        <section className={Style.languageSection}>
-        <h2 className={Style.reactColor}>Ressources pour apprendre React</h2>
-          <p>Il existe de nombreuses ressources en ligne pour apprendre React. Voici quelques-unes des meilleures ressources :</p>
-          <ul>
-            <li>La documentation officielle de React.</li>
-            <li>Les vidéos de React sur YouTube.</li>
-            <li>Les cours de React sur Udemy.</li>
-            <li> Les livres sur React, tels que &apos;React Essentials&apos; de Artemij Fedosejev.</li>
-          </ul>
-        </section>
+				<section className={styles.languageSection}>
+					<h2 className={styles.reactColor}>Meilleures pratiques pour les débutants en React</h2>
+					<p>Voici quelques-unes des meilleures pratiques pour les débutants en React :</p>
+					<ul>
+						<li>Écrire des composants réutilisables.</li>
+						<li>Utiliser l&apos;état et les props judicieusement.</li>
+						<li>Éviter de manipuler directement le DOM.</li>
+						<li>Utiliser des outils tels que Babel pour transpiler votre code.</li>
+						<li>Écrire des tests pour votre code.</li>
+						<li>Utiliser des conventions de nommage cohérentes.</li>
+					</ul>
+				</section>
+				<section className={styles.languageSection}>
+					<h2 className={styles.reactColor}>Ressources pour apprendre React</h2>
+					<p>Il existe de nombreuses ressources en ligne pour apprendre React. Voici quelques-unes des meilleures ressources :</p>
+					<ul>
+						<li>La documentation officielle de React.</li>
+						<li>Les vidéos de React sur YouTube.</li>
+						<li>Les cours de React sur Udemy.</li>
+						<li> Les livres sur React, tels que &apos;React Essentials&apos; de Artemij Fedosejev.</li>
+					</ul>
+				</section>
 
-
-				<section className={Style.languageSection}>
-        <h2 className={Style.reactColor}>Conclusion</h2>
+				<section className={styles.languageSection}>
+					<h2 className={styles.reactColor}>Conclusion</h2>
 					<p>
 						React est une bibliothèque JavaScript puissante et populaire pour la construction d&apos;interfaces utilisateur. Elle est relativement facile à
 						apprendre et offre de nombreuses opportunités de carrière dans le domaine de la technologie. Nous espérons que ce guide pour débutants vous a aidé

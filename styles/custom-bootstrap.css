@@ -12,10 +12,9 @@ navbar {
 }
 
 .card-img-top {
-	width: auto !important;
-	height: auto !important;
 	padding: 10px !important;
-	border-bottom: solid 2px #0de0d3;
+	width: 200px;
+	margin: auto;
 }
 .ourServices {
 	display: flex;

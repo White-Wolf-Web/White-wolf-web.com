@@ -19,7 +19,7 @@ main {
 	width: 100%;
 	position: relative;
 	margin: 0 auto; 
-	padding: 0 20px 20px 20px;
+	padding: 0 20px 0 20px;
 }
 
 
@@ -56,7 +56,7 @@ h1 {
 
 
 h2 {
-  font-family:"montserrat";
+  font-family: 'EB Garamond', serif;
   font-weight: 700;
   text-align: left;
   margin: 2rem auto 1rem auto;
@@ -73,15 +73,16 @@ h3 {
 }
 
 P {
-  font-family: Open_Sans;
   text-align: justify;
   line-height: 1.5;
   font-size: 1.25rem;
+  font-family:"montserrat";
 }
  ul {
   font-size: 1.25rem;
   line-height: 1.5;
   text-align:left;
+  font-family:"montserrat";
   list-style-type: none;  /* Enlève les puces par défaut */
  }
 
@@ -89,13 +90,9 @@ li {
   margin-bottom: 5px;
   text-indent: -3px; 
   padding-left: 0;
-  margin-left: -10px;
+  margin-left: -30px;
 }
-li::before {
-  content: '👉';  /* Ajoute l'emoji comme puce */
-  margin-left: -12px;
-  padding-right: 10px;  /* Ajoute un espace entre l'emoji et le texte */
-}
+
 
 /*
 :root {

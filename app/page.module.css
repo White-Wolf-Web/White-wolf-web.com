@@ -28,14 +28,20 @@
 	border-bottom: 1px solid #0de0d3;
 	padding: 15px 0 20px 0;
 }
-
+.storm h2 {
+  text-align: center;
+  background-color: transparent;
+}
 .conclusionHomePage {
 	max-width: 1200px;
 	margin: 25px auto;
-	padding: 15px 0 0 0;
+	padding: 15px 0 20px 0;
 }
 
-
+.newLi::before {
+    content: '👉';  /* Ajoute l'emoji comme puce */
+    padding-right: 10px;  /* Ajoute un espace entre l'emoji et le texte */
+}
 
 .textCenter {
 	text-align: center;

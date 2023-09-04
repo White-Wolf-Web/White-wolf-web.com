@@ -1,16 +1,15 @@
 import React from "react";
 import Head from "next/head";
 import Image from "next/image";
-import Styles from "../../../Styles/page.module.css";
-import Style from "../../../Styles/languages.module.css";
-import Html from "../../../public/Assets/Icons/HTML5.webp"
-import CssContainer from "../../../public/Assets/Images/Webp/languages/CSS-container.webp"
-import CssMediaquery from "../../../public/Assets/Images/Webp/languages/CSS-mediaqueries.webp"
-import BaliseAudio from "../../../public/Assets/Images/Webp/languages/html-balise-audio.webp"
-import BaliseVideo from "../../../public/Assets/Images/Webp/languages/html-balise-video.webp"
-import BaliseSVG from "../../../public/Assets/Images/Webp/languages/html-balise-svg.webp"
-import BaliseCanva from "../../../public/Assets/Images/Webp/languages/html-balise-canva.webp"
-import FrameworkLangIcons from "../../../Components/FrameworkLangLogo/FrameworkLangIcons"
+import styles from "@/app/page.module.css";
+import Html from "@/public/Assets/Icons/HTML5.webp";
+import CssContainer from "@/public/Assets/Images/Webp/languages/CSS-container.webp";
+import CssMediaquery from "@/public/Assets/Images/Webp/languages/CSS-mediaqueries.webp";
+import BaliseAudio from "@/public/Assets/Images/Webp/languages/html-balise-audio.webp";
+import BaliseVideo from "@/public/Assets/Images/Webp/languages/html-balise-video.webp";
+import BaliseSVG from "@/public/Assets/Images/Webp/languages/html-balise-svg.webp";
+import BaliseCanva from "@/public/Assets/Images/Webp/languages/html-balise-canva.webp";
+import FrameworkLangIcons from "@/components/FrameworkLangLogo/FrameworkLangIcons";
 
 export default function Html5() {
 	return (
@@ -23,10 +22,13 @@ export default function Html5() {
 				/>
 				<link rel="canonical" href="https://www.white-wolf-web.com/articles/languages/html5" />
 			</Head>
-			
-			<main className={Styles.container}>
-				<h1>Le guide ultime du HTML5<br /> Tout ce qu&apos;il vous faut savoir</h1>
-				<section className={Style.languageSection}>
+
+			<main className={styles.container}>
+				<h1>
+					Le guide ultime du HTML5
+					<br /> Tout ce qu&apos;il vous faut savoir
+				</h1>
+				<section className={styles.languageSection}>
 					<p>
 						HTML5 est la dernière version du langage de balisage hypertexte utilisé pour créer des pages web interactives et réactives. Grâce à ses
 						caractéristiques et fonctionnalités avancées, le HTML5 a révolutionné la façon dont nous concevons, développons et présentons le contenu web. En
@@ -37,8 +39,8 @@ export default function Html5() {
 						compétences dont vous avez besoin pour créer des pages web magnifiques, interactives et réactives qui captiveront et engageront votre public.
 						Alors, plongeons et explorons les possibilités illimitées qu&apos;offre HTML5 !
 					</p>
-					<Image src={Html} className={Style.languagesIcon} width={84} height={100} alt="Html5" />
-					<h2 className={Style.htmlColor}>L&apos;histoire d&apos;HTML et la nécessité d&apos;HTML5</h2>
+					<Image src={Html} className={styles.languagesIcon} width={84} height={100} alt="Html5" />
+					<h2 className={styles.htmlColor}>L&apos;histoire d&apos;HTML et la nécessité d&apos;HTML5</h2>
 					<p>
 						HTML, acronyme de Hypertext Markup Language, est un langage informatique qui permet de créer des pages web. Il a été créé en 1989 par Tim
 						Berners-Lee à l&apos;Organisation européenne pour la recherche nucléaire (CERN) en Suisse. HTML a été développé pour faciliter la création et la
@@ -55,8 +57,8 @@ export default function Html5() {
 						lacunes et de fournir une meilleure expérience utilisateur.
 					</p>
 				</section>
-				<section className={Style.languageSection}>
-				<h2 className={Style.htmlColor}>Les fonctionnalités clés d&apos;HTML5</h2>
+				<section className={styles.languageSection}>
+					<h2 className={styles.htmlColor}>Les fonctionnalités clés d&apos;HTML5</h2>
 					<h3>Sémantique d&apos;HTML5</h3>
 					<p>
 						HTML5 introduit de nouvelles balises sémantiques telles que `header`, `nav`, `section`, `article`, `aside`, `footer`, et `figure`. Ces balises
@@ -85,14 +87,14 @@ export default function Html5() {
 						offrant ainsi une expérience utilisateur cohérente sur tous les appareils.
 					</p>
 				</section>
-				<section className={Style.languageSection}>
-				<h2 className={Style.htmlColor}>Les éléments sémantiques d&apos;HTML5</h2>
+				<section className={styles.languageSection}>
+					<h2 className={styles.htmlColor}>Les éléments sémantiques d&apos;HTML5</h2>
 					<p>
 						HTML5 introduit de nouvelles balises sémantiques qui permettent aux développeurs de créer des pages web plus structurées et plus compréhensives
 						pour les utilisateurs. Voici quelques-unes des balises sémantiques d&apos;HTML5 :
 					</p>
 					<ul>
-					<li>
+						<li>
 							La balise `header` est utilisée pour représenter l&apos;en-tête d&apos;une section ou d&apos;une page web. Elle peut contenir un logo, un
 							titre, une navigation, ou toute autre information pertinente.
 						</li>
@@ -119,8 +121,8 @@ export default function Html5() {
 						</li>
 					</ul>
 				</section>
-				<section className={Style.languageSection}>
-				<h2 className={Style.htmlColor}>Les formulaires et les types d&apos;entrée dans HTML5</h2>
+				<section className={styles.languageSection}>
+					<h2 className={styles.htmlColor}>Les formulaires et les types d&apos;entrée dans HTML5</h2>
 
 					<p>
 						HTML5 inclut de nouveaux types d&apos;entrée pour les formulaires, ce qui permet aux utilisateurs de remplir les formulaires plus rapidement et
@@ -146,8 +148,8 @@ export default function Html5() {
 						</li>
 					</ul>
 				</section>
-				<section className={Style.languageSection}>
-				<h2 className={Style.htmlColor}>L&apos;audio et la vidéo dans HTML5</h2>
+				<section className={styles.languageSection}>
+					<h2 className={styles.htmlColor}>L&apos;audio et la vidéo dans HTML5</h2>
 					<p>
 						HTML5 prend en charge l&apos;audio et la vidéo sans avoir besoin de plugins externes tels que Flash. Les balises `audio` et `video` permettent aux
 						développeurs de fournir un contenu audio et vidéo de haute qualité à leurs utilisateurs. Voici comment intégrer de l&apos;audio et de la vidéo
@@ -155,21 +157,21 @@ export default function Html5() {
 					</p>
 					<h3>Intégrer de l&apos;audio dans une page web</h3>
 					<p>Pour intégrer de l&apos;audio dans une page web, vous pouvez utiliser la balise `audio`. Voici un exemple :</p>
-					<Image src={BaliseAudio} className={Style.languagesCode} width={550} height={150} alt="Balise audio" />
+					<Image src={BaliseAudio} className={styles.languagesCode} width={550} height={150} alt="Balise audio" />
 					<p>
 						Cette balise crée un lecteur audio avec des contrôles pour jouer, mettre en pause et arrêter le fichier audio. Les attributs `src` et `type`
 						spécifient l&apos;emplacement et le type de fichier audio à utiliser.
 					</p>
 					<h3>Intégrer de la vidéo dans une page web</h3>
 					<p>Pour intégrer de la vidéo dans une page web, vous pouvez utiliser la balise `video`. Voici un exemple :</p>
-					<Image src={BaliseVideo} className={Style.languagesCode} width={534} height={144} alt="Balise vidéo" />
+					<Image src={BaliseVideo} className={styles.languagesCode} width={534} height={144} alt="Balise vidéo" />
 					<p>
 						Cette balise crée un lecteur vidéo avec des contrôles pour lire, mettre en pause et arrêter la vidéo. Les attributs `src` et `type` spécifient
 						l&apos;emplacement et le type de fichier vidéo à utiliser.
 					</p>
 				</section>
-				<section className={Style.languageSection}>
-				<h2 className={Style.htmlColor}>Le canvas et le SVG dans HTML5</h2>
+				<section className={styles.languageSection}>
+					<h2 className={styles.htmlColor}>Le canvas et le SVG dans HTML5</h2>
 					<p>
 						Le canvas est une fonctionnalité HTML5 qui permet aux développeurs de dessiner des graphiques, des animations et des jeux directement dans la page
 						web. SVG est une autre fonctionnalité qui permet de créer des images vectorielles. Ces fonctionnalités permettent aux développeurs de créer des
@@ -179,7 +181,7 @@ export default function Html5() {
 						Le canvas est une zone rectangulaire dans la page web où les développeurs peuvent dessiner des graphiques, des animations et des jeux. Voici
 						comment créer un canvas dans une page web :
 					</p>
-					<Image src={BaliseCanva} className={Style.languagesCode} width={516} height={46} alt="Balise Canva" />
+					<Image src={BaliseCanva} className={styles.languagesCode} width={516} height={46} alt="Balise Canva" />
 					<p>
 						Cette balise crée un canvas avec une largeur de 200 pixels et une hauteur de 100 pixels. Les développeurs peuvent utiliser JavaScript pour
 						dessiner sur le canvas.
@@ -189,28 +191,28 @@ export default function Html5() {
 						SVG est une fonctionnalité qui permet de créer des images vectorielles. Les images vectorielles sont créées à partir de formes géométriques telles
 						que des cercles, des rectangles, des lignes et des courbes. Voici comment créer une image SVG dans une page web :
 					</p>
-					<Image src={BaliseSVG} className={Style.languagesCode} width={522} height={86} alt="Balise SVG" />
+					<Image src={BaliseSVG} className={styles.languagesCode} width={522} height={86} alt="Balise SVG" />
 					<p>Cette balise crée un rectangle bleu avec une largeur de 200 pixels et une hauteur de 100 pixels.</p>
 				</section>
-				<section className={Style.languageSection}>
-				<h2 className={Style.htmlColor}>Le design réactif avec HTML5</h2>
+				<section className={styles.languageSection}>
+					<h2 className={styles.htmlColor}>Le design réactif avec HTML5</h2>
 					<p>
 						HTML5 prend en charge le design réactif, ce qui signifie que les pages web peuvent s&apos;adapter automatiquement à différents appareils et
 						tailles d&apos;écran. Les développeurs peuvent créer des pages web qui s&apos;ajustent automatiquement en fonction de la taille de l&apos;écran,
 						offrant ainsi une expérience utilisateur cohérente sur tous les appareils.
 					</p>
 					<p>Les media queries sont utilisées pour définir les styles en fonction de la taille de l&apos;écran. Voici un exemple de media query :</p>
-					<Image src={CssMediaquery} className={Style.languagesCode} width={263} height={137} alt="Css mediaqueries" />
+					<Image src={CssMediaquery} className={styles.languagesCode} width={263} height={137} alt="Css mediaqueries" />
 					<p>Cette règle CSS définit la taille de police à 14 pixels lorsque la largeur de l&apos;écran est inférieure ou égale à 768 pixels.</p>
 					<br />
 					<p>Les grilles CSS sont utilisées pour créer des mises en page réactives. Voici un exemple de grille CSS :</p>
 
-					<Image src={CssContainer} className={Style.languagesCode} width={377} height={132} alt="Css sélecteur" />
+					<Image src={CssContainer} className={styles.languagesCode} width={377} height={132} alt="Css sélecteur" />
 					<p>Cette règle CSS crée une grille avec trois colonnes et un espace de 10 pixels entre les colonnes.</p>
 				</section>
-		
-				<section className={Style.languageSection}>
-				<h2 className={Style.htmlColor}>Le rôle du HTML dans l&apos;optimisation de votre site web pour les moteurs de recherche</h2>
+
+				<section className={styles.languageSection}>
+					<h2 className={styles.htmlColor}>Le rôle du HTML dans l&apos;optimisation de votre site web pour les moteurs de recherche</h2>
 					<p>
 						Dans le monde du commerce en ligne, disposer d&apos;un site web est un outil essentiel pour atteindre des clients potentiels et générer des
 						revenus. Cependant, il ne suffit pas d&apos;avoir un site web ; il est crucial de l&apos;optimiser pour les moteurs de recherche afin qu&apos;il
@@ -222,9 +224,9 @@ export default function Html5() {
 						expérimenté ou un chef d&apos;entreprise désireux d&apos;améliorer sa présence en ligne, lisez ce qui suit pour en savoir plus sur le rôle du
 						langage HTML dans le référencement.
 					</p>
-					</section>
-					<section className={Style.languageSection}>
-					<h2 className={Style.htmlColor}>Les balises HTML pour l&apos;optimisation des moteurs de recherche</h2>
+				</section>
+				<section className={styles.languageSection}>
+					<h2 className={styles.htmlColor}>Les balises HTML pour l&apos;optimisation des moteurs de recherche</h2>
 					<p>
 						Les balises HTML jouent un rôle important dans l&apos;optimisation des moteurs de recherche. En structurant correctement votre code HTML, vous
 						pouvez améliorer le classement de votre site dans les résultats de recherche, le rendre plus accessible aux utilisateurs et, en fin de compte,
@@ -235,8 +237,8 @@ export default function Html5() {
 						en-têtes.
 					</p>
 				</section>
-				<section className={Style.languageSection}>
-				<h2 className={Style.htmlColor}>Optimisation des balises de titre et des descriptions méta avec HTML</h2>
+				<section className={styles.languageSection}>
+					<h2 className={styles.htmlColor}>Optimisation des balises de titre et des descriptions méta avec HTML</h2>
 					<p>
 						Les balises de titre et les descriptions méta sont utilisées pour décrire le contenu de votre page aux moteurs de recherche. La balise de titre
 						apparaît dans la barre de titre du navigateur et est également utilisée comme titre de la page dans les résultats de recherche. La description
@@ -247,8 +249,8 @@ export default function Html5() {
 						être pertinents pour le contenu de la page et doivent être placés le plus près possible du début de la balise.
 					</p>
 				</section>
-				<section className={Style.languageSection}>
-				<h2 className={Style.htmlColor}>Comprendre les en-têtes et leur impact sur l&apos;optimisation des moteurs de recherche</h2>
+				<section className={styles.languageSection}>
+					<h2 className={styles.htmlColor}>Comprendre les en-têtes et leur impact sur l&apos;optimisation des moteurs de recherche</h2>
 					<p>
 						Les en-têtes sont utilisés pour structurer le contenu de votre page en sections. Les en-têtes sont numérotés de 1 à 6, où 1 est le plus important
 						et 6 est le moins important. Les en-têtes sont utilisés pour aider les moteurs de recherche à comprendre la structure de votre page et à
@@ -259,8 +261,8 @@ export default function Html5() {
 						contenu de votre page en sections claires et distinctes.
 					</p>
 				</section>
-				<section className={Style.languageSection}>
-				<h2 className={Style.htmlColor}>Utilisation de HTML pour améliorer la structure et la navigation de votre site Web</h2>
+				<section className={styles.languageSection}>
+					<h2 className={styles.htmlColor}>Utilisation de HTML pour améliorer la structure et la navigation de votre site Web</h2>
 					<p>
 						La structure de votre site Web est importante pour l&apos;optimisation des moteurs de recherche. En utilisant des balises HTML appropriées, vous
 						pouvez améliorer la structure de votre site et rendre le contenu plus facilement accessible aux utilisateurs.
@@ -271,8 +273,8 @@ export default function Html5() {
 					</p>
 				</section>
 
-				<section className={Style.languageSection}>
-				<h2 className={Style.htmlColor}>L&apos;importance d&apos;un design HTML responsive pour l&apos;optimisation des moteurs de recherche</h2>
+				<section className={styles.languageSection}>
+					<h2 className={styles.htmlColor}>L&apos;importance d&apos;un design HTML responsive pour l&apos;optimisation des moteurs de recherche</h2>
 					<p>
 						Un design HTML responsive est un design qui s&apos;adapte automatiquement à la taille de l&apos;écran sur lequel il est affiché. Les designs HTML
 						responsive sont importants pour l&apos;optimisation des moteurs de recherche car ils garantissent que votre site est accessible à tous les
@@ -280,8 +282,8 @@ export default function Html5() {
 					</p>
 				</section>
 
-				<section className={Style.languageSection}>
-				<h2 className={Style.htmlColor}>Comment utiliser HTML pour optimiser les images pour les moteurs de recherche</h2>
+				<section className={styles.languageSection}>
+					<h2 className={styles.htmlColor}>Comment utiliser HTML pour optimiser les images pour les moteurs de recherche</h2>
 					<p>
 						Les images sont un élément important de tout site Web. Les images peuvent améliorer l&apos;expérience utilisateur et rendre le contenu de votre
 						site plus attrayant. Cependant, les images peuvent également ralentir le temps de chargement de votre site Web, ce qui peut avoir un impact
@@ -292,8 +294,8 @@ export default function Html5() {
 						devez également compresser les images pour réduire leur taille de fichier et utiliser des noms de fichiers descriptifs.
 					</p>
 				</section>
-				<section className={Style.languageSection}>
-				<h2 className={Style.htmlColor}>Erreurs HTML courantes qui peuvent avoir un impact négatif sur l&apos;optimisation des moteurs de recherche</h2>
+				<section className={styles.languageSection}>
+					<h2 className={styles.htmlColor}>Erreurs HTML courantes qui peuvent avoir un impact négatif sur l&apos;optimisation des moteurs de recherche</h2>
 					<p>
 						Il est important d&apos;éviter les erreurs HTML courantes qui peuvent avoir un impact négatif sur l&apos;optimisation des moteurs de recherche.
 						Les erreurs les plus courantes sont les balises manquantes, les balises mal fermées et les balises incorrectes.
@@ -303,8 +305,8 @@ export default function Html5() {
 						vérifier la validité de votre code HTML.
 					</p>
 				</section>
-				<section className={Style.languageSection}>
-				<h2 className={Style.htmlColor}>Conclusion et réflexions finales sur HTML et l&apos;optimisation des moteurs de recherche</h2>
+				<section className={styles.languageSection}>
+					<h2 className={styles.htmlColor}>Conclusion et réflexions finales sur HTML et l&apos;optimisation des moteurs de recherche</h2>
 					<p>
 						En conclusion, HTML joue un rôle important dans l&apos;optimisation des moteurs de recherche. En structurant correctement votre code HTML, vous
 						pouvez améliorer le classement de votre site dans les résultats de recherche, le rendre plus accessible aux utilisateurs et, en fin de compte,

@@ -1,5 +1,5 @@
 import Head from "next/head";
-import styles from "../../../Styles/page.module.css";
+import styles from "@/app/page.module.css";
 
 export default function ContenuAndRedaction() {
 	return (

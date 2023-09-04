@@ -1,14 +1,13 @@
 import React from "react";
 import Head from "next/head";
 import Image from "next/image";
-import Styles from "../../../Styles/page.module.css";
-import Style from "../../../Styles/languages.module.css";
-import CssButton from "../../../public/Assets/Images/Webp/languages/css-button.webp";
-import CssSelecteur from "../../../public/Assets/Images/Webp/languages/css-selecteur-media.webp";
-import FrameworkLangIcons from "../../../Components/FrameworkLangLogo/FrameworkLangIcons";
-import Css from "../../../public/Assets/Icons/CSS3.webp"
+import styles from "@/app/page.module.css";
+import CssButton from "@/public/Assets/Images/Webp/languages/css-button.webp";
+import CssSelecteur from "@/public/Assets/Images/Webp/languages/css-selecteur-media.webp";
+import FrameworkLangIcons from "@/components/FrameworkLangLogo/FrameworkLangIcons";
+import Css from "@/public/Assets/Icons/CSS3.webp";
 
-export default function css3() {
+export default function Css3() {
 	return (
 		<>
 			<Head>
@@ -20,18 +19,18 @@ export default function css3() {
 				<link rel="canonical" href="https://www.white-wolf-web.com/articles/languages/css3" />
 			</Head>
 
-			<main className={Styles.container}>
+			<main className={styles.container}>
 				<h1>Le guide ultime pour maîtriser le CSS3 pour le développement web</h1>
 				<p>
-					CSS est l&apos;acronyme de Cascading Style Sheets, ou feuilles de style en cascade en français. Il s&apos;agit d&apos;un langage de feuille de style
+					CSS est l&apos;acronyme de Cascading styles Sheets, ou feuilles de style en cascade en français. Il s&apos;agit d&apos;un langage de feuille de style
 					utilisé pour décrire l&apos;apparence et la mise en forme d&apos;un document écrit en HTML ou en XML. En d&apos;autres termes, alors que le HTML est
 					utilisé pour structurer le contenu d&apos;une page web, le CSS est utilisé pour définir son style, notamment la disposition, les couleurs et les
 					polices.
 				</p>
-				<Image src={Css} className={Style.languagesIcon} width={86} height={100} alt="CSS3" />
+				<Image src={Css} className={styles.languagesIcon} width={86} height={100} alt="CSS3" />
 				<p></p>
-				<section className={Style.languageSection}>
-					<h2 className={Style.cssColor}>A quoi cela sert le CSS ?</h2>
+				<section className={styles.languageSection}>
+					<h2 className={styles.cssColor}>A quoi cela sert le CSS ?</h2>
 					<p>
 						Le CSS a été introduit pour séparer la structure d&apos;une page de sa présentation. Cette séparation permet une maintenance plus facile du site,
 						une plus grande flexibilité et un contrôle de la spécification de la présentation.
@@ -92,7 +91,7 @@ export default function css3() {
 							propriétés de display et de visibility.
 						</li>
 						<li>
-							<strong>Styles de tableau avancés</strong> : CSS peut être utilisé pour styliser des tableaux HTML, y compris l&apos;ajout de bordures, le
+							<strong>styles de tableau avancés</strong> : CSS peut être utilisé pour styliser des tableaux HTML, y compris l&apos;ajout de bordures, le
 							zébrage des lignes et la mise en forme de cellules spécifiques.
 						</li>
 						<li>
@@ -131,26 +130,26 @@ export default function css3() {
 						élément. En maîtrisant le CSS, vous pouvez créer des designs web impressionnants et uniques.
 					</p>
 				</section>
-				<Image src={CssButton} className={Style.languagesCode} width={253} height={298} alt="Css Button" />
-				<section className={Style.languageSection}>
-					<h2 className={Style.cssColor}>Qu&apos;est-ce que le CSS3 ?</h2>
+				<Image src={CssButton} className={styles.languagesCode} width={253} height={298} alt="Css Button" />
+				<section className={styles.languageSection}>
+					<h2 className={styles.cssColor}>Qu&apos;est-ce que le CSS3 ?</h2>
 					<p>
 						CSS3 est la dernière version du CSS. Elle introduit une série de nouvelles fonctionnalités et d&apos;extensions, telles que les animations, les
 						transitions, les ombres, les arrondis, les dégradés, les flexboxes et le support de l&apos;adaptabilité (responsive design), qui permettent aux
 						développeurs de créer des sites web plus attrayants et interactifs.
 					</p>
 				</section>
-				<section className={Style.languageSection}>
-					<h2 className={Style.cssColor}>Comment cela fonctionne ?</h2>
+				<section className={styles.languageSection}>
+					<h2 className={styles.cssColor}>Comment cela fonctionne ?</h2>
 					<p>
-						Le CSS fonctionne en associant des &apos;règles&apos; de style aux éléments HTML d&apos;une page. Chaque règle CSS contient un sélecteur (qui sélectionne
-						les éléments HTML auxquels la règle doit être appliquée) et une déclaration (qui définit quel aspect de l&apos;élément doit être stylisé). Par
-						exemple, la règle CSS suivante :
+						Le CSS fonctionne en associant des &apos;règles&apos; de style aux éléments HTML d&apos;une page. Chaque règle CSS contient un sélecteur (qui
+						sélectionne les éléments HTML auxquels la règle doit être appliquée) et une déclaration (qui définit quel aspect de l&apos;élément doit être
+						stylisé). Par exemple, la règle CSS suivante :
 					</p>
 					<p>sélectionne tous les éléments (paragraphe) de la page et les rend rouge.</p>
 				</section>
-				<section className={Style.languageSection}>
-					<h2 className={Style.cssColor}>Il y a trois façons d&apos;insérer le CSS :</h2>
+				<section className={styles.languageSection}>
+					<h2 className={styles.cssColor}>Il y a trois façons d&apos;insérer le CSS :</h2>
 					<ul>
 						<li>Inline CSS : le CSS est appliqué directement dans l&apos;élément HTML à l&apos;aide de l&apos;attribut &apos;style&apos;.</li>
 						<li>Internal CSS : le CSS est inclus dans l&apos;en-tête HTML à l&apos;aide de l&apos;élément &apos;style&apos;.</li>
@@ -165,8 +164,8 @@ export default function css3() {
 						aux éléments enfants) et la cascade (la manière dont les styles sont appliqués lorsqu&apos;il y a plusieurs règles pour le même élément).
 					</p>
 				</section>
-				<section className={Style.languageSection}>
-					<h2 className={Style.cssColor}>Les animations en CSS3</h2>
+				<section className={styles.languageSection}>
+					<h2 className={styles.cssColor}>Les animations en CSS3</h2>
 					<p>
 						Les animations CSS3 sont un outil puissant pour créer des sites web visuellement étonnants et attrayants qui captent l&apos;attention des
 						utilisateurs. Que vous soyez un développeur web chevronné ou un débutant, la maîtrise des animations CSS3 est une compétence essentielle dans le
@@ -181,8 +180,8 @@ export default function css3() {
 						Commençons et faisons passer vos compétences en matière de développement web au niveau supérieur !
 					</p>
 				</section>
-				<section className={Style.languageSection}>
-					<h2 className={Style.cssColor}>Comprendre les bases des animations CSS3</h2>
+				<section className={styles.languageSection}>
+					<h2 className={styles.cssColor}>Comprendre les bases des animations CSS3</h2>
 					<p>
 						Pour comprendre les animations CSS3, il est important de comprendre les blocs de construction de base des animations CSS3. Les animations CSS3
 						sont créées en utilisant des règles CSS qui spécifient les états de début et de fin d&apos;un élément. Les animations sont ensuite déclenchées par
@@ -201,8 +200,8 @@ export default function css3() {
 						votre site web.
 					</p>
 				</section>
-				<section className={Style.languageSection}>
-					<h2 className={Style.cssColor}>Les types d&apos;animations CSS3</h2>
+				<section className={styles.languageSection}>
+					<h2 className={styles.cssColor}>Les types d&apos;animations CSS3</h2>
 					<p>
 						Il existe plusieurs types d&apos;animations CSS3, chacun ayant ses avantages et ses inconvénients. Les transitions CSS3 sont souvent utilisées
 						pour ajouter des effets de survol subtils à des éléments tels que les boutons et les liens. Les transformations CSS3 sont souvent utilisées pour
@@ -214,14 +213,14 @@ export default function css3() {
 						voulez ajouter une animation de survol subtile à un bouton, une transition CSS3 peut être plus appropriée qu&apos;une transformation CSS3.
 					</p>
 				</section>
-				<section className={Style.languageSection}>
-					<h2 className={Style.cssColor}>Utilisation des @Keyframes</h2>
+				<section className={styles.languageSection}>
+					<h2 className={styles.cssColor}>Utilisation des @Keyframes</h2>
 					<p>
 						Les keyframes sont un élément essentiel des animations clé en main CSS3. Les keyframes permettent de définir les étapes intermédiaires d&apos;une
 						animation, telles que la position, la taille et la couleur d&apos;un élément à différents moments de l&apos;animation. Les keyframes sont définis
 						à l&apos;aide de la règle `@keyframes`, qui peut être utilisée pour définir plusieurs étapes intermédiaires dans une animation.
 					</p>
-					<Image src={CssSelecteur} className={Style.languagesCode} width={256} height={134} alt="Css le sélecteur @keyframes" />
+					<Image src={CssSelecteur} className={styles.languagesCode} width={256} height={134} alt="Css le sélecteur @keyframes" />
 					<p>
 						Il est important de bien comprendre la syntaxe de la règle `@keyframes` pour pouvoir l&apos;utiliser efficacement dans vos animations CSS3. La
 						règle `@keyframes` est composée de deux parties principales : le nom de l&apos;animation et les étapes intermédiaires de l&apos;animation. Les
@@ -229,8 +228,8 @@ export default function css3() {
 						atteinte.
 					</p>
 				</section>
-				<section className={Style.languageSection}>
-					<h2 className={Style.cssColor}>Techniques avancées en CSS3</h2>
+				<section className={styles.languageSection}>
+					<h2 className={styles.cssColor}>Techniques avancées en CSS3</h2>
 					<p>
 						Les animations CSS3 peuvent être utilisées pour créer des effets visuels étonnants. Cependant, il est important de comprendre les techniques
 						avancées d&apos;animations CSS3 pour pouvoir créer des animations plus complexes et interactives. Certaines des techniques avancées
@@ -242,8 +241,8 @@ export default function css3() {
 						utilisant des fonctions CSS telles que `cubic-bezier`, qui permettent de créer des animations plus fluides et plus naturelles.
 					</p>
 				</section>
-				<section className={Style.languageSection}>
-					<h2 className={Style.cssColor}>Meilleures pratiques pour le CSS3</h2>
+				<section className={styles.languageSection}>
+					<h2 className={styles.cssColor}>Meilleures pratiques pour le CSS3</h2>
 					<p>
 						Les animations CSS3 peuvent être très puissantes, mais elles doivent être utilisées avec parcimonie et de manière appropriée. Il est important de
 						suivre les meilleures pratiques pour les animations CSS3 afin de garantir que votre site web ne devienne pas surchargé ou lent. Certaines des
@@ -251,24 +250,24 @@ export default function css3() {
 						l&apos;utilisation de l&apos;optimisation de la vitesse de chargement, et l&apos;utilisation de l&apos;accessibilité.
 					</p>
 				</section>
-				<section className={Style.languageSection}>
-					<h2 className={Style.cssColor}>Outils pour créer des animations CSS3</h2>
+				<section className={styles.languageSection}>
+					<h2 className={styles.cssColor}>Outils pour créer des animations CSS3</h2>
 					<p>
 						Il existe plusieurs outils disponibles pour créer des animations CSS3. Certains des outils les plus populaires incluent Adobe Animate, CSS3
 						Generator, et Animista. Ces outils peuvent aider à simplifier le processus de création d&apos;animations CSS3 en fournissant des modèles, des
 						exemples et des fonctionnalités de glisser-déposer.
 					</p>
 				</section>
-				<section className={Style.languageSection}>
-					<h2 className={Style.cssColor}>Autres exemple d&apos;utilisation</h2>
+				<section className={styles.languageSection}>
+					<h2 className={styles.cssColor}>Autres exemple d&apos;utilisation</h2>
 					<p>
 						Les animations CSS3 peuvent être utilisées pour créer des sites web incroyables qui captivent l&apos;attention des utilisateurs. Certaines des
 						meilleures utilisations des animations CSS3 incluent les sites web de mode, de musique et de voyage. Par exemple, le site web de la marque de
 						vêtements H&M utilise des animations CSS3 pour donner vie à ses images et à ses produits.
 					</p>
 				</section>
-				<section className={Style.languageSection}>
-					<h2 className={Style.cssColor}>Erreurs courantes à éviter lors de l&apos;utilisation des animations CSS3</h2>
+				<section className={styles.languageSection}>
+					<h2 className={styles.cssColor}>Erreurs courantes à éviter lors de l&apos;utilisation des animations CSS3</h2>
 					<p>
 						Il est important d&apos;éviter les erreurs courantes lors de l&apos;utilisation des animations CSS3. Certaines des erreurs courantes incluent
 						l&apos;utilisation d&apos;animations trop complexes, l&apos;utilisation excessive d&apos;animations, et l&apos;utilisation d&apos;animations qui
@@ -276,8 +275,8 @@ export default function css3() {
 						vous assurer qu&apos;elles fonctionnent correctement.
 					</p>
 				</section>
-				<section className={Style.languageSection}>
-					<h2 className={Style.cssColor}>Conclusion et prochaines étapes pour maîtriser les animations CSS3</h2>
+				<section className={styles.languageSection}>
+					<h2 className={styles.cssColor}>Conclusion et prochaines étapes pour maîtriser les animations CSS3</h2>
 					<p>
 						Les animations CSS3 peuvent aider à donner vie à votre site web et à créer une expérience utilisateur inoubliable. En comprenant les bases des
 						animations CSS3, les types d&apos;animations CSS3, les keyframes, les techniques avancées et les meilleures pratiques, vous pouvez commencer à

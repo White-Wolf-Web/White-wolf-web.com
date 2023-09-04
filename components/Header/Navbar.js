@@ -24,7 +24,7 @@ export default function MyNavbar() {
 				<Navbar.Collapse id="navbarSupportedContent">
 					<Nav className="me-auto mb-2 mb-lg-0 navColumn">
 						<Nav.Link href="/" className={`${styles.navbarMyStyle} ${styles.accueil}`}>
-						<FontAwesomeIcon icon={faHouse} style={{color: "#ffffff"}} />
+						<FontAwesomeIcon icon={faHouse} style={{color: "#ffffff"}} alt="Acceuil" />
 
 						</Nav.Link>
 						<NavDropdown title={<span className={styles.navbarMyStyle}>Services</span>} id="basic-nav-dropdown">

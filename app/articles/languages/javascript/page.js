@@ -1,10 +1,9 @@
 import React from "react";
 import Head from "next/head";
 import Image from "next/image";
-import Styles from "../../../Styles/page.module.css";
-import Style from "../../../Styles/languages.module.css";
-import JavascriptIcon from "../../../public/Assets/Icons/javascript-icon.webp";
-import FrameworkLangIcons from "../../../Components/FrameworkLangLogo/FrameworkLangIcons";
+import styles from "@/app/page.module.css";
+import JavascriptIcon from "@/public/Assets/Icons/javascript-icon.webp";
+import FrameworkLangIcons from "@/components/FrameworkLangLogo/FrameworkLangIcons";
 
 export default function javascript() {
 	return (
@@ -17,11 +16,11 @@ export default function javascript() {
 				/>
 				<link rel="canonical" href="https://www.white-wolf-web.com/articles/languages/javascript" />
 			</Head>
-			<main className={Styles.container}>
+			<main className={styles.container}>
 				<h1>JavaScript : Comprendre le Langage de Programmation Fondamental du Web</h1>
-				<Image src={JavascriptIcon} className={Style.languagesIcon} width={100} height={100} alt="Javascript icon" />
-				<section className={Style.languageSection}>
-					<h2 className={Style.javascriptColor}>Introduction à JavaScript</h2>
+				<Image src={JavascriptIcon} className={styles.languagesIcon} width={100} height={100} alt="Javascript icon" />
+				<section className={styles.languageSection}>
+					<h2 className={styles.javascriptColor}>Introduction à JavaScript</h2>
 					<p>
 						JavaScript est un langage de programmation dynamique haut niveau, principalement connu pour son utilisation dans le développement web côté client.
 						Il est à l&apos;origine de la plupart des comportements interactifs que vous voyez sur les sites web modernes. Que ce soit une image qui change
@@ -34,8 +33,8 @@ export default function javascript() {
 						dans le développement côté serveur, faisant de lui un langage de programmation universel.
 					</p>
 				</section>
-				<section className={Style.languageSection}>
-					<h2 className={Style.javascriptColor}>L&apos;histoire de JavaScript</h2>
+				<section className={styles.languageSection}>
+					<h2 className={styles.javascriptColor}>L&apos;histoire de JavaScript</h2>
 					<p>
 						JavaScript a été créé en 1995 par Brendan Eich, alors employé de Netscape Communications. À l&apos;époque, le web était encore à ses débuts et les
 						navigateurs n&apos;étaient utilisés que pour visualiser du contenu statique. Eich a été chargé de créer un langage de programmation pour le
@@ -46,8 +45,8 @@ export default function javascript() {
 						puissant qui continue d&apos;alimenter le web dynamique que nous connaissons aujourd&apos;hui.
 					</p>
 				</section>
-				<section className={Style.languageSection}>
-					<h2 className={Style.javascriptColor}>Principes Fondamentaux de JavaScript</h2>
+				<section className={styles.languageSection}>
+					<h2 className={styles.javascriptColor}>Principes Fondamentaux de JavaScript</h2>
 					<p>
 						JavaScript est un langage de programmation dynamique et faiblement typé. Cela signifie que les variables n&apos;ont pas de type fixe et peuvent
 						être modifiées à la volée. Par exemple, une variable peut commencer comme un nombre et ensuite être changée en une chaîne de caractères.
@@ -58,8 +57,8 @@ export default function javascript() {
 						peut s&apos;adapter à différents styles de codage.
 					</p>
 				</section>
-				<section className={Style.languageSection}>
-					<h2 className={Style.javascriptColor}>Fonctionnalités clés de JavaScript</h2>
+				<section className={styles.languageSection}>
+					<h2 className={styles.javascriptColor}>Fonctionnalités clés de JavaScript</h2>
 					<p>
 						JavaScript offre un certain nombre de fonctionnalités puissantes qui en font un choix idéal pour le développement web. Parmi celles-ci, nous
 						avons:
@@ -79,8 +78,8 @@ export default function javascript() {
 						</li>
 					</ul>
 				</section>
-				<section className={Style.languageSection}>
-					<h2 className={Style.javascriptColor}>L&apos;Evolution de JavaScript</h2>
+				<section className={styles.languageSection}>
+					<h2 className={styles.javascriptColor}>L&apos;Evolution de JavaScript</h2>
 					<p>
 						Bien sûr, voici la suite de l&apos;article : V. L&apos;Evolution de JavaScript (300 mots) JavaScript a subi plusieurs mises à jour majeures au
 						cours de sa vie. En 1997, il a été standardisé par l&apos;ECMA International, une organisation de normalisation pour les technologies de
@@ -93,8 +92,8 @@ export default function javascript() {
 						avec les modèles de chaînes de caractères (template strings), parmi beaucoup d&apos;autres.
 					</p>
 				</section>
-				<section className={Style.languageSection}>
-					<h2 className={Style.javascriptColor}>JavaScript dans le Navigateur et Côté Serveur avec Node.js </h2>
+				<section className={styles.languageSection}>
+					<h2 className={styles.javascriptColor}>JavaScript dans le Navigateur et Côté Serveur avec Node.js </h2>
 					<p>
 						L&apos;une des caractéristiques uniques de JavaScript est sa capacité à fonctionner à la fois côté client et côté serveur. Côté client, JavaScript
 						est utilisé pour créer des sites web interactifs et dynamiques. C&apos;est le seul langage de programmation qui peut être exécuté directement dans
@@ -106,8 +105,8 @@ export default function javascript() {
 						excellent choix pour le développement de serveurs web, d&apos;APIs, de scripts et d&apos;outils en ligne de commande.
 					</p>
 				</section>
-				<section className={Style.languageSection}>
-					<h2 className={Style.javascriptColor}>L&apos;Écosystème JavaScript : Frameworks et Bibliothèques </h2>
+				<section className={styles.languageSection}>
+					<h2 className={styles.javascriptColor}>L&apos;Écosystème JavaScript : Frameworks et Bibliothèques </h2>
 					<p>
 						L&apos;écosystème JavaScript est riche et diversifié, avec de nombreux frameworks et bibliothèques qui facilitent le développement web. Ces outils
 						résolvent des problèmes courants et fournissent des structures pour organiser le code, ce qui permet aux développeurs de se concentrer sur la
@@ -119,16 +118,16 @@ export default function javascript() {
 						en Node.js.
 					</p>
 				</section>
-				<section className={Style.languageSection}>
-					<h2 className={Style.javascriptColor}>Mise en Place de Tests en JavaScript</h2>
+				<section className={styles.languageSection}>
+					<h2 className={styles.javascriptColor}>Mise en Place de Tests en JavaScript</h2>
 					<p>
 						Les tests sont une partie importante du développement en JavaScript. Ils permettent de vérifier que le code fonctionne comme prévu et aident à
 						prévenir les régressions lors de l&apos;ajout de nouvelles fonctionnalités. Des outils de test tels que Jest, Mocha et Jasmine offrent un
 						environnement pour écrire et exécuter des tests en JavaScript.
 					</p>
 				</section>
-				<section className={Style.languageSection}>
-					<h2 className={Style.javascriptColor}>L&apos;Avenir de JavaScript</h2>
+				<section className={styles.languageSection}>
+					<h2 className={styles.javascriptColor}>L&apos;Avenir de JavaScript</h2>
 					<p>
 						L&apos;avenir de JavaScript semble prometteur. L&apos;évolution constante d&apos;ECMAScript, l&apos;adoption croissante de Node.js pour le
 						développement côté serveur, et l&apos;innovation continue dans l&apos;écosystème des frameworks et des bibliothèques font de JavaScript un choix

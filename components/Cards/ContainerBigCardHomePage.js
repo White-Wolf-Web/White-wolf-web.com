@@ -1,9 +1,10 @@
 "use client"
 import React, { useRef, useEffect, useState } from "react";
 import gsap from "gsap";
-
+import BigCardHomePage from "./BigCardHomePage";
+import { DataCardHomePage } from "../../data/DataCardHomePage";
 import styles from "./Card.module.css";
-
+import Link from "next/link";
 
 export const ContainerBigCardHomePage = () => {
 	const cardsRef = useRef([]);
@@ -40,13 +41,23 @@ export const ContainerBigCardHomePage = () => {
 	return (
 		<section className={styles.allSections}>
 			<h2 className={styles.containerTitle}>Articles</h2>
-		
-			<div className={style.moreArticlesButtonContainer}>
-				<button onClick={showMoreCards} className={style.moreArticlesButton}>
+			<div className={styles.ourServices}>
+				{Object.values(DataCardHomePage[0])
+					.slice(0, cardsToShow)
+					.map((card, index) => (
+						<div className="col-md-4 custom-card" key={card.id} ref={(el) => (cardsRef.current[index] = el)}>
+							<Link href={card.link}>
+								<BigCardHomePage imgSrc={card.imgSrc} title={card.title} titleAlt={card.titleAlt} link={card.link} text={card.text} />
+							</Link>
+						</div>
+					))}
+			</div>
+			<div className={styles.moreArticlesButtonContainer}>
+				<button onClick={showMoreCards} className={styles.moreArticlesButton}>
 					Voir +++ d&apos;articles
 				</button>
 				{cardsToShow > 6 && (
-					<button onClick={showLessCards} className={`${style.moreArticlesButton} ${styles.showLessCards}`}>
+					<button onClick={showLessCards} className={`${styles.moreArticlesButton} ${styles.showLessCards}`}>
 						Voir --- d&apos;articles
 					</button>
 				)}
