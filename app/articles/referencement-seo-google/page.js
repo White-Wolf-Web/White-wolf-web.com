@@ -1,12 +1,14 @@
-import Head from "next/head";
 import styles from "@/app/page.module.css";
 import Image from "next/image";
-import referencementSeo1 from "../../../public/Assets/Images/Webp/seo/referencement-seo-1.webp"
-import referencementSeo2 from "../../../public/Assets/Images/Webp/seo/referencement-seo-2.webp"
-import referencementSeo3 from "../../../public/Assets/Images/Webp/seo/referencement-seo-3.webp"
-import referencementSeo4 from "../../../public/Assets/Images/Webp/seo/referencement-seo-4.webp"
-import referencementSeo5 from "../../../public/Assets/Images/Webp/seo/referencement-seo-5.webp"
-import referencementSeo6 from "../../../public/Assets/Images/Webp/seo/referencement-seo-6.webp"
+import referencementSeo1 from "@/public/Assets/Images/Webp/seo/referencement-seo-1.webp";
+import referencementSeo4 from "@/public/Assets/Images/Webp/seo/referencement-seo-4.webp";
+import referencementSeo6 from "@/public/Assets/Images/Webp/seo/referencement-seo-6.webp";
+
+export const metadata = {
+	title: "Référencement SEO: Soyez en tête des résultats de Google 🥇",
+	description: "L'importance d'un référencement naturel efficace pour assurer le succès de votre projet en ligne. Le SEO est le nerf de la guerre, les meilleurs l’emportent.",
+	canonical: "https://www.white-wolf-web.com/articles/referencement-seo-google",
+};
 
 export default function ReferencementSEO() {
 	const jsonLd = {
@@ -28,16 +30,17 @@ export default function ReferencementSEO() {
 	};
 	return (
 		<div className={styles.container}>
-			<Head>
-				<title>Référencement SEO: Soyez en tête des résultats de Google 🥇</title>
-				<meta
-					name="description"
-					content="L'importance d'un référencement naturel efficace pour assurer le succès de votre projet en ligne. Le SEO est le nerf de la guerre, les meilleurs l’emportent."
-				/>
-				<link rel="canonical" href="https://www.white-wolf-web.com/articles/referencement-seo-google" />
-			</Head>
 			<main className={styles.main}>
 				<h1 className={styles.title}>Un guide complet sur le référencement et le SEO :</h1>
+				<Image
+					src={referencementSeo1}
+					alt="SEO en lettres d'or sur un mur noir"
+					placeholder="blur"
+					quality={100}
+					sizes="100vw"
+					className={`${styles.image} ${styles.imageArticle}`}
+				/>
+				<br />
 				<h2 className={styles.titleH2}>Soyez en tête des résultats de recherche 🥇🔍</h2>
 
 				<p>
@@ -46,7 +49,7 @@ export default function ReferencementSEO() {
 					qualité et d&apos;améliorer la visibilité en ligne. Dans un monde où la visibilité sur des moteurs de recherche tels que Google, Bing et Yahoo
 					détermine en grande partie le succès d&apos;un projet web, une bonne maîtrise du SEO est devenue indispensable.
 				</p>
-				<Image src={referencementSeo1}  alt="SEO en lettres d'or sur un mur noir" placeholder="blur"  quality={100}  sizes="100vw"  className={`${styles.image} ${styles.imageArticle}`} />
+
 				<h2>Les trois piliers du SEO</h2>
 				<p>
 					La stratégie de référencement repose sur trois piliers fondamentaux : l&apos;optimisation technique, la création de contenu de qualité et la
@@ -70,7 +73,7 @@ export default function ReferencementSEO() {
 					pointant vers le vôtre) est considéré par les moteurs de recherche comme ayant une grande autorité, ce qui peut améliorer son positionnement dans les
 					résultats de recherche. La mise en place de campagnes de netlinking ciblées permet de renforcer la réputation et l&apos;autorité de votre site.
 				</p>
-
+				<br />
 				<h2>L&apos;importance de l&apos;expérience utilisateur (UX) dans le SEO</h2>
 				<p>
 					L&apos;expérience utilisateur (UX) joue également un rôle déterminant dans le référencement. Un site bien structuré, facile à naviguer et à utiliser,
@@ -78,7 +81,15 @@ export default function ReferencementSEO() {
 					interne (la manière dont les pages internes sont liées entre elles) et la structure des pages peuvent influencer la durée de la visite et le taux de
 					rebond, deux indicateurs clés que les moteurs de recherche utilisent pour évaluer la qualité d&apos;un site.{" "}
 				</p>
-				<Image src={referencementSeo6}  alt="L'UX et UI qui apporte sa partie au réferenecement" placeholder="blur"  quality={100}  sizes="100vw"  className={`${styles.image} ${styles.imageArticle}`} />
+				<Image
+					src={referencementSeo6}
+					alt="L'UX et UI qui apporte sa partie au réferenecement"
+					placeholder="blur"
+					quality={100}
+					sizes="100vw"
+					className={`${styles.image} ${styles.imageArticle}`}
+				/>
+				<br />
 				<h2>Le référencement : une démarche continue</h2>
 				<p>
 					L&apos;optimisation pour les moteurs de recherche n&apos;est pas un processus ponctuel, mais un engagement continu. Il est essentiel de suivre
@@ -111,7 +122,15 @@ export default function ReferencementSEO() {
 					Dans l&apos;idéal, le SEO et le SEA devraient être utilisés en tandem pour maximiser la visibilité en ligne. Le SEA peut fournir une visibilité
 					instantanée et générer du trafic pendant que le SEO travaille à assurer une visibilité à long terme.
 				</p>
-				<Image src={referencementSeo4}  alt="SEO en lettres d'or avce une loupe et un effet grossissant" placeholder="blur"  quality={100}  sizes="100vw"  className={`${styles.image} ${styles.imageArticle}`} />
+				<Image
+					src={referencementSeo4}
+					alt="SEO en lettres d'or avce une loupe et un effet grossissant"
+					placeholder="blur"
+					quality={100}
+					sizes="100vw"
+					className={`${styles.image} ${styles.imageArticle}`}
+				/>
+				<br />
 				<h2>Conclusion</h2>
 				<p>
 					Le référencement et le SEO sont des éléments clés pour assurer la visibilité et le succès d&apos;un site web à l&apos;ère numérique. Bien que le

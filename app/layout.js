@@ -13,15 +13,37 @@ export const metadata = {
 	referrer: "origin-when-cross-origin",
 	authors: "Stephane Gamot",
 	colorScheme: "dark",
-	formatDetection: {
-		email: false,
-		address: false,
-		telephone: false,
+	themeColor: 'black',
+	metadataBase: new URL('https://www.white-wolf-web.com'),
+	alternates: {
+		canonical: '/',
+		languages: {
+			'fr-FR': '/',
+		  },
+	  },
+	robots: {
+		index: true,
+		follow: true,
+		nocache: true,
+		googleBot: {
+			index: true,
+			follow: true,
+			noimageindex: true,
+			"max-video-preview": -1,
+			"max-image-preview": "large",
+		},
 	},
-	
-		canonical: "/",
-		languages: "fr-fr",
-	
+	viewport: {
+		width: "device-width",
+		initialScale: 1,
+		maximumScale: 1,
+	},
+	manifest: "/manifest.json",
+	icons: {
+		icon: "@/public/Assets/Favicons/icon-192x192.png",
+		apple: "@/public/Assets/Favicons/icon-256x256.png",
+	},
+
 	openGraph: {
 		title: "White Wolf Web - Agence experte en création de sites web 💻 - SEO",
 		description:
@@ -30,60 +52,34 @@ export const metadata = {
 		siteName: "Agence White Wolf Web",
 		images: [
 			{
-				url: "https://nextjs.org/og.png",
+				url: "https://www.white-wolf-web.com/public/Assets/Images/Jpg/facebook/moi-facebook.jpg",
 				width: 800,
 				height: 600,
-			},
-			{
-				url: "https://nextjs.org/og-alt.png",
-				width: 1800,
-				height: 1600,
-				alt: "My custom alt",
+				alt: "moi un jour quand je serais à la retraite",
 			},
 		],
 		locale: "fr-fr",
 		type: "website",
 	},
-	robots: {
-		index: false,
-		follow: true,
-		nocache: true,
-		googleBot: {
-			index: true,
-			follow: false,
-			noimageindex: true,
-			"max-video-preview": -1,
-			"max-image-preview": "large",
-			"max-snippet": -1,
-		},
-	},
-	icons: {
-		icon: "/icon.png",
-		shortcut: "/shortcut-icon.png",
-		apple: "/apple-icon.png",
-		other: {
-			rel: "apple-touch-icon-precomposed",
-			url: "/apple-touch-icon-precomposed.png",
-		},
-	},
-	manifest: "https://nextjs.org/manifest.json",
+
 	twitter: {
 		card: "summary_large_image",
-		title: "Next.js",
-		description: "The React Framework for the Web",
-		siteId: "1467726470533754880",
-		creator: "@nextjs",
-		creatorId: "1467726470533754880",
-		images: ["https://nextjs.org/og.png"],
+		title: "Agence Web innovante: création de sites web, e-commerce pour propulser votre succès en ligne!🚀",
+		description: "White Wolf Web, c'est l'alliance du design attrayant et des fonctionnalités optimales pour créer des sites web performants et élégants.",
+		siteId: "@whitewo26072430",
+		creator: "@whitewo26072430",
+		//creatorId: "1467726470533754880",
+		images: ["https://twitter.com/whitewo26072430/header_photo"],
 	},
-	viewport: {
-		width: "device-width",
-		initialScale: 1,
-		maximumScale: 1,
+	verification: {
+		google: "google",
+		yandex: "yandex",
+		yahoo: "yahoo",
 	},
 };
 
 export default function RootLayout({ children }) {
+	
 	return (
 		<html lang="fr">
 			<body className={inter.className}>

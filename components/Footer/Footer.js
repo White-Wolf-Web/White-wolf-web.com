@@ -1,18 +1,18 @@
 import styles from "./Footer.module.css";
 import Link from "next/link";
 import Image from "next/image";
-import youtubeIcon from "../../public/Assets/Icons/youtube-icon.webp";
-import facebookIcon from "../../public/Assets/Icons/facebook-icon.webp";
-import instagramIcon from "../../public/Assets/Icons/instagram-icon.webp";
-import twitterIcon from "../../public/Assets/Icons/twitter-icon.webp";
-import whatsappIcon from "../../public/Assets/Icons/whatapp-icon.webp";
+import youtubeIcon from "@/public/Assets/Icons/youtube-icon.webp";
+import facebookIcon from "@/public/Assets/Icons/facebook-icon.webp";
+import instagramIcon from "@/public/Assets/Icons/instagram-icon.webp";
+import twitterIcon from "@/public/Assets/Icons/twitter-icon.webp";
+import whatsappIcon from "@/public/Assets/Icons/whatapp-icon.webp";
 import Gsm from "@/public/Assets/Icons/gsm.webp";
 import Mail from "@/public/Assets/Icons/mail.webp";
-import starIcon from "../../public/Assets/Icons/star-icon.webp";
-import VisaCard from "../../public/Assets/Images/Webp/payment/visa.webp";
-import MasterCard from "../../public/Assets/Images/Webp/payment/mastercard.webp";
-import MaestroCard from "../../public/Assets/Images/Webp/payment/maestrocard.webp";
-import Paypal from "../../public/Assets/Images/Webp/payment/paypal.webp";
+import starIcon from "@/public/Assets/Icons/star-icon.webp";
+import VisaCard from "@/public/Assets/Images/Webp/payment/visa.webp";
+import MasterCard from "@/public/Assets/Images/Webp/payment/mastercard.webp";
+import MaestroCard from "@/public/Assets/Images/Webp/payment/maestrocard.webp";
+import Paypal from "@/public/Assets/Images/Webp/payment/paypal.webp";
 
 export default function Footer() {
 	return (
@@ -20,7 +20,7 @@ export default function Footer() {
 			<div className={styles.topFooter}>
 				<div>
 					<p>Agence White Wolf Web</p>
-				</div>
+				</div><Link href="/rating">
 				<div className={styles.avis}>
 					<p className={styles.avisTitle}>Avis Clients</p>&emsp;
 					<div className={styles.starContainer}>
@@ -30,7 +30,7 @@ export default function Footer() {
 						<Image src={starIcon} className={styles.stars} width={21} height={20} alt={"4th star icon"} />
 						<Image src={starIcon} className={styles.stars} width={21} height={20} alt={"5th star icon"} />
 					</div>
-				</div>
+				</div></Link>
 
 				<div className={styles.paymentIcons}>
 					<Image src={VisaCard} className={styles.paymentCard} width={32} height={20} alt={"Visa Card"} />
@@ -71,25 +71,25 @@ export default function Footer() {
 					<h2>Sites Web</h2>
 					<ul>
 						<li>
-							<Link href="/articles/creation-site-web/site-vitrine">Site Vitrine</Link>
+							<Link href="/articles/creation-site-web#site-vitrine">Site Vitrine</Link>
 						</li>
 						<li>
-							<Link href="/articles/creation-site-web/e-commerce">Site E-commerce</Link>
+							<Link href="/articles/creation-site-web#site-Ecommerce">Site E-commerce</Link>
 						</li>
 						<li>
-							<Link href="/">Site Institutionnel</Link>
+							<Link href="/articles/creation-site-web#siteInformations">Site Institutionnel</Link>
 						</li>
 						<li>
-							<Link href="/articles/creation-site-web/wordpress">Wordpress</Link>
+							<Link href="/articles/creation-site-web#wordpress">Wordpress</Link>
 						</li>
 						<li>
-							<Link href="/articles/creation-site-web/landing-page">Landing Page</Link>
+							<Link href="/articles/creation-site-web#landingPage">Landing Page</Link>
 						</li>
 						<li>
-							<Link href="/">Application Web</Link>
+							<Link href="/articles/creation-site-web/#joomla">Joomla</Link>
 						</li>
 						<li>
-							<Link href="/">Site Web sur Mesure</Link>
+							<Link href="/articles/creation-site-web">Site Web sur Mesure</Link>
 						</li>
 					</ul>
 				</div>
@@ -97,25 +97,25 @@ export default function Footer() {
 					<h2>A propos</h2>
 					<ul>
 						<li>
-							<Link href="/">Articles</Link>
+							<Link href="/faq">FAQ</Link>
 						</li>
 						<li>
-							<Link href="/">Blog</Link>
+							<Link href="/blog">Blog</Link>
 						</li>
 						<li>
-							<Link href="/">Avis Clients</Link>
+							<Link href="/admin/price">Tarifs</Link>
 						</li>
 						<li>
-							<Link href="/">Mon Portfolio</Link>
+							<Link href="/portfolio">Mon Portfolio</Link>
 						</li>
 						<li>
-							<Link href="/">Mentions Légales</Link>
+							<Link href="/admin/mention-legale">Mentions Légales</Link>
 						</li>
 						<li>
-							<Link href="/">Conditions Générales</Link>
+							<Link href="/admin/conditions-generales">Conditions Générales</Link>
 						</li>
 						<li>
-							<Link href="/">Langages</Link>
+							<Link 	href="mailto:white-wolf-web@outlook.com">Contact</Link>
 						</li>
 					</ul>
 				</div>

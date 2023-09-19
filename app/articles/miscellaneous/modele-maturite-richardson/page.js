@@ -1,18 +1,15 @@
-import Head from "next/head";
 import styles from "@/app/page.module.css";
+
+export const metadata = {
+	title: "Comprendre le modèle de maturité de Richardson pour API REST",
+	description:
+		"Une des conceptions d'API les plus populaires est l'API REST. Je vous explique comment elle peut être évaluée en utilisant le modèle de maturité de Richardson",
+	canonical: "https://www.white-wolf-web.com/articles/miscellaneous/modele-maturite-richardson",
+};
 
 export default function ModeleMaturiteRichardson() {
 	return (
 		<div className={styles.container}>
-			<Head>
-				<title>Comprendre le modèle de maturité de Richardson pour API REST</title>
-				<meta
-					name="description"
-					content="Une des conceptions d'API les plus populaires est l'API REST. Je vous explique comment elle peut être évaluée en utilisant le modèle de maturité de Richardson"
-				/>
-				<link rel="icon" href="/icon-192x192.png" />
-				<link rel="canonical" href="https://www.white-wolf-web.com/articles/miscellaneous/modele-maturite-richardson" />
-			</Head>
 			<main className={styles.main}>
 				<h1 className={styles.title}>Comprendre le modèle de maturité de Richardson pour les API REST</h1>
 				<h2>Introduction aux API REST</h2>

@@ -1,0 +1,212 @@
+/* LE MODAL */
+.modal-overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: red;
+	z-index: 50;
+	border: 1px solid #0de0d3;
+}
+
+/*  LES INPUTS */
+.redBorder {
+	border: 1px solid red;
+}
+.greenBorder {
+	border: 2px solid #0de0d3;
+}
+.orangeBorder {
+	border: 2px solid #ffc107 !important;
+}
+
+.orangeBorder:focus {
+	border: 1px solid #ffc107;
+	box-shadow: 0 0 0 0.8px #ffc107;
+	outline: none;
+}
+.divInput {
+	margin-bottom: 5px;
+}
+.dateInput {
+	margin-bottom: 5px;
+	border: 2px solid #0de0d3;
+}
+
+.focus:focus {
+	border: 2px solid #77b5fe !important;
+	outline: none;
+	box-shadow: none;
+}
+
+.errorMessage {
+	color: red;
+	font-size: 0.7rem;
+	display: block; /* Ajoutez cette ligne */
+}
+
+/*  LES BOUTONS RADIO */
+.radioContainer {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+	margin-bottom: 15px;
+}
+
+.radioItem {
+	display: inline-flex;
+	align-items: center;
+}
+
+.radioItem input {
+	margin: auto 4px auto 0;
+	appearance: none;
+	width: 10px;
+	height: 10px;
+	border: 2px solid #0de0d3;
+	border-radius: 50%;
+	outline: none;
+	transition: background-color 0.4s;
+}
+
+.radioItem input:checked {
+	background-color: #0de0d3;
+	box-shadow: #0de0d3;
+}
+
+@keyframes shine {
+	0% {
+		box-shadow: 0 0 1px #0de0d3, 0 0 2px #0de0d3;
+	}
+
+	50% {
+		box-shadow: 0 0 1px #0de0d3, 0 0 2px #1effff;
+	}
+
+	100% {
+		box-shadow: 0 0 1px #0de0d3, 0 0 2px #0de0d3;
+	}
+}
+
+.radio.clicked {
+	animation: shine 0.4s linear forwards;
+}
+
+.select {
+	border: 2px solid #0de0d3;
+	border-radius: 5px;
+	outline-color: transparent !important;
+}
+.textarea {
+	/* Ajoutez les autres propriétés de la classe textarea ici */
+	border-radius: 5px;
+}
+
+.inputWidth {
+	width: 80%;
+}
+.footerColumn {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+.checkboxContainer {
+	display: flex;
+	align-items: center;
+}
+
+.customCheckbox {
+	color: #0de0d3 !important;
+}
+.customCheckbox {
+	appearance: none;
+	outline: none;
+	position: relative;
+	width: 20px;
+	height: 20px;
+	background: #fff;
+	border: 1px solid #0de0d3;
+	cursor: pointer;
+}
+.checkbox {
+	margin-right: 5px;
+}
+
+.customCheckbox::before {
+	content: "";
+	position: absolute;
+	width: 18px;
+	height: 18px;
+	background: #0de0d3;
+	opacity: 0;
+	transform: scale(0);
+	transition: all 0.2s ease;
+	border-radius: 3px;
+}
+
+.customCheckbox::after {
+	content: "";
+	position: absolute;
+	top: 5px;
+	left: 9px;
+	width: 5px;
+	height: 10px;
+	border: solid white;
+	border-width: 0 2px 2px 0;
+	transform: rotate(45deg) scale(0);
+	transition: all 0.2s ease;
+}
+
+.customCheckbox:checked::after {
+	transform: rotate(45deg) scale(1);
+}
+
+.customCheckbox:checked::before {
+	opacity: 1;
+	transform: scale(1);
+}
+
+.customCheckbox:checked::after {
+	transform: rotate(45deg) scale(1);
+}
+
+.customCheckbox:checked::before {
+	opacity: 1;
+	transform: scale(1);
+}
+
+.submitButton {
+	background-color: #0de0d3;
+	border: none;
+	border-radius: 5px;
+	color: white;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+.buttonContainer {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+.modal {
+	transition: opacity 0.5s ease-out;
+  }
+  /* ContactForm.css */
+
+.myAlert {
+    position: fixed;
+    top: 0;
+    right: 50%;
+	left: 50%;
+    width: 200px;
+    border-radius: 5px;
+    background-color: firebrick;
+	color: white;
+	height: 120px;
+}

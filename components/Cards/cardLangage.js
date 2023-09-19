@@ -6,7 +6,7 @@ import Link from "next/link";
 function CardLangage({ title, image, description, color, href, backgroundColor }) {
 	return (
 		<div className={styles.langageCardWrap}>
-			<Link href={href}>
+			
 				<div className={styles.langageCardHeader}>
 					<Image src={image} alt={title} width={50} height={50} />
 				</div>
@@ -17,7 +17,7 @@ function CardLangage({ title, image, description, color, href, backgroundColor }
 						code
 					</button>
 				</div>
-			</Link>
+			
 		</div>
 	);
 }

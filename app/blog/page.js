@@ -5,26 +5,21 @@ import styles from "@/app/page.module.css";
 import BlogCardData from "@/data/blogCardData";
 import CardBlog from "@/components/Blog/CardBlog";
 
+export const metadata = {
+	title: "Articles et Guides Experts sur le Développement Web, le SEO et Plus Encore",
+	description: "Que vous soyez débutant ou professionnel, vous trouverez ici des ressources, des conseils et des astuces pour parfaire vos compétences en développement web",
+	canonical: "https://www.white-wolf-web.com/blog",
+};
+
 export default function Blog() {
 	return (
-		<>
-			<Head>
-				<title>Blog pour les Devs</title>
-				<meta
-					name="description"
-					content="Que vous soyez débutant ou professionnel, vous trouverez ici des ressources, des conseils et des astuces pour parfaire vos compétences en développement web"
-				/>
-				<link rel="canonical" href="https://www.white-wolf-web.com/blog" />
-			</Head>
-			<main className={styles.blogContainer }>
-				<h1 className={styles.blogTitle}>Blog pour les Devs</h1>
-				<div className={styles.langageContainerCard}>
+		<main className={styles.blogContainer}>
+			<h1 className={styles.blogTitle}>Blog pour les Devs</h1>
+			<div className={styles.langageContainerCard}>
 				{BlogCardData.map((blog, index) => {
-						return <CardBlog key={index} title={blog.title} image={blog.image} description={blog.description} alt={blog.alt} href={blog.href} text={blog.text} />;
-					})}
-				</div>
-			</main>
-		</>
+					return <CardBlog key={index} title={blog.title} image={blog.image} description={blog.description} alt={blog.alt} href={blog.href} text={blog.text} />;
+				})}
+			</div>
+		</main>
 	);
 }
-

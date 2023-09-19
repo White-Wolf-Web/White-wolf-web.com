@@ -93,6 +93,38 @@ li {
   margin-left: -30px;
 }
 
+/* TABLES */
+
+table {
+  border: 2px solid #25272E;
+  width: 700px;
+  margin: 20px auto;
+}
+
+thead {
+  background-color: indianred;
+}
+th, td {
+  padding: 8px;
+ 
+}
+tr:nth-child(2), tr:nth-child(4), tr:nth-child(6), tr:nth-child(8){
+  background-color: #25272E;
+}
+
+th:first-child, td:first-child {
+  width: 200px; /* Ajustez la largeur selon vos besoins */
+  text-align:left !important;
+}
+
+td:nth-child(2), th:nth-child(2), td:nth-child(3), th:nth-child(3),td:nth-child(4), th:nth-child(4) {
+text-align: center;
+}
+
+
+
+/*border-collapse: collapse;*/
+
 
 /*
 :root {

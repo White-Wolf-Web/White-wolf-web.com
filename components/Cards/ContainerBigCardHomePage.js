@@ -40,7 +40,7 @@ export const ContainerBigCardHomePage = () => {
 
 	return (
 		<section className={styles.allSections}>
-			<h2 className={styles.containerTitle}>Articles</h2>
+			
 			<div className={styles.ourServices}>
 				{Object.values(DataCardHomePage[0])
 					.slice(0, cardsToShow)
@@ -54,11 +54,11 @@ export const ContainerBigCardHomePage = () => {
 			</div>
 			<div className={styles.moreArticlesButtonContainer}>
 				<button onClick={showMoreCards} className={styles.moreArticlesButton}>
-					Voir +++ d&apos;articles
+					Voir +++ 
 				</button>
 				{cardsToShow > 6 && (
 					<button onClick={showLessCards} className={`${styles.moreArticlesButton} ${styles.showLessCards}`}>
-						Voir --- d&apos;articles
+						Voir --- 
 					</button>
 				)}
 			</div>

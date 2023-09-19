@@ -1,22 +1,17 @@
-import Head from "next/head";
 import styles from "@/app/page.module.css";
+
+export const metadata = {
+	title: "L importance du web-design dans la création du site web",
+	description: "Passionnés par la création de sites web qui allient design attrayant, ergonomie bien pensée et une expérience utilisateur exceptionnelle (UX).",
+	canonical: "https://www.white-wolf-web.com/articles/web-design",
+};
 
 export default function Design() {
 	return (
 		<div className={styles.container}>
-			<Head>
-				<title>L importance du web-design dans la création du site web</title>
-				<meta
-					name="description"
-					content="Passionnés par la création de sites web qui allient design attrayant, ergonomie bien pensée et une expérience utilisateur exceptionnelle (UX)."
-				/>
-				<link rel="canonical" href="https://www.white-wolf-web.com/articles/web-design" />
-			</Head>
-
 			<main className={styles.main}>
 				<header>
 					<h1 className={styles.title}>L&apos;importance du design et de l&apos;UX dans le développement d&apos;un site web</h1>
-					{/*<h2 className={styles.titleH2}></h2>*/}
 				</header>
 				<p>
 					Le design web joue un rôle crucial dans la réussite d&apos;une présence en ligne. Une esthétique attrayante, une interface utilisateur intuitive, une

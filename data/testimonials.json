@@ -1,0 +1,54 @@
+[
+    {
+      "title": "Un excellent service !",
+      "name": "Karen Guillet",
+      "role": "Propriétaire de boutique en ligne",
+      "content": "J'ai fait appel à l'agence White wolf Web pour la refonte de mon site e-commerce. Le résultat est absolument magnifique.",
+      "image": "/Assets/Images/Webp/avatars/avatar-karen-guillet.webp",
+      "rating": 5
+    },
+    {
+        "title": "Réactivité et Support",
+        "name": "Franck Maher",
+        "role": "Directeur de startup",
+        "content": "Le support client de Stéphane de white wolf web est exceptionnel. Il a toujours été là pour répondre à mes questions, et ce, très rapidement. Je suis plus que satisfait de ses services !",
+        "image": "/Assets/Images/Webp/avatars/avatar-franck-maher.webp",
+        "rating": 5
+      }, {
+        "title": "Optimisation SEO",
+        "name": "Sarah Devit",
+        "role": "Blogueuse",
+        "content": "Je ne savais pas grand-chose sur le SEO avant de travailler avec l'Agence White Wolf Web. Ils ont optimisé mon blog, et j'ai vu mon trafic augmenter considérablement en quelques mois. Je suis épatée ",
+        "image": "/Assets/Images/Webp/avatars/avatar-sarah-devit.webp",
+        "rating": 5
+      }, {
+        "title": "Développement sur Mesure",
+        "name": "Ahmed R.",
+        "role": "PDG d'une entreprise de tech",
+        "content": "Nous avions des besoins très spécifiques en termes de fonctionnalités. Stéphane a su développer une solution sur mesure qui répondait à tous nos besoins. Son expertise technique est impressionnante",
+        "image": "/Assets/Images/Webp/avatars/avatar-ahmed-r.webp",
+        "rating": 5
+      }, {
+        "title": "Stratégie SEO",
+        "name": "Line Rolland.",
+        "role": "Freelance",
+        "content": "L'approche de l'agence White Wolf Web en matière de SEO est complète et très efficace. Leur stratégie a eu un impact positif sur notre visibilité en ligne et nos ventes.",
+        "image": "/Assets/Images/Webp/avatars/avatar-line-rolland.webp",
+        "rating": 5
+      }, {
+        "title": "Fiabilité et Maintenance",
+        "name": "Luciana Donatella",
+        "role": "Gérante d'un restaurant",
+        "content": "Depuis que je travaille avec Stéphane de l'Agence White Wolf Web, je n'ai jamais eu à me soucier de la maintenance de mon site. Tout fonctionne parfaitement, et les rares problèmes ont été résolus en un temps record.",
+        "image": "/Assets/Images/Webp/avatars/avatar-luciana-donatella.webp",
+        "rating": 5
+      }, {
+        "title": "Satisfaction Générale",
+        "name": "Nathalie Jean",
+        "role": "Photographe",
+        "content": "Je recommande vivement l'agence White Wolf Web. Leur professionnalisme, leur créativité et leur souci du détail m'ont totalement convaincue. Je suis très satisfait du projet final.",
+        "image": "/Assets/Images/Webp/avatars/avatar-nathalie-jean.webp",
+        "rating": 5
+      }
+    
+  ]

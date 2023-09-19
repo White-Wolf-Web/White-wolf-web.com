@@ -1,0 +1,49 @@
+.card {
+    width: 100%;
+    max-width: 375px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .center {
+    margin: auto;
+  }
+  
+  .cardTitle {
+    font-size: 1.2em;
+    font-weight: 700;
+    margin-bottom: 0;
+    color: black;
+  }
+  
+  .cardContent {
+    font-size: 1em;
+    margin-bottom: 16px;
+    color: black;
+  }
+  
+  .avatar {
+    border-radius: 30%;
+  }
+
+  .firstrow {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+  }
+  .cardRole {
+    color: black;
+    font-style: italic;
+    margin-top: -2px;
+  }
+
+  .starRating {
+    width: 100px;
+    height: 23px;
+    overflow: hidden;
+    margin-top: -10px;
+    margin-bottom: 16px;
+  }

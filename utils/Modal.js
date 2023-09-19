@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Modal as BootstrapModal, Button, Alert } from "react-bootstrap";
-import styles from "../styles/modal.module.css";
+import styles from "./modal.module.css";
 
 export default function Modal({ isOpen, closeModal }) {
 	const alphaRegex = /^[a-zA-Zéêëèîïâäàçù ,.'-]{2,70}$/;

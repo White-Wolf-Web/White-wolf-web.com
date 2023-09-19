@@ -1,17 +1,15 @@
-import Head from "next/head";
 import styles from "@/app/page.module.css";
+
+export const metadata = {
+	title: "Analyse, Audit et Performance: les 🔑 pour l’optimisation",
+	description:
+		"L'analyse et la performance (un audit) d'un site web vont permettre d’optimiser votre présence en ligne et maximiser le retour sur votre investissement.",
+	canonical: "https://www.white-wolf-web.com/articles/miscellaneous/analyse-audit-performance-votre-site-web",
+};
 
 export default function AnalysePerformance() {
 	return (
 		<div>
-			<Head>
-				<title>Analyse, Audit et Performance: les 🔑 pour l’optimisation</title>
-				<meta
-					name="description"
-					content="L'analyse et la performance (un audit) d'un site web vont permettre d’optimiser votre présence en ligne et maximiser le retour sur votre investissement."
-				/>
-				<link rel="canonical" href="https://www.white-wolf-web.com/articles/miscellaneous/analyse-audit-performance-votre-site-web" />
-			</Head>
 			<main className={styles.main}>
 				<header>
 					<h1 className={styles.title}>Analyse, Audit et Performance d&apos;un Site Web</h1>

@@ -1,17 +1,13 @@
 import Head from "next/head";
 import styles from "@/app/page.module.css";
-import Link from "next/link";
 import Image from "next/image";
 import creationWeb1 from "../../../public/Assets/Images/Webp/creation-site/creation-site-web-1-XL.webp";
 import creationWeb2 from "../../../public/Assets/Images/Webp/creation-site/creation-site-web-2-XXL.webp";
 import creationWeb3 from "../../../public/Assets/Images/Webp/creation-site/creation-site-web-3-XXL.webp";
-import creationWeb4 from "../../../public/Assets/Images/Webp/creation-site/creation-site-web-4-XXL.webp";
-import creationWeb5 from "../../../public/Assets/Images/Webp/creation-site/creation-site-web-5-XXL.webp";
+//import creationWeb5 from "../../../public/Assets/Images/Webp/creation-site/creation-site-web-5-XXL.webp";
 import creationSiteVitrine from "../../../public/Assets/Images/Webp/creation-site/creation-site-web-vitrine.webp";
 import creationSiteEcommerce from "../../../public/Assets/Images/Webp/creation-site/creation-site-web-ecommerce.webp";
 import creationSiteInformation from "../../../public/Assets/Images/Webp/creation-site/creation-site-web-information.webp";
-import creationSiteEducation from "../../../public/Assets/Images/Webp/creation-site/creation-site-web-education.webp";
-import creationSitePortailWeb from "../../../public/Assets/Images/Webp/creation-site/creation-site-web-portailweb.webp";
 import creationSitePortfolio from "../../../public/Assets/Images/Webp/creation-site/creation-site-web-portfolio.webp";
 import creationSiteMobileFirst from "../../../public/Assets/Images/Webp/creation-site/creation-site-web-mobile-first.webp";
 import creationSiteMultilingue from "../../../public/Assets/Images/Webp/creation-site/creation-site-web-multilingue.webp";
@@ -19,29 +15,21 @@ import creationSiteLandingPage from "../../../public/Assets/Images/Webp/creation
 import creationSiteWordpress from "../../../public/Assets/Images/Webp/creation-site/creation-site-web-wordpress.webp";
 import creationSiteJoomla from "../../../public/Assets/Images/Webp/creation-site/creation-site-web-joomla.webp";
 
+export const metadata = {
+	title: "Guide complet pour la création de site web professionnel",
+	description:
+		"Vous souhaitez créer un site web professionnel ? Ce guide complet vous fournira toutes les ressources nécessaires pour réussir votre projet de création de site web",
+	canonical: "https://www.white-wolf-web.com/articles/creation-site-web",
+};
+
 export default function CreationSiteWeb() {
 	return (
 		<div className={styles.container}>
-			<Head>
-				<title>Guide complet pour la création de site web professionnel</title>
-				<meta
-					name="description"
-					content="Vous souhaitez créer un site web professionnel ? Ce guide complet vous fournira toutes les ressources nécessaires pour réussir votre projet de création de site web"
-				/>
-				<link rel="canonical" href="https://www.white-wolf-web.com/articles/creation-site-web" />
-			</Head>
 			<main className={styles.main}>
 				<header>
-					<h1 className={styles.title}>Guide complet pour la création d&ensp;un site web professionnel</h1>
+					<h1 className={styles.title}>Création d&apos;un site web professionnel</h1>
 				</header>
-				<p>
-					Vous avez décidé de créer un site web professionnel, mais vous ne savez pas par où commencer? Ne vous inquiétez pas, ce guide complet vous fournira
-					toutes les ressources nécessaires pour réussir votre projet de création de site web. Vous apprendrez les étapes essentielles, les meilleures pratiques
-					de conception, les outils et les plateformes recommandés, ainsi que des conseils pour optimiser votre site web et attirer du trafic.{" "}
-				</p>
-				<p>
-					Que vous soyez novice ou expérimenté dans le domaine de la création de sites web, ce guide vous aidera à créer un site web professionnel et attrayant.
-				</p>
+
 				<Image
 					src={creationWeb1}
 					alt="Un site web sur un mac ipad et iphone"
@@ -51,45 +39,35 @@ export default function CreationSiteWeb() {
 					className={`${styles.image} ${styles.imageArticle}`}
 				/>
 				<section className={styles.sectionArticle}>
-					{" "}
 					<h2>Comprendre votre public cible</h2>
 					<p>
 						La première étape pour créer un site web époustouflant est de comprendre votre public cible. Avant de commencer à concevoir votre site, vous devez
-						avoir une idée claire de qui vous voulez atteindre avec votre contenu. Quel est l&ensp;âge, le sexe, l&ensp;emplacement géographique et les
+						avoir une idée claire de qui vous voulez atteindre avec votre contenu. Quel est l&apos;âge, le sexe, l&apos;emplacement géographique et les
 						intérêts de votre public cible ? Quels sont les problèmes que vous pouvez résoudre pour eux ? En répondant à ces questions, vous pouvez créer un
-						contenu qui répond à leurs besoins et qui les incite à revenir. Une autre façon de comprendre votre public cible est d&ensp;examiner les sites web
+						contenu qui répond à leurs besoins et qui les incite à revenir. Une autre façon de comprendre votre public cible est d&apos;examiner les sites web
 						de vos concurrents.
 					</p>
 					<p>
-						{" "}
-						Quels sont les éléments qui attirent leur attention ? Quels sont les contenus qu&ensp;ils proposent ? Quels sont les éléments qu&ensp;ils ont omis
+						Quels sont les éléments qui attirent leur attention ? Quels sont les contenus qu&apos;ils proposent ? Quels sont les éléments qu&apos;ils ont omis
 						? En évaluant les sites web de vos concurrents, vous pouvez avoir une idée de ce qui fonctionne et ce qui ne fonctionne pas dans votre secteur
-						d&ensp;activité. Enfin, n&ensp;oubliez pas d&ensp;utiliser des outils d&ensp;analyse pour suivre l&ensp;activité de votre public sur votre site
-						web. Ces outils peuvent vous aider à comprendre les pages les plus visitées, le temps passé sur le site, les taux de rebond et d&ensp;autres
+						d&apos;activité. Enfin, n&apos;oubliez pas d&apos;utiliser des outils d&apos;analyse pour suivre l&apos;activité de votre public sur votre site
+						web. Ces outils peuvent vous aider à comprendre les pages les plus visitées, le temps passé sur le site, les taux de rebond et d&apos;autres
 						métriques importantes.
 					</p>
 				</section>
+				<div className={styles.longDivider}></div>
 				<section className={styles.sectionArticle}>
-					<h2>Choisissez un nom de domaine et un hébergeur.</h2>
+					<h2>Choisir un nom de domaine et un hébergeur.</h2>
 					<p>
 						Avant de commencer la création de votre site web professionnel, vous devez choisir un nom de domaine et un hébergeur. Le nom de domaine est
-						l&ensp;adresse web de votre site, donc il est important de choisir un nom qui soit facile à retenir et qui reflète votre entreprise ou votre
-						marque. Vous pouvez vérifier la disponibilité d&ensp;un nom de domaine sur des sites web spécialisés dans l&ensp;enregistrement de noms de
+						l&apos;adresse web de votre site, donc il est important de choisir un nom qui soit facile à retenir et qui reflète votre entreprise ou votre
+						marque. Vous pouvez vérifier la disponibilité d&apos;un nom de domaine sur des sites web spécialisés dans l&apos;enregistrement de noms de
 						domaine.
 					</p>
 					<p>
-						En ce qui concerne l&ensp;hébergement, il s&ensp;agit du service qui permet de stocker les fichiers de votre site web sur un serveur et de les
-						rendre accessibles aux utilisateurs. Il existe de nombreux fournisseurs d&ensp;hébergement disponibles, il est donc important de choisir celui qui
+						En ce qui concerne l&apos;hébergement, il s&apos;agit du service qui permet de stocker les fichiers de votre site web sur un serveur et de les
+						rendre accessibles aux utilisateurs. Il existe de nombreux fournisseurs d&apos;hébergement disponibles, il est donc important de choisir celui qui
 						correspond le mieux à vos besoins en termes de capacité de stockage, de bande passante, de support technique, etc.
-					</p>
-					<p>
-						Une fois que vous avez choisi votre nom de domaine et votre hébergeur, vous pouvez passer à l&ensp;étape suivante de la création de votre site web
-						professionnel.
-					</p>
-					<p>
-						{" "}
-						De plus, vérifiez les fonctionnalités et les services offerts par l&ensp;hébergeur, tels que la sécurité, la sauvegarde des données, la facilité
-						d&ensp;utilisation de l&ensp;interface, etc.
 					</p>
 				</section>
 				<Image
@@ -100,105 +78,63 @@ export default function CreationSiteWeb() {
 					sizes="100vw"
 					className={`${styles.image} ${styles.imageArticle}`}
 				/>
+				<br></br>
 				<section className={styles.sectionArticle}>
 					<h2>Si vous optez pour une plateforme de site web</h2>
 					<p>
 						Il existe de nombreuses options disponibles, chacune avec ses propres avantages et inconvénients. Les deux options les plus populaires sont
-						WordPress et Wix. WordPress est une plateforme de gestion de contenu (CMS) open source qui offre une grande flexibilité et des fonctionnalités
-						avancées. Il est facile à personnaliser et à intégrer avec des outils de marketing en ligne. Wix est une plateforme de création de site web
-						tout-en-un qui offre des modèles prêts à l&ensp;emploi et une interface intuitive.{" "}
+						WordPress et Joomla. WordPress est une plateforme de gestion de contenu (CMS) open source qui offre une grande flexibilité et des fonctionnalités
+						avancées. Il est facile à personnaliser et à intégrer avec des outils de marketing en ligne. Joomla est lui aussi une plateforme de gestion de
+						contenu, un peu plus complet, ils offrent aussi plus d&apos;options.
 					</p>
 					<p>
-						Il est facile à utiliser pour les débutants et offre des fonctionnalités de commerce électronique intégrées. Le choix de la bonne plateforme
-						dépendra de vos besoins spécifiques et de vos compétences techniques. Si vous êtes à l&ensp;aise avec la gestion de contenu et l&ensp;intégration
-						de plugins, WordPress peut être la meilleure option. Si vous cherchez une option plus facile à utiliser avec des fonctionnalités intégrées, Wix
-						peut être la meilleure option.
-					</p>
-					<p>
-						La plupart des plateformes de site web offrent des thèmes ou des modèles prêts à l&ensp;emploi qui peuvent être personnalisés en fonction de vos
-						besoins. Lors de la sélection d&ensp;un thème ou d&ensp;un modèle, vous devez tenir compte de votre public cible et de vos objectifs commerciaux.
-						Le thème ou le modèle que vous choisissez doit être cohérent avec votre image de marque et vous aider à atteindre vos objectifs.{" "}
-					</p>
-					<p>
-						Il est également important de choisir un thème ou un modèle qui est réactif et compatible avec les appareils mobiles. De plus en plus de personnes
-						accèdent aux sites web depuis des appareils mobiles, il est donc important que votre site web soit facile à naviguer sur un petit écran.
+						La plupart des plateformes de site web offrent des thèmes ou des modèles prêts à l&apos;emploi qui peuvent être personnalisés en fonction de vos
+						besoins. Lors de la sélection d&apos;un thème ou d&apos;un modèle, vous devez tenir compte de votre public cible et de vos objectifs commerciaux.
+						Le thème ou le modèle que vous choisissez doit être cohérent avec votre image de marque et vous aider à atteindre vos objectifs.
 					</p>
 				</section>
+
+				<div className={styles.longDivider}></div>
 				<section className={styles.sectionArticle}>
-					<h2>Déterminez l&ensp;objectif et la structure de votre site web.</h2>
+					<h2>Créez et organisez votre contenu.</h2>
 					<p>
-						Avant de commencer à concevoir votre site web professionnel, il est essentiel de déterminer clairement son objectif et sa structure. Réfléchissez
-						à ce que vous souhaitez accomplir avec votre site web, qu&ensp;il s&ensp;agisse de vendre des produits, de fournir des informations, de promouvoir
-						votre entreprise, ou autre chose.
+						Une fois que vous avez déterminé la structure de votre site web professionnel, il est temps de créer et d&apos;organiser votre contenu. Le contenu
+						de votre site web est ce qui attirera les visiteurs et les incitera à rester et à explorer davantage. Utilisez un langage simple et évitez les
+						termes techniques ou jargonnants qui pourraient être difficiles à comprendre pour les visiteurs. Utilisez également des images, des vidéos ou
+						d&apos;autres éléments visuels pour rendre votre contenu plus attrayant et engageant.
 					</p>
 					<p>
-						Ensuite, organisez la structure de votre site web en créant une hiérarchie logique des pages. Pensez à la navigation de votre site et à la manière
-						dont les utilisateurs pourront trouver facilement l&ensp;information dont ils ont besoin. Vous pouvez utiliser des outils de création de site web
-						ou des wireframes pour visualiser et planifier la structure de votre site.
-					</p>
-					<p>Une fois que vous avez déterminé l&ensp;objectif et la structure de votre site web, vous pouvez passer à la conception et au développement.</p>
-					<p>
-						La conception et le développement de votre site web professionnel peuvent être réalisés par vous-même si vous avez des compétences en
-						programmation et en conception web, ou vous pouvez faire appel à un professionnel pour vous aider.
+						Enfin, organisez votre contenu de manière logique et intuitive. Utilisez des menus et des liens pour permettre aux visiteurs de naviguer
+						facilement entre les différentes pages de votre site web. Assurez-vous également d&apos;inclure des appels à l&apos;action clairs pour encourager
+						les visiteurs à prendre des mesures, comme s&apos;inscrire à une newsletter ou acheter un produit.
 					</p>
 				</section>
 				<Image
 					src={creationWeb3}
-					alt="Plusieurs suport d'écrans tel Imac, Ipad, Iphone"
+					alt="Plusieurs supports d'écrans tel Imac, Ipad, Iphone"
 					placeholder="blur"
 					quality={100}
 					sizes="100vw"
 					className={`${styles.image} ${styles.imageArticle}`}
 				/>
-				<section className={styles.sectionArticle}>
-					<h2>Créez et organisez votre contenu.</h2>
-					<p>
-						Une fois que vous avez déterminé la structure de votre site web professionnel, il est temps de créer et d&ensp;organiser votre contenu. Le contenu
-						de votre site web est ce qui attirera les visiteurs et les incitera à rester et à explorer davantage.
-					</p>
-					<p>
-						Commencez par définir les différentes pages et sections de votre site web. Réfléchissez à ce que vous voulez inclure sur chaque page et comment
-						vous voulez organiser l&ensp;information. Assurez-vous que votre contenu est clair, concis et facile à comprendre.
-					</p>
-					<p>
-						Ensuite, créez votre contenu en gardant à l&ensp;esprit votre public cible. Utilisez un langage simple et évitez les termes techniques ou
-						jargonnants qui pourraient être difficiles à comprendre pour les visiteurs. Utilisez également des images, des vidéos ou d&ensp;autres éléments
-						visuels pour rendre votre contenu plus attrayant et engageant.
-					</p>
-					<p>
-						Enfin, organisez votre contenu de manière logique et intuitive. Utilisez des menus et des liens pour permettre aux visiteurs de naviguer
-						facilement entre les différentes pages de votre site web. Assurez-vous également d&ensp;inclure des appels à l&ensp;action clairs pour encourager
-						les visiteurs à prendre des mesures, comme s&ensp;inscrire à une newsletter ou acheter un produit.
-					</p>
-				</section>
 				<section className={styles.sectionArticle}>
 					<h2>Ajouter des éléments multimédias</h2>
 					<p>
-						La sixième étape pour créer un site web époustouflant est d&ensp;ajouter des éléments multimédias. Les éléments multimédias tels que les images,
-						les vidéos et les infographies peuvent aider à rendre votre site web plus attractif et à susciter l&ensp;engagement de vos visiteurs. Il est
-						important de choisir des éléments multimédias qui sont cohérents avec votre image de marque et qui soutiennent votre contenu.{" "}
-					</p>
-					<p>
-						Vous pouvez utiliser des images pour illustrer vos produits ou services, des vidéos pour présenter votre entreprise ou votre blog et des
-						infographies pour visualiser des données complexes.
+						La sixième étape pour créer un site web époustouflant est d&apos;ajouter des éléments multimédias. Tels que les images (Afin d&apos;illustrer vos
+						produits ou services), les vidéos pour présenter votre entreprise et les infographies (Afin de visualiser des données complexes) peuvent aider à
+						rendre votre site web plus attractif et à susciter l&apos;engagement de vos visiteurs. Il est important de choisir des éléments multimédias qui
+						sont cohérents avec votre image de marque et qui soutiennent votre contenu.
 					</p>
 				</section>
-				<Image
-					src={creationWeb4}
-					alt="les multimédias en général"
-					placeholder="blur"
-					quality={100}
-					sizes="100vw"
-					className={`${styles.image} ${styles.imageArticle}`}
-				/>
+				<div className={styles.longDivider}></div>
 				<section className={styles.sectionArticle}>
-					<h2>Optimisez votre site web pour les moteurs de recherche.</h2>
+					<h2>Optimisation de votre site web pour les moteurs de recherche.</h2>
 					<p>
 						1. Effectuez une recherche de mots clés : Utilisez des outils de recherche de mots clés tels que Google Keyword Planner pour trouver les mots clés
-						pertinents pour votre secteur d&ensp;activité. Intégrez ces mots clés dans votre contenu de manière naturelle.
+						pertinents pour votre secteur d&apos;activité. Intégrez ces mots clés dans votre contenu de manière naturelle.
 					</p>
 					<p>
-						2. Optimisez vos balises méta : Les balises méta sont des éléments importants pour le référencement. Assurez-vous d&ensp;inclure des balises méta
+						2. Optimisez vos balises méta : Les balises méta sont des éléments importants pour le référencement. Assurez-vous d&apos;inclure des balises méta
 						titre et description pertinentes pour chaque page de votre site web.
 					</p>
 					<p>
@@ -206,7 +142,7 @@ export default function CreationSiteWeb() {
 						de recherche à comprendre le contenu de votre page.
 					</p>
 					<p>
-						4. Créez un contenu de qualité : Les moteurs de recherche valorisent le contenu de qualité. Assurez-vous d&ensp;écrire du contenu informatif,
+						4. Créez un contenu de qualité : Les moteurs de recherche valorisent le contenu de qualité. Assurez-vous d&apos;écrire du contenu informatif,
 						utile et engageant pour vos visiteurs.
 					</p>
 					<p>
@@ -218,47 +154,21 @@ export default function CreationSiteWeb() {
 						différentes pages de votre site web pour faciliter la navigation.
 					</p>
 					<p>
-						En suivant ces conseils d&ensp;optimisation pour les moteurs de recherche, vous augmenterez la visibilité de votre site web professionnel et
+						En suivant ces conseils d&apos;optimisation pour les moteurs de recherche, cela augmentera la visibilité de votre site web professionnel et
 						attirerez plus de visiteurs.
 					</p>
 					<p>
-						L&ensp;optimisation de votre site web pour les moteurs de recherche est essentielle pour augmenter sa visibilité et attirer plus de visiteurs. En
+						L&apos;optimisation de votre site web pour les moteurs de recherche est essentielle pour augmenter sa visibilité et attirer plus de visiteurs. En
 						effectuant une recherche de mots clés pertinents, en optimisant vos balises méta, en utilisant des URL conviviales, en créant un contenu de
 						qualité, en optimisant vos images et en créant des liens internes, vous pouvez améliorer le classement de votre site web dans les résultats de
 						recherche. Suivez ces conseils pour optimiser votre site web et obtenir de meilleurs résultats.
 					</p>
-					<p>
-						Une fois que vous avez identifié les mots clés pertinents, assurez-vous de les inclure dans les titres, les balises méta, les URL et le contenu de
-						votre site web. Cela aidera les moteurs de recherche à comprendre de quoi parle votre site et à le classer plus haut dans les résultats de
-						recherche.
-					</p>
 				</section>
-				<Image
-					src={creationWeb5}
-					alt="Mélange de mots clés tel que SEO, optimisation, balise meta, URL et d'autres encore"
-					placeholder="blur"
-					quality={100}
-					sizes="100vw"
-					className={`${styles.image} ${styles.imageArticle}`}
-				/>
-				<section className={styles.sectionArticle}>
-					<h2>Tester et lancer</h2>
-					<p>
-						{" "}
-						Cette étape est de tester et de lancer votre site web. Avant de lancer votre site web, vous devez le tester pour vous assurer qu&ensp;il
-						fonctionne correctement et qu&ensp;il est facile à naviguer. Vous pouvez utiliser des outils de test de site web pour vérifier la vitesse de
-						chargement, la compatibilité des navigateurs et la convivialité mobile.{" "}
-					</p>
-					<p>
-						Vous pouvez également demander à des amis ou à des collègues de tester votre site web pour obtenir des commentaires. Une fois que vous êtes
-						satisfait de votre site web, vous pouvez le lancer officiellement. Assurez-vous de suivre les meilleures pratiques pour le lancement d&ensp;un
-						site web, telles que la vérification de la sécurité du site et la création d&ensp;une sauvegarde.
-					</p>
-				</section>
+				<div className={styles.longDivider}></div>
 				<section className={styles.sectionArticle}>
 					<h2>Maintenance et mises à jour du site web</h2>
 					<p>
-						La neuvième étape pour créer un site web époustouflant est la maintenance et les mises à jour du site web. Un site web nécessite une maintenance
+						La dernière étape pour créer un site web époustouflant est la maintenance et les mises à jour du site web. Un site web nécessite une maintenance
 						régulière pour garantir un fonctionnement correct et une sécurité accrue. Vous devez effectuer des mises à jour régulières de votre plateforme de
 						site web et de vos plugins pour garantir la sécurité et la compatibilité avec les navigateurs.{" "}
 					</p>
@@ -268,9 +178,10 @@ export default function CreationSiteWeb() {
 						planifier vos publications et vous assurer que vous publiez du contenu de qualité régulièrement.
 					</p>
 				</section>
-				<section className={styles.sectionArticle}>
-					<h2>Il existe de nombreuses style de site internet</h2>
 
+				<div className={styles.longDivider}></div>
+				<section className={styles.sectionArticle}>
+					<h2 className={styles.textCenter}>Il existe de nombreuses style de site internet</h2>
 					<div className={styles.webSiteStyle}>
 						<Image
 							src={creationSiteVitrine}
@@ -280,18 +191,33 @@ export default function CreationSiteWeb() {
 							className={`${styles.webSiteStyleImg} ${styles.floatLeft}`}
 						/>
 						<div>
-							<h3 className={styles.webSiteStyleTextH3}>Site Vitrine</h3>
+							<h3 className={styles.webSiteStyleTextH3} id="site-vitrine">
+								Site Vitrine
+							</h3>
 							<p>
-								Le site vitrine est le genre de site web le plus simple. Il présente des informations basiques sur une entreprise ou une organisation, en
-								plus de ses produits ou services. Ce genre de site web constitue une solution parfaite pour les petites entreprises désireuses d`&apos;`établir
-								une présence en ligne sans pour autant investir lourdement dans le développement web.
-								<Link href="/articles/creation-site-web/site-vitrine" className={styles.internalLink}>
-									&ensp; ➡️ Visitez la page de sites vitrines
-								</Link>
+								Un site vitrine est un site web simple, conçu principalement pour présenter les informations sur une entreprise. Il sert de
+								&apos;vitrine&apos; numérique, où les entreprises peuvent afficher leurs produits ou services, partager leurs valeurs et leur mission, et
+								fournir des informations de contact.
+							</p>
+							<p>
+								Un des principaux avantages d&apos;un site vitrine est sa simplicité. Ils sont plus faciles et plus rapides à construire que des sites web
+								plus complexes. Un autre avantage est leur coût. Comparés aux sites web plus complexes, les sites vitrine ont généralement un coût initial
+								et des coûts de maintenance plus faible. De plus, ils peuvent aider à renforcer la crédibilité et la confiance de votre entreprise.
+							</p>
+							<p>
+								Cependant, les sites vitrine ont aussi leurs inconvénients. L&apos;un d&apos;entre eux est leur manque de fonctionnalités avancées. Par
+								exemple, ils n&apos;ont généralement pas de fonctionnalités de commerce électronique intégrées, ce qui signifie qu&apos;ils ne sont pas
+								idéaux pour les entreprises qui souhaitent vendre des produits ou des services en ligne.
+							</p>
+							<p>
+								Un site vitrine est un outil précieux qui peut aider une entreprise à se faire connaître, à se connecter avec son public et à se démarquer
+								de la concurrence. Avec une conception réfléchie et un contenu attrayant, un site vitrine peut être un puissant moteur de croissance pour
+								une entreprise.
 							</p>
 						</div>
 					</div>
-
+					<br />
+					<br />
 					<div className={styles.webSiteStyle}>
 						<Image
 							src={creationSiteEcommerce}
@@ -301,19 +227,37 @@ export default function CreationSiteWeb() {
 							className={`${styles.webSiteStyleImg} ${styles.floatRight}`}
 						/>
 						<div>
-							<h3 className={styles.webSiteStyleTextH3} id="site-commerce">
-								Site E-commerce
+							<h3 className={styles.webSiteStyleTextH3} id="site-Ecommerce">
+								E-commerce
 							</h3>
 							<p>
-								Quant aux sites e-commerce, ils offrent une plateforme permettant aux entreprises de vendre leurs produits et services en ligne. Ces sites
-								comportent généralement des fonctionnalités telles qu&apos;un panier d&apos;achat, des options de paiement sécurisées et une interface de
-								gestion des commandes, afin de simplifier les transactions en ligne.{" "}
-								<Link href="/articles/creation-site-web/e-commerce" className={styles.internalLink}>
-									&ensp; ➡️ Découvrez nos solutions e-commerce
-								</Link>
+								De nos jours, le commerce électronique est devenu une véritable source de revenus pour de nombreuses entreprises. Cependant, créer et
+								maintenir un site de commerce électronique prospère n&apos;est pas une tâche facile. Il faut une combinaison de stratégies et de pratiques
+								efficaces.
+							</p>
+							<p>
+								Un site e-commerce réussi est essentiel pour prospérer dans le monde en ligne. Il est votre vitrine virtuelle et votre principal moyen de
+								communiquer avec vos clients potentiels. Un site bien conçu et bien optimisé peut augmenter votre visibilité en ligne et vous aider à
+								atteindre vos objectifs commerciaux.
+							</p>
+							<p>
+								Les images et les descriptions de produits jouent un rôle essentiel dans la réussite de votre site e-commerce. Les clients veulent voir à
+								quoi ressemble le produit avant de l&apos;acheter, il est donc important de fournir des images de haute qualité qui montrent clairement
+								les détails du produit.
+							</p>
+							<p>
+								Le processus de paiement est un autre élément clé pour convertir les visiteurs en clients. Un processus de paiement complexe ou long peut
+								décourager les clients et les inciter à abandonner leur achat. Assurez-vous que votre système de paiement est simple, rapide et sécurisé.
+							</p>
+							<p>
+								Enfin, il est essentiel de surveiller et d&apos;analyser les performances de votre site e-commerce. Utilisez des outils d&apos;analyse
+								pour suivre le trafic, les ventes, les taux de conversion et d&apos;autres métriques clés. Analysez ces données pour identifier les
+								tendances, les problèmes potentiels et les opportunités d&apos;amélioration.
 							</p>
 						</div>
 					</div>
+					<br />
+					<br />
 					<div className={styles.webSiteStyle}>
 						<Image
 							src={creationSiteInformation}
@@ -330,47 +274,14 @@ export default function CreationSiteWeb() {
 								Les sites d&apos;information sont conçus pour offrir des informations et des nouvelles relatives à un sujet spécifique. Leur contenu est
 								souvent mis à jour fréquemment avec des informations pertinentes et actuelles pour maintenir l&apos;intérêt des visiteurs.
 							</p>
-						</div>
-					</div>
-					<div className={styles.webSiteStyle}>
-						<Image
-							src={creationSiteEducation}
-							alt="Une femme qui sur une tablette est dans une application d'éducation"
-							placeholder="blur"
-							quality={100}
-							className={`${styles.webSiteStyleImg} ${styles.floatRight}`}
-						/>
-						<div>
-							<h3 className={styles.webSiteStyleTextH3} id="siteEducatif">
-								Site Educatif
-							</h3>
 							<p>
-								Les sites éducatifs, eux, sont destinés à fournir des ressources pédagogiques et des informations relatives à un domaine d&apos;étude
-								spécifique. Ils peuvent comprendre des articles, des vidéos, des quiz et des forums de discussion pour favoriser l&apos;apprentissage et
-								la collaboration.
-							</p>{" "}
-						</div>
-					</div>
-
-					<div className={styles.webSiteStyle}>
-						<Image
-							src={creationSitePortailWeb}
-							alt="Représentation d'un portail avec un echantillon de ses possibilités"
-							placeholder="blur"
-							quality={100}
-							className={`${styles.webSiteStyleImg} ${styles.floatLeft}`}
-						/>
-						<div>
-							<h3 className={styles.webSiteStyleTextH3} id="portailWeb">
-								Portail Web
-							</h3>
-							<p>
-								Les portails web sont des sites web centralisés qui regroupent des informations, des ressources et des services provenant de diverses
-								sources en un seul endroit. Ils peuvent être publics ou privés et sont fréquemment utilisés par les entreprises et les organisations pour
-								faciliter l&apos;accès aux informations et aux outils internes.
+								Ils sont parfois destinés à fournir des ressources pédagogiques et des informations relatives à un domaine d&apos;étude spécifique. Ils
+								peuvent comprendre des articles, des vidéos, des quiz et des forums de discussion pour favoriser l&apos;apprentissage et la collaboration.
 							</p>
 						</div>
 					</div>
+					<br />
+					<br />
 					<div className={styles.webSiteStyle}>
 						<Image
 							src={creationSitePortfolio}
@@ -384,14 +295,34 @@ export default function CreationSiteWeb() {
 								Portfolio
 							</h3>
 							<p>
-								Les sites portfolio sont conçus pour mettre en avant les travaux et réalisations d&apos;un individu ou d&apos;une entreprise. Ces sites
-								sont couramment utilisés par les artistes, photographes, designers et écrivains pour exposer leur travail et attirer de nouveaux clients.{" "}
-								<Link href="/articles/creation-site-web/portfolio" className={styles.internalLink}>
-									&ensp; ➡️ Si vous désirez en connaitre davantage sur les sites portfolio
-								</Link>
+								Un portfolio est un outil essentiel pour de nombreux professionnels, en particulier dans les domaines créatifs tels que le design
+								graphique, la photographie, l&apos;illustration, la rédaction, la réalisation de films, le développement web, entre autres. Il sert à
+								montrer non seulement l&apos;étendue de vos compétences, mais aussi votre style, votre créativité et votre vision. Dans ce sens, un
+								portfolio bien conçu peut faire une énorme différence lorsqu&apos;il s&apos;agit de décrocher des contrats ou d&apos;attirer de nouveaux
+								clients.
+							</p>
+							<p>
+								La première étape dans la création d&apos;un portfolio est de sélectionner soigneusement les travaux que vous souhaitez inclure. Il est
+								important de choisir des projets qui représentent bien vos compétences et vos intérêts. Il est également judicieux d&apos;inclure une
+								variété de travaux pour montrer votre polyvalence. Toutefois, gardez à l&apos;esprit que la qualité doit primer sur la quantité. Il est
+								préférable d&apos;avoir un portfolio contenant quelques projets de haute qualité plutôt qu&apos;une multitude de projets de moindre
+								qualité.
+							</p>
+							<p>
+								Une fois que vous avez sélectionné les projets à inclure, il est important de les présenter de manière attrayante et professionnelle. Cela
+								signifie que vous devez prendre le temps de photographier ou de numériser vos travaux, de rédiger des descriptions détaillées de chaque
+								projet, et de concevoir une mise en page qui mette en valeur vos créations. Le but est de faciliter la navigation des visiteurs à travers
+								votre portfolio et de leur offrir une expérience visuelle agréable.
+							</p>
+							<p>
+								En conclusion, un portfolio est un outil de marketing puissant qui peut aider à établir votre réputation, à montrer votre style et votre
+								créativité, et à attirer de nouveaux clients. Il doit être bien conçu, professionnel, à jour, et facilement accessible. Avec un peu de
+								temps et d&apos;effort, vous pouvez créer un portfolio qui vous représente bien et qui met en valeur votre travail de manière efficace.
 							</p>
 						</div>
-					</div>
+					</div>{" "}
+					<br />
+					<br />
 					<div className={styles.webSiteStyle}>
 						<Image
 							src={creationSiteMobileFirst}
@@ -405,15 +336,36 @@ export default function CreationSiteWeb() {
 								Site Mobile
 							</h3>
 							<p>
-								Le site mobile, comme son nom l&apos;indique, est spécialement conçu pour être consulté sur des appareils mobiles comme les smartphones et
-								les tablettes. Il peut s&apos;agir d&apos;une version mobile d&apos;un site web existant ou d&apos;un site web distinct optimisé pour des
-								écrans plus petits et des fonctionnalités tactiles.{" "}
-								<Link href="/articles/creation-site-web/site-mobile" className={styles.internalLink}>
-									&ensp; ➡️ Pour en savoir plus sur les sites mobile & responsive
-								</Link>
+								La création de sites web mobile responsive est devenue une nécessité dans le monde numérique actuel. Avec l&apos;augmentation constante de
+								l&apos;utilisation des smartphones et des tablettes pour naviguer sur Internet, la capacité d&apos;un site web à s&apos;adapter à
+								différents appareils et tailles d&apos;écran est essentielle pour offrir une expérience utilisateur optimale.
+							</p>
+							<p>
+								Le design responsive, ou adaptatif, fait référence à la pratique de créer des sites web qui s&apos;adaptent automatiquement à la taille de
+								l&apos;écran de l&apos;utilisateur. En d&apos;autres termes, un site web responsive change de disposition en fonction de l&apos;appareil
+								sur lequel il est visualisé, garantissant ainsi que les utilisateurs bénéficient d&apos;une expérience de navigation optimale, qu&apos;ils
+								utilisent un ordinateur de bureau, un smartphone ou une tablette.
+							</p>
+							<p>
+								La création d&apos;un site web mobile responsive commence par la conception. Il est important de penser à l&apos;expérience mobile dès le
+								début, en considérant comment le contenu sera affiché sur différents appareils et tailles d&apos;écran. Les designers utilisent souvent
+								une approche dite mobile first, où ils commencent par concevoir la version mobile du site avant d&apos;adapter le design aux écrans plus
+								grands. Cela aide à s&apos;assurer que l&apos;expérience mobile est aussi complète et satisfaisante que possible.
+							</p>
+							<p>
+								Au-delà de la simple adaptation à différentes tailles d&apos;écran, un bon design responsive prend également en compte d&apos;autres
+								aspects de l&apos;expérience mobile. Par exemple, il est important de s&apos;assurer que les boutons et les liens sont suffisamment grands
+								et espacés pour être facilement utilisables sur un écran tactile. De même, le contenu doit être concis et facile à lire sur un petit
+								écran, et les images et autres médias doivent être optimisés pour un chargement rapide.
+							</p>
+							<p>
+								Google favorise les sites mobile-friendly dans ses résultats de recherche. En fin de compte, un site web responsive est une étape
+								essentielle vers la réussite dans le monde numérique d&apos;aujourd&apos;hui.
 							</p>
 						</div>
 					</div>
+					<br />
+					<br />
 					<div className={styles.webSiteStyle}>
 						<Image
 							src={creationSiteMultilingue}
@@ -428,10 +380,17 @@ export default function CreationSiteWeb() {
 							</h3>
 							<p>
 								Un site multilingue est un site web offrant du contenu dans plusieurs langues, afin de s&apos;adresser à un public international. Ces
-								sites sont essentiels pour les entreprises désirant attirer et servir des clients du monde entier.{" "}
+								sites sont essentiels pour les entreprises désirant attirer et servir des clients du monde entier, mais aussi les lieux où plusieurs
+								langues sont utilisées.
+							</p>
+							<p>
+								En proposant du contenu dans la langue maternelle de vos utilisateurs cibles, vous facilitez leur compréhension et renforcez leur
+								engagement. Un site multilingue témoigne également de votre engagement envers la diversité culturelle et linguistique.
 							</p>
 						</div>
 					</div>
+					<br />
+					<br />
 					<div className={styles.webSiteStyle}>
 						<Image
 							src={creationSiteLandingPage}
@@ -445,15 +404,34 @@ export default function CreationSiteWeb() {
 								Landing Page
 							</h3>
 							<p>
-								Une landing page est une page web spécifique conçue pour convertir les visiteurs en clients ou prospects. Les landing pages sont
-								généralement utilisées dans le cadre de campagnes de marketing pour inciter les visiteurs à s&apos;inscrire à une liste de diffusion,
-								acheter un produit, ou effectuer une autre action spécifique.{" "}
-								<Link href="/articles/creation-site-web/landing-page" className={styles.internalLink}>
-									&ensp; ➡️ Découvrez nos solutions pour une landing page
-								</Link>
-							</p>{" "}
+								Une landing page est une page web autonome conçue spécifiquement pour une campagne de marketing ou de publicité. Son objectif est de
+								capter l&apos;attention des visiteurs et de les encourager à effectuer une action spécifique, comme s&apos;inscrire à une lettre
+								d&apos;information, effectuer un achat ou remplir un formulaire.
+							</p>
+							<p>
+								Généralement, les landing page sont liées aux campagnes d&apos;emailing ou au contenu des médias sociaux et comprennent un appel à
+								l&apos;action ou un formulaire pour convertir les visiteurs en prospects.
+							</p>
+							<p>
+								Avant de commencer à créer votre landing page, il est essentiel de définir clairement vos objectifs et votre public cible. Qu&apos;est-ce
+								que vous voulez accomplir avec cette page? Est-ce que vous voulez collecter des adresses e-mail, vendre un produit, ou simplement informer
+								les visiteurs sur votre entreprise? En comprenant vos objectifs, vous pourrez mieux concevoir votre landing page pour atteindre ces
+								résultats.
+							</p>
+							<p>
+								N&apos;oubliez pas d&apos;inclure des appels à l&apos;action (CTA) clairs et visibles, incitant les visiteurs à prendre des mesures
+								spécifiques, telles que s&apos;inscrire à une newsletter, télécharger un ebook ou effectuer un achat. Assurez-vous également
+								d&apos;optimiser votre contenu pour les moteurs de recherche en utilisant des mots-clés pertinents.
+							</p>
+							<p>
+								Pour rendre vos appels à l&apos;action (CTA) efficaces, assurez-vous qu&apos;ils sont clairement visibles sur votre landing page. Utilisez
+								des couleurs vives ou des boutons attrayants pour les mettre en évidence. Placez-les également à des endroits stratégiques de votre page,
+								tels que près du haut de la page ou à la fin de votre contenu persuasif.
+							</p>
 						</div>
 					</div>
+					<br />
+					<br />
 					<div className={styles.webSiteStyle}>
 						<Image
 							src={creationSiteWordpress}
@@ -470,12 +448,23 @@ export default function CreationSiteWeb() {
 								WordPress est une plateforme de gestion de contenu (CMS) largement appréciée, permettant de créer facilement des sites web de qualité
 								professionnelle sans nécessiter de compétences en programmation. WordPress propose une variété de thèmes et de plugins pour personnaliser
 								l&apos;apparence et les fonctionnalités de votre site web.{" "}
-								<Link href="/articles/creation-site-web/wordpress" className={styles.internalLink}>
-									&ensp; ➡️ Explorez l&apos;univers des sites Wordpress
-								</Link>
+							</p>
+							<p>
+								L&apos;une des principales forces de WordPress est sa convivialité pour les débutants. L&apos;interface conviviale et le système de
+								gestion de contenu simplifié vous permettent de créer et de gérer facilement vos pages, vos articles de blog et tout autre contenu de
+								votre site. Vous pouvez ajouter du texte, des images, des vidéos, et même des formulaires directement depuis votre éditeur de texte
+								WordPress.
+							</p>
+							<p>
+								La création d&apos;un site web avec WordPress est un processus relativement simple et accessible même aux débutants. Avec une gamme de
+								thèmes, de plugins et d&apos;outils de personnalisation, vous pouvez créer un site professionnel avec votre propre nom de domaine en
+								quelques clics. Que vous souhaitiez créer une simple vitrine web ou une boutique e-commerce, WordPress offre les fonctionnalités
+								nécessaires pour réaliser votre projet web.
 							</p>
 						</div>
 					</div>
+					<br />
+					<br />
 					<div className={styles.webSiteStyle}>
 						<Image
 							src={creationSiteJoomla}
@@ -489,45 +478,32 @@ export default function CreationSiteWeb() {
 								Joomla
 							</h3>
 							<p>
-								Joomla est une autre plateforme de gestion de contenu populaire, permettant de créer et de gérer des sites web dynamiques et interactifs.
-								Tout comme WordPress, Joomla offre une variété de thèmes et d&apos;extensions pour personnaliser votre site web et ajouter des
-								fonctionnalités supplémentaires.{" "}
-								<Link href="/articles/creation-site-web/joomla" className={styles.internalLink}>
-									&ensp; ➡️ Visitez le monde de Joomla
-								</Link>
+								Joomla est l&apos;un des systèmes de gestion de contenu (CMS) les plus populaires et respectés dans le monde du web. Il offre une
+								flexibilité remarquable, une grande variété d&apos;extensions et un système robuste qui permet aux utilisateurs de créer des sites web
+								complexes et sophistiqués.
+							</p>
+							<p>
+								Joomla offre une interface conviviale qui est facile à comprendre et à utiliser, même pour les débutants. Avec une courbe
+								d&apos;apprentissage relativement douce, Joomla est une option attrayante pour ceux qui cherchent à créer un site web sans avoir à
+								apprendre le codage complexe.
+							</p>
+							<p>
+								Avec des milliers d&apos;extensions disponibles, Joomla offre une grande flexibilité pour personnaliser votre site web. Que vous ayez
+								besoin d&apos;un formulaire de contact, d&apos;une galerie de photos, d&apos;un forum, d&apos;un système de réservation ou d&apos;une
+								boutique en ligne, Joomla a probablement une extension qui répond à vos besoins.
+							</p>
+							<p>
+								Bien que Joomla et Wordpress soient tous deux des CMS populaires, ils présentent des différences notables. Alors que Wordpress est souvent
+								recommandé pour les débutants en raison de sa facilité d&apos;utilisation, Joomla est généralement préféré par les développeurs plus
+								expérimentés en raison de sa flexibilité et de ses capacités de personnalisation.
+							</p>
+							<p>
+								Joomla est un CMS puissant et flexible qui convient à une variété de types de sites web, des blogs personnels aux portails
+								d&apos;entreprise. Avec une grande communauté de soutien, une pléthore d&apos;extensions et une politique de sécurité robuste, Joomla est
+								un excellent choix pour tous ceux qui cherchent à créer un site web dynamique et interactif à moindre cout.
 							</p>
 						</div>
 					</div>
-				</section>
-				<section className={styles.sectionArticle}>
-					<h2>Conclusion</h2>
-					<p>
-						Ces plateformes permettent de créer des sites web attrayants et fonctionnels adaptés à une variété de besoins. En fin de compte, le choix du type
-						de site et de la plateforme dépend entièrement de vos objectifs et de vos besoins spécifiques. C&apos;est pourquoi il est important de faire une
-						évaluation approfondie avant de prendre une décision.
-					</p>
-					<p>
-						Il est important de bien réfléchir à vos besoins et à vos objectifs avant de commencer le processus de création de site web. Une fois que vous
-						avez déterminé le type de site web qui convient le mieux à votre entreprise ou organisation, vous pouvez choisir la plateforme de développement la
-						plus adaptée, comme Wordpress ou Joomla, pour créer un site web qui répond à vos attentes et qui offre une expérience utilisateur optimale à vos
-						visiteurs.
-					</p>
-					<p>
-						Que vous souhaitiez créer un site vitrine pour présenter votre entreprise, un site e-commerce pour vendre vos produits en ligne, ou un site
-						d&apos;informations pour partager des actualités et des connaissances, il existe une solution adaptée à vos besoins. En prenant en compte les
-						différents types de sites web et les plateformes de développement disponibles, nous serons en mesure de créer un site web attray ant, fonctionnel
-						et performant qui vous aidera à atteindre vos objectifs en ligne et à propulser votre entreprise ou organisation vers de nouveaux sommets.
-					</p>
-				</section>
-				<section className={styles.sectionArticle}>
-					<h2>Goût personnel</h2>
-					<p>
-						Afin d’améliorer les performances de votre site web, nous préférons utiliser des frameworks tel que Next.js (en collaboration avec Facebook ) ou
-						Bootstrap ainsi que la bibliothèque React (créé par Facebook). <br />
-						Nous espérons que cet article vous a aidé à mieux comprendre les différents types de sites web et les plateformes populaires pour leur création.
-						Si vous avez des questions ou si vous souhaitez en savoir plus, n&apos;hésitez pas à nous contacter. Bonne chance dans la création de votre site
-						web !
-					</p>
 				</section>
 			</main>
 		</div>

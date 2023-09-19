@@ -125,3 +125,32 @@
 .moreArticlesButton:hover {
   background-color: #6B0103;
 }
+
+/* Blog Author Card */
+.meName {
+	display: flex;
+	width: 160px;
+	margin-bottom: 0;
+	align-items: flex-end;
+	
+}
+.mePic {
+	border-radius: 50%;
+	
+}
+.meCard {
+	display: flex;
+	width: 180px;
+	height: 50px;
+}
+.blogDateAuthorOther {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+.meDate {
+	display: flex;
+	height: 50px;  /* Hauteur spécifiée */
+	align-items: flex-end;
+	margin-bottom: 0;
+}

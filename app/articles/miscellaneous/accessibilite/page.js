@@ -1,18 +1,15 @@
-import Head from "next/head";
 import styles from "@/app/page.module.css";
+
+export const metadata = {
+	title: "Accessibilité: Un web accessible à tous grâce à WAI-ARIA 🌐",
+	description:
+		"VNous mettons un point d’honneur à concevoir des sites web accessibles, conformes aux normes WAI-ARIA, pour offrir une meilleure expérience en ligne à tous.",
+	canonical: "https://www.white-wolf-web.com/articles/miscellaneous/accessibilite",
+};
 
 export default function Accessibility() {
 	return (
 		<div className={styles.container}>
-			<Head>
-				<title>Accessibilité: Un web accessible à tous grâce à WAI-ARIA 🌐</title>
-				<meta
-					name="description"
-					content="Nous mettons un point d’honneur à concevoir des sites web accessibles, conformes aux normes WAI-ARIA, pour offrir une meilleure expérience en ligne à tous."
-				/>
-				<link rel="icon" href="/icon-192x192.png" />
-				<link rel="canonical" href="https://www.white-wolf-web.com/articles/miscellaneous/accessibilite" />
-			</Head>
 			<main className={styles.main}>
 				<header>
 					<h1 className={styles.title}>L&apos;accessibilité web, un enjeu universel 🌐🤲</h1>
@@ -48,34 +45,29 @@ export default function Accessibility() {
 					accessibles. Voici quelques exemples de ces mesures :
 				</p>
 				<p>
-					{" "}
 					1. <strong>Utilisation de balises ARIA</strong>: Ces balises permettent de décrire les éléments interactifs et leur état, facilitant ainsi la
 					compréhension des utilisateurs de lecteurs d&apos;écran.
 				</p>
 				<p>
-					{" "}
 					2. <strong>Conception d&apos;une navigation au clavier intuitive et cohérente</strong> : Cette mesure permet aux personnes qui ne peuvent pas utiliser
 					une souris de naviguer facilement sur le site.
 				</p>
 				<p>
-					{" "}
-					3.{" "}
+					3.
 					<strong>
 						Respect des contrastes de couleurs et mise en place de fonctionnalités d&apos;ajustement pour les utilisateurs ayant des problèmes de vision
 					</strong>
 					: Cela aide à rendre le site utilisable et confortable pour tous les utilisateurs, quel que soit leur niveau de vision.
 				</p>
 				<p>
-					{" "}
 					4. <strong>Fourniture de transcriptions et de sous-titres pour les contenus audiovisuels</strong> : Cela garantit que le contenu multimédia est
 					accessible aux personnes malentendantes.
 				</p>
 				<p>
-					{" "}
-					5.{" "}
+					5.
 					<strong>
 						Réalisation d&apos;audits d&apos;accessibilité réguliers et mise à jour du site pour maintenir la conformité avec les standards en vigueur
-					</strong>{" "}
+					</strong>
 					: Cette étape est cruciale pour maintenir l&apos;accessibilité du site à long terme.
 				</p>
 
