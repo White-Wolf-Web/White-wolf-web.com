@@ -13,7 +13,7 @@ import MiniTwitter from "@/public/Assets/Images/Webp/reseaux-sociaux/mini-twitte
 import MiniWhatsapp from "@/public/Assets/Images/Webp/reseaux-sociaux/mini-whatsapp.webp";
 import MiniYoutube from "@/public/Assets/Images/Webp/reseaux-sociaux/mini-youtube.webp";
 import MiniDiscord from "@/public/Assets/Images/Webp/reseaux-sociaux/mini-discord.webp";
-
+// test
 export default function SocialNetwork() {
 	return (
 		<div className={styles.socialNetwork}>
