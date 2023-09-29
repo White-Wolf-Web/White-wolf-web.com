@@ -22,12 +22,12 @@ import portfolioTarotIphone from "@/public/Assets/Images/Webp/portfolio/portfoli
 import portfolioFishEyeIMac from "@/public/Assets/Images/Webp/portfolio/portfolio-fishEye-IMac.webp";
 import portfolioFishEyeMacBook from "@/public/Assets/Images/Webp/portfolio/portfolio-fishEye-macbook.webp";
 import portfolioFishEyeIphone from "@/public/Assets/Images/Webp/portfolio/portfolio-fishEye-IPhone.webp";
-import portfolioGameOnIMac from "@/public/Assets/Images/Webp/portfolio/portfolio-GameOn-IMac.webp";
-import portfolioGameOnMacBook from "@/public/Assets/Images/Webp/portfolio/portfolio-GameOn-macbook.webp";
-import portfolioGameOnIphone from "@/public/Assets/Images/Webp/portfolio/portfolio-GameOn-Iphone.webp";
+import portfolioGameOnIMac from "@/public/Assets/Images/Webp/portfolio/portfolio-gameOn-IMac.webp";
+import portfolioGameOnMacBook from "@/public/Assets/Images/Webp/portfolio/portfolio-gameOn-macbook.webp";
+import portfolioGameOnIphone from "@/public/Assets/Images/Webp/portfolio/portfolio-gameOn-IPhone.webp";
 import portfolioKazaIMac from "@/public/Assets/Images/Webp/portfolio/portfolio-kaza-IMac.webp";
 import portfolioKazaMacBook from "@/public/Assets/Images/Webp/portfolio/portfolio-kaza-macbook.webp";
-import portfolioKazaIphone from "@/public/Assets/Images/Webp/portfolio/portfolio-kaza-Iphone.webp";
+import portfolioKazaIphone from "@/public/Assets/Images/Webp/portfolio/portfolio-kaza-IPhone.webp";
 import nextLogo from "@/public/Assets/Icons/portfolio/portfolioNext.webp";
 import bootstrapLogo from "@/public/Assets/Icons/portfolio/portfolioBootstrap.webp";
 import htmlLogo from "@/public/Assets/Icons/portfolio/portfolio-HTML5.webp";

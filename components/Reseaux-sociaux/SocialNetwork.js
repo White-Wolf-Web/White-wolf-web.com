@@ -7,7 +7,7 @@ import MiniInstagram from "@/public/Assets/Images/Webp/reseaux-sociaux/mini-inst
 import MiniLinkedin from "@/public/Assets/Images/Webp/reseaux-sociaux/mini-linkedin.webp";
 import Minipinterest from "@/public/Assets/Images/Webp/reseaux-sociaux/mini-pinterest.webp";
 import MiniSnapchat from "@/public/Assets/Images/Webp/reseaux-sociaux/mini-snapchat.webp";
-import MiniTeams from "@/public/Assets/Images/Webp/reseaux-sociaux/mini-teams.webp";
+import MiniTeams from "@/public/Assets/Images/Webp/reseaux-sociaux/mini-Teams.webp";
 import MiniTiktok from "@/public/Assets/Images/Webp/reseaux-sociaux/mini-tiktok.webp";
 import MiniTwitter from "@/public/Assets/Images/Webp/reseaux-sociaux/mini-twitter.webp";
 import MiniWhatsapp from "@/public/Assets/Images/Webp/reseaux-sociaux/mini-whatsapp.webp";
