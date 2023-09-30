@@ -3,12 +3,12 @@ import Image from "next/image";
 import LangageData from "../../data/langagesData.json";
 import Link from "next/link";
 
-function CardLangage({ title, image, description, color, href, backgroundColor }) {
+function CardLangage({ title, alt, image, description, color, href, backgroundColor }) {
 	return (
 		<div className={styles.langageCardWrap}>
 			
 				<div className={styles.langageCardHeader}>
-					<Image src={image} alt={title} width={50} height={50} />
+					<Image src={image} alt={alt} width={50} height={50} />
 				</div>
 				<div className={styles.langageCardContent}>
 					<h3 className={styles.langageCardTitle}>{title}</h3>

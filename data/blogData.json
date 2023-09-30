@@ -1,51 +1,46 @@
 [
     {
       "title": "Api RestFul",
+      "alt": "On peut y voir un 'cloud' nuage électronique qui symbolise une api rest",
       "image": "/Assets/Images/Webp/blog/Api-restful.webp",
       "description": "Nous allons ici explorer les tenants et\n les aboutissants de l'API RestFul. ",
       "href":"/"
     },
     {
       "title": "Tunnel de vente",
+      "alt": "C'est un entennoir qui symbolise les étapes d'un tunnel de vente que l'on utilise pour les sites web",
       "image": "/Assets/Images/Webp/blog/tunnel-vente.webp",
       "description": "Qu'es ce qu'un tunnel de vente ?\nA quoi cela sert ? Est-ce vraiment utile ?",
       "href":"/"
     },
     {
         "title": "IA de Turing à Tesla",
+        "alt": "On voit un cerveau connecté à une puce électronique symbolisant l'intelligence artificielle",
         "image": "/Assets/Images/Webp/blog/IA-mini.webp",
         "description": "C'est le résumé de mon super article.",
         "href":"/"
       },
       {
         "title": "SEO, améliorez sa visibilité",
-        "image": "/Assets/Images/Webp/blog/SEO-mini.webp",
+        "alt": "Un loupe permettant de lire SEO en gros et avec des caratere en OR",
+        "image": "/Assets/Images/Webp/blog/seo-mini.webp",
         "description": "C'est le résumé de mon autre super article.",
         "href":"/"
       },
       {
         "title": "GPT4",
+        "alt": "Une femme robot derriere un laptop, l'IA matérialisé",
         "image": "/Assets/Images/Webp/blog/chatGPT-mini.webp",
         "description": "C'est le résumé de mon super article.",
         "href":"/"
       },
       {
         "title": "Next.js  ...  le futur ",
+        "alt": "Un grand N en blanc sur fond Noir, logo de Next.js",
         "image": "/Assets/Images/Webp/blog/Next-mini.webp",
         "description": "C'est le résumé de mon autre super article.",
         "href":"/"
-      },
-      {
-        "title": "Un super article",
-        "image": "/Assets/Images/Webp/algues.webp",
-        "description": "C'est le résumé de mon super article.",
-        "href":"/"
-      },
-      {
-        "title": "Un autre super article",
-        "image": "/Assets/Images/Webp/algues.webp",
-        "description": "C'est le résumé de mon autre super article.",
-        "href":"/"
       }
+      
   ]
   

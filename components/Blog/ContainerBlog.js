@@ -23,7 +23,7 @@ export default function ContainerBlog () {
       <h2 className={style.cardHomeH2Blog}>Le blog</h2>
       <div className={style.blogContainer}>
         {blogsData.slice(0, numBlogsToShow).map((article, index) => (
-          <CardArticles key={index} title={article.title} image={article.image} description={article.description} href={article.href} />
+          <CardArticles key={index} title={article.title} image={article.image}  description={article.description} href={article.href} />
         ))}
       </div>
       <div className={style.moreArticlesButtonContainer}>
