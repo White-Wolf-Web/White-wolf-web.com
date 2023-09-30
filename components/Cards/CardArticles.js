@@ -2,7 +2,7 @@ import Image from 'next/image';
 import styles from "./Card.module.css"
 import Link from "next/link";
 
-export default function CardArticles({ title, image, description, href, alt }) {
+export default function CardArticles({ title, alt, image, description, href }) {
   return (
     <Link href={href}>
     <div className={styles.cardArt}>

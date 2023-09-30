@@ -122,11 +122,11 @@
 }
 
 .internalLink {
-	color: #80f0f0;
+  color: #0de0d3;
 
 }
 .internalLink:hover {
-	color: #0de0d3;
+	color: #80f0f0;
 }
 .subtitleLeft {
 	margin-top: 2rem;
