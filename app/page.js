@@ -28,7 +28,7 @@ export default function Home() {
 						la création de votre site web
 					</Link>{" "}
 					accessible, de{" "}
-					<Link href="/articles/creation-site-web/e-commerce" className={styles.internalLink}>
+					<Link href="/articles/creation-site-web/#site-Ecommerce" className={styles.internalLink}>
 						votre boutique en ligne
 					</Link>{" "}
 					personnalisé, d&apos;un blog personnel, un{" "}
@@ -57,19 +57,19 @@ export default function Home() {
 						les réseaux sociaux
 					</Link>{" "}
 					(
-					<Link href="/articles/reseaux-sociaux/facebook" className={styles.colorFacebook}>
+					<Link href="/articles/reseaux-sociaux/#facebook" className={styles.colorFacebook}>
 						Facebook
 					</Link>
 					,{" "}
-					<Link href="/articles/reseaux-sociaux/instagram" className={styles.colorInstagram}>
+					<Link href="/articles/reseaux-sociaux/#instagram" className={styles.colorInstagram}>
 						Instagram
 					</Link>
 					,{" "}
-					<Link href="/articles/reseaux-sociaux/youtube" className={styles.colorYoutube}>
+					<Link href="/articles/reseaux-sociaux/#youtube" className={styles.colorYoutube}>
 						Youtube
 					</Link>
 					,
-					<Link href="/articles/reseaux-sociaux/twitter" className={styles.colorTwitter}>
+					<Link href="/articles/reseaux-sociaux/#twitter" className={styles.colorTwitter}>
 						Twitter
 					</Link>
 					...) et les moteurs de recherche. Tous ces éléments vont renforcer la présence de votre marque en ligne.
@@ -153,7 +153,7 @@ export default function Home() {
 					et les outils nécessaires pour créer un site web professionnel et efficace sans vous ruiner. Alors, commençons et dévoilons les secrets des coûts de
 					création d&apos;un site web !
 				</p>
-				<SeeOtherButton href="/cost" text="En savoir +++" />
+				<SeeOtherButton href="/admin/price" text="En savoir +++" />
 			</section>
 			<section id="articles">
 				<ContainerBigCardHomePage />
