@@ -80,7 +80,7 @@ export const FloatingCards = () => {
 				<div className={styles.floatingSection}>
 					{cards.map((card, i) => (
 						<div key={card.id} ref={(el) => (cardRefs.current[i] = el)} className={styles.cardContainer}>
-							<CardHomePage imgSrc={card.imgSrc} title={card.title} text={card.text} link={card.link} />
+							<CardHomePage imgSrc={card.imgSrc} title={card.title2} text={card.text} link={card.link} />
 						</div>
 					))}
 				</div>

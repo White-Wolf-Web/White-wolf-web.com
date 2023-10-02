@@ -17,9 +17,6 @@ export const metadata = {
 	metadataBase: new URL('https://www.white-wolf-web.com'),
 	alternates: {
 		canonical: '/',
-		languages: {
-			'fr-FR': '/',
-		  },
 	  },
 	robots: {
 		index: true,
@@ -67,9 +64,11 @@ export const metadata = {
 		title: "Agence Web innovante: création de sites web, e-commerce pour propulser votre succès en ligne!🚀",
 		description: "White Wolf Web, c'est l'alliance du design attrayant et des fonctionnalités optimales pour créer des sites web performants et élégants.",
 		siteId: "@whitewo26072430",
+		site: "Agence White Wolf Web",
 		creator: "@whitewo26072430",
 		//creatorId: "1467726470533754880",
 		images: ["https://twitter.com/whitewo26072430/header_photo"],
+		imageAlt:"Moi derriere mon PC"
 	},
 	verification: {
 		google: "google",
