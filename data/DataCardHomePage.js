@@ -52,7 +52,7 @@ export const DataCardHomePage = [
 			title2: "Wordpress",
 			titleAlt: "Le fameux W qui symbolise la création des sites web Wordpress",
 			text: "WordPress est l&apos;une plateforme de création de sites web les plus populaires et les plus polyvalents au monde. Selon les besoins de votre site web d&apos;entreprise, de votre blog ou de votre boutique en ligne … Vous pourrez y ajouter des fonctionnalités de pointe tels que des plugins, un template (selon le thème), le blog ... tout en vous assurant une navigation fluide pour vos visiteurs. La création d&apos;un site web avec WordPress est un processus relativement simple et accessible même aux débutants. Il est idéal pour les entreprises à petits budgets ou pour débuter une activité non lucrative.",
-			link: "/articles/creation-site-web/#wordpress",
+			link: "/articles/creation-site-web#wordpress",
 		},
 		card7: {
 			id: "7",

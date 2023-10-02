@@ -33,66 +33,68 @@ export default function Price() {
 <br />
 <p>Tous les sites sont responsive, niveau accessibilité AA (sauf sur une demande spécifique de votre part), 100% sémantique (structure totalement adapté pour le SEO de Google), 0% BlackHat... </p>
 <br />
-<table border="1">
+<table border="1" aria-labelledby="tableTitle">
+      <caption id="tableTitle">Tableau des Prix des Prestations</caption>
       <thead>
         <tr>
-          <th>Prestation</th>
-          <th>Prix minimum</th>
-          <th>Prix moyen</th>
-          <th>Prix Maximum</th>
+          <th scope="col" aria-sort="ascending">Prestation</th>
+          <th scope="col">Prix minimum</th>
+          <th scope="col">Prix moyen</th>
+          <th scope="col">Prix Maximum</th>
         </tr>
       </thead>
       <tbody>
-      <tr>
-          <td>Site Vitrine</td>
+        <tr>
+          <th scope="row">Site Vitrine</th>
           <td>700€</td>
           <td>1500€</td>
           <td>+10.000€</td>
         </tr>
         <tr>
-          <td>E-commerce</td>
+          <th scope="row">E-commerce</th>
           <td>1500€</td>
           <td>4000€</td>
           <td>+100.000€</td>
         </tr>
         <tr>
-          <td>Landing Page</td>
+          <th scope="row">Landing Page</th>
           <td>600€</td>
           <td>900€</td>
           <td>4500€</td>
         </tr>
         <tr>
-          <td>Site sur Mesure</td>
+          <th scope="row">Site sur Mesure</th>
           <td>2000€</td>
           <td>7000€</td>
           <td>100.000€</td>
         </tr>
         <tr>
-          <td>Hébergement</td>
+          <th scope="row">Hébergement</th>
           <td>5€ / mois</td>
           <td>50€ / mois</td>
           <td>400€ / mois</td>
         </tr>
         <tr>
-          <td>Maintenance</td>
+          <th scope="row">Maintenance</th>
           <td>40€ / mois</td>
           <td>100€ / mois</td>
           <td>+1000€ / mois</td>
         </tr>
         <tr>
-          <td>Référencement</td>
+          <th scope="row">Référencement</th>
           <td>150€ / mois</td>
           <td>700€ / mois</td>
           <td>4000€ / mois</td>
         </tr>
         <tr>
-          <td>Marketing Digital</td>
+          <th scope="row">Marketing Digital</th>
           <td>200€ / mois</td>
           <td>990€ / mois</td>
           <td>8000€ / mois</td>
         </tr>
       </tbody>
-    </table>
+</table>
+
     </div>
   )
 }
