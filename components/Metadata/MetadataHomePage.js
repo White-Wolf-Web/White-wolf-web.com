@@ -1,7 +1,7 @@
 
 const MetadataHomePage = {
     "@context": "https://schema.org",
-    "@type": "ProfessionalService",
+    "@type": "Service",
     "name": "White Wolf Web",
     "url": "https://www.white-wolf-web.com/",
     "logo": "https://www.white-wolf-web.com/Assets/Favicons/icon-512x512.png",
