@@ -5,46 +5,46 @@
 		"image": "/Assets/Images/Webp/blog/blogCardImgApi.webp",
 		"href": "/blog/api-restful",
 		"alt": "un 'cloud' version tres moderne représentant une API",
-		"text": "Vinyl News Mag is a responsive multipurpose WordPress magazine theme. It is a powerful platform for creating sophisticated magazine websites in a flash. Vinyl News Mag is a blog and magazine-specialized WordPress theme. You will find a lot of customizable options on the theme. Vinyl News Mag is a WordPress theme with a strong focus on advertisement and publicity."
+		"text": "L'API REST est un ensemble de conventions pour créer des services web. Accessible via HTTP, elle permet l'intégration facile entre différents logiciels, favorisant la communication et l'échange de données dans des applications web. Utilisée pour sa simplicité et sa flexibilité, elle est un élément clé dans le développement de solutions numériques modernes, facilitant l'interaction entre services et plateformes diverses."
 	},
 	{
 		"title": "Le tunnel de vente",
 		"description": "Tout savoir sur le Tunnel de vente, ce qu'il en est réelement. ",
 		"image": "/Assets/Images/Webp/blog/blogCardImgTunnel.webp",
-		"href": "/",
+		"href": "/blog/tunnel-vente",
 		"alt": "une forme d'entennoir avec de nombreuses couleurs representant les étapes du tunnel de vente",
-		"text": "Vinyl News Mag is a responsive multipurpose WordPress magazine theme. It is a powerful platform for creating sophisticated magazine websites in a flash. Vinyl News Mag is a blog and magazine-specialized WordPress theme. You will find a lot of customizable options on the theme. Vinyl News Mag is a WordPress theme with a strong focus on advertisement and publicity."
+		"text": "Les tunnels de vente, ou funnels de conversion, sont des stratégies marketing optimisées pour guider et convertir les prospects en clients. Ils représentent le parcours d'un visiteur, depuis sa première interaction jusqu'à l'achat final. Structurés en étapes clés, les tunnels visent à maximiser l'engagement et minimiser l'abandon, en offrant une expérience utilisateur fluide et persuasive. Ils sont essentiels pour augmenter l'efficacité des campagnes publicitaires en ligne."
 	},
 	{
 		"title": "L'IA du Turing à Tesla",
 		"description": "Tracer l'évolution de l'IA à travers l'histoire",
 		"image": "/Assets/Images/Webp/blog/blogCardImgIA1.webp",
-		"href": "/",
+		"href": "/blog/ia-turing-a-tesla",
 		"alt": "un beau cerveau electronique représantant l'IA",
-		"text": "Vinyl News Mag is a responsive multipurpose WordPress magazine theme. It is a powerful platform for creating sophisticated magazine websites in a flash. Vinyl News Mag is a blog and magazine-specialized WordPress theme. You will find a lot of customizable options on the theme. Vinyl News Mag is a WordPress theme with a strong focus on advertisement and publicity."
+		"text": "L'IA: du Turing à Tesla trace le parcours historique de l'intelligence artificielle, depuis les théories d'Alan Turing jusqu’aux véhicules autonomes de Tesla. L'article explore les avancées majeures, les applications pratiques et les futurs potentiels de l'IA, offrant ainsi un aperçu exhaustif de cette technologie révolutionnaire qui continue de redéfinir les limites du possible."
 	},
 	{
 		"title": "Découvrir la puissance de Chat GPT 4",
 		"description": "Un guide complet pour les passionnés de technologies",
 		"image": "/Assets/Images/Webp/blog/blogCardImgChatGPT.webp",
-		"href": "/",
+		"href": "/blog/chat-gpt4",
 		"alt": "une femme robot entrain d'ecrire sur sur PC",
-		"text": "Vinyl News Mag is a responsive multipurpose WordPress magazine theme. It is a powerful platform for creating sophisticated magazine websites in a flash. Vinyl News Mag is a blog and magazine-specialized WordPress theme. You will find a lot of customizable options on the theme. Vinyl News Mag is a WordPress theme with a strong focus on advertisement and publicity."
+		"text": "La puissance de Chat GPT-4 dévoile les capacités impressionnantes de cette IA de dernière génération. De la compréhension du langage à la génération de textes cohérents et pertinents, GPT-4 s'illustre dans diverses applications, dont la rédaction, la programmation… L'article souligne les usages possibles, invitant à explorer les potentialités offertes par cette technologie de pointe."
 	},
 	{
 		"title": "Next.js : Le Prochain Chapitre du Développement Web",
 		"description": "Explorez l'avenir du développement web avec Next.js, un framework React qui allie flexibilité et performance.",
 		"image": "/Assets/Images/Webp/blog/blogCardImgNext.webp",
-		"href": "/",
+		"href": "/blog/next-js",
 		"alt": "le logo de Next.js ecrit en blanc",
-		"text": "Vinyl News Mag is a responsive multipurpose WordPress magazine theme. It is a powerful platform for creating sophisticated magazine websites in a flash. Vinyl News Mag is a blog and magazine-specialized WordPress theme. You will find a lot of customizable options on the theme. Vinyl News Mag is a WordPress theme with a strong focus on advertisement and publicity."
+		"text": "Dive into Next.js offre un aperçu rapide du framework populaire pour React, Next.js. Le texte explore comment Next.js facilite le développement web en proposant des fonctionnalités telles que le rendu côté serveur et la génération de sites statiques. Ce guide est parfait pour les développeurs souhaitant créer des applications web performantes et optimisées avec facilité et efficacité."
 	},
 	{
 		"title": "Liberez la puissance du SEO",
 		"description": "Un guide complet sur le réferencement - SEO, pour améliorer votre visibilité",
 		"image": "/Assets/Images/Webp/blog/blogCardImgSEO.webp",
-		"href": "/",
+		"href": "/blog/liberez-la-puissance-du-seo",
 		"alt": "en lettres d'or vu à la loupe on peut lire SEO",
-		"text": "Vinyl News Mag is a responsive multipurpose WordPress magazine theme. It is a powerful platform for creating sophisticated magazine websites in a flash. Vinyl News Mag is a blog and magazine-specialized WordPress theme. You will find a lot of customizable options on the theme. Vinyl News Mag is a WordPress theme with a strong focus on advertisement and publicity."
+		"text": "la Puissance du SEO explore les techniques clés pour optimiser la visibilité de votre site sur les moteurs de recherche. L'article démystifie le référencement naturel, exposant les meilleures pratiques et outils pour améliorer le positionnement de vos pages. Il s'agit d'une lecture incontournable pour les marketeurs et entrepreneurs désireux d'attirer plus de visiteurs et de convertir efficacement grâce à un trafic de qualité."
 	}
 ]
