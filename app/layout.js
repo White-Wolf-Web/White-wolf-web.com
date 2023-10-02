@@ -37,8 +37,8 @@ export const metadata = {
 	},
 	manifest: "/manifest.json",
 	icons: {
-		icon: "@/public/Assets/Favicons/icon-192x192.png",
-		apple: "@/public/Assets/Favicons/icon-256x256.png",
+		icon: "@/Assets/Favicons/icon-192x192.png",
+		apple: "@/Assets/Favicons/icon-256x256.png",
 	},
 
 	openGraph: {
