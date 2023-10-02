@@ -1,7 +1,7 @@
 
 const MetadataHomePage = {
     "@context": "https://schema.org",
-    "@type": "Service",
+    "@type": "ProfessionalService",
     "name": "White Wolf Web",
     "url": "https://www.white-wolf-web.com/",
     "logo": "https://www.white-wolf-web.com/Assets/Favicons/icon-512x512.png",
@@ -31,7 +31,7 @@ const MetadataHomePage = {
       "name": "Europe"
     },
     "description": "Agence Web spécialisée dans la création de sites web, le SEO et l'audit de sites basée en Belgique.",
-    "services": [
+    "service": [
       {
         "@type": "Service",
         "name": "Création de sites web",
