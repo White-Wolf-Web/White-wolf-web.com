@@ -31,7 +31,7 @@ const MetadataHomePage = {
       "name": "Europe"
     },
     "description": "Agence Web spécialisée dans la création de sites web, le SEO et l'audit de sites basée en Belgique.",
-    "service": [
+    "Service": [
       {
         "@type": "Service",
         "name": "Création de sites web",
