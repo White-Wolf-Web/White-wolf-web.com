@@ -1,6 +1,10 @@
 import styles from "@/app/page.module.css";
 
 export const metadata = {
+	title: "Mentions légales du site de l'agence white wolf web",
+	description:
+		"Vous retrouverez ici les mentions legales du site web whitewolfweb.com",
+	
 	canonical: "https://www.white-wolf-web.com/admin/mention-legale",
 };
 export default function MentionLegale() {

@@ -1,7 +1,10 @@
 import styles from "@/app/page.module.css";
 
 export const metadata = {
-
+	title: "Politique de confidantialité du site de l'agence white wolf web",
+	description:
+		"Vous retrouverez ici les politique de confidentialité du site web whitewolfweb.com",
+	
 	canonical: "https://www.white-wolf-web.com/admin/politique-confidentialite",
 };
 export default function PolitiqueConfidentialite() {
