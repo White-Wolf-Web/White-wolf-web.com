@@ -24,19 +24,19 @@ export default function Footer() {
 				<div className={styles.avis}>
 					<p className={styles.avisTitle}>Avis Clients</p>&emsp;
 					<div className={styles.starContainer}>
-						<Image src={starIcon} className={styles.stars} width={21} height={20} alt={"1er star icon"} />
-						<Image src={starIcon} className={styles.stars} width={21} height={20} alt={"2nd star icon"} />
-						<Image src={starIcon} className={styles.stars} width={21} height={20} alt={"3th star icon"} />
-						<Image src={starIcon} className={styles.stars} width={21} height={20} alt={"4th star icon"} />
-						<Image src={starIcon} className={styles.stars} width={21} height={20} alt={"5th star icon"} />
+						<Image src={starIcon} className={styles.stars} width={21} height={20} alt={"1er star icon"} title="1er star" />
+						<Image src={starIcon} className={styles.stars} width={21} height={20} alt={"2nd star icon"} title="2e star" />
+						<Image src={starIcon} className={styles.stars} width={21} height={20} alt={"3th star icon"} title="3e star" />
+						<Image src={starIcon} className={styles.stars} width={21} height={20} alt={"4th star icon"} title="4e star" />
+						<Image src={starIcon} className={styles.stars} width={21} height={20} alt={"5th star icon"} title="5e star" />
 					</div>
 				</div></Link>
 
 				<div className={styles.paymentIcons}>
-					<Image src={VisaCard} className={styles.paymentCard} width={32} height={20} alt={"Visa Card"} />
-					<Image src={MaestroCard} className={styles.paymentCard} width={32} height={20} alt={"Maestro Card"} />
-					<Image src={MasterCard} className={styles.paymentCard} width={32} height={20} alt={"Master Card"} />
-					<Image src={Paypal} className={styles.paymentCard} width={20} height={20} alt={"Paypal"} />
+					<Image src={VisaCard} className={styles.paymentCard} width={32} height={20} alt={"Visa Card"} title="Paiement par Carte Visa"  />
+					<Image src={MaestroCard} className={styles.paymentCard} width={32} height={20} alt={"Maestro Card"} title="Paiement par Maestro Card"  />
+					<Image src={MasterCard} className={styles.paymentCard} width={32} height={20} alt={"Master Card"} title="Paiement par MasterCard"  />
+					<Image src={Paypal} className={styles.paymentCard} width={20} height={20} alt={"Paiement par Paypal"} title="Paiement par Paypal" />
 				</div>
 			</div>
 			<div className={styles.middleFooter}>
@@ -124,7 +124,7 @@ export default function Footer() {
 				<p className={styles.copyright}>&copy; Copyright 2023</p>
 				<div className={styles.socialNetwork}>
 					<Link href="https://www.facebook.com/people/White-Wolf-Web/100087896780441/" target="_blank" rel="noopener noreferrer" title="Facebook">
-						<Image src={facebookIcon} className={`${styles.skills} ${styles.facebook}`} width={40} height={40} alt={"Direction Facebook"} />
+						<Image src={facebookIcon} className={`${styles.skills} ${styles.facebook}`} width={40} height={40} alt={"Direction Facebook"}  />
 					</Link>
 					<Link href="https://www.instagram.com/white_wolf_web/" target="_blank" rel="noopener noreferrer" title="Instagram">
 						<Image src={instagramIcon} className={styles.skills} width={40} height={40} alt={"Direction Instagram"} />

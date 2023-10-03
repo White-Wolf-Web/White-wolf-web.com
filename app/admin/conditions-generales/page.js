@@ -1,9 +1,12 @@
 import styles from "@/app/page.module.css";
 
 export const metadata = {
-
+	title: "Conditions générales du site de l'agence white wolf web",
+	description:
+		"Vous retrouverez ici les conditions générales du site web whitewolfweb.com",
 	canonical: "https://www.white-wolf-web.com/admin/conditions-generales",
 };
+
 
 export default function ConditionsGenerales() {
 	return (
@@ -12,17 +15,17 @@ export default function ConditionsGenerales() {
 			<h2>Définition des termes utilisés dans la politique de confidentialité</h2>
 			<p>
 				On désignera par la suite : « Donnée personnelle » : se définit comme « toute information relative à une personne physique identifiée ou qui peut être
-				identifiée, directement ou indirectement, par référence à un numéro d&aposidentification ou à un ou plusieurs éléments qui lui sont propres »,
+				identifiée, directement ou indirectement, par référence à un numéro d&apos;identification ou à un ou plusieurs éléments qui lui sont propres »,
 				conformément à la loi Informatique et libertés du 6 janvier 1978.
 			</p>
 			<p>
-				« Service » : le service https://www.white-wolf-web.com et l&aposensemble de ses contenus. « Éditeur » ou « Nous » : White Wolf Web SRL, personne morale
-				ou physique responsable de l&aposédition et du contenu du Service. « Utilisateur » ou « Vous » : l&aposinternaute visitant et utilisant le Service.
+				« Service » : le service https://www.white-wolf-web.com et l&apos;ensemble de ses contenus. « Éditeur » ou « Nous » : White Wolf Web SRL, personne morale
+				ou physique responsable de l&apos;édition et du contenu du Service. « Utilisateur » ou « Vous » : l&apos;internaute visitant et utilisant le Service.
 			</p>
 			<h3>Article 1 -- Introduction et rôle de la Politique de confidentialité</h3>
 			<p>
 				La présente charte vise à vous informer des engagements du Service eu égard au respect de votre vie privée et à la protection des Données personnelles
-				vous concernant, collectées et traitées à l&aposoccasion de votre utilisation du Service.
+				vous concernant, collectées et traitées à l&apos;occasion de votre utilisation du Service.
 			</p>
 			<p>
 				Il est important que vous lisiez la présente politique de confidentialité afin que vous soyez conscient des raisons pour lesquelles nous utilisons vos
@@ -47,7 +50,7 @@ export default function ConditionsGenerales() {
 			</p>
 			<p>
 				Politique de confidentialité, veuillez nous contacter par e-mail à l’adresse : https://www.white-wolf-web.com ou par courrier adressé à : Octaaf de
-				kerchove d&aposexaerdestraat 193.
+				kerchove d&apos;exaerdestraat 193.
 			</p>
 			<h3>Article 2 -- Données collectés sur le Site</h3>
 			<p>
@@ -61,7 +64,7 @@ export default function ConditionsGenerales() {
 			</p>
 			<h3>Article 3 -- Identité du responsable du traitement</h3>
 			<p>
-				Le responsable du traitement est la société White Wolf Web SRL, ayant son siège social à l&aposadresse suivante : Octaaf de kerchove d&aposexaerdestraat
+				Le responsable du traitement est la société White Wolf Web SRL, ayant son siège social à l&apos;adresse suivante : Octaaf de kerchove d&apos;exaerdestraat
 				193, 1501 Buizingen .
 			</p>
 			<h3>Article 4 -- Finalité des Données collectées</h3>
@@ -103,8 +106,8 @@ export default function ConditionsGenerales() {
 			</ul>
 			<h3>Article 7 -- Sécurité des Données</h3>
 			<p>
-				Vous êtes informés que vos Données pourront être divulguées en application d&aposune loi, d&aposun règlement ou en vertu d&aposune décision d&aposune
-				autorité réglementaire ou judiciaire compétente ou encore, si cela s&aposavère nécessaire, aux fins, pour l&aposEditeur, de préserver ses droits et
+				Vous êtes informés que vos Données pourront être divulguées en application d&apos;une loi, d&apos;un règlement ou en vertu d&apos;une décision d&apos;une
+				autorité réglementaire ou judiciaire compétente ou encore, si cela s&apos;avère nécessaire, aux fins, pour l&apos;Editeur, de préserver ses droits et
 				intérêts.
 			</p>
 			<p>
@@ -114,7 +117,7 @@ export default function ConditionsGenerales() {
 			</p>
 			<h3>Article 8 -- Durée de conservation des Données</h3>
 			<p>
-				Les Données sont stockées chez l&aposhébergeur du Service, dont les coordonnées figurent dans les mentions légales du Service, et sont conservées pour la
+				Les Données sont stockées chez l&apos;hébergeur du Service, dont les coordonnées figurent dans les mentions légales du Service, et sont conservées pour la
 				durée strictement nécessaire à la réalisation des finalités visées ci-avant et ne saurait excéder 24 mois. Au-delà de cette durée, elles seront conservées
 				à des fins exclusivement statistiques et ne donneront lieu à aucune exploitation, de quelque nature que ce soit.
 			</p>
@@ -133,7 +136,7 @@ export default function ConditionsGenerales() {
 				Conformément à la législation sur la protection des données personnelles, vous avez les droits détaillés ci-après que vous pouvez exercer, comme indiqué à
 			</p>
 			<p>
-				L’Article 1 de la Présente Politique de confidentialité en nous écrivant à l’adresse postale mentionnée en tête (Octaaf de kerchove d&aposexaerdestraat
+				L’Article 1 de la Présente Politique de confidentialité en nous écrivant à l’adresse postale mentionnée en tête (Octaaf de kerchove d&apos;exaerdestraat
 				193) ou en envoyant un courriel à https://www.white-wolf-web.com : Le droit d’information : nous avons l’obligation de vous informer de la manière dont
 				nous utilisons vos données personnelles (tel que décrit dans la présente politique de confidentialité).
 			</p>
@@ -163,8 +166,8 @@ export default function ConditionsGenerales() {
 				légitimes ou lorsque l’exercice de ce droit vise à faire obstacle à ce que les données recueillies soient utilisées à des fins de prospection commerciale.
 			</p>
 			<p>
-				Contactez-nous si vous souhaitez exercer l’un des droits décrits ci-dessus en nous écrivant à Octaaf de kerchove d&aposexaerdestraat 193 ou par courriel à
-				https://www.white-wolf-web.com
+				Contactez-nous si vous souhaitez exercer l’un des droits décrits ci-dessus en nous écrivant à Octaaf de kerchove d&apos;exaerdestraat 193 ou par courriel
+				à https://www.white-wolf-web.com
 			</p>
 			<p>
 				Vous n’aurez pas de frais à payer pour l’accès à vos données personnelles (ni pour l’exercice de tout autre droit). Cependant, nous pourrons vous facturer
@@ -187,7 +190,7 @@ export default function ConditionsGenerales() {
 			<p>
 				Si vous considérez que SRL ne respecte pas ses obligations au regard de vos Informations Personnelles, vous pouvez adresser une plainte ou une demande
 				auprès de l’autorité compétente. En France, l’autorité compétente est la CNIL à laquelle vous pouvez adresser une demande par voie électronique à
-				l&aposadresse suivante : https://www.cnil.fr/fr/plaintes/internet.
+				l&apos;adresse suivante : https://www.cnil.fr/fr/plaintes/internet.
 			</p>
 			<h3>Article 12 -- Politique relative aux cookies</h3>
 			<p>
@@ -214,7 +217,7 @@ export default function ConditionsGenerales() {
 			</p>
 			<p>
 				Pour mieux vous éclairer sur les informations que les cookies identifient, vous trouverez un tableau listant les différents types de cookies susceptibles
-				d’être utilisés sur le Service de White Wolf Web SRL, leur nom, leur finalité ainsi que leur durée de conservation à l&aposadresse A VENIR.
+				d’être utilisés sur le Service de White Wolf Web SRL, leur nom, leur finalité ainsi que leur durée de conservation à l&apos;adresse A VENIR.
 			</p>
 			<h4>b Configuration de vos préférences sur les cookies</h4>
 			<p>Vous pouvez accepter ou refuser le dépôt de cookies à tout moment.</p>
@@ -236,7 +239,7 @@ export default function ConditionsGenerales() {
 			<h4>d Les cookies nécessitant le recueil préalable de votre consentement</h4>
 			<p>
 				Cette exigence concerne les cookies émis par des tiers et qui sont qualifiés de « persistants » dans la mesure où ils demeurent dans votre terminal
-				jusqu&aposà leur effacement ou leur date d’expiration.
+				jusqu&apos;à leur effacement ou leur date d’expiration.
 			</p>
 			<p>
 				De tels cookies étant émis par des tiers, leur utilisation et leur dépôt sont soumis à leurs propres politiques de confidentialité dont vous trouverez un
@@ -252,7 +255,7 @@ export default function ConditionsGenerales() {
 				Les cookies de mesure d’audience établissent des statistiques concernant la fréquentation et l’utilisation de divers éléments du Service (comme les
 				contenus / pages que vous avez visités). Ces données participent à l’amélioration de l’ergonomie du Service. Sur le Service
 				https://www.white-wolf-web.com, un outil de mesure d’audience (Google Analytics) est utilisé ; sa politique de confidentialité est disponible en français
-				à l&aposadresse internet suivante : https://www.google.com/analytics/learn/privacy.html
+				à l&apos;adresse internet suivante : https://www.google.com/analytics/learn/privacy.html
 			</p>
 			<h4>e Outils de paramétrage des cookies</h4>
 			<p>
@@ -283,9 +286,7 @@ export default function ConditionsGenerales() {
 			</p>
 			<ul>
 				<li>* Google Chrome : https://support.google.com/chrome/answer/95647?hl=fr</li>
-				<li>* Internet Explorer : https://support.microsoft.com/fr-fr/help/17442/windows-internet-explorer-delete-manage-cookies#ie=ie-11</li>
 				<li>* Mozilla Firefox : https://support.mozilla.org/fr/kb/activer-desactiver-cookies</li>
-				<li>* Opera : http://help.opera.com/Windows/10.20/fr/cookies.html</li>
 				<li>* Safari https://support.apple.com/kb/PH21411?viewlocale=fr_FR&locale=fr_FR</li>
 			</ul>
 			<p>

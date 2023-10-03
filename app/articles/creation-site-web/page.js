@@ -1,19 +1,17 @@
-import Head from "next/head";
 import styles from "@/app/page.module.css";
 import Image from "next/image";
-import creationWeb1 from "../../../public/Assets/Images/Webp/creation-site/creation-site-web-1-XL.webp";
-import creationWeb2 from "../../../public/Assets/Images/Webp/creation-site/creation-site-web-2-XXL.webp";
-import creationWeb3 from "../../../public/Assets/Images/Webp/creation-site/creation-site-web-3-XXL.webp";
-//import creationWeb5 from "../../../public/Assets/Images/Webp/creation-site/creation-site-web-5-XXL.webp";
-import creationSiteVitrine from "../../../public/Assets/Images/Webp/creation-site/creation-site-web-vitrine.webp";
-import creationSiteEcommerce from "../../../public/Assets/Images/Webp/creation-site/creation-site-web-ecommerce.webp";
-import creationSiteInformation from "../../../public/Assets/Images/Webp/creation-site/creation-site-web-information.webp";
-import creationSitePortfolio from "../../../public/Assets/Images/Webp/creation-site/creation-site-web-portfolio.webp";
-import creationSiteMobileFirst from "../../../public/Assets/Images/Webp/creation-site/creation-site-web-mobile-first.webp";
-import creationSiteMultilingue from "../../../public/Assets/Images/Webp/creation-site/creation-site-web-multilingue.webp";
-import creationSiteLandingPage from "../../../public/Assets/Images/Webp/creation-site/creation-site-web-landing-page.webp";
-import creationSiteWordpress from "../../../public/Assets/Images/Webp/creation-site/creation-site-web-wordpress.webp";
-import creationSiteJoomla from "../../../public/Assets/Images/Webp/creation-site/creation-site-web-joomla.webp";
+import creationWeb1 from "@/public/Assets/Images/Webp/creation-site/creation-site-web-1-XL.webp";
+import creationWeb2 from "@/public/Assets/Images/Webp/creation-site/creation-site-web-2-XXL.webp";
+import creationWeb3 from "@/public/Assets/Images/Webp/creation-site/creation-site-web-3-XXL.webp";
+import creationSiteVitrine from "@/public/Assets/Images/Webp/creation-site/creation-site-web-vitrine.webp";
+import creationSiteEcommerce from "@/public/Assets/Images/Webp/creation-site/creation-site-web-ecommerce.webp";
+import creationSiteInformation from "@/public/Assets/Images/Webp/creation-site/creation-site-web-information.webp";
+import creationSitePortfolio from "@/public/Assets/Images/Webp/creation-site/creation-site-web-portfolio.webp";
+import creationSiteMobileFirst from "@/public/Assets/Images/Webp/creation-site/creation-site-web-mobile-first.webp";
+import creationSiteMultilingue from "@/public/Assets/Images/Webp/creation-site/creation-site-web-multilingue.webp";
+import creationSiteLandingPage from "@/public/Assets/Images/Webp/creation-site/creation-site-web-landing-page.webp";
+import creationSiteWordpress from "@/public/Assets/Images/Webp/creation-site/creation-site-web-wordpress.webp";
+import creationSiteJoomla from "@/public/Assets/Images/Webp/creation-site/creation-site-web-joomla.webp";
 
 export const metadata = {
 	title: "Guide complet pour la création de site web professionnel",

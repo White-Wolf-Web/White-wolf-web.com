@@ -23,7 +23,7 @@ export default function MyNavbar() {
 				<Navbar.Toggle aria-controls="navbarSupportedContent" />
 				<Navbar.Collapse id="navbarSupportedContent">
 					<Nav className="me-auto mb-2 mb-lg-0 navColumn">
-						<Nav.Link href="/" className={`${styles.navbarMyStyle} ${styles.accueil}`} aria-label="Acceuil" >
+						<Nav.Link href="/" className={`${styles.navbarMyStyle} ${styles.accueil}`} aria-label="Acceuil" title="Acceuil" >
 							<FontAwesomeIcon icon={faHouse} style={{ color: "#ffffff" }} alt="Acceuil" />
 						</Nav.Link>
 
@@ -39,7 +39,7 @@ export default function MyNavbar() {
 							Blog
 						</Nav.Link>
 
-						<Nav.Link href="#" onClick={openModal} className={styles.navbarMyStyle}>
+						<Nav.Link  onClick={openModal} className={styles.navbarMyStyle}>
 							Contact
 						</Nav.Link>
 					</Nav>
