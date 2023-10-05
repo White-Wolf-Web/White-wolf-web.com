@@ -7,7 +7,7 @@ import Footer from "@/components/Footer/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-	title: "White Wolf Web - Agence experte en création de sites web 💻 - SEO",
+	title: "Agence experte en création de sites web 💻 - SEO",
 	description:
 		"Agence Web innovante: création de sites web, e-commerce, design, accessibilité, référencement SEO et marketing digital pour propulser votre succès en ligne!🚀💻",
 	referrer: "origin-when-cross-origin",

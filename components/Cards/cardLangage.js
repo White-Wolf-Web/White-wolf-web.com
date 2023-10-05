@@ -1,7 +1,6 @@
 import styles from "./Card.module.css";
 import Image from "next/image";
 import LangageData from "../../data/langagesData.json";
-import Link from "next/link";
 
 function CardLangage({ title, alt, image, description, color, href, backgroundColor }) {
 	return (

@@ -9,7 +9,7 @@ const BigCardHomePage = ({ title, titleAlt, text, imgSrc }) => {
 				{imgSrc && <Image src={imgSrc} className="card-img-top" width={200} height={200} alt={`${titleAlt}`} />}
 				<div className={styles.separateImgTop}></div>
 				<div className="card-body">
-					<h2 className={styles.cardTitle}>{title}</h2>
+					<h3 className={styles.cardTitle}>{title}</h3>
 					<p className={styles.cardText}>{text}</p>
 				</div>
 			</div>

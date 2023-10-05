@@ -8,7 +8,7 @@ export default function CardArticles({ title, alt, image, description, href }) {
     <div className={styles.cardArt}>
     <Image src={image} alt={alt} width={100} height={100} />
     <div>
-    <h2 className={styles.cardArtTitle}>{title}</h2>
+    <h3 className={styles.cardArtTitle}>{title}</h3>
     {description.split('\n').map((line, index) => (
               <p key={index} className={styles.cardArtDescription}>{line}</p>
           ))}

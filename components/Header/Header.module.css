@@ -28,6 +28,53 @@
 .navbarMyStyle:hover::after {
 	transform: scaleX(1);
 }
+
+/* navbar.module.css */
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+	padding: 0.5rem 1rem;
+  }
+  
+  .navbarLink {
+	text-decoration: none;
+	color: white;
+	margin-right: 1rem;
+  }
+  
+  .navDropdown {
+	position: relative;
+	display: inline-block;
+  }
+  
+  .dropdownContent {
+	display: none;
+	position: absolute;
+	background-color: white;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+  }
+  
+  .dropdownContent a {
+	color: black;
+	padding: 12px 16px;
+	display: block;
+  }
+  
+  .dropdownContent a:hover {
+	background-color: #ddd;
+  }
+  
+  .navDropdown:hover .dropdownContent {
+	display: block;
+  }
+  
+
+
+
 @media (max-width: 778px) {
 .accueil {
 	display: none;

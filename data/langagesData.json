@@ -10,7 +10,7 @@
 	},
 	{
 		"title": "CSS3",
-		"alt": "carte CSS3 avec un logo sur fond Bleu.",
+		"alt": "carte CSS3 Bleu.",
 		"image": "/Assets/Icons/CSS3-L.webp",
 		"description": "CSS3 est utilisé pour la mise en page. Il permet de contrôler l'apparence des pages (couleurs, tailles, polices, espacements, etc.) pour les rendre plus attrayantes, plus fluides, plus responsives.",
 		"backgroundColor": "#1984D1",
@@ -19,7 +19,7 @@
 	},
 	{
 		"title": "JavaScript",
-		"alt": "Carte JS avec un logo sur fond jaune.",
+		"alt": "Carte JS jaune.",
 		"image": "/Assets/Icons/javascript-L.webp",
 		"description": "Javascript est un langage de programmation qui permet de rendre les sites interactifs. Il est exécuté sur le client (votre navigateur) et permet d'ajouter des fonctionnalités dynamiques à un site web statique.",
 		"backgroundColor": "#F7DF1E",
@@ -28,7 +28,7 @@
 	},
 	{
 		"title": "React",
-		"alt": "Carte React avec un logo de couleur bleu ciel.",
+		"alt": "Carte React bleu ciel.",
 		"image": "/Assets/Icons/react-L.webp",
 		"description": "React est une bibliothèque JavaScript crée et utilisé par Facebook (et donc Instagram) qui facilite la création d'interfaces utilisateur interactives. Il permet une mise à jour et un rendu efficaces des composants.",
 		"backgroundColor": "#61DAFB",
@@ -37,7 +37,7 @@
 	},
 	{
 		"title": "Next.js",
-		"alt": "Carte Next avec un logo sur fond noir.",
+		"alt": "Carte Next noir.",
 		"image": "/Assets/Icons/next-L.webp",
 		"description": "Next.js est un framework React qui fournit de nombreuses fonctionnalités supplémentaires comme le rendu côté serveur et la génération de sites statiques. Il améliore les performances de votre site. C’est l’avenir.",
 		"backgroundColor": "black",
@@ -46,7 +46,7 @@
 	},
 	{
 		"title": "Bootstrap",
-		"alt": "Carte Bootstrap avec un logo sur fond violet.",
+		"alt": "Carte Bootstrap violet.",
 		"image": "/Assets/Icons/bootstrap-L.webp",
 		"description": "Bootstrap est un framework CSS qui facilite la création de designs responsifs. Il comprend une multitude de composants réutilisables pour la navigation, les modales, ainsi que des utilitaires pour la mise en page",
 		"backgroundColor": "#9364D9",
