@@ -24,11 +24,11 @@ export default function Footer() {
 				<div className={styles.avis}>
 					<p className={styles.avisTitle}>Avis Clients</p>&emsp;
 					<div className={styles.starContainer}>
-						<Image src={starIcon} className={styles.stars} width={21} height={20} alt={"1er star icon"} title="1er star" />
-						<Image src={starIcon} className={styles.stars} width={21} height={20} alt={"2nd star icon"} title="2e star" />
-						<Image src={starIcon} className={styles.stars} width={21} height={20} alt={"3th star icon"} title="3e star" />
-						<Image src={starIcon} className={styles.stars} width={21} height={20} alt={"4th star icon"} title="4e star" />
-						<Image src={starIcon} className={styles.stars} width={21} height={20} alt={"5th star icon"} title="5e star" />
+						<Image src={starIcon} className={styles.stars} width={21} height={20} alt={"étoile dorée à 5 branches"} title="1er star" />
+						<Image src={starIcon} className={styles.stars} width={21} height={20} alt={"étoile dorée à 5 branches"} title="2e star" />
+						<Image src={starIcon} className={styles.stars} width={21} height={20} alt={"étoile dorée à 5 branches"} title="3e star" />
+						<Image src={starIcon} className={styles.stars} width={21} height={20} alt={"étoile dorée à 5 branches"} title="4e star" />
+						<Image src={starIcon} className={styles.stars} width={21} height={20} alt={"étoile dorée à 5 branches"} title="5e star" />
 					</div>
 				</div></Link>
 

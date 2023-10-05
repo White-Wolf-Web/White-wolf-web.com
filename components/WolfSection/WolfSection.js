@@ -65,7 +65,7 @@ export default function WolfSection() {
 				</div>
 
 				<div className={styles.wolfImageSection}>
-					<Image src="/Assets/Images/Webp/logowww.webp" alt="Logo" width={125} height={160} className={styles.wolfCenter} />
+					<Image src="/Assets/Images/Webp/logowww.webp" alt="Logo de l'agence SEO WWW" width={125} height={160} className={styles.wolfCenter} />
 				</div>
 				<div className={styles.neonCard}>
 					<div className={styles.wolfTextSection} ref={(el) => (textRefs.current[4] = el)}>

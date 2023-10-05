@@ -48,7 +48,10 @@
 	position: relative;
 	display: inline-block;
   }
-  
+  .collapse {
+	display: flex;
+	/* ajouter vos autres styles ici */
+  }
   .dropdownContent {
 	display: none;
 	position: absolute;

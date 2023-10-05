@@ -1,7 +1,7 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 import Link from "next/link";
-import { StormContainerCard, cards } from "@/components/Cards/StormContainerCard";
+//import { StormContainerCard, cards } from "@/components/Cards/StormContainerCard";
 import GreenLine from "@/utils/greenLine";
 import { LangageCards } from "@/components/Cards/cardLangage";
 import SeeOtherButton from "@/utils/seeOtherButton";
@@ -23,13 +23,13 @@ export default function Home() {
 					Experte en création de site web & SEO
 				</h1>
 				<p>
-					Bienvenue chez White Wolf Web, l&apos;agence web innovante qui vous accompagne dans{" "}
+					Bienvenue chez White Wolf Web, l&apos;agence web innovante qui vous accompagne dans la {" "}
 					<Link href="/articles/creation-site-web" className={styles.internalLink}>
-						la création de votre site web
-					</Link>{" "}
-					accessible, de{" "}
+						création de votre site web
+					</Link>
+					accessible, de votre {" "}
 					<Link href="/articles/creation-site-web/#site-Ecommerce" className={styles.internalLink}>
-						votre boutique en ligne
+						 boutique en ligne
 					</Link>{" "}
 					personnalisé, d&apos;un blog personnel, un{" "}
 					<Link href="/articles/web-design" className={styles.internalLink}>
@@ -52,9 +52,9 @@ export default function Home() {
 				</p>
 				<p>
 					Nous vous aidons également pour l&apos;hébergement de vos pages web, la configuration d&apos;un nom de domaine personnalisé, une utilisation
-					intelligente des mots-clés, une visibilité maximale de votre marque sur{" "}
+					intelligente des mots-clés, une visibilité maximale de votre marque sur les {" "}
 					<Link href="/articles/reseaux-sociaux" className={styles.internalLink}>
-						les réseaux sociaux
+						réseaux sociaux
 					</Link>{" "}
 					(
 					<Link href="/articles/reseaux-sociaux/#facebook" className={styles.colorFacebook}>
@@ -75,10 +75,7 @@ export default function Home() {
 					...) et les moteurs de recherche. Tous ces éléments vont renforcer la présence de votre marque en ligne.
 				</p>
 			</div>
-			<section className={styles.storm}>
-				<h2>Services Web</h2>
-				<StormContainerCard cards={cards} />
-			</section>
+			
 			<section className={styles.sectionHomePage}>
 				<h2 className={styles.homeH2MarginTop}>La création de votre site internet professionnel</h2>
 				<p>
@@ -144,8 +141,8 @@ export default function Home() {
 			<section className={styles.sectionHomePage}>
 				<h2 className={styles.homeH2MarginTop}>Les coûts de création d&apos;un site web</h2>
 				<p>
-					À l&apos;ère du numérique, disposer d&apos;un site web est essentiel pour toute entreprise ou tout particulier désireux d&apos;établir une forte
-					présence en ligne. Toutefois, les coûts associés à la création d&apos;un site web peuvent souvent sembler insurmontables et déroutants, ce qui fait
+					À l&apos;ère du numérique, disposer d&apos;un site web est essentiel pour toute entreprise ou tout particulier désireux d&apos;établir une <Link  href="/articles/referencement-seo-google" className={styles.internalLink}>forte
+					présence en ligne</Link>. Toutefois, les coûts associés à la création d&apos;un site web peuvent souvent sembler insurmontables et déroutants, ce qui fait
 					que de nombreuses personnes ne savent pas par où commencer. C&apos;est pourquoi nous avons créé ce guide complet pour démystifier les coûts de
 					création d&apos;un site web. De l&apos;enregistrement du domaine et des frais d&apos;hébergement aux coûts de conception et de développement, nous
 					décomposons les dépenses liées à la création d&apos;un site web et vous donnons des indications précieuses sur la manière de maîtriser les coûts. Que
@@ -162,9 +159,9 @@ export default function Home() {
 			<section className={styles.conclusionHomePage}>
 				<h2 className={styles.homeH2}>Notre mission est de vous fournir un site web d&apos;excellence</h2>
 				<p>
-					Nous comprenons que la création de site internet et la gestion d&apos;une boutique en ligne peut être un défi, en particulier si vous êtes un
+					Nous comprenons que la <Link  href="/articles/creation-site-web" className={styles.internalLink}>création de site internet</Link> et la gestion d&apos;une boutique en ligne peut être un défi, en particulier si vous êtes un
 					auto-entrepreneur ou une petite entreprise. C&apos;est pourquoi nous mettons tout en œuvre pour vous aider à surmonter ces obstacles. <br></br>
-					Notre équipe dévouée de développeurs web, de webdesigners, de spécialistes du blog et d&apos;images est là pour vous guider et vous soutenir à chaque
+					Notre équipe dévouée de développeurs web, de webdesigners, de <Link  href="/blog" className={styles.internalLink}>spécialistes du blog</Link> et d&apos;images est là pour vous guider et vous soutenir à chaque
 					étape. Nous sommes en mesure de vous fournir des solutions qui non seulement répondent à vos besoins, mais aussi surpassent vos attentes.
 				</p>
 
@@ -174,6 +171,11 @@ export default function Home() {
 					du web. Ensemble, nous pouvons réaliser de grandes choses. Nous sommes impatients de travailler avec vous!
 				</p>
 			</section>
+			{/*
+			<section className={styles.storm}>
+				<h2>Services Web</h2>
+				<StormContainerCard cards={cards} />
+			</section> */}
 			<ContainerBlog />
 			<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(MetadataHomePage) }} />
 		</>
