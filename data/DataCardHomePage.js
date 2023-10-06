@@ -3,7 +3,7 @@ export const DataCardHomePage = [
 		card1: {
 			id: "1",
 			imgSrc: "/Assets/Images/Webp/webiconblue.webp",
-			title: "Création de sites web &\n e-commerce personnalisés 🌐🛍️",
+			title: "Création de sites web &\n e-commerce 🌐🛍️",
 			title2: "Création de sites web personnalisés 🌐🛍️",
 			titleAlt: "le monde du web et ses sites",
 			text: "Notre agence se spécialise dans la conception et le développement de sites web et de boutiques en ligne attrayants, fonctionnels et faciles à utiliser. Nous mettons l&apos;accent sur l&apos;expérience utilisateur (UX) et le design pour créer des sites web qui attirent l&apos;attention et encouragent les visiteurs à devenir des clients fidèles. Que vous ayez besoin d&apos;un site vitrine pour présenter votre entreprise ou que vous ayez un projet d&apos;une boutique en ligne complète, notre équipe est là pour transformer vos idées en réalité et à optimiser son référencement pour attirer plus de clients.",

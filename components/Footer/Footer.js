@@ -41,14 +41,14 @@ export default function Footer() {
 			</div>
 			<div className={styles.middleFooter}>
 				<div className={styles.middleLeftFooter}>
-					<h2>Services</h2>
+					<h2>Services Web</h2>
 					<ul>
 						<li>
-							<Link href="/articles/creation-site-web">Création de site web</Link>
+							<Link href="/articles/creation-site-web"><strong>Création de site web</strong></Link>
 						</li>
 
 						<li>
-							<Link href="/articles/referencement-seo-google">SEO & Référencement</Link>
+							<Link href="/articles/referencement-seo-google"><strong>SEO & Référencement</strong></Link>
 						</li>
 						<li>
 							<Link href="/articles/reseaux-sociaux">Réseaux sociaux</Link>
@@ -71,22 +71,22 @@ export default function Footer() {
 					<h2>Sites Web</h2>
 					<ul>
 						<li>
-							<Link href="/articles/creation-site-web#site-vitrine">Site Vitrine</Link>
+							<Link href="/articles/creation-site-web#site-vitrine"><strong>Site Vitrine</strong></Link>
 						</li>
 						<li>
-							<Link href="/articles/creation-site-web#site-Ecommerce">Site E-commerce</Link>
+							<Link href="/articles/creation-site-web#site-Ecommerce"><strong>Site E-commerce</strong></Link>
 						</li>
 						<li>
 							<Link href="/articles/creation-site-web#siteInformations">Site Institutionnel</Link>
 						</li>
 						<li>
-							<Link href="/articles/creation-site-web#wordpress">Wordpress</Link>
+							<Link href="/articles/creation-site-web#wordpress"><strong>Wordpress</strong></Link>
 						</li>
 						<li>
-							<Link href="/articles/creation-site-web#landingPage">Landing Page</Link>
+							<Link href="/articles/creation-site-web#landingPage"><strong>Landing Page</strong></Link>
 						</li>
 						<li>
-							<Link href="/articles/creation-site-web/#joomla">Joomla</Link>
+							<Link href="/articles/creation-site-web/#joomla"><strong>Joomla</strong></Link>
 						</li>
 						<li>
 							<Link href="/articles/creation-site-web">Site Web sur Mesure</Link>
@@ -100,7 +100,7 @@ export default function Footer() {
 							<Link href="/faq">FAQ</Link>
 						</li>
 						<li>
-							<Link href="/blog">Blog</Link>
+							<Link href="/blog"><strong>Blog</strong></Link>
 						</li>
 						<li>
 							<Link href="/admin/price">Tarifs</Link>
