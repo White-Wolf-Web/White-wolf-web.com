@@ -2,7 +2,7 @@ import styles from "./Card.module.css";
 import Image from "next/image";
 import LangageData from "../../data/langagesData.json";
 
-function CardLangage({ title, alt, image, description, color, href, backgroundColor }) {
+function CardLangage({ title, alt, image, description, color, backgroundColor }) {
 	return (
 		<div className={styles.langageCardWrap}>
 			

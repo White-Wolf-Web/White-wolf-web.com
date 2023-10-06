@@ -1,7 +1,7 @@
 [
 	{
 		"title": "HTML5",
-		"alt": "carte avec logo html5 sur fond rouge.",
+		"alt": "carte avec logo html5",
 		"image": "/Assets/Icons/HTML5-L.webp",
 		"description": "HTML5 est la structure de base de tout site web. C'est un langage de balisage qui vous permet de créer des pages web statiques. C'est le standard de l'industrie, donc tout navigateur web est capable de l'interpréter.",
 		"backgroundColor": "#E34F26",
