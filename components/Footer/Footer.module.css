@@ -13,10 +13,14 @@
 	justify-content: space-between;
 	padding: 0 0 5px 0 ;
 }
+.HFooter {
+	font-size: 20px;
+}
 .avis {
 	display: flex;
 	justify-content: space-between;
 	width: 220px;
+	
 }
 .paymentIcons {
 	width: 150px;

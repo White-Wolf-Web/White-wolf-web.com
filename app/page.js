@@ -25,9 +25,9 @@ export default function Home() {
 				<p>
 					Bienvenue chez White Wolf Web, l&apos;<strong>agence web</strong> innovante qui vous accompagne dans la {" "}
 					<Link href="/articles/creation-site-web" className={styles.internalLink}>
-						création de votre site web
+						création de site web
 					</Link>
-					{" "}accessible, de votre {" "}
+					{" "}accessible, de {" "}
 					<Link href="/articles/creation-site-web/#site-Ecommerce" className={styles.internalLink}>
 						 boutique en ligne
 					</Link>{" "}
@@ -39,7 +39,7 @@ export default function Home() {
 					<Link href="/articles/referencement-seo-google" className={styles.internalLink}>
 						référencement naturel - SEO
 					</Link>{" "}
-					(optimisation pour les moteurs de recherche tel que Google) ainsi que le marketing digital pour propulser votre succès en ligne ! 🚀💻{" "}
+					(optimisation pour les moteurs de recherche tel que Google) ainsi que le marketing digital afin de propulser votre succès en ligne ! 🚀💻{" "}
 				</p>
 				<p>
 					Chaque projet internet est unique et mérite une attention particulière. Nous sommes là pour vous guider et vous aider à développer votre entreprise en
@@ -47,7 +47,7 @@ export default function Home() {
 				</p>
 				<p>
 					La refonte d&apos; un <strong>site web professionnel</strong> n&apos;est pas seulement une question de changement de web-design, elle contribue également
-					d&apos;optimiser l&apos;utilisation des mots-clés & des <strong>techniques SEO</strong> pour améliorer le <strong>référencement naturel</strong>, en particulier si vous prévoyez de
+					d&apos;optimiser l&apos;utilisation des mots-clés & des <strong>techniques SEO</strong> qui permette d&apos;améliorer le <strong>référencement naturel</strong>, en particulier si vous prévoyez de
 					créer une <strong>boutique en ligne</strong>.
 				</p>
 				<p>
@@ -77,12 +77,12 @@ export default function Home() {
 			</div>
 			
 			<section className={styles.sectionHomePage}>
-				<h2 className={styles.homeH2MarginTop}>La création de votre site internet professionnel</h2>
+				<h2 className={styles.homeH2MarginTop}>La création de site internet professionnel</h2>
 				<p>
 					<strong>Notre agence web</strong> est situé en <strong>Belgique</strong>, au sud de <strong>Bruxelles</strong>. Notre but est de vous guider dans la
-					jungle du <strong>web</strong>-design et l&apos;univers du web développeur, pour transformer votre vision d’un <strong>site internet professionnel</strong>, qui vous sera livré clé en
+					jungle du <strong>web</strong>-design et l&apos;univers du web développeur, afin de transformer votre vision d’un <strong>site internet professionnel</strong>, qui vous sera livré clé en
 					main et parfaitement adapté à vos besoins. Du <strong>développement web</strong> à la gestion de contenu, en passant au choix de l&apos;hebergeur ou du nom de domaine
-					approprié nous sommes le <strong>webmaster</strong> & developpeur d&apos;application Web qui vous accompagne à chaque étape de votre projet. <br></br>
+					approprié nous sommes le <strong>webmaster</strong> & developpeur d&apos;application Web qui vous accompagne à chaque étape du projet. <br></br>
 					<br></br>Nous vous proposons :
 				</p>
 
@@ -143,11 +143,11 @@ export default function Home() {
 				<p>
 					À l&apos;ère du numérique, disposer d&apos;un <strong>site web</strong> est essentiel pour toute entreprise ou tout particulier désireux d&apos;établir une <Link  href="/articles/referencement-seo-google" className={styles.internalLink}>forte
 					présence en ligne</Link>. Toutefois, les coûts associés à la <strong>création d&apos;un site web</strong> peuvent souvent sembler insurmontables et déroutants, ce qui fait
-					que de nombreuses personnes ne savent pas par où commencer. C&apos;est pourquoi nous avons créé ce guide complet pour démystifier les coûts de
+					que de nombreuses personnes ne savent pas par où commencer. C&apos;est pourquoi nous avons créé ce guide complet afin de démystifier les coûts de
 					<strong>création d&apos;un site web</strong>. De l&apos;enregistrement du domaine et des frais d&apos;hébergement aux coûts de <strong>conception</strong> et de <strong>développement</strong>, nous
-					décomposons les dépenses liées à la création d&apos;un site web et vous donnons des indications précieuses sur la manière de maîtriser les coûts. Que
+					décomposons les dépenses liées à la création d&apos;un site web et donnons des indications précieuses sur la manière de maîtriser les coûts. Que
 					vous soyez propriétaire d&apos;une petite entreprise ou un blogueur désireux de créer son propre <strong>site web</strong>, ce guide vous apportera les connaissances
-					et les outils nécessaires pour créer un <strong>site web professionnel</strong> et efficace sans vous ruiner. Alors, commençons et dévoilons les secrets des coûts de 
+					et les outils nécessaires pour créer un <strong>site web professionnel</strong> et efficace sans se ruiner. Alors, commençons et dévoilons les secrets des coûts de 
 					<strong>création d&apos;un site web</strong> !
 				</p>
 				<SeeOtherButton href="/admin/price" text="En savoir +++" />
@@ -167,7 +167,7 @@ export default function Home() {
 
 				<p>
 					Si vous êtes à <strong>Bruxelles</strong>, en <strong>Belgique</strong>, ou n&apos;importe où dans le monde, nous serions ravis de vous aider à transformer votre vision en réalité. Ne
-					laissez pas la complexité du web vous décourager - avec <strong>White Wolf Web</strong> à vos côtés, vous avez un partenaire de confiance pour naviguer dans la jungle
+					laissez pas la complexité du web vous décourager - avec <strong>White Wolf Web</strong> à vos côtés, vous avez un partenaire de confiance qui permet de naviguer dans la jungle
 					du web. Ensemble, nous pouvons réaliser de grandes choses. Nous sommes impatients de travailler avec vous!
 				</p>
 			</section>

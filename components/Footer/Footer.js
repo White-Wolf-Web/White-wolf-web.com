@@ -19,10 +19,10 @@ export default function Footer() {
 		<div className={styles.footer}>
 			<div className={styles.topFooter}>
 				<div>
-					<p>Agence White Wolf Web</p>
+					<h2 className={styles.HFooter}>Agence White Wolf Web</h2>
 				</div><Link href="/rating">
 				<div className={styles.avis}>
-					<p className={styles.avisTitle}>Avis Clients</p>&emsp;
+					<h3 className={styles.HFooter}>Avis Clients</h3>&emsp;
 					<div className={styles.starContainer}>
 						<Image src={starIcon} className={styles.stars} width={21} height={20} alt={"étoile dorée à 5 branches"} title="1er star" />
 						<Image src={starIcon} className={styles.stars} width={21} height={20} alt={"étoile dorée à 5 branches"} title="2e star" />
@@ -41,7 +41,7 @@ export default function Footer() {
 			</div>
 			<div className={styles.middleFooter}>
 				<div className={styles.middleLeftFooter}>
-					<h2>Services Web</h2>
+					<h3>Services Web</h3>
 					<ul>
 						<li>
 							<Link href="/articles/creation-site-web"><strong>Création de site web</strong></Link>
@@ -68,7 +68,7 @@ export default function Footer() {
 					</ul>
 				</div>
 				<div className={styles.middleCenterFooter}>
-					<h2>Sites Web</h2>
+					<h3>Sites Web</h3>
 					<ul>
 						<li>
 							<Link href="/articles/creation-site-web#site-vitrine"><strong>Site Vitrine</strong></Link>
@@ -94,8 +94,11 @@ export default function Footer() {
 					</ul>
 				</div>
 				<div className={styles.middleRightFooter}>
-					<h2>A propos</h2>
+					<h3>A propos</h3>
 					<ul>
+					<li>
+							<Link href="/portfolio">Mon Portfolio</Link>
+						</li>
 						<li>
 							<Link href="/faq">FAQ</Link>
 						</li>
@@ -105,9 +108,7 @@ export default function Footer() {
 						<li>
 							<Link href="/admin/price">Tarifs</Link>
 						</li>
-						<li>
-							<Link href="/portfolio">Mon Portfolio</Link>
-						</li>
+						
 						<li>
 							<Link href="/admin/mention-legale">Mentions Légales</Link>
 						</li>

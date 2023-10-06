@@ -33,6 +33,7 @@ export default function Price() {
 <br />
 <p>Tous les sites sont responsive, niveau accessibilité AA (sauf sur une demande spécifique de votre part), 100% sémantique (structure totalement adapté pour le SEO de Google), 0% BlackHat... </p>
 <br />
+<div class="responsive-table">
 <table border="1" aria-labelledby="tableTitle">
       <caption id="tableTitle">Tableau des Prix des Prestations</caption>
       <thead>
@@ -94,7 +95,7 @@ export default function Price() {
         </tr>
       </tbody>
 </table>
-
+</div>
     </div>
   )
 }

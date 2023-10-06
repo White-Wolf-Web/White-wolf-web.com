@@ -3,7 +3,7 @@ export const DataCardHomePage = [
 		card1: {
 			id: "1",
 			imgSrc: "/Assets/Images/Webp/webiconblue.webp",
-			title: "Création de sites web &\n e-commerce 🌐🛍️",
+			title: "Création de sites web 🌐🛍️",
 			title2: "Création de sites web personnalisés 🌐🛍️",
 			titleAlt: "le monde du web et ses sites",
 			text: "Notre agence se spécialise dans la conception et le développement de sites web et de boutiques en ligne attrayants, fonctionnels et faciles à utiliser. Nous mettons l&apos;accent sur l&apos;expérience utilisateur (UX) et le design pour créer des sites web qui attirent l&apos;attention et encouragent les visiteurs à devenir des clients fidèles. Que vous ayez besoin d&apos;un site vitrine pour présenter votre entreprise ou que vous ayez un projet d&apos;une boutique en ligne complète, notre équipe est là pour transformer vos idées en réalité et à optimiser son référencement pour attirer plus de clients.",
@@ -30,7 +30,7 @@ export const DataCardHomePage = [
 		card4: {
 			id: "4",
 			imgSrc: "/Assets/Images/Webp/Social_network_logos.webp",
-			title: "Marketing digital et\n réseaux sociaux 📣🌐",
+			title: "Marketing digital 📣🌐",
 			title2: "Réseaux sociaux & Marketing digital 📣🌐",
 			titleAlt: "Facebook, Instagram, Twitter, Pinterest, Youtube ...",
 			text: "Pour assurer la réussite de votre entreprise en ligne, il est crucial de mettre en place une stratégie de marketing digital efficace. Nos experts en marketing digital vous aideront à développer votre présence en ligne et à atteindre votre cible grâce à des campagnes publicitaires, du content marketing et une gestion efficace des réseaux sociaux (Facebook, Instagram, Twitter ...).  Grâce aux outils d&apos;analyse disponibles, il est possible de mesurer précisément l&apos;efficacité de vos campagnes de marketing digital et d&apos;ajuster vos stratégies en conséquence. ",
@@ -39,7 +39,7 @@ export const DataCardHomePage = [
 		card5: {
 			id: "5",
 			imgSrc: "/Assets/Images/Webp/Clipboard.webp",
-			title: "Stratégie de contenu et\n rédaction 💡📝",
+			title: "Rédactionde contenu 💡📝",
 			title2: "Rédaction de vos contenus 💡📝",
 			titleAlt: "Une page vierge un crayon et une gomme ... l&apos;envie d&apos;écrire",
 			text: "Le contenu de qualité est essentiel pour attirer et fidéliser votre audience. Notre équipe de rédacteurs expérimentés et créatifs élabore des stratégies de contenu personnalisées pour votre entreprise, en tenant compte de votre public cible et de vos objectifs. Nous produisons du contenu engageant, informatif et optimisé pour le référencement, qui vous aidera à vous démarquer de la concurrence et à améliorer votre positionnement en ligne sur les moteurs de recherche tel que Google. Pour que votre contenu soit visible par Google, vous devez l&apos;optimiser pour le SEO",

@@ -19,8 +19,9 @@
 	border-bottom: solid 2px #0de0d3;
 }
 .cardTitle {
-	font-size: 1.15rem !important;
+	font-size: 1.25rem !important;
 	margin: 10px auto 12px auto;
+	font-weight: 700;
 	text-align: center !important;
 	white-space: pre-line;
 }

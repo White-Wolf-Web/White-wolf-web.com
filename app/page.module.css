@@ -440,7 +440,11 @@
   margin: auto;
 }
 
+/* PRICE */
 
+.responsive-table {
+  overflow-x: auto;
+}
 
 
 /*
