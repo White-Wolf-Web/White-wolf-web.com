@@ -74,7 +74,7 @@
 			},
 			"main_image": "lien_vers_image_principale",
 			"introduction": {
-				"1": "En tant que développeurs web, on se doit de constamment de fournir des applications web transparentes et efficaces qui offrent une expérience fluide à l&apos;utilisateur. Pour y parvenir, nous devons tirer parti de la puissance des technologies web modernes. L&apos;API RESTful Fetch est l&apos;une de ces technologies qui a émergé ces dernières années et qui a transformé la manière dont nous récupérons les données des serveurs. ",
+				"1": "En tant que développeurs web, on se doit de constamment de fournir des applications web transparentes et efficaces qui offrent une expérience fluide à l&apos;utilisateur. Pour y parvenir,  on se doit tirer parti de la puissance des technologies web modernes. L&apos;API RESTful Fetch est l&apos;une de ces technologies qui a émergé ces dernières années et qui a transformé la manière dont notre agence web récupérons les données des serveurs. ",
 				"2": "Grâce à sa simplicité et à sa flexibilité, l&apos;API Fetch est devenue le choix préféré de nombreux développeurs lorsqu&apos;il s&apos;agit d&apos;effectuer des requêtes HTTP. Dans ce guide complet, nous allons explorer les tenants et les aboutissants de l&apos;API Fetch, de sa syntaxe de base aux fonctionnalités avancées telles que l&apos;authentification, la gestion des erreurs et la mise en cache.",
 				"3": "Que l'on soit un développeur chevronné ou un débutant, ce guide vous apportera les connaissances et les compétences nécessaires pour exploiter tout le potentiel de l&apos;API RESTful Fetch et faire passer vos applications web à la vitesse supérieure. Alors, plongeons et découvrons ce que l&apos;API Fetch a à offrir !"
 			},
