@@ -35,12 +35,12 @@ const MetadataHomePage = {
       {
         "@type": "Service",
         "name": "Création de sites web",
-        "description": "Agence Web innovante: création de sites web, e-commerce, design, accessibilité, référencement SEO et marketing digital pour propulser votre succès en ligne!🚀💻"
+        "description": "Agence Web innovante: création de site web, e-commerce, design, accessibilité, référencement SEO et marketing digital afin de propulser votre succès en ligne!🚀💻"
       },
       {
         "@type": "Service",
         "name": "SEO",
-        "description": "L'importance d'un référencement naturel efficace pour assurer le succès de votre projet en ligne. Le SEO est le nerf de la guerre, les meilleurs l’emportent."
+        "description": "L'importance d'un référencement naturel efficace afin d&apos;assurer le succès de votre projet en ligne. Le SEO est le nerf de la guerre, les meilleurs l’emportent."
       },
       {
         "@type": "Service",

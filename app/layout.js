@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
 	title: "Agence experte en création de sites web 💻 - SEO",
 	description:
-		"Agence Web innovante: création de sites web, e-commerce, design, accessibilité, référencement SEO et marketing digital pour propulser votre succès en ligne!🚀💻",
+		"Agence Web innovante: création de site web, e-commerce, design, accessibilité, référencement SEO et marketing digital afin de propulser votre succès en ligne!🚀💻",
 	referrer: "origin-when-cross-origin",
 	authors: "Stephane Gamot",
 	colorScheme: "dark",
@@ -44,7 +44,7 @@ export const metadata = {
 	openGraph: {
 		title: "White Wolf Web - Agence experte en création de sites web 💻 - SEO",
 		description:
-			"Agence Web innovante: création de sites web, e-commerce, design, accessibilité, référencement SEO et marketing digital pour propulser votre succès en ligne!🚀💻",
+			"Agence Web innovante: création de site web, e-commerce, design, accessibilité, référencement SEO et marketing digital afin de propulser votre succès en ligne!🚀💻",
 		url: "https://www.white-wolf-web.com",
 		siteName: "Agence White Wolf Web",
 		images: [

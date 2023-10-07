@@ -15,7 +15,7 @@ export const DataCardHomePage = [
 			title: "Design et ergonomie 🎨✨",
 			title2: "Web design 🎨✨",
 			titleAlt: "Palette de peinture utilisé - le web-design",
-			text: "Le design est un élément clé de la réussite de son site web. Chez White Wolf Web, un design attrayant et une ergonomie bien pensée peuvent faire la différence entre un site web qui convertit et un site internet qui échoue. Nos designers talentueux travaillent en étroite collaboration avec nos développeurs pour créer des sites web qui reflètent l&apos;image de marque et offrent une expérience utilisateur exceptionnelle. Cela permet de captiver ses visiteurs, une image attrayante et de qualité peut faire la différence sur votre site internet.",
+			text: "Le design est un élément clé de la réussite de son site web. Chez White Wolf Web, un design attrayant et une ergonomie bien pensée peuvent faire la différence entre un site web qui convertit et un site internet qui échoue. Nos designers talentueux travaillent en étroite collaboration avec nos développeurs en vue de créer des sites web qui reflètent l&apos;image de marque et offrent une expérience utilisateur exceptionnelle. Cela permet de captiver ses visiteurs, une image attrayante et de qualité peut faire la différence sur votre site internet.",
 			link: "/articles/web-design",
 		},
 		card3: {
@@ -24,7 +24,7 @@ export const DataCardHomePage = [
 			title: "Référencement et SEO 🔍📈",
 			title2: "SEO et référencement naturel 🔍📈",
 			titleAlt: "réferencement naturel ou SEO",
-			text: "Un bon positionnement dans les moteurs de recherche tels que Google, Bing, Yandex ... est essentiel en vue d&apos;attirer du trafic sur son site internet. Notre équipe d&apos;experts en référencement travaille sans relâche afin d&apos;optimiser son site web et améliorer sa visibilité sur le web. Notre agence SEO utilise des techniques de SEO éprouvées et des outils d&apos;analyse avancés pour garantir que votre site internet atteigne les premières positions des résultats de recherche. Le SEO est une approche organique qui vise à améliorer le classement d&apos;un site web dans les résultats de recherche non payants. ",
+			text: "Un bon positionnement dans les moteurs de recherche tels que Google, Bing, Yandex ... est essentiel en vue d&apos;attirer du trafic sur son site internet. Notre équipe d&apos;experts en référencement travaille sans relâche afin d&apos;optimiser son site web et améliorer sa visibilité sur le web. Notre agence SEO utilise des techniques de SEO éprouvées et des outils d&apos;analyse avancés en vue de garantir que votre site internet atteigne les premières positions des résultats de recherche. Le SEO est une approche organique qui vise à améliorer le classement d&apos;un site web dans les résultats de recherche non payants. ",
 			link: "/articles/referencement-seo-google",
 		},
 		card4: {
@@ -42,7 +42,7 @@ export const DataCardHomePage = [
 			title: "Rédactionde contenu 💡📝",
 			title2: "Rédaction de vos contenus 💡📝",
 			titleAlt: "Une page vierge un crayon et une gomme ... l&apos;envie d&apos;écrire",
-			text: "Le contenu de qualité est essentiel en vue d&apos;attirer et fidéliser son audience. L&apos;équipe de rédacteurs expérimentés et créatifs élabore des stratégies de contenu personnalisées pour son entreprise, en tenant compte de son public cible et de vos objectifs. Notre agence web produit du contenu engageant, informatif et optimisé pour le référencement naturel, qui aidera à se démarquer de la concurrence et à améliorer son positionnement sur les moteurs de recherche tel que Google. Pour que le contenu soit visible par Google, on se doit de l&apos;optimiser pour le SEO",
+			text: "Le contenu de qualité est essentiel en vue d&apos;attirer et fidéliser son audience. L&apos;équipe de rédacteurs expérimentés et créatifs élabore des stratégies de contenu personnalisées pour son entreprise, en tenant compte de son public cible et de vos objectifs. Notre agence web produit du contenu engageant, informatif et optimisé pour le référencement naturel, qui aidera à se démarquer de la concurrence et à améliorer son positionnement sur les moteurs de recherche tel que Google. Afin que le contenu soit visible par Google, on se doit de l&apos;optimiser pour le SEO",
 			link: "/articles/miscellaneous/contenu-et-redaction-votre-site-internet",
 		},
 		card6: {
@@ -51,7 +51,7 @@ export const DataCardHomePage = [
 			title: "Création de site Wordpress",
 			title2: "Wordpress",
 			titleAlt: "Le fameux W qui symbolise la création des sites web Wordpress",
-			text: "WordPress est l&apos;une plateforme de création de sites web les plus populaires et les plus polyvalents au monde. Selon les besoins de votre site web d&apos;entreprise, de son blog ou boutique en ligne … Vous pourrez y ajouter des fonctionnalités de pointe tels que des plugins, un template (selon le thème), le blog ... tout en s&apos; assurant une navigation fluide à vos visiteurs. La création d&apos;un site web avec WordPress est un processus relativement simple et accessible même aux débutants. Il est idéal pour les entreprises à petits budgets ou pour débuter une activité non lucrative.",
+			text: "WordPress est l&apos;une plateforme de création de sites web les plus populaires et les plus polyvalents au monde. Selon les besoins de votre site web d&apos;entreprise, de son blog ou boutique en ligne … Vous pourrez y ajouter des fonctionnalités de pointe tels que des plugins, un template (selon le thème), le blog ... tout en s&apos; assurant une navigation fluide à vos visiteurs. La création d&apos;un site web avec WordPress est un processus relativement simple et accessible même aux débutants. Il est idéal à chaques entreprises à petits budgets ou pour débuter une activité non lucrative.",
 			link: "/articles/creation-site-web#wordpress",
 		},
 		card7: {

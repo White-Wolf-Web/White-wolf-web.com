@@ -21,7 +21,7 @@
 		"title": "JavaScript",
 		"alt": "Logo JS.",
 		"image": "/Assets/Icons/javascript-L.webp",
-		"description": "Javascript est un langage de programmation qui permet de rendre les sites interactifs. Il est exécuté sur le client (votre navigateur) et permet d'ajouter des fonctionnalités dynamiques à un site web statique.",
+		"description": "Javascript est un langage de programmation qui permet de rendre les sites interactifs. Il est exécuté coté client (dans le navigateur) et permet d'ajouter des fonctionnalités dynamiques à un site web statique.",
 		"backgroundColor": "#F7DF1E",
 		"color": "black",
 		"href": "/articles/languages/javascript"

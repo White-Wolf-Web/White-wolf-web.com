@@ -51,7 +51,7 @@ export default function Home() {
 				</p>
 				<p>
 					Notre agence Web apporte également de l&apos; aide pour l&apos;hébergement de vos pages web, la configuration d&apos;un nom de domaine personnalisé, une utilisation
-					intelligente des mots-clés, une visibilité maximale de votre marque sur les {" "}
+					intelligente des mots-clés, une visibilité maximale de la marque sur les {" "}
 					<Link href="/articles/reseaux-sociaux" className={styles.internalLink}>
 						réseaux sociaux
 					</Link>{" "}
@@ -71,7 +71,7 @@ export default function Home() {
 					<Link href="/articles/reseaux-sociaux/#twitter" className={styles.colorTwitter}>
 						Twitter
 					</Link>
-					...) et les moteurs de recherche. Tous ces éléments vont renforcer la présence de votre marque sur le web.
+					...) et les moteurs de recherche. Tous ces éléments vont renforcer la présence de la marque sur le web.
 				</p>
 			</div>
 			
@@ -160,7 +160,7 @@ export default function Home() {
 				<p>
 					La <Link  href="/articles/creation-site-web" className={styles.internalLink}>création de site internet</Link> et la gestion d&apos;une boutique en ligne peut être un défi, en particulier 
 					les auto-entrepreneurs ou une petites entreprises. C&apos;est pourquoi l&apos;agence de création web met tout en œuvre afin d&apos;aider à surmonter ces obstacles. <br></br>
-					L&apos;équipe de white wolf webest composée de dévouée <strong>développeurs web</strong>, de <strong>webdesigners</strong>, de <Link  href="/blog" className={styles.internalLink}>spécialistes du blog</Link> et d&apos;images est là pour vous guider et vous soutenir à chaque
+					L&apos;équipe de white wolf web est composée de dévouée <strong>développeurs web</strong>, de <strong>webdesigners</strong>, de <Link  href="/blog" className={styles.internalLink}>spécialistes du blog</Link> et chacun est là en vue de vous guider et soutenir à chaque
 					étape. Wild Wolf Web est en mesure de fournir des solutions qui non seulement répondent à vos besoins, mais aussi surpassent vos attentes.
 				</p>
 
