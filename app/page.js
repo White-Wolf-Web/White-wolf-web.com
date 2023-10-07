@@ -50,7 +50,7 @@ export default function Home() {
 					créer une <strong>boutique en ligne</strong>.
 				</p>
 				<p>
-					Notre agence Web apporte également notre aide pour l&apos;hébergement de vos pages web, la configuration d&apos;un nom de domaine personnalisé, une utilisation
+					Notre agence Web apporte également de l&apos; aide pour l&apos;hébergement de vos pages web, la configuration d&apos;un nom de domaine personnalisé, une utilisation
 					intelligente des mots-clés, une visibilité maximale de votre marque sur les {" "}
 					<Link href="/articles/reseaux-sociaux" className={styles.internalLink}>
 						réseaux sociaux
@@ -78,7 +78,7 @@ export default function Home() {
 			<section className={styles.sectionHomePage}>
 				<h2 className={styles.homeH2MarginTop}>La création de site internet professionnel</h2>
 				<p>
-					<strong>Notre agence web</strong> est situé en <strong>Belgique</strong>, au sud de <strong>Bruxelles</strong>. Notre but est de vous guider dans la
+					<strong>Notre agence web</strong> est situé en <strong>Belgique</strong>, au sud de <strong>Bruxelles</strong>. Le but est de vous guider dans la
 					jungle du <strong>web</strong>-design et l&apos;univers du web développeur, afin de transformer votre vision d’un <strong>site internet professionnel</strong>, qui sera livré clé en
 					main et parfaitement adapté à vos besoins. Du <strong>développement web</strong> à la gestion de contenu, en passant au choix de l&apos;hebergeur ou du nom de domaine
 					approprié nous sommes le <strong>webmaster</strong> & developpeur d&apos;application Web qui est présent à chaque étape du projet. <br></br>
@@ -159,13 +159,13 @@ export default function Home() {
 				<h2 className={styles.homeH2}>Notre mission est de fournir un site web d&apos;excellence</h2>
 				<p>
 					La <Link  href="/articles/creation-site-web" className={styles.internalLink}>création de site internet</Link> et la gestion d&apos;une boutique en ligne peut être un défi, en particulier 
-					les auto-entrepreneurs ou une petites entreprises. C&apos;est pourquoi notre agence de création web met tout en œuvre afin d&apos;aider à surmonter ces obstacles. <br></br>
-					Notre équipe dévouée de <strong>développeurs web</strong>, de <strong>webdesigners</strong>, de <Link  href="/blog" className={styles.internalLink}>spécialistes du blog</Link> et d&apos;images est là pour vous guider et vous soutenir à chaque
+					les auto-entrepreneurs ou une petites entreprises. C&apos;est pourquoi l&apos;agence de création web met tout en œuvre afin d&apos;aider à surmonter ces obstacles. <br></br>
+					L&apos;équipe de white wolf webest composée de dévouée <strong>développeurs web</strong>, de <strong>webdesigners</strong>, de <Link  href="/blog" className={styles.internalLink}>spécialistes du blog</Link> et d&apos;images est là pour vous guider et vous soutenir à chaque
 					étape. Wild Wolf Web est en mesure de fournir des solutions qui non seulement répondent à vos besoins, mais aussi surpassent vos attentes.
 				</p>
 
 				<p>
-					Si vous êtes à <strong>Bruxelles</strong>, en <strong>Belgique</strong>, ou n&apos;importe où dans le monde, notre agence web serais ravis de vous aider à transformer une vision en réalité. Ne
+					Si vous êtes à <strong>Bruxelles</strong>, en <strong>Belgique</strong>, ou n&apos;importe où dans le monde, l&apos;agence web serait ravis de vous aider à transformer une vision en réalité. Ne
 					laissez pas la complexité du web vous décourager - avec <strong>White Wolf Web</strong> à vos côtés, c&apos;est avoir un partenaire de confiance qui permet de naviguer dans la jungle
 					du web. Ensemble, nous pouvons réaliser de grandes choses. Notre agence web est impatients de travailler avec votre entreprise !
 				</p>

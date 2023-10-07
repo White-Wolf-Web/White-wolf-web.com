@@ -6,7 +6,7 @@ export const DataCardHomePage = [
 			title: "Création de sites web 🌐🛍️",
 			title2: "Création de sites web personnalisés 🌐🛍️",
 			titleAlt: "le monde du web et ses sites",
-			text: "Notre agence se spécialise dans la conception et le développement de sites web et de boutiques en ligne attrayants, fonctionnels et faciles à utiliser. Notre agence web met l&apos;accent sur l&apos;expérience utilisateur (UX) et le design dans le but de créer des sites web qui attirent l&apos;attention et encouragent les visiteurs à devenir des clients fidèles. Que l&apos;on est besoin d&apos;un site vitrine ou le projet d&apos;une boutique en ligne complète afin de présenter l&apos;entreprise, notre équipe est là pour transformer vos idées en réalité et à optimiser son référencement en vue d&apos;attirer plus de clients.",
+			text: "Notre agence se spécialise dans la conception et le développement de sites web et de boutiques en ligne attrayants, fonctionnels et faciles à utiliser. L&apos;agence web met l&apos;accent sur l&apos;expérience utilisateur (UX) et le design dans le but de créer des sites web qui attirent l&apos;attention et encouragent les visiteurs à devenir des clients fidèles. Que l&apos;on est besoin d&apos;un site vitrine ou le projet d&apos;une boutique en ligne complète afin de présenter l&apos;entreprise, l&apos;équipe est là pour transformer vos idées en réalité et à optimiser son référencement en vue d&apos;attirer plus de clients.",
 			link: "/articles/creation-site-web",
 		},
 		card2: {
@@ -42,7 +42,7 @@ export const DataCardHomePage = [
 			title: "Rédactionde contenu 💡📝",
 			title2: "Rédaction de vos contenus 💡📝",
 			titleAlt: "Une page vierge un crayon et une gomme ... l&apos;envie d&apos;écrire",
-			text: "Le contenu de qualité est essentiel en vue d&apos;attirer et fidéliser son audience. Notre équipe de rédacteurs expérimentés et créatifs élabore des stratégies de contenu personnalisées pour son entreprise, en tenant compte de son public cible et de vos objectifs. Notre agence web produit du contenu engageant, informatif et optimisé pour le référencement naturel, qui aidera à se démarquer de la concurrence et à améliorer son positionnement sur les moteurs de recherche tel que Google. Pour que le contenu soit visible par Google, on se doit de l&apos;optimiser pour le SEO",
+			text: "Le contenu de qualité est essentiel en vue d&apos;attirer et fidéliser son audience. L&apos;équipe de rédacteurs expérimentés et créatifs élabore des stratégies de contenu personnalisées pour son entreprise, en tenant compte de son public cible et de vos objectifs. Notre agence web produit du contenu engageant, informatif et optimisé pour le référencement naturel, qui aidera à se démarquer de la concurrence et à améliorer son positionnement sur les moteurs de recherche tel que Google. Pour que le contenu soit visible par Google, on se doit de l&apos;optimiser pour le SEO",
 			link: "/articles/miscellaneous/contenu-et-redaction-votre-site-internet",
 		},
 		card6: {
@@ -60,7 +60,7 @@ export const DataCardHomePage = [
 			title: "Analyse et\nsuivi des performances 📊🔍",
 			title2: "Analyse des performances 📊🔍",
 			titleAlt: "C&apos;est une graphisme qui permet de suivre les évolutions des performance du site internet",
-			text: "Chez White Wolf Web, l&apos;importance de mesurer et d&apos;analyser les performances de son site internet et de vos campagnes marketing sont fondamentale. Notre équipe d&apos;analystes utilise des outils avancés qui permettent de suivre et analyser les données, afin de fournir des rapports détaillés et des recommandations en vue d&apos;améliorer continuellement sa stratégie. Notre objectif est de vous aider à prendre des décisions éclairées et à maximiser le retour sur investissement de vos efforts en ligne.",
+			text: "Chez White Wolf Web, l&apos;importance de mesurer et d&apos;analyser les performances de son site internet et de vos campagnes marketing sont fondamentale. L&apos;équipe d&apos;analystes utilise des outils avancés qui permettent de suivre et analyser les données, afin de fournir des rapports détaillés et des recommandations en vue d&apos;améliorer continuellement sa stratégie. L&apos;objectif est de vous aider à prendre des décisions éclairées et à maximiser le retour sur investissement de vos efforts en ligne.",
 			link: "/articles/miscellaneous/analyse-audit-performance-votre-site-web",
 		},
 	},
