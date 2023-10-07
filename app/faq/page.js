@@ -38,7 +38,7 @@ export default function Faq() {
 						{visibleSections.section2 && (
 							<p>
 								Vous pouvez commencer en nous contactant via notre formulaire de contact, E-mail, téléphone... Un de nos spécialistes discutera avec vous
-								pour comprendre vos besoins et vous proposer la meilleure solution possible.
+								pour comprendre vos besoins et proposer la meilleure solution possible.
 							</p>
 						)}
 					</div>
@@ -48,7 +48,7 @@ export default function Faq() {
 						{visibleSections.section3 && (
 							<p>
 								Le coût d&apos;un site web peut varier en fonction de nombreux facteurs, tels que la complexité du design, le nombre de pages, les
-								fonctionnalités spécifiques requises, etc. Nous vous fournirons un devis précis après avoir discuté de vos besoins spécifiques.
+								fonctionnalités spécifiques requises, etc. Nous fournirons un devis précis après avoir discuté de vos besoins spécifiques.
 							</p>
 						)}
 					</div>
@@ -58,7 +58,7 @@ export default function Faq() {
 						{visibleSections.section4 && (
 							<p>
 								Le délai de création d&apos;un site web dépend de la complexité du projet. Un site web simple peut être prêt en entre 1 jour à 1 semaine,
-								tandis qu&apos;un site web plus complexe peut prendre plusieurs mois. Nous vous donnerons une estimation précise du délai lors de notre
+								tandis qu&apos;un site web plus complexe peut prendre plusieurs mois. Nous donnerons une estimation précise du délai lors de notre
 								première discussion.
 							</p>
 						)}
@@ -69,8 +69,8 @@ export default function Faq() {
 						{visibleSections.section5 && (
 							<p>
 								Les agences Web ont l&apos;expérience et l&apos;expertise pour concevoir des sites Web de qualité professionnelle qui répondent aux
-								besoins spécifiques de votre entreprise. Elles s&apos;assurent que votre site est non seulement attrayant, mais aussi fonctionnel et
-								optimisé pour les moteurs de recherche. Mais encore une fois tout dépend de ce vous attendez de votre site web.
+								besoins spécifiques de l&apos;entreprise. Elles s&apos;assurent que votre site est non seulement attrayant, mais aussi fonctionnel et
+								optimisé pour les moteurs de recherche. Mais encore une fois tout dépend de ce vous attendez du site web.
 							</p>
 						)}
 					</div>
@@ -79,7 +79,7 @@ export default function Faq() {
 						<h2 className={styles.faqH2}>Proposez-vous des services de maintenance après la création du site Web ?</h2>
 						{visibleSections.section6 && (
 							<p>
-								Oui, nous offrons divers plans de maintenance qui assurent que votre site reste à jour et sécurisé. Cela peut inclure des mises à jour
+								Oui, nous offrons divers plans de maintenance qui assurent que le site reste à jour et sécurisé. Cela peut inclure des mises à jour
 								régulières, la résolution de problèmes de sécurité, l&apos;ajout de nouvelles fonctionnalités et bien plus encore.
 							</p>
 						)}
@@ -89,7 +89,7 @@ export default function Faq() {
 						<h2 className={styles.faqH2}>Quelle est l&apos;importance du référencement (SEO) pour mon site Web ?</h2>
 						{visibleSections.section7 && (
 							<p>
-								Le SEO est essentiel pour assurer la visibilité de votre site Web sur les moteurs de recherche. Un bon SEO signifie plus de trafic, ce qui
+								Le SEO est essentiel pour assurer la visibilité du site Web sur les moteurs de recherche. Un bon SEO signifie plus de trafic, ce qui
 								peut conduire à une augmentation des ventes et des prospects pour votre entreprise.
 							</p>
 						)}
@@ -109,8 +109,8 @@ export default function Faq() {
 						<h2 className={styles.faqH2}>Quelles informations dois-je fournir pour commencer un projet ?</h2>
 						{visibleSections.section9 && (
 							<p>
-								Nous aurons besoin d&apos;une compréhension claire de vos objectifs, de votre public cible, de vos préférences en matière de design et de
-								toute autre information spécifique à votre entreprise ou à votre industrie. Plus nous avons d&apos;informations, mieux nous pouvons
+								Nous aurons besoin d&apos;une compréhension claire de vos objectifs, du public cible, de vos préférences en matière de design et de
+								toute autre information spécifique à votre entreprise ou industrie. Plus nous avons d&apos;informations, mieux nous pouvons
 								répondre à vos besoins.
 							</p>
 						)}
@@ -163,7 +163,7 @@ export default function Faq() {
 					<div onClick={() => toggleParagraph("section15")} className={styles.divQuestions}>
 						<h2 className={styles.faqH2}>Offrez-vous des services de re-design de site Web ?</h2>
 						{visibleSections.section15 && (
-							<p>Oui, nous pouvons vous aider à moderniser votre site Web existant pour le rendre plus attrayant et performant.</p>
+							<p>Oui, nous pouvons aider à moderniser votre site Web existant pour le rendre plus attrayant et performant.</p>
 						)}
 					</div>
 
@@ -204,7 +204,7 @@ export default function Faq() {
 						<h2 className={styles.faqH2}>Est-ce que mon site web sera optimisé pour les moteurs de recherche (SEO) ?</h2>
 						{visibleSections.section20 && (
 							<p>
-								Oui, tous les sites web que nous créons sont conçus avec le SEO à l&apos;esprit pour aider à augmenter votre visibilité en ligne. C’est
+								Oui, tous les sites web que nous créons sont conçus avec le SEO à l&apos;esprit pour aider à augmenter sa visibilité en ligne. C’est
 								pour nous un point important !
 							</p>
 						)}
@@ -219,7 +219,7 @@ export default function Faq() {
 						<h2 className={styles.faqH2}>Avez-vous de l&apos;expérience avec le E-commerce ?</h2>
 						{visibleSections.section22 && (
 							<p>
-								Oui, nous avons une grande expérience dans la conception de sites de E-commerce et pouvons vous aider à configurer une boutique en ligne
+								Oui, nous avons une grande expérience dans la conception de sites de E-commerce et pouvons aider à configurer une boutique en ligne
 								sécurisée.
 							</p>
 						)}
@@ -239,7 +239,7 @@ export default function Faq() {
 						<h2 className={styles.faqH2}>Comment commencer le processus de conception de site web ?</h2>
 						{visibleSections.section24 && (
 							<p>
-								Pour commencer, contactez-nous pour une consultation gratuite. Nous discuterons de vos besoins, de vos objectifs, et nous vous fournirons
+								Pour commencer, contactez-nous pour une consultation gratuite. Nous discuterons de vos besoins, de vos objectifs, et nous fournirons
 								un devis détaillé.
 							</p>
 						)}
@@ -256,7 +256,7 @@ export default function Faq() {
 						<h2 className={styles.faqH2}>Offrez-vous des services de sécurité de site web ?</h2>
 						{visibleSections.section26 && (
 							<p>
-								Oui, la sécurité de votre site web est une priorité pour nous. Nous offrons une variété de services pour aider à protéger votre site
+								Oui, la sécurité de votre site web est une priorité pour nous. Nous offrons une variété de services pour aider à protéger son site
 								contre les menaces en ligne.
 							</p>
 						)}
@@ -273,7 +273,7 @@ export default function Faq() {
 						<h2 className={styles.faqH2}>Offrez-vous des formations pour la gestion du site ?</h2>
 						{visibleSections.section28 && (
 							<p>
-								Oui, nous offrons des formations pour vous aider à gérer et à mettre à jour votre site web. Quand il s’agit d’un CMS tel que Wordpress,
+								Oui, nous offrons des formations pour aider à gérer et à mettre à jour son site web. Quand il s’agit d’un CMS tel que Wordpress,
 								c’est assez simple et rapide.
 							</p>
 						)}
@@ -291,14 +291,14 @@ export default function Faq() {
 
 					<div onClick={() => toggleParagraph("section30")} className={styles.divQuestions}>
 						<h2 className={styles.faqH2}>Et si je préfère un site statique ?</h2>
-						{visibleSections.section30 && <p>Alors nous vous créerons un site statique. Ils sont en général légèrement moins onéreux.</p>}
+						{visibleSections.section30 && <p>Alors nous créerons un site statique. Ils sont en général légèrement moins onéreux.</p>}
 					</div>
 
 					<div onClick={() => toggleParagraph("section31")} className={styles.divQuestions}>
 						<h2 className={styles.faqH2}>Fournissez-vous des services de marketing par email ?</h2>
 						{visibleSections.section31 && (
 							<p>
-								Oui, nous pouvons vous aider à mettre en place des campagnes de marketing par email pour augmenter l&apos;engagement et la conversion des
+								Oui, nous pouvons aider à mettre en place des campagnes de marketing par email pour augmenter l&apos;engagement et la conversion des
 								clients.
 							</p>
 						)}
@@ -317,7 +317,7 @@ export default function Faq() {
 					<div onClick={() => toggleParagraph("section33")} className={styles.divQuestions}>
 						<h2 className={styles.faqH2}>Offrez-vous des services de marketing sur les réseaux sociaux ?</h2>
 						{visibleSections.section33 && (
-							<p>Oui, nous pouvons vous aider à développer et à mettre en œuvre une stratégie de marketing sur les réseaux sociaux.</p>
+							<p>Oui, nous pouvons aider à développer et à mettre en œuvre une stratégie de marketing sur les réseaux sociaux.</p>
 						)}
 					</div>
 

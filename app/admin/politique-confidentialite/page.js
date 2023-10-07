@@ -13,7 +13,7 @@ export default function PolitiqueConfidentialite() {
 			<main className={styles.main}>
 				<h1 className={styles.title}>Politique de confidentialité</h1>
 				<p>
-					Bienvenue sur www.white-wolf-web.com. Cette page vous explique nos politiques en matière de collecte, d&apos;utilisation et de divulgation des
+					Bienvenue sur www.white-wolf-web.com. Cette page explique nos politiques en matière de collecte, d&apos;utilisation et de divulgation des
 					informations personnelles lorsque vous utilisez notre Service.
 					<br />
 					Nous utilisons vos informations personnelles pour fournir et améliorer le Service. En utilisant le Service, vous acceptez la collecte et
@@ -28,7 +28,7 @@ export default function PolitiqueConfidentialite() {
 				<h2>Sécurité</h2>
 				<p>
 					La sécurité de vos informations personnelles est importante pour nous, mais n&apos;oubliez pas qu&apos;aucune méthode de transmission sur Internet ou
-					de stockage électronique n&apos;est sécurisée à 100%. Bien que nous nous efforcions d&apos;utiliser des moyens commercialement acceptables pour
+					de stockage électronique n&apos;est sécurisée à 100%. Bien que je m&apos;éfforce d&apos;utiliser des moyens commercialement acceptables pour
 					protéger vos informations personnelles, nous ne pouvons garantir leur sécurité absolue.
 				</p>
 				<h2>Liens vers d&apos;autres sites</h2>

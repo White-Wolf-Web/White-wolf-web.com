@@ -28,11 +28,11 @@ export default function ConditionsGenerales() {
 				vous concernant, collectées et traitées à l&apos;occasion de votre utilisation du Service.
 			</p>
 			<p>
-				Il est important que vous lisiez la présente politique de confidentialité afin que vous soyez conscient des raisons pour lesquelles nous utilisons vos
-				données et comment nous le faisons.
+				Il est important que vous lisiez la présente politique de confidentialité afin que vous soyez conscient des raisons pour lesquelles nous utilisons les
+				données fournies et comment elles sont utilisées.
 			</p>
 			<p>
-				En vous inscrivant sur le Service, vous vous engagez à nous fournir des informations véritables vous concernant. La communication de fausses informations
+				En s&apos;inscrivant sur le Service, c&apos;est s&apos;engagez à nous fournir des informations véritables vous concernant. La communication de fausses informations
 				est contraire aux conditions générales figurant sur le Service.
 			</p>
 			<p>
@@ -40,7 +40,7 @@ export default function ConditionsGenerales() {
 				toute évolution législative, réglementaire, jurisprudentielle ou technologique. La date de sa mise à jour sera clairement mentionnée, le cas échéant.
 			</p>
 			<p>
-				Ces modifications vous engagent dès leur mise en ligne et nous vous invitons donc à consulter régulièrement la présente Politique de confidentialité afin
+				Ces modifications vous engagent dès leur mise en ligne et vous êtes invité à consulter régulièrement la présente Politique de confidentialité afin
 				de prendre connaissance des éventuelles modifications. Vous trouverez également la description de vos droits à la protection de la vie privée et la façon
 				dont la loi vous protège.
 			</p>
@@ -49,7 +49,7 @@ export default function ConditionsGenerales() {
 				présente
 			</p>
 			<p>
-				Politique de confidentialité, veuillez nous contacter par e-mail à l’adresse : https://www.white-wolf-web.com ou par courrier adressé à : Octaaf de
+				Politique de confidentialité, veuillez me contacter par e-mail à l’adresse : https://www.white-wolf-web.com ou par courrier adressé à : Octaaf de
 				kerchove d&apos;exaerdestraat 193.
 			</p>
 			<h3>Article 2 -- Données collectés sur le Site</h3>
@@ -76,7 +76,7 @@ export default function ConditionsGenerales() {
 				Le Service est susceptible de collecter et traiter les Données de ses Utilisateurs : Aux fins de vous fournir les informations ou les services auxquels
 				vous avez souscrit, notamment : Offres commerciales.
 			</p>
-			<p>Aux fins de recueillir des informations nous permettant d’améliorer notre Service, nos produits et fonctionnalités (notamment par l’usage des cookies).</p>
+			<p>Aux fins de recueillir des informations qui permettant d’améliorer notre Service, nos produits et fonctionnalités (notamment par l’usage des cookies).</p>
 			<p>Aux fins de pouvoir vous contacter à propos de : Projet de vente.</p>
 			<h3>Article 5 -- Destinataires et utilisation des Données collectées</h3>
 			<p>
@@ -136,7 +136,7 @@ export default function ConditionsGenerales() {
 				Conformément à la législation sur la protection des données personnelles, vous avez les droits détaillés ci-après que vous pouvez exercer, comme indiqué à
 			</p>
 			<p>
-				L’Article 1 de la Présente Politique de confidentialité en nous écrivant à l’adresse postale mentionnée en tête (Octaaf de kerchove d&apos;exaerdestraat
+				L’Article 1 de la Présente Politique de confidentialité en écrivant à l’adresse postale mentionnée en tête (Octaaf de kerchove d&apos;exaerdestraat
 				193) ou en envoyant un courriel à https://www.white-wolf-web.com : Le droit d’information : nous avons l’obligation de vous informer de la manière dont
 				nous utilisons vos données personnelles (tel que décrit dans la présente politique de confidentialité).
 			</p>
@@ -144,17 +144,17 @@ export default function ConditionsGenerales() {
 				Le droit d’accès : c’est votre droit d’effectuer une demande d’accès aux données vous concernant afin de recevoir une copie des données à caractère
 				personnel que nous détenons ; Toutefois, en raison de l’obligation de sécurité et de confidentialité dans le traitement des données à caractère personnel
 				qui incombe à SRL, vous êtes informé que votre demande sera traitée sous réserve que vous rapportiez la preuve de votre identité, notamment par la
-				production d’un scan ou d’une photocopie de votre titre d’identité valide. Le droit de rectification : le droit de nous demander de rectifier des données
+				production d’un scan ou d’une photocopie de votre titre d’identité valide. Le droit de rectification : le droit de demander de rectifier des données
 				personnelles vous concernant qui seraient incomplètes ou inexactes. Au titre de ce droit, la législation vous autorise à demander la rectification, la
 				mise à jour, le verrouillage ou encore l’effacement des données vous concernant qui peuvent être inexactes, erronées, incomplètes ou obsolètes.
 			</p>
 			<p>
-				Le droit à l’effacement, aussi connu sous le nom de « droit à l’oubli » : dans certains cas, vous pouvez nous demander de supprimer les données
-				personnelles que nous avons vous concernant (mis à part s’il existe une raison juridique impérieuse qui nous oblige à les conserver).
+				Le droit à l’effacement, aussi connu sous le nom de « droit à l’oubli » : dans certains cas, vous pouvez me demander de supprimer les données
+				personnelles que nous avons vous concernant (mis à part s’il existe une raison juridique impérieuse qui m oblige à les conserver).
 			</p>
 			<p>Le droit à la limitation du traitement : vous avez le droit dans certains cas de nous demander de suspendre le traitement des données personnelles.</p>
 			<p>
-				Le droit à la portabilité des données : vous avez le droit de nous demander une copie de vos données personnelles dans un format courant (par exemple un
+				Le droit à la portabilité des données : vous avez le droit de demander une copie de vos données personnelles dans un format courant (par exemple un
 				fichier .csv).
 			</p>
 			<p>
@@ -166,7 +166,7 @@ export default function ConditionsGenerales() {
 				légitimes ou lorsque l’exercice de ce droit vise à faire obstacle à ce que les données recueillies soient utilisées à des fins de prospection commerciale.
 			</p>
 			<p>
-				Contactez-nous si vous souhaitez exercer l’un des droits décrits ci-dessus en nous écrivant à Octaaf de kerchove d&apos;exaerdestraat 193 ou par courriel
+				Contactez-nous si vous souhaitez exercer l’un des droits décrits ci-dessus en écrivant à Octaaf de kerchove d&apos;exaerdestraat 193 ou par courriel
 				à https://www.white-wolf-web.com
 			</p>
 			<p>
@@ -196,7 +196,7 @@ export default function ConditionsGenerales() {
 			<p>
 				Lors de votre première utilisation du Service https://www.white-wolf-web.com, vous êtes avertis par un bandeau que des informations relatives à votre
 				navigation sont susceptibles d’être enregistrées dans des fichiers alphanumériques dénommés « cookies ». Notre politique d’utilisation des cookies vous
-				permet de mieux comprendre les dispositions que nous mettons en œuvre en matière de navigation sur notre Service. Elle vous informe notamment sur
+				permet de mieux comprendre les dispositions qui sont mise en œuvre en matière de navigation sur notre Service. Elle vous informe notamment sur
 				l’ensemble des présents sur notre Service, leur finalité et vous donne la marche à suivre pour les paramétrer.
 			</p>
 			<h4>a Informations générales sur les cookies présents sur le site</h4>
@@ -205,7 +205,7 @@ export default function ConditionsGenerales() {
 				tablette, mobile etc.) afin de vous garantir une navigation fluide et optimale sur notre Service.
 			</p>
 			<p>
-				Les « cookies » (ou témoins de connexion) sont des petits fichiers texte de taille limitée qui nous permettent de reconnaître votre ordinateur, votre
+				Les « cookies » (ou témoins de connexion) sont des petits fichiers texte de taille limitée qui permettent de reconnaître votre ordinateur, votre
 				tablette ou votre mobile aux fins de personnaliser les services que nous vous proposons.
 			</p>
 			<p>
@@ -293,7 +293,7 @@ export default function ConditionsGenerales() {
 				Pour de plus amples informations concernant les outils de maîtrise des cookies, vous pouvez consulter le site internet de la CNIL :
 				https://www.cnil.fr/fr/cookiesles-outils-pour-les-maitriser.
 			</p>
-			<p>Pour toute interrogation ou demande complémentaire d’informations relative à la présente politique des cookies, merci de bien vouloir nous contacter.</p>
+			<p>Pour toute interrogation ou demande complémentaire d’informations relative à la présente politique des cookies, merci de bien vouloir me contacter.</p>
 		</div>
 	);
 }
