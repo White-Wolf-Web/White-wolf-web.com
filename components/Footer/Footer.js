@@ -19,7 +19,7 @@ export default function Footer() {
 		<div className={styles.footer}>
 			<div className={styles.topFooter}>
 				<div>
-					<h2 className={styles.HFooter}>Agence White Wolf Web</h2>
+					<h3 className={styles.HFooter}>Agence White Wolf Web</h3>
 				</div><Link href="/rating">
 				<div className={styles.avis}>
 					<h3 className={styles.HFooter}>Avis Clients</h3>&emsp;
