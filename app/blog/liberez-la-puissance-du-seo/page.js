@@ -50,18 +50,18 @@ export default function SEOPower() {
 				<Image src={SEOMini1} alt="Un graphique sur un Ipad" placeholder="blur" quality={100} className={`${styles.blogStyleImg} ${styles.floatRight}`} />
 
 				<p>
-					Lorsque l&apos;on fait appel à une agence web pour améliorer la visibilité du site, vous bénéficiez de son expertise et de son expérience dans le
+					Lorsque l&apos;on fait appel à une agence web en vue d&apos;améliorer la visibilité du site, vous bénéficiez de son expertise et de son expérience dans le
 					domaine du référencement naturel. Une agence web comprend les dernières tendances et les meilleures pratiques en matière de référencement, ce qui lui
-					permet de créer et de mettre en oeuvre des stratégies efficaces pour améliorer le classement du site dans les moteurs de recherche. Elle
+					permet de créer et de mettre en oeuvre des stratégies efficaces afin d&apos;améliorer le classement du site dans les moteurs de recherche. Elle
 					effectuera une analyse approfondie du site web pour identifier les domaines à améliorer et les opportunités à exploiter. En travaillant en
-					étroite collaboration avec l&apos;agence web, vous serez en mesure  d&apos;attendre à une approche personnalisée et ciblée pour améliorer la visibilité du
+					étroite collaboration avec l&apos;agence web, vous serez en mesure  d&apos;attendre à une approche personnalisée et ciblée qui permet d&apos;améliorer la visibilité du
 					site.
 				</p>
 				<p>
-					Une agence web vous aidera également à optimiser le site pour les mots-clés pertinents. Grâce à une recherche approfondie des mots-clés, elle
+					Une agence web vous aidera également à optimiser le site avec les mots-clés pertinents. Grâce à une recherche approfondie des mots-clés, elle
 					identifiera les termes les plus recherchés par le public cible et les intégrera stratégiquement dans son contenu. Cela permettra d&apos;augmenter
 					la visibilité de votre site dans les résultats de recherche et d&apos;attirer du trafic qualifié. En travaillant avec une agence web, vous pouvez être
-					assuré que ce site sera optimisé pour les mots-clés pertinents afin d&apos;attirer un trafic organique de qualité.
+					assuré que ce site sera optimisé avec les mots-clés pertinents afin d&apos;attirer un trafic organique de qualité.
 				</p>
 				<p></p>
 			</section>
@@ -73,13 +73,13 @@ export default function SEOPower() {
 				<p>
 					La recherche de mots-clés est une étape cruciale dans l&apos;élaboration d&apos;une stratégie de référencement naturel efficace. Elle permet
 					d&apos;identifier les termes et les expressions les plus recherchés par le public cible. Une agence web effectuera une recherche approfondie des
-					mots-clés pour trouver ceux qui sont les plus pertinents pour votre activité. Elle tiendra compte de la concurrence, du volume de recherche et de la
+					mots-clés en vue de trouver ceux qui sont les plus pertinents pour votre activité. Elle tiendra compte de la concurrence, du volume de recherche et de la
 					pertinence du public cible afin de sélectionner les mots-clés les plus efficaces pour ce site.
 				</p>
 			</section>
 			<br /> <br />{" "}
 			<section>
-				<h2 className={styles.textCenter}>Les techniques d&apos;optimisation sur la page pour une meilleure visibilité</h2>
+				<h2 className={styles.textCenter}>Les techniques d&apos;optimisation sur la page afin d&apos;obtenir une meilleure visibilité</h2>
 				<Image
 					src={SEOMini3}
 					alt="Un clavie de Mac avec une touche SEO"
@@ -90,7 +90,7 @@ export default function SEOPower() {
 
 				<p>
 					L&apos;optimisation sur la page est une autre composante essentielle d&apos;une stratégie de référencement naturel réussie. Cela comprend
-					l&apos;optimisation des balises de titre, des méta-descriptions, des URL et du contenu du site web. Une agence web travaillera avec vous pour
+					l&apos;optimisation des balises de titre, des méta-descriptions, des URL et du contenu du site web. Une agence web travaillera avec vous dans le but d&apos;
 					optimiser ces éléments afin d&apos;améliorer la visibilité du site dans les résultats de recherche. Elle veillera également à ce que le site
 					soit convivial pour les moteurs de recherche en optimisant la structure et la navigation de votre site.
 				</p>
@@ -108,7 +108,7 @@ export default function SEOPower() {
 
 				<p>
 					Les liens externes jouent un rôle crucial dans l&apos;amélioration de la visibilité de son site. Une agence web mettra en place des stratégies de
-					création de liens pour obtenir des liens de qualité provenant de sites web pertinents. Ces liens aideront à renforcer l&apos;autorité du site
+					création de liens en vue d&apos;obtenir des liens de qualité provenant de sites web pertinents. Ces liens aideront à renforcer l&apos;autorité du site
 					aux yeux des moteurs de recherche et à augmenter son classement dans les résultats de recherche. L&apos;agence web veillera également à ce que le
 					site soit répertorié sur des annuaires en ligne pertinents et qu&apos;il bénéficie d&apos;une présence positive sur les médias sociaux.
 				</p>
@@ -125,7 +125,7 @@ export default function SEOPower() {
 				/>
 
 				<p>
-					En plus des aspects liés au contenu et aux liens, le référencement technique est un élément essentiel pour améliorer la visibilité du site. Une
+					En plus des aspects liés au contenu et aux liens, le référencement technique est un élément essentiel qui permet d&apos;améliorer la visibilité du site. Une
 					agence web s&apos;assurera que votre site est techniquement optimisé pour une meilleure indexation par les moteurs de recherche. Cela comprend
 					l&apos;optimisation des balises HTML, la gestion des erreurs 404, l&apos;amélioration de la vitesse de chargement des pages, l&apos;optimisation
 					mobile, etc. En optimisant ces aspects techniques, ce site sera mieux classé dans les résultats de recherche et offrira une meilleure expérience
@@ -134,7 +134,7 @@ export default function SEOPower() {
 			</section>
 			<br /> <br />
 			<section>
-				<h2 className={styles.textCenter}>Utiliser des analyses pour suivre et mesurer le succès du référencement naturel</h2>
+				<h2 className={styles.textCenter}>Utiliser des analyses permettant de suivre et mesurer le succès du référencement naturel - SEO</h2>
 				<Image
 					src={SEOMini6}
 					alt="On peut y voir écran avec SEO au centre & divers images"
@@ -144,7 +144,7 @@ export default function SEOPower() {
 				/>
 
 				<p>
-					Pour évaluer l&apos;efficacité de votre stratégie de référencement naturel, il est essentiel d&apos;utiliser des outils d&apos;analyse pour suivre et
+					Pour évaluer l&apos;efficacité de votre stratégie de référencement naturel, il est essentiel d&apos;utiliser des outils d&apos;analyse afin de suivre et
 					mesurer les résultats. Une agence web vous aidera à mettre en place des outils tels que Google Analytics pour suivre le trafic, les conversions et
 					d&apos;autres indicateurs clés de performance. Ces données permettront de comprendre ce qui fonctionne et ce qui ne fonctionne pas, et
 					d&apos;apporter les ajustements nécessaires à la stratégie de référencement naturel.
@@ -159,7 +159,7 @@ export default function SEOPower() {
 					La création de contenu de qualité est un élément essentiel d&apos;une stratégie de référencement naturel efficace. Une agence web travaillera avec
 					vous pour développer et optimiser le contenu de du site afin de répondre aux besoins et aux attentes du public cible. Cela inclut la
 					rédaction d&apos;articles de blog, la création de pages de destination attrayantes et la production de contenu multimédia tel que des vidéos et des
-					infographies. Une agence web veillera également à ce que le contenu soit régulièrement mis à jour et optimisé pour les mots-clés pertinents.
+					infographies. Une agence web veillera également à ce que le contenu soit régulièrement mis à jour et optimisé avec les mots-clés pertinents.
 				</p>
 			</section>
 			<br /> <br />
@@ -195,7 +195,7 @@ export default function SEOPower() {
 				<p>
 					Si le souhait est d&apos;améliorer la visibilité de votre site web et attirer davantage de trafic organique, il est essentiel de déployer une stratégie de
 					référencement naturel efficace. En collaborant avec une agence web spécialisée dans le référencement, vous bénéficierez de son expertise et de son
-					expérience pour maximiser vos efforts en matière de référencement. Une agence web aidera à optimiser le site pour les mots-clés pertinents, à
+					expérience en vue de maximiser vos efforts en matière de référencement. Une agence web aidera à optimiser le site pour les mots-clés pertinents, à
 					mettre en place des stratégies de création de liens efficaces, à améliorer la convivialité technique du site et à créer du contenu de qualité.
 					Grâce à cette approche holistique, vous pourrez améliorer sa visibilité en ligne, attirer un trafic qualifié et atteindre vos objectifs
 					commerciaux. Alors n&apos;attendez plus, et libérez la puissance du référencement naturel avec l&apos;aide d&apos;une agence web. Votre site web ne

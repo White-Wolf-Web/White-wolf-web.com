@@ -12,7 +12,7 @@
 		"title": "CSS3",
 		"alt": "carte CSS3 Bleu.",
 		"image": "/Assets/Icons/CSS3-L.webp",
-		"description": "CSS3 est utilisé pour la mise en page. Il permet de contrôler l'apparence des pages (couleurs, tailles, polices, espacements, etc.) pour les rendre plus attrayantes, plus fluides, plus responsives.",
+		"description": "CSS3 c'est la mise en page. Il permet de contrôler l'apparence des pages (couleurs, tailles, polices, espacements, etc.) afin de les rendre plus attrayantes, plus fluides, plus responsives.",
 		"backgroundColor": "#1984D1",
 		"color": "black",
 		"href": "/articles/languages/css3"
@@ -48,7 +48,7 @@
 		"title": "Bootstrap",
 		"alt": "Carte Bootstrap violet.",
 		"image": "/Assets/Icons/bootstrap-L.webp",
-		"description": "Bootstrap est un framework CSS qui facilite la création de designs responsifs. Il comprend une multitude de composants réutilisables pour la navigation, les modales, ainsi que des utilitaires pour la mise en page",
+		"description": "Bootstrap est un framework CSS qui facilite la création de designs responsifs. Il comprend une multitude de composants réutilisables dans la navigation, les modales, ainsi que des utilitaires qui permettent la mise en page",
 		"backgroundColor": "#9364D9",
 		"color": "black",
 		"href": "/articles/languages/bootstrap"

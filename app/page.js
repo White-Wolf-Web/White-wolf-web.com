@@ -160,7 +160,7 @@ export default function Home() {
 				<h2 className={styles.homeH2}>Notre mission est de fournir un site web d&apos;excellence</h2>
 				<p>
 					Nous comprenons que la <Link  href="/articles/creation-site-web" className={styles.internalLink}>création de site internet</Link> et la gestion d&apos;une boutique en ligne peut être un défi, en particulier si vous êtes un
-					auto-entrepreneur ou une petite entreprise. C&apos;est pourquoi nous mettons tout en œuvre pour vous aider à surmonter ces obstacles. <br></br>
+					auto-entrepreneur ou une petite entreprise. C&apos;est pourquoi nous mettons tout en œuvre afin d&apos;aider à surmonter ces obstacles. <br></br>
 					Notre équipe dévouée de <strong>développeurs web</strong>, de <strong>webdesigners</strong>, de <Link  href="/blog" className={styles.internalLink}>spécialistes du blog</Link> et d&apos;images est là pour vous guider et vous soutenir à chaque
 					étape. Nous sommes en mesure de vous fournir des solutions qui non seulement répondent à vos besoins, mais aussi surpassent vos attentes.
 				</p>

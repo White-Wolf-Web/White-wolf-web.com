@@ -5,7 +5,7 @@
 		"image": "/Assets/Images/Webp/blog/blogCardImgApi.webp",
 		"href": "/blog/api-restful",
 		"alt": "un 'cloud' version tres moderne représentant une API",
-		"text": "L'API REST est un ensemble de conventions pour créer des services web. Accessible via HTTP, elle permet l'intégration facile entre différents logiciels, favorisant la communication et l'échange de données dans des applications web. Utilisée pour sa simplicité et sa flexibilité, elle est un élément clé dans le développement de solutions numériques modernes, facilitant l'interaction entre services et plateformes diverses."
+		"text": "L'API REST est un ensemble de conventions afin de créer des services web. Accessible via HTTP, elle permet l'intégration facile entre différents logiciels, favorisant la communication et l'échange de données dans des applications web. Utilisée pour sa simplicité et sa flexibilité, elle est un élément clé dans le développement de solutions numériques modernes, facilitant l'interaction entre services et plateformes diverses."
 	},
 	{
 		"title": "Le tunnel de vente",
@@ -37,7 +37,7 @@
 		"image": "/Assets/Images/Webp/blog/blogCardImgNext.webp",
 		"href": "/blog/next-js",
 		"alt": "le logo de Next.js ecrit en blanc",
-		"text": "Dive into Next.js offre un aperçu rapide du framework populaire pour React, Next.js. Le texte explore comment Next.js facilite le développement web en proposant des fonctionnalités telles que le rendu côté serveur et la génération de sites statiques. Ce guide est parfait pour les développeurs souhaitant créer des applications web performantes et optimisées avec facilité et efficacité."
+		"text": "Dive into Next.js offre un aperçu rapide du framework populaire React, Next.js. Le texte explore comment Next.js facilite le développement web en proposant des fonctionnalités telles que le rendu côté serveur et la génération de sites statiques. Ce guide est parfait pour les développeurs souhaitant créer des applications web performantes et optimisées avec facilité et efficacité."
 	},
 	{
 		"title": "Liberez la puissance du SEO",
@@ -45,6 +45,6 @@
 		"image": "/Assets/Images/Webp/blog/blogCardImgSEO.webp",
 		"href": "/blog/liberez-la-puissance-du-seo",
 		"alt": "en lettres d'or vu à la loupe on peut lire SEO",
-		"text": "la Puissance du SEO explore les techniques clés pour optimiser la visibilité de votre site sur les moteurs de recherche. L'article démystifie le référencement naturel, exposant les meilleures pratiques et outils pour améliorer le positionnement de vos pages. Il s'agit d'une lecture incontournable pour les marketeurs et entrepreneurs désireux d'attirer plus de visiteurs et de convertir efficacement grâce à un trafic de qualité."
+		"text": "la Puissance du SEO explore les techniques clés pour optimiser la visibilité de votre site sur les moteurs de recherche. L'article démystifie le référencement naturel, exposant les meilleures pratiques et outils afin d&apos;améliorer le positionnement de vos pages. Il s'agit d'une lecture incontournable pour les marketeurs et entrepreneurs désireux d'attirer plus de visiteurs et de convertir efficacement grâce à un trafic de qualité."
 	}
 ]
