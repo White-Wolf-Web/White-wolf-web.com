@@ -268,7 +268,10 @@
 	text-transform: uppercase;
 	font-weight: 600;
 }
-
+.langageCardLogo {
+	width: 50px;
+	height: 50px;
+}
 /***********************/
 .moreArticlesButtonContainer {
 	display: flex;
