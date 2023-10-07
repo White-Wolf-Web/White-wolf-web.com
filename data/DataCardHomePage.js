@@ -6,7 +6,7 @@ export const DataCardHomePage = [
 			title: "Création de sites web 🌐🛍️",
 			title2: "Création de sites web personnalisés 🌐🛍️",
 			titleAlt: "le monde du web et ses sites",
-			text: "Notre agence se spécialise dans la conception et le développement de sites web et de boutiques en ligne attrayants, fonctionnels et faciles à utiliser. Nous mettons l&apos;accent sur l&apos;expérience utilisateur (UX) et le design dans le but de créer des sites web qui attirent l&apos;attention et encouragent les visiteurs à devenir des clients fidèles. Que vous ayez besoin d&apos;un site vitrine afin de présenter l&apos;entreprise ou que vous ayez un projet d&apos;une boutique en ligne complète, notre équipe est là pour transformer vos idées en réalité et à optimiser son référencement en vue d&apos;attirer plus de clients.",
+			text: "Notre agence se spécialise dans la conception et le développement de sites web et de boutiques en ligne attrayants, fonctionnels et faciles à utiliser. Nous mettons l&apos;accent sur l&apos;expérience utilisateur (UX) et le design dans le but de créer des sites web qui attirent l&apos;attention et encouragent les visiteurs à devenir des clients fidèles. Que l&apos;on est besoin d&apos;un site vitrine ou le projet d&apos;une boutique en ligne complète afin de présenter l&apos;entreprise, notre équipe est là pour transformer vos idées en réalité et à optimiser son référencement en vue d&apos;attirer plus de clients.",
 			link: "/articles/creation-site-web",
 		},
 		card2: {
@@ -15,7 +15,7 @@ export const DataCardHomePage = [
 			title: "Design et ergonomie 🎨✨",
 			title2: "Web design 🎨✨",
 			titleAlt: "Palette de peinture utilisé - le web-design",
-			text: "Le design est un élément clé de la réussite de son site web. Chez White Wolf Web, nous sommes convaincus qu&apos;un design attrayant et une ergonomie bien pensée peuvent faire la différence entre un site web qui convertit et un site internet qui échoue. Nos designers talentueux travaillent en étroite collaboration avec nos développeurs pour créer des sites web qui reflètent l&apos;image de marque et offrent une expérience utilisateur exceptionnelle. Cela permet de captiver ses visiteurs, nous savons qu&apos;une image attrayante et de qualité peut faire la différence sur votre site internet.",
+			text: "Le design est un élément clé de la réussite de son site web. Chez White Wolf Web, nous sommes convaincus qu&apos;un design attrayant et une ergonomie bien pensée peuvent faire la différence entre un site web qui convertit et un site internet qui échoue. Nos designers talentueux travaillent en étroite collaboration avec nos développeurs pour créer des sites web qui reflètent l&apos;image de marque et offrent une expérience utilisateur exceptionnelle. Cela permet de captiver ses visiteurs, une image attrayante et de qualité peut faire la différence sur votre site internet.",
 			link: "/articles/web-design",
 		},
 		card3: {
@@ -42,7 +42,7 @@ export const DataCardHomePage = [
 			title: "Rédactionde contenu 💡📝",
 			title2: "Rédaction de vos contenus 💡📝",
 			titleAlt: "Une page vierge un crayon et une gomme ... l&apos;envie d&apos;écrire",
-			text: "Le contenu de qualité est essentiel en vue d&apos;attirer et fidéliser son audience. Notre équipe de rédacteurs expérimentés et créatifs élabore des stratégies de contenu personnalisées pour son entreprise, en tenant compte de son public cible et de vos objectifs. Nous produisons du contenu engageant, informatif et optimisé pour le référencement naturel, qui aidera à vous démarquer de la concurrence et à améliorer son positionnement en ligne sur les moteurs de recherche tel que Google. Pour que le contenu soit visible par Google, on se doit de l&apos;optimiser pour le SEO",
+			text: "Le contenu de qualité est essentiel en vue d&apos;attirer et fidéliser son audience. Notre équipe de rédacteurs expérimentés et créatifs élabore des stratégies de contenu personnalisées pour son entreprise, en tenant compte de son public cible et de vos objectifs. Nous produisons du contenu engageant, informatif et optimisé pour le référencement naturel, qui aidera à se démarquer de la concurrence et à améliorer son positionnement en ligne sur les moteurs de recherche tel que Google. Pour que le contenu soit visible par Google, on se doit de l&apos;optimiser pour le SEO",
 			link: "/articles/miscellaneous/contenu-et-redaction-votre-site-internet",
 		},
 		card6: {
@@ -51,7 +51,7 @@ export const DataCardHomePage = [
 			title: "Création de site Wordpress",
 			title2: "Wordpress",
 			titleAlt: "Le fameux W qui symbolise la création des sites web Wordpress",
-			text: "WordPress est l&apos;une plateforme de création de sites web les plus populaires et les plus polyvalents au monde. Selon les besoins de votre site web d&apos;entreprise, de son blog ou boutique en ligne … Vous pourrez y ajouter des fonctionnalités de pointe tels que des plugins, un template (selon le thème), le blog ... tout en vous assurant une navigation fluide à vos visiteurs. La création d&apos;un site web avec WordPress est un processus relativement simple et accessible même aux débutants. Il est idéal pour les entreprises à petits budgets ou pour débuter une activité non lucrative.",
+			text: "WordPress est l&apos;une plateforme de création de sites web les plus populaires et les plus polyvalents au monde. Selon les besoins de votre site web d&apos;entreprise, de son blog ou boutique en ligne … Vous pourrez y ajouter des fonctionnalités de pointe tels que des plugins, un template (selon le thème), le blog ... tout en s&apos; assurant une navigation fluide à vos visiteurs. La création d&apos;un site web avec WordPress est un processus relativement simple et accessible même aux débutants. Il est idéal pour les entreprises à petits budgets ou pour débuter une activité non lucrative.",
 			link: "/articles/creation-site-web#wordpress",
 		},
 		card7: {
@@ -60,7 +60,7 @@ export const DataCardHomePage = [
 			title: "Analyse et\nsuivi des performances 📊🔍",
 			title2: "Analyse des performances 📊🔍",
 			titleAlt: "C&apos;est une graphisme qui permet de suivre les évolutions des performance du site internet",
-			text: "Chez White Wolf Web, nous comprenons l&apos;importance de mesurer et d&apos;analyser les performances de son site internet et de vos campagnes marketing. Notre équipe d&apos;analystes utilise des outils avancés qui permettent de suivre et analyser les données, afin de vous fournir des rapports détaillés et des recommandations en vue d&apos;améliorer continuellement sa stratégie en ligne. Notre objectif est de vous aider à prendre des décisions éclairées et à maximiser le retour sur investissement de vos efforts en ligne.",
+			text: "Chez White Wolf Web, nous comprenons l&apos;importance de mesurer et d&apos;analyser les performances de son site internet et de vos campagnes marketing. Notre équipe d&apos;analystes utilise des outils avancés qui permettent de suivre et analyser les données, afin de fournir des rapports détaillés et des recommandations en vue d&apos;améliorer continuellement sa stratégie en ligne. Notre objectif est de vous aider à prendre des décisions éclairées et à maximiser le retour sur investissement de vos efforts en ligne.",
 			link: "/articles/miscellaneous/analyse-audit-performance-votre-site-web",
 		},
 	},
