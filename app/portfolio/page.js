@@ -90,6 +90,7 @@ export default function portfolio() {
 							<p className={styles.portfolioP}>Réalisé avec : </p>
 							<Image src={nextLogo} alt="Logo de Next.js" quality={100} className={styles.portfolioFramework} />
 							<Image src={bootstrapLogo} alt="Logo de Bootstrap" quality={100} className={styles.portfolioFramework} />
+							<p> en cours de réalisation ...</p>
 						</div>
 					</section>
 				</Link>
@@ -373,7 +374,7 @@ export default function portfolio() {
 							<div className={styles.divPortfolioIMac}>
 								<Image
 									src={portfolioKazaIMac}
-									alt="vue sur un ensemble de recettes"
+									alt="site immobilier"
 									placeholder="blur"
 									quality={100}
 									sizes="100vw"
@@ -384,7 +385,7 @@ export default function portfolio() {
 							<div className={styles.divPortfolioMacBook}>
 								<Image
 									src={portfolioKazaMacBook}
-									alt="salade méditéranéene"
+									alt="propriétaire immobilier"
 									placeholder="blur"
 									quality={100}
 									sizes="100vw"
@@ -395,7 +396,7 @@ export default function portfolio() {
 							<div className={styles.divPortfolioIPhone}>
 								<Image
 									src={portfolioKazaIphone}
-									alt="la recette du poulet coco"
+									alt="equipement du bien immobilier"
 									placeholder="blur"
 									quality={100}
 									sizes="100vw"
@@ -417,7 +418,7 @@ export default function portfolio() {
 						<div className={styles.divPortfolioIMac}>
 							<Image
 								src={portfolioTarotImac}
-								alt="Page d'acceuil d'un site d'astrologie"
+								alt="Page d'acceuil d'un site de tarologie"
 								placeholder="blur"
 								quality={100}
 								sizes="100vw"
@@ -428,7 +429,7 @@ export default function portfolio() {
 						<div className={styles.divPortfolioMacBook}>
 							<Image
 								src={portfolioTarotMacBook}
-								alt="article relayant la planets Jupiter"
+								alt="1er lame du tarot"
 								placeholder="blur"
 								quality={100}
 								sizes="100vw"
@@ -439,7 +440,7 @@ export default function portfolio() {
 						<div className={styles.divPortfolioIPhone}>
 							<Image
 								src={portfolioTarotIphone}
-								alt="le signe zodiacal du Scorpion"
+								alt="le bateleur"
 								placeholder="blur"
 								quality={100}
 								sizes="100vw"
@@ -450,6 +451,7 @@ export default function portfolio() {
 					<div className={styles.divFrameworks}>
 						<p className={styles.portfolioP}>Réalisé avec : </p>
 						<Image src={wordpressLogo} alt="le logo de Wordpress" quality={100} className={styles.portfolioFramework} />
+						<p> en cours de réalisation ...</p>
 					</div>
 				</section>
 			</main>
