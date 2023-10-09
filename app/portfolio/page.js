@@ -48,49 +48,51 @@ export default function portfolio() {
 		<div className={styles.container}>
 			<main className={styles.main}>
 				<h1>Mon portfolio</h1>
-				<Link href="https://skif-belgium.vercel.app/"><section className={styles.portfolioSection}>
-					<h2>SKIF Belgique</h2>
-					<p>Site fédéral de karaté Multilingues avec calendrier, téléchargement de documents, Api Rest ...</p>
-					<div className={styles.portfolioImagesMac}>
-						<div className={styles.divPortfolioIMac}>
-							<Image
-								src={portfolioSkifbImac}
-								alt="Site SKIF Belgique sur un écran d'IMac"
-								placeholder="blur"
-								quality={100}
-								sizes="100vw"
-								className={styles.portfolioIMac}
-							/>
-						</div>
+				<Link href="https://skif-belgium.vercel.app/">
+					<section className={styles.portfolioSection}>
+						<h2>SKIF Belgique</h2>
+						<p>Site fédéral de karaté Multilingues avec calendrier, téléchargement de documents, Api Rest ...</p>
+						<div className={styles.portfolioImagesMac}>
+							<div className={styles.divPortfolioIMac}>
+								<Image
+									src={portfolioSkifbImac}
+									alt="Site SKIF Belgique sur un écran d'IMac"
+									placeholder="blur"
+									quality={100}
+									sizes="100vw"
+									className={styles.portfolioIMac}
+								/>
+							</div>
 
-						<div className={styles.divPortfolioMacBook}>
-							<Image
-								src={portfolioSkifbMacBook}
-								alt="Site SKIF Belgique (karaté) sur un écran Mac Book Pro"
-								placeholder="blur"
-								quality={100}
-								sizes="100vw"
-								className={styles.portfolioMacBook}
-							/>
-						</div>
+							<div className={styles.divPortfolioMacBook}>
+								<Image
+									src={portfolioSkifbMacBook}
+									alt="Site SKIF Belgique (karaté) sur un écran Mac Book Pro"
+									placeholder="blur"
+									quality={100}
+									sizes="100vw"
+									className={styles.portfolioMacBook}
+								/>
+							</div>
 
-						<div className={styles.divPortfolioIPhone}>
-							<Image
-								src={portfolioSkifbIphone}
-								alt="Site SKIF Belgique (karaté) depuis un IPhone"
-								placeholder="blur"
-								quality={100}
-								sizes="100vw"
-								className={styles.portfolioIPhone}
-							/>
+							<div className={styles.divPortfolioIPhone}>
+								<Image
+									src={portfolioSkifbIphone}
+									alt="Site SKIF Belgique (karaté) depuis un IPhone"
+									placeholder="blur"
+									quality={100}
+									sizes="100vw"
+									className={styles.portfolioIPhone}
+								/>
+							</div>
 						</div>
-					</div>
-					<div className={styles.divFrameworks}>
-						<p className={styles.portfolioP}>Réalisé avec : </p>
-						<Image src={nextLogo} alt="Logo de Next.js" quality={100} className={styles.portfolioFramework} />
-						<Image src={bootstrapLogo} alt="Logo de Bootstrap" quality={100} className={styles.portfolioFramework} />
-					</div>
-				</section></Link>
+						<div className={styles.divFrameworks}>
+							<p className={styles.portfolioP}>Réalisé avec : </p>
+							<Image src={nextLogo} alt="Logo de Next.js" quality={100} className={styles.portfolioFramework} />
+							<Image src={bootstrapLogo} alt="Logo de Bootstrap" quality={100} className={styles.portfolioFramework} />
+						</div>
+					</section>
+				</Link>
 
 				<section className={styles.portfolioSection}>
 					<h2>Fish Eye</h2>
@@ -182,94 +184,97 @@ export default function portfolio() {
 					</div>
 				</section>
 
-				<Link href="https://food-bice-seven.vercel.app/"><section className={styles.portfolioSection}>
-					<h2>Ho My Food</h2>
-					<p>Site web réunissant 4 restaurants, avec des animations Css</p>
-					<div className={styles.portfolioImagesMac}>
-						<div className={styles.divPortfolioIMac}>
-							<Image
-								src={portfolioRestoImac}
-								alt="les plats à la carte du restaurant"
-								placeholder="blur"
-								quality={100}
-								sizes="100vw"
-								className={styles.portfolioIMac}
-							/>
-						</div>
+				<Link href="https://food-bice-seven.vercel.app/">
+					<section className={styles.portfolioSection}>
+						<h2>Ho My Food</h2>
+						<p>Site web réunissant 4 restaurants, avec des animations Css</p>
+						<div className={styles.portfolioImagesMac}>
+							<div className={styles.divPortfolioIMac}>
+								<Image
+									src={portfolioRestoImac}
+									alt="les plats à la carte du restaurant"
+									placeholder="blur"
+									quality={100}
+									sizes="100vw"
+									className={styles.portfolioIMac}
+								/>
+							</div>
 
-						<div className={styles.divPortfolioMacBook}>
-							<Image
-								src={portfolioRestoMacBook}
-								alt="les differenets restaurant que l'on peut choisir"
-								placeholder="blur"
-								quality={100}
-								sizes="100vw"
-								className={styles.portfolioMacBook}
-							/>
-						</div>
+							<div className={styles.divPortfolioMacBook}>
+								<Image
+									src={portfolioRestoMacBook}
+									alt="les differenets restaurant que l'on peut choisir"
+									placeholder="blur"
+									quality={100}
+									sizes="100vw"
+									className={styles.portfolioMacBook}
+								/>
+							</div>
 
-						<div className={styles.divPortfolioIPhone}>
-							<Image
-								src={portfolioRestoIphone}
-								alt="differentes vues sur des plats proposés"
-								placeholder="blur"
-								quality={100}
-								sizes="100vw"
-								className={styles.portfolioIPhone}
-							/>
+							<div className={styles.divPortfolioIPhone}>
+								<Image
+									src={portfolioRestoIphone}
+									alt="differentes vues sur des plats proposés"
+									placeholder="blur"
+									quality={100}
+									sizes="100vw"
+									className={styles.portfolioIPhone}
+								/>
+							</div>
 						</div>
-					</div>
-					<div className={styles.divFrameworks}>
-						<p className={styles.portfolioP}>Réalisé avec : </p>
-						<Image src={htmlLogo} alt="le logo de Html 5" quality={100} className={styles.portfolioFramework} />
-						<Image src={cssLogo} alt="Le logo de CSS 3" quality={100} className={styles.portfolioFramework} />
-					</div>
-				</section></Link>
+						<div className={styles.divFrameworks}>
+							<p className={styles.portfolioP}>Réalisé avec : </p>
+							<Image src={htmlLogo} alt="le logo de Html 5" quality={100} className={styles.portfolioFramework} />
+							<Image src={cssLogo} alt="Le logo de CSS 3" quality={100} className={styles.portfolioFramework} />
+						</div>
+					</section>
+				</Link>
 				<Link href="https://game-on-ten.vercel.app/">
-				<section className={styles.portfolioSection}>
-					<h2>Game On</h2>
-					<p>Landing page, pour un évènement pour Gamers avec son modal d’inscription.</p>
-					<div className={styles.portfolioImagesMac}>
-						<div className={styles.divPortfolioIMac}>
-							<Image
-								src={portfolioGameOnIMac}
-								alt="Vue sur un site de photographes sur un écran d'IMac"
-								placeholder="blur"
-								quality={100}
-								sizes="100vw"
-								className={styles.portfolioIMac}
-							/>
-						</div>
+					<section className={styles.portfolioSection}>
+						<h2>Game On</h2>
+						<p>Landing page, pour un évènement pour Gamers avec son modal d’inscription.</p>
+						<div className={styles.portfolioImagesMac}>
+							<div className={styles.divPortfolioIMac}>
+								<Image
+									src={portfolioGameOnIMac}
+									alt="Vue sur un site de photographes sur un écran d'IMac"
+									placeholder="blur"
+									quality={100}
+									sizes="100vw"
+									className={styles.portfolioIMac}
+								/>
+							</div>
 
-						<div className={styles.divPortfolioMacBook}>
-							<Image
-								src={portfolioGameOnMacBook}
-								alt="Vue sur un site de photographes via un écran Mac Book Pro"
-								placeholder="blur"
-								quality={100}
-								sizes="100vw"
-								className={styles.portfolioMacBook}
-							/>
-						</div>
+							<div className={styles.divPortfolioMacBook}>
+								<Image
+									src={portfolioGameOnMacBook}
+									alt="Vue sur un site de photographes via un écran Mac Book Pro"
+									placeholder="blur"
+									quality={100}
+									sizes="100vw"
+									className={styles.portfolioMacBook}
+								/>
+							</div>
 
-						<div className={styles.divPortfolioIPhone}>
-							<Image
-								src={portfolioGameOnIphone}
-								alt="Vue sur un site de photographes version responsive"
-								placeholder="blur"
-								quality={100}
-								sizes="100vw"
-								className={styles.portfolioIPhone}
-							/>
+							<div className={styles.divPortfolioIPhone}>
+								<Image
+									src={portfolioGameOnIphone}
+									alt="Vue sur un site de photographes version responsive"
+									placeholder="blur"
+									quality={100}
+									sizes="100vw"
+									className={styles.portfolioIPhone}
+								/>
+							</div>
 						</div>
-					</div>
-					<div className={styles.divFrameworks}>
-						<p className={styles.portfolioP}>Réalisé avec : </p>
-						<Image src={htmlLogo} alt="logo de Html" quality={100} className={styles.portfolioFramework} />
-						<Image src={cssLogo} alt="Logo de CSS" quality={100} className={styles.portfolioFramework} />
-						<Image src={jsLogo} alt="Le logo de Javascript" quality={100} className={styles.portfolioFramework} />
-					</div>
-				</section></Link>
+						<div className={styles.divFrameworks}>
+							<p className={styles.portfolioP}>Réalisé avec : </p>
+							<Image src={htmlLogo} alt="logo de Html" quality={100} className={styles.portfolioFramework} />
+							<Image src={cssLogo} alt="Logo de CSS" quality={100} className={styles.portfolioFramework} />
+							<Image src={jsLogo} alt="Le logo de Javascript" quality={100} className={styles.portfolioFramework} />
+						</div>
+					</section>
+				</Link>
 
 				<section className={styles.portfolioSection}>
 					<h2>Astrologie pour Tous</h2>
@@ -314,92 +319,96 @@ export default function portfolio() {
 					</div>
 				</section>
 
-			<Link href="https://petits-plats-chi.vercel.app/">	<section className={styles.portfolioSection}>
-					<h2>Les petits plats</h2>
-					<p>Site web de recettes culinaires, avec algorithmes de recherche & de tri</p>
+				<Link href="https://petits-plats-chi.vercel.app/">
+					{" "}
+					<section className={styles.portfolioSection}>
+						<h2>Les petits plats</h2>
+						<p>Site web de recettes culinaires, avec algorithmes de recherche & de tri</p>
 
-					<div className={styles.portfolioImagesMac}>
-						<div className={styles.divPortfolioIMac}>
-							<Image
-								src={portfolioPlatsImac}
-								alt="vue sur un ensemble de recettes"
-								placeholder="blur"
-								quality={100}
-								sizes="100vw"
-								className={styles.portfolioIMac}
-							/>
-						</div>
+						<div className={styles.portfolioImagesMac}>
+							<div className={styles.divPortfolioIMac}>
+								<Image
+									src={portfolioPlatsImac}
+									alt="vue sur un ensemble de recettes"
+									placeholder="blur"
+									quality={100}
+									sizes="100vw"
+									className={styles.portfolioIMac}
+								/>
+							</div>
 
-						<div className={styles.divPortfolioMacBook}>
-							<Image
-								src={portfolioPlatsMacBook}
-								alt="salade méditéranéene"
-								placeholder="blur"
-								quality={100}
-								sizes="100vw"
-								className={styles.portfolioMacBook}
-							/>
-						</div>
+							<div className={styles.divPortfolioMacBook}>
+								<Image
+									src={portfolioPlatsMacBook}
+									alt="salade méditéranéene"
+									placeholder="blur"
+									quality={100}
+									sizes="100vw"
+									className={styles.portfolioMacBook}
+								/>
+							</div>
 
-						<div className={styles.divPortfolioIPhone}>
-							<Image
-								src={portfolioPlatsIphone}
-								alt="la recette du poulet coco"
-								placeholder="blur"
-								quality={100}
-								sizes="100vw"
-								className={styles.portfolioIPhone}
-							/>
+							<div className={styles.divPortfolioIPhone}>
+								<Image
+									src={portfolioPlatsIphone}
+									alt="la recette du poulet coco"
+									placeholder="blur"
+									quality={100}
+									sizes="100vw"
+									className={styles.portfolioIPhone}
+								/>
+							</div>
 						</div>
-					</div>
-					<div className={styles.divFrameworks}>
-						<p className={styles.portfolioP}>Réalisé avec : </p>
-						<Image src={reactLogo} alt="le logo de React" quality={100} className={styles.portfolioFramework} />
-					</div>
-				</section></Link>
-				<Link href="https://kaza2.vercel.app/">	
-				<section className={styles.portfolioSection}>
-					<h2>Kaza</h2>
-					<p>Site immobilier en React, avec Dropdown, carousel, tags ...</p>
-					<div className={styles.portfolioImagesMac}>
-						<div className={styles.divPortfolioIMac}>
-							<Image
-								src={portfolioKazaIMac}
-								alt="vue sur un ensemble de recettes"
-								placeholder="blur"
-								quality={100}
-								sizes="100vw"
-								className={styles.portfolioIMac}
-							/>
+						<div className={styles.divFrameworks}>
+							<p className={styles.portfolioP}>Réalisé avec : </p>
+							<Image src={reactLogo} alt="le logo de React" quality={100} className={styles.portfolioFramework} />
 						</div>
+					</section>
+				</Link>
+				<Link href="https://kaza2.vercel.app/">
+					<section className={styles.portfolioSection}>
+						<h2>Kaza</h2>
+						<p>Site immobilier en React, avec Dropdown, carousel, tags ...</p>
+						<div className={styles.portfolioImagesMac}>
+							<div className={styles.divPortfolioIMac}>
+								<Image
+									src={portfolioKazaIMac}
+									alt="vue sur un ensemble de recettes"
+									placeholder="blur"
+									quality={100}
+									sizes="100vw"
+									className={styles.portfolioIMac}
+								/>
+							</div>
 
-						<div className={styles.divPortfolioMacBook}>
-							<Image
-								src={portfolioKazaMacBook}
-								alt="salade méditéranéene"
-								placeholder="blur"
-								quality={100}
-								sizes="100vw"
-								className={styles.portfolioMacBook}
-							/>
-						</div>
+							<div className={styles.divPortfolioMacBook}>
+								<Image
+									src={portfolioKazaMacBook}
+									alt="salade méditéranéene"
+									placeholder="blur"
+									quality={100}
+									sizes="100vw"
+									className={styles.portfolioMacBook}
+								/>
+							</div>
 
-						<div className={styles.divPortfolioIPhone}>
-							<Image
-								src={portfolioKazaIphone}
-								alt="la recette du poulet coco"
-								placeholder="blur"
-								quality={100}
-								sizes="100vw"
-								className={styles.portfolioIPhone}
-							/>
+							<div className={styles.divPortfolioIPhone}>
+								<Image
+									src={portfolioKazaIphone}
+									alt="la recette du poulet coco"
+									placeholder="blur"
+									quality={100}
+									sizes="100vw"
+									className={styles.portfolioIPhone}
+								/>
+							</div>
 						</div>
-					</div>
-					<div className={styles.divFrameworks}>
-						<p className={styles.portfolioP}>Réalisé avec : </p>
-						<Image src={reactLogo} alt="le logo de React" quality={100} className={styles.portfolioFramework} />
-					</div>
-				</section></Link>
+						<div className={styles.divFrameworks}>
+							<p className={styles.portfolioP}>Réalisé avec : </p>
+							<Image src={reactLogo} alt="le logo de React" quality={100} className={styles.portfolioFramework} />
+						</div>
+					</section>
+				</Link>
 
 				<section className={styles.portfolioSection}>
 					<h2>Cours de Tarot</h2>
