@@ -12,9 +12,10 @@ import creationSiteMultilingue from "@/public/Assets/Images/Webp/creation-site/c
 import creationSiteLandingPage from "@/public/Assets/Images/Webp/creation-site/creation-site-web-landing-page.webp";
 import creationSiteWordpress from "@/public/Assets/Images/Webp/creation-site/creation-site-web-wordpress.webp";
 import creationSiteJoomla from "@/public/Assets/Images/Webp/creation-site/creation-site-web-joomla.webp";
+import MetadataCreationWebPage from "@/components/Metadata/MetadataCreationWebPage"
 
 export const metadata = {
-	title: "Guide complet en vue de la création de site web professionnel",
+	title: "Guide complet sur la création de site web professionnel",
 	description:
 		"Vous souhaitez créer un site web professionnel ? Ce guide complet vous fournira toutes les ressources nécessaires afin de réussir votre projet de création de site web",
 	canonical: "https://www.white-wolf-web.com/articles/creation-site-web",
@@ -504,6 +505,7 @@ export default function CreationSiteWeb() {
 					</div>
 				</section>
 			</main>
+			<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(MetadataCreationWebPage) }} />
 		</div>
 	);
 }

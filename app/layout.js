@@ -15,9 +15,6 @@ export const metadata = {
 	colorScheme: "dark",
 	themeColor: 'black',
 	metadataBase: new URL('https://www.white-wolf-web.com'),
-	alternates: {
-		canonical: '/',
-	  },
 	robots: {
 		index: true,
 		follow: true,
