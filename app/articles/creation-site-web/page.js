@@ -98,11 +98,11 @@ export default function CreationSiteWeb() {
 					<p>
 						Une fois la structure du site web professionnel déterminé, il est temps de créer et d&apos;organiser son contenu. Le contenu du site web est ce
 						qui attirera les visiteurs et les incitera à rester et à explorer davantage. Utilisez un langage simple et évitez les termes techniques ou
-						jargonnants qui pourraient être difficiles à comprendre pour les visiteurs. Utilisez également des images, des vidéos ou d&apos;autres éléments
+						jargonnants qui pourraient être difficiles à comprendre pour les internautess. Utilisez également des images, des vidéos ou d&apos;autres éléments
 						visuels qui rendent le contenu attrayant et engageant.
 					</p>
 					<p>
-						Enfin, organisez le contenu de manière logique et intuitive. Utilisez des menus et des liens permetant aux visiteurs de naviguer facilement entre
+						Enfin, organisez le contenu de manière logique et intuitive. Utilisez des menus et des liens permetant aux internautes de naviguer facilement entre
 						les différentes pages du site web. S&apos;assurez également d&apos;inclure des appels à l&apos;action clairs qui permet d&apos;encourager les
 						visiteurs à prendre des mesures, comme s&apos;inscrire à une newsletter ou acheter un produit.
 					</p>
@@ -118,8 +118,8 @@ export default function CreationSiteWeb() {
 				<section className={styles.sectionArticle}>
 					<h2>Ajouter des éléments multimédias</h2>
 					<p>
-						La sixième étape qui permet de créer un site web époustouflant est d&apos;ajouter des éléments multimédias. Tels que les images (Afin
-						d&apos;illustrer vos produits ou services), les vidéos pour présenter l&apos;entreprise et les infographies (Afin de visualiser des données
+						La sixième étape qui permet la créationde site web époustouflant est d&apos;ajouter des éléments multimédias. Tels que les images (Afin
+						d&apos;illustrer vos produits ou services), les vidéos qui présente l&apos;entreprise et les infographies (Afin de visualiser des données
 						complexes) peuvent aider à rendre le site web attractif et à susciter l&apos;engagement de vos visiteurs. Il est important de choisir des éléments
 						multimédias qui ont une cohérence avec l&apos;image de marque et qui soutiennent son votre texte.
 					</p>
@@ -153,11 +153,11 @@ export default function CreationSiteWeb() {
 					</p>
 					<p>
 						En suivant ces conseils d&apos;optimisation en vue des moteurs de recherche, cela augmentera la visibilité du site web professionnel et attirerez
-						de nombreux visiteurs.
+						de nombreux internautes.
 					</p>
 					<p>
 						L&apos;optimisation du site web en vue des moteurs de recherche est essentielle s&apos;il on désire augmenter sa visibilité et attirer de nombreux
-						visiteurs. En effectuant une recherche de mots clés pertinents, en optimisant vos balises méta, en utilisant des URL conviviales, en créant un
+						internautes. En effectuant une recherche de mots clés pertinents, en optimisant vos balises méta, en utilisant des URL conviviales, en créant un
 						contenu de qualité, en optimisant vos images et en créant des liens internes, cel améliorera le classement des sites web au niveau des
 						résultats de recherche. Suivez ces conseils afin optimiser ce site web et obtenir de meilleurs résultats.
 					</p>
@@ -172,7 +172,7 @@ export default function CreationSiteWeb() {
 					</p>
 					<p>
 						Vous pouvez également effectuer des tests de sécurité réguliers afin de détecter les vulnérabilités potentielles. En outre, il est important
-						publier régulièrement de nouvelles publications sur le site web pour garder vos visiteurs intéressés. Vous pouvez utiliser un calendrier éditorial qui
+						publier régulièrement de nouvelles publications sur le site web qui permet de conserver vos visiteurs intéressés. Vous pouvez utiliser un calendrier éditorial qui
 						planifiera vos publications.
 					</p>
 				</section>
@@ -244,7 +244,7 @@ export default function CreationSiteWeb() {
 								les détails du produit.
 							</p>
 							<p>
-								Le processus de paiement est un autre élément clé qui permet de convertir les visiteurs en clients. Un processus de paiement complexe ou
+								Le processus de paiement est un autre élément clé qui permet de convertir les internautes en clients. Un processus de paiement complexe ou
 								long peut décourager les clients et les inciter à abandonner leur achat. S&apos;assurez que le système de paiement est simple, rapide et
 								sécurisé.
 							</p>
@@ -309,7 +309,7 @@ export default function CreationSiteWeb() {
 							<p>
 								Une fois les projets à inclure avez sélectionné, il est important de les présenter de manière attrayante et professionnelle. Cela signifie
 								que vous devez prendre le temps de photographier ou de numériser vos travaux, de rédiger des descriptions détaillées de chaque projet, et
-								de concevoir une mise en page qui mette en valeur vos créations. Le but est de faciliter la navigation des visiteurs à travers le
+								de concevoir une mise en page qui mette en valeur vos créations. Le but est de faciliter la navigation des internautes à travers le
 								portfolio et de leur offrir une expérience visuelle agréable.
 							</p>
 							<p>
@@ -423,7 +423,7 @@ export default function CreationSiteWeb() {
 								d&apos;optimiser le texte pour les moteurs de recherche en utilisant des mots-clés pertinents.
 							</p>
 							<p>
-								Pour rendre vos appels à l&apos;action (CTA) efficaces, s&apos;assurer qu&apos;ils sont clairement visibles sur la landing page. Utilisez
+								Afin de rendre vos appels à l&apos;action (CTA) efficaces, s&apos;assurer qu&apos;ils sont clairement visibles sur la landing page. Utilisez
 								des couleurs vives ou des boutons attrayants qui les mettront en évidence. Placez-les également à des endroits stratégiques de la page,
 								tels que près du haut de la page ou à la fin d&apos;un texte persuasif.
 							</p>
@@ -477,7 +477,7 @@ export default function CreationSiteWeb() {
 							</h3>
 							<p>
 								Joomla est l&apos;un des systèmes de gestion (CMS) les plus populaires et respectés dans le monde du web. Il offre une
-								flexibilité remarquable, une grande variété d&apos;extensions et un système robuste qui permet aux utilisateurs de créer des sites web
+								flexibilité remarquable, une grande variété d&apos;extensions et un système robuste qui permet aux utilisateurs la création de sites web
 								complexes et sophistiqués.
 							</p>
 							<p>
@@ -492,7 +492,7 @@ export default function CreationSiteWeb() {
 							</p>
 							<p>
 								Bien que Joomla et Wordpress soient tous deux des CMS populaires, ils présentent des différences notables. Alors que Wordpress est souvent
-								recommandé pour les débutants en raison de sa facilité d&apos;utilisation, Joomla est généralement préféré par les développeurs qui ont
+								recommandé par les débutants en raison de sa facilité d&apos;utilisation, Joomla est généralement préféré par les développeurs qui ont
 								davantage d&apos;expérience en raison de sa flexibilité et de ses capacités de personnalisation.
 							</p>
 							<p>
