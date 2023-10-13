@@ -5,8 +5,8 @@ import referencementSeo4 from "@/public/Assets/Images/Webp/seo/referencement-seo
 import referencementSeo6 from "@/public/Assets/Images/Webp/seo/referencement-seo-6.webp";
 
 export const metadata = {
-	title: "Référencement SEO: Soyez en tête des résultats de Google 🥇",
-	description: "L'importance d'un référencement naturel efficace pour assurer le succès de votre projet en ligne. Le SEO permet de gagner en visivilité sur les moteurs de recherche.",
+	title: "Référencement SEO: Votre site en tête des recherches de Google 🥇",
+	description: "L'importance d'un référencement naturel efficace pour assurer le succès de votre projet en ligne. Le SEO permet de gagner en visibilité sur les moteurs de recherche.",
 	canonical: "https://www.white-wolf-web.com/articles/referencement-seo-google",
 };
 
