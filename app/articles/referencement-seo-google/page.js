@@ -5,7 +5,7 @@ import referencementSeo4 from "@/public/Assets/Images/Webp/seo/referencement-seo
 import referencementSeo6 from "@/public/Assets/Images/Webp/seo/referencement-seo-6.webp";
 
 export const metadata = {
-	title: "Référencement SEO: Votre site en tête des recherches de Google 🥇",
+	title: "Référencement SEO: Votre site en tête des recherches Google🥇",
 	description: "L'importance d'un référencement naturel efficace pour assurer le succès de votre projet en ligne. Le SEO permet de gagner en visibilité sur les moteurs de recherche.",
 	canonical: "https://www.white-wolf-web.com/articles/referencement-seo-google",
 };
@@ -90,7 +90,7 @@ export default function ReferencementSEO() {
 					className={`${styles.image} ${styles.imageArticle}`}
 				/>
 				<br />
-				<h2>Le référencement naturel: une démarche continue</h2>
+				<h2>Le référencement naturel: une démarche continue favorisant la visibilité sur les moteurs de recherche</h2>
 				<p>
 					L&apos;optimisation pour les moteurs de recherche n&apos;est pas un processus ponctuel, mais un engagement continu. Il est essentiel de suivre
 					régulièrement les performances du site, d&apos;analyser les données et d&apos;ajuster la stratégie en conséquence. Avec les algorithmes des moteurs de

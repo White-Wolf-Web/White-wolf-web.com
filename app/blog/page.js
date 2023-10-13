@@ -6,7 +6,7 @@ import BlogCardData from "@/data/blogCardData";
 import CardBlog from "@/components/Blog/CardBlog";
 
 export const metadata = {
-	title: "Articles et Guides Experts sur le Développement Web, le SEO et Plus Encore",
+	title: "Articles et Guides Experts sur le Développement Web, le SEO et encore +++",
 	description: "Que vous soyez débutant ou professionnel, vous trouverez ici des ressources, des conseils et des astuces pour parfaire vos compétences en développement web",
 	canonical: "https://www.white-wolf-web.com/blog",
 };
