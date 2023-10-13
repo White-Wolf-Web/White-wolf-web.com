@@ -19,8 +19,12 @@
 .avis {
 	display: flex;
 	justify-content: space-between;
-	width: 220px;
+	width: 230px;
+	height: 32px;
 	
+}
+.starContainer {
+	width: 105px;
 }
 .paymentIcons {
 	width: 150px;
