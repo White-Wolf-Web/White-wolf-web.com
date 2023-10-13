@@ -121,7 +121,7 @@ export default function CreationSiteWeb() {
 						La sixième étape qui permet la créationde site web époustouflant est d&apos;ajouter des éléments multimédias. Tels que les images (Afin
 						d&apos;illustrer vos produits ou services), les vidéos qui présente l&apos;entreprise et les infographies (Afin de visualiser des données
 						complexes) peuvent aider à rendre le site web attractif et à susciter l&apos;engagement de vos visiteurs. Il est important de choisir des éléments
-						multimédias qui ont une cohérence avec l&apos;image de marque et qui soutiennent son votre texte.
+						multimédias qui ont une cohérence avec l&apos;image de marque et qui soutiennent le texte.
 					</p>
 				</section>
 				<div className={styles.longDivider}></div>
@@ -133,7 +133,7 @@ export default function CreationSiteWeb() {
 					</p>
 					<p>
 						2. Optimisez vos balises méta : Les balises méta sont des éléments importants en vue du référencement naturel. S&apos;assurez d&apos;inclure des
-						balises méta titre et description pertinentes à chaque page de votre site web.
+						balises méta titre et description pertinentes à chaque page du site web.
 					</p>
 					<p>
 						3. Utilisez des URL conviviales : Des URL conviviales courtes, descriptives et contiennent des mots clés pertinents. Elles aident les moteurs
@@ -200,7 +200,7 @@ export default function CreationSiteWeb() {
 							<p>
 								Un des principaux avantages d&apos;un site vitrine est sa simplicité. Ils sont faciles et rapides à construire que des sites web
 								complexes. Un autre avantage est leur coût. Comparés aux sites web complexes, les sites vitrine ont généralement un coût initial et des
-								coûts de maintenance plus faible. De plus, ils peuvent aider à renforcer la crédibilité et la confiance de votre entreprise.
+								coûts de maintenance plus faible. De plus, ils peuvent aider à renforcer la crédibilité et la confiance de l&apos;entreprise.
 							</p>
 							<p>
 								Cependant, les sites vitrine ont aussi leurs inconvénients. L&apos;un d&apos;entre eux est leur manque de fonctionnalités avancées. Par
@@ -234,12 +234,12 @@ export default function CreationSiteWeb() {
 								efficaces.
 							</p>
 							<p>
-								Un site e-commerce réussi est essentiel s&apos;il on désire prospérer au sein du monde en ligne. Il est votre vitrine virtuelle et le
+								Un site e-commerce réussi est essentiel s&apos;il on désire prospérer au sein du monde en ligne. Elle est votre vitrine virtuelle et le
 								principal moyen de communication avec vos clients potentiels. Un site bien conçu et bien optimisé peut augmenter la visibilité en ligne et
 								aider à atteindre vos objectifs commerciaux.
 							</p>
 							<p>
-								Les images et les descriptions de produits jouent un rôle essentiel dans la réussite de votre site e-commerce. Les clients veulent voir à
+								Les images et les descriptions de produits jouent un rôle essentiel dans la réussite du site e-commerce. Les clients veulent voir à
 								quoi ressemble le produit avant de l&apos;acheter, il est donc important de fournir des images de haute qualité qui montrent clairement
 								les détails du produit.
 							</p>
@@ -378,7 +378,7 @@ export default function CreationSiteWeb() {
 								Site Multilingue
 							</h3>
 							<p>
-								Les sites multilingues sont des sites web offrant du contenu dans plusieurs langues, afin de s&apos;adresser à un public international. Ces
+								Les sites multilingues sont des sites web offrant du texte dans plusieurs langues, afin de s&apos;adresser à un public international. Ces
 								sites sont essentiels pour les entreprises désirant attirer et servir des clients du monde entier, mais aussi les lieux où plusieurs
 								langues seront utilisées.
 							</p>
@@ -408,7 +408,7 @@ export default function CreationSiteWeb() {
 								lettre d&apos;information, effectuer un achat ou remplir un formulaire.
 							</p>
 							<p>
-								Généralement, les landing page sont liées aux campagnes d&apos;emailing ou au contenu des médias sociaux et comprennent un appel à
+								Généralement, les landing page sont liées aux campagnes d&apos;emailing ou au rendu des médias sociaux et comprennent un appel à
 								l&apos;action ou un formulaire afin de convertir les visiteurs en prospects.
 							</p>
 							<p>
@@ -450,7 +450,7 @@ export default function CreationSiteWeb() {
 							</p>
 							<p>
 								L&apos;une des principales forces de WordPress est sa convivialité pour les débutants. L&apos;interface conviviale et le système de
-								gestion simplifié permettant de créer et de gérer facilement vos pages, vos articles de blog et tout autre contenu du site.
+								gestion simplifié permettant de créer et de gérer facilement vos pages, vos articles de blog et tout autre composant du site.
 								Vous pouvez ajouter du texte, des images, des vidéos, et même des formulaires directement depuis l&apos;éditeur de texte WordPress.
 							</p>
 							<p>
@@ -481,12 +481,12 @@ export default function CreationSiteWeb() {
 								complexes et sophistiqués.
 							</p>
 							<p>
-								Joomla offre une interface conviviale qui est facile à comprendre et à utiliser, même pour les débutants. Joomla possede une courbe
-								d&apos;apprentissage relativement douce, Joomla est une option attrayante pour ceux qui cherchent à créer un site web sans avoir à
+								Joomla offre une interface conviviale qui est facile à comprendre et à utiliser, même pour les débutants. Il possede une courbe
+								d&apos;apprentissage relativement douce, c&apos;est une option attrayante pour ceux qui cherchent à créer un site web sans avoir à
 								apprendre le codage complexe.
 							</p>
 							<p>
-								Joomla possede des milliers d&apos;extensions disponibles, Joomla offre une grande flexibilité qui permet de personnaliser un site web. Si
+								Il possede des milliers d&apos;extensions disponibles, il offre une grande flexibilité qui permet de personnaliser un site web. Si
 								le besoin d&apos;un formulaire de contact, d&apos;une galerie de photos, d&apos;un forum, d&apos;un système de réservation ou d&apos;une
 								boutique en ligne, Joomla a probablement une extension qui répond à vos besoins.
 							</p>
@@ -497,7 +497,7 @@ export default function CreationSiteWeb() {
 							</p>
 							<p>
 								Joomla est un CMS puissant et flexible qui convient à une variété de types de sites web, des blogs personnels aux portails
-								d&apos;entreprise. Avec une grande communauté de soutien, une pléthore d&apos;extensions et une politique de sécurité robuste, Joomla est
+								d&apos;entreprise. Avec une grande communauté de soutien, une pléthore d&apos;extensions et une politique de sécurité robuste, c&apos;est
 								un excellent choix à tous ceux qui cherchent à créer un site web dynamique et interactif à moindre cout.
 							</p>
 						</div>
