@@ -198,7 +198,7 @@ export default function CreationSiteWeb() {
 								fournir des informations de contact.
 							</p>
 							<p>
-								Un des principaux avantages d&apos;un site vitrine est sa simplicité. Ils sont faciles et rapides à construire que des sites web
+								Un des principaux avantages d&apos;un site vitrine est sa simplicité. Il est facile et rapide à construire que certains sites web
 								complexes. Un autre avantage est leur coût. Comparés aux sites web complexes, les sites vitrine ont généralement un coût initial et des
 								coûts de maintenance plus faible. De plus, ils peuvent aider à renforcer la crédibilité et la confiance de l&apos;entreprise.
 							</p>
@@ -274,7 +274,7 @@ export default function CreationSiteWeb() {
 								contenu est mis à jour fréquemment avec des informations pertinentes et actuelles en vue de maintenir l&apos;intérêt des visiteurs.
 							</p>
 							<p>
-								Ils sont parfois destinés à fournir des ressources pédagogiques et des informations relatives à un domaine d&apos;étude spécifique. Ils
+							Le site d&apos;information est parfois destinés à fournir des ressources pédagogiques et des informations relatives à un domaine d&apos;étude spécifique. Ils
 								peuvent comprendre des articles, des vidéos, des quiz et des forums de discussion qui favorisent l&apos;apprentissage et la collaboration.
 							</p>
 						</div>
@@ -378,8 +378,8 @@ export default function CreationSiteWeb() {
 								Site Multilingue
 							</h3>
 							<p>
-								Les sites multilingues sont des sites web offrant du texte dans plusieurs langues, afin de s&apos;adresser à un public international. Ces
-								sites sont essentiels pour les entreprises désirant attirer et servir des clients du monde entier, mais aussi les lieux où plusieurs
+								Le site multilingue est un site web offrant du texte dans plusieurs langues, afin de s&apos;adresser à un public international. Ce
+								site est essentiel pour les entreprises désirant attirer et servir des clients du monde entier, mais aussi les lieux où plusieurs
 								langues seront utilisées.
 							</p>
 							<p>
@@ -445,7 +445,7 @@ export default function CreationSiteWeb() {
 							</h3>
 							<p>
 								WordPress est une plateforme de gestion (CMS) largement appréciée, permettant de créer facilement des sites web de qualité
-								professionnelle sans nécessiter de compétences en programmation. WordPress propose une variété de thèmes et de plugins dans le but de
+								professionnelle sans nécessiter de compétences en programmation. Il propose une variété de thèmes et de plugins dans le but de
 								personnaliser l&apos;apparence et les fonctionnalités du site web.{" "}
 							</p>
 							<p>
@@ -454,7 +454,7 @@ export default function CreationSiteWeb() {
 								Vous pouvez ajouter du texte, des images, des vidéos, et même des formulaires directement depuis l&apos;éditeur de texte WordPress.
 							</p>
 							<p>
-								La création d&apos;un site web avec WordPress est un processus relativement simple et accessible même aux débutants. Wordpress offre une
+								La création d&apos;un site web avec WordPress est un processus relativement simple et accessible même aux débutants. Il offre une
 								gamme de thèmes, de plugins et d&apos;outils de personnalisation, vous pouvez créer un site professionnel avec son propre nom de domaine
 								en quelques clics. Si le souhait est de créer une simple vitrine web ou une boutique e-commerce, WordPress offre les fonctionnalités
 								nécessaires qui permet de réaliser son projet web.
