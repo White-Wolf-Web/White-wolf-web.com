@@ -80,7 +80,7 @@ export default function Home() {
 				<p>
 					<strong>Notre agence web</strong> est situé en <strong>Belgique</strong>, au sud de <strong>Bruxelles</strong>. Le but est de vous guider dans la
 					jungle du <strong>web</strong>-design et l&apos;univers du web développeur, afin de transformer votre vision d’un <strong>site internet professionnel</strong>, qui sera livré clé en
-					main et parfaitement adapté à vos besoins. Du <strong>développement web</strong> à la gestion de contenu, en passant au choix de l&apos;hebergeur ou du nom de domaine
+					main, sa stucture & sa sémantique seront parfaitement adapté pour le référencement naturel - SEO et répondra à tous vos besoins. Du <strong>développement web</strong> à la gestion de contenu, en passant au choix de l&apos;hebergeur ou du nom de domaine
 					approprié nous sommes le <strong>webmaster</strong> & developpeur d&apos;application Web qui est présent à chaque étape du projet. <br></br>
 					<br></br>Nos propositions :
 				</p>
@@ -129,6 +129,11 @@ export default function Home() {
 						<strong>Site Joomla</strong>
 						</Link>
 					</li>
+					<li className={styles.newLi}>
+						<Link href="/articles/referencement-seo-google" className={styles.linkHomePage}>
+						<strong>SEO - Référencement naturel</strong>
+						</Link>
+					</li>
 					<li>&emsp;&ensp;...</li>
 				</ul>
 			</section>
@@ -146,8 +151,7 @@ export default function Home() {
 					<strong>création d&apos;un site web</strong>. De l&apos;enregistrement du domaine et des frais d&apos;hébergement aux coûts de <strong>conception</strong> et de <strong>développement</strong>,
 					 les dépenses liées à la création d&apos;un site web et donnons des indications précieuses sur la manière de maîtriser les coûts. Que
 					l&apos;on soit propriétaire d&apos;une petite entreprise ou un blogueur désireux de créer son propre <strong>site web</strong>, ce guide apportera les connaissances
-					et les outils nécessaires afin de créer un <strong>site web professionnel</strong> et efficace sans se ruiner. Alors, commençons et dévoilons les secrets des coûts de 
-					<strong>création d&apos;un site web</strong> !
+					et les outils nécessaires afin de créer un <strong>site web professionnel</strong> et efficace sans se ruiner. Alors, commençons et dévoilons les secrets des coûts de <strong>création d&apos;un site web</strong> !
 				</p>
 				<SeeOtherButton href="/admin/price" text="En savoir +++" />
 			</section>
@@ -160,7 +164,7 @@ export default function Home() {
 				<p>
 					La <Link  href="/articles/creation-site-web" className={styles.internalLink}>création de site internet</Link> et la gestion d&apos;une boutique en ligne peut être un défi, en particulier 
 					les auto-entrepreneurs ou une petites entreprises. C&apos;est pourquoi l&apos;agence de création web met tout en œuvre afin d&apos;aider à surmonter ces obstacles. <br></br>
-					L&apos;équipe de white wolf web est composée de dévouée <strong>développeurs web</strong>, de <strong>webdesigners</strong>, de <Link  href="/blog" className={styles.internalLink}>spécialistes du blog</Link> et chacun est là en vue de vous guider et soutenir à chaque
+					L&apos;équipe de white wolf web est composée de dévouée <strong>développeurs web</strong>, de <strong>webdesigners</strong>, de <Link  href="/blog" className={styles.internalLink}>spécialistes du blog</Link>, consultant SEO et chacun est là en vue de vous guider et soutenir à chaque
 					étape. Wild Wolf Web est en mesure de fournir des solutions qui non seulement répondent à vos besoins, mais aussi surpassent vos attentes.
 				</p>
 

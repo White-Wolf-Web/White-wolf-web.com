@@ -3,7 +3,7 @@
 		"title": "HTML5",
 		"alt": "Logo html5",
 		"image": "/Assets/Icons/HTML5-L.webp",
-		"description": "HTML5 est la structure de base de tout site web. C'est un langage de balisage qui permet de créer des pages web statiques. C'est le standard de l'industrie, donc tout navigateur web est capable de l'interpréter.",
+		"description": "HTML5 est la structure de base de toute création site web. C'est un langage de balisage qui permet de créer des pages web statiques. C'est le standard de l'industrie, donc tout navigateur web est capable de l'interpréter.",
 		"backgroundColor": "#E34F26",
 		"color": "black",
 		"href": "/articles/languages/html5"
@@ -12,7 +12,7 @@
 		"title": "CSS3",
 		"alt": "Logo CSS3",
 		"image": "/Assets/Icons/CSS3-L.webp",
-		"description": "CSS3 c'est la mise en page. Il permet de contrôler l'apparence des pages (couleurs, tailles, polices, espacements, etc.) afin de les rendre plus attrayantes, plus fluides, plus responsives.",
+		"description": "CSS3 c'est la mise en page. Il permet de contrôler l'apparence des pages (couleurs, tailles, polices, espacements, etc.) afin de rendre un site web plus attrayant, plus fluide, plus responsive.",
 		"backgroundColor": "#1984D1",
 		"color": "black",
 		"href": "/articles/languages/css3"
@@ -21,7 +21,7 @@
 		"title": "JavaScript",
 		"alt": "Logo JS.",
 		"image": "/Assets/Icons/javascript-L.webp",
-		"description": "Javascript est un langage de programmation qui permet de rendre les sites interactifs. Il est exécuté coté client (dans le navigateur) et permet d'ajouter des fonctionnalités dynamiques à un site web statique.",
+		"description": "Javascript est un langage de programmation qui permet la création de sites interactifs. Il est exécuté coté client (dans le navigateur) et permet d'ajouter des fonctionnalités dynamiques à un site web statique.",
 		"backgroundColor": "#F7DF1E",
 		"color": "black",
 		"href": "/articles/languages/javascript"
@@ -48,7 +48,7 @@
 		"title": "Bootstrap",
 		"alt": "Logo Bootstrap",
 		"image": "/Assets/Icons/bootstrap-L.webp",
-		"description": "Bootstrap est un framework CSS qui facilite la création de designs responsifs. Il comprend une multitude de composants réutilisables dans la navigation, les modales, ainsi que des utilitaires qui permettent la mise en page",
+		"description": "Bootstrap est un framework CSS qui facilite la création de designs responsifs. Il comprend une multitude de composants réutilisables dans la navigation, les modales, qui facilitent la mise en page d'un site web.",
 		"backgroundColor": "#9364D9",
 		"color": "black",
 		"href": "/articles/languages/bootstrap"

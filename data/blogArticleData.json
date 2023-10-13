@@ -95,8 +95,8 @@
 				},
 				{
 					"h2": "API Fetch vs. XMLHttpRequest",
-					"paragraph1": "Avant l&apos;arrivée de l&apos;API Fetch, XMLHttpRequest (XHR) était la principale API utilisée pour récupérer des ressources à partir de serveurs. XHR est une API JavaScript qui fournit une interface pour effectuer des requêtes HTTP asynchrones. Elle est compatible avec tous les navigateurs modernes et est largement utilisée pour la création d&apos;applications web.",
-					"paragraph2": "L&apos;API Fetch est une alternative plus propre et plus moderne à XMLHttpRequest. Elle est basée sur les promesses et offre une syntaxe plus simple et plus élégante pour récupérer des ressources à partir de serveurs. Elle est également plus flexible que XHR, ce qui permet aux développeurs de créer des applications web plus interactives et plus dynamiques.",
+					"paragraph1": "Avant l'arrivée de l&apos;API Fetch, XMLHttpRequest (XHR) était la principale API utilisée pour récupérer des ressources à partir de serveurs. XHR est une API JavaScript qui fournit une interface pour effectuer des requêtes HTTP asynchrones. Elle est compatible avec tous les navigateurs modernes et est largement utilisée pour la création d'applications web.",
+					"paragraph2": "L'API Fetch est une alternative plus propre et plus moderne à XMLHttpRequest. Elle est basée sur les promesses et offre une syntaxe plus simple et plus élégante pour récupérer des ressources à partir de serveurs. Elle est également plus flexible que XHR, ce qui permet aux développeurs de créer des applications web plus interactives et plus dynamiques.",
 					"paragraph3": "Enfin, l&apos;API Fetch est plus performante que XHR en termes de gestion des erreurs et de gestion des retours de données. Elle utilise un système de gestion des erreurs basé sur les codes HTTP, ce qui permet aux développeurs de détecter rapidement les erreurs et de les résoudre efficacement. Elle utilise également les promesses pour gérer les retours de données, ce qui facilite la gestion des données et permet aux développeurs de créer des applications web plus réactives.",
 					"image": "lien_vers_une_image_du_contenu"
 				},

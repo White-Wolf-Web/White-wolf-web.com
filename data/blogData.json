@@ -17,28 +17,28 @@
         "title": "IA de Turing à Tesla",
         "alt": "On voit un cerveau connecté à une puce électronique symbolisant l'intelligence artificielle",
         "image": "/Assets/Images/Webp/blog/IA-mini.webp",
-        "description": "C'est le résumé de mon super article.",
+        "description": "Tracer l'évolution de l'IA à travers l'histoire.",
         "href":"/blog/ia-turing-a-tesla"
       },
       {
         "title": "SEO, améliorez sa visibilité",
         "alt": "Un loupe permettant de lire SEO en gros et avec des caratere en OR",
         "image": "/Assets/Images/Webp/blog/seo-mini.webp",
-        "description": "C'est le résumé de mon autre super article.",
+        "description": "Un guide complet sur le réferencement naturel - SEO.",
         "href":"/blog/liberez-la-puissance-du-seo"
       },
       {
         "title": "GPT4",
         "alt": "Une femme robot derriere un laptop, l'IA matérialisé",
         "image": "/Assets/Images/Webp/blog/chatGPT-mini.webp",
-        "description": "C'est le résumé de mon super article.",
+        "description": "Une vue holistique pour les passionnés de technologies.",
         "href":"/blog/chat-gpt4"
       },
       {
         "title": "Next.js  ...  le futur ",
         "alt": "Un grand N en blanc sur fond Noir, logo de Next.js",
         "image": "/Assets/Images/Webp/blog/Next-mini.webp",
-        "description": "C'est le résumé de mon autre super article.",
+        "description": "Explorez l'avenir du développement web avec Next.js, un framework React ...",
         "href":"/blog/next-js"
       }
       
