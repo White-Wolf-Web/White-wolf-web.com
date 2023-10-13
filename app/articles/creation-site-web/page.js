@@ -41,7 +41,7 @@ export default function CreationSiteWeb() {
 					<h2>Comprendre le public ciblé</h2>
 					<p>
 						La première étape si l&apos;on désire créer un site web époustouflant est de comprendre le public ciblé. Avant de commencer à concevoir un site,
-						il est important d&apos; avoir une idée claire de qui vous voulez atteindre. Quel est l&apos;âge, le sexe, l&apos;emplacement
+						il est primordial d&apos; avoir une idée claire de qui vous voulez atteindre. Quel est l&apos;âge, le sexe, l&apos;emplacement
 						géographique et les intérêts du public ciblé ? Quels sont les problèmes que vous pouvez résoudre ? En répondant à ces questions, vous pouvez créer
 						un contenu qui répond à leurs besoins et qui les incite à revenir. Une autre façon de comprendre le public ciblé est d&apos;examiner les sites web
 						de vos concurrents.
@@ -58,13 +58,13 @@ export default function CreationSiteWeb() {
 				<section className={styles.sectionArticle}>
 					<h2>Choisir un nom de domaine et un hébergeur.</h2>
 					<p>
-						Avant de commencer la création de un site web professionnel, il est important de choisir un nom de domaine et un hébergeur. Le nom de domaine est
-						l&apos;adresse web du site, donc il est important de choisir un nom qui soit facile à retenir et qui reflète l&apos;entreprise ou marque. Il sera possible de
+						Avant de commencer la création de un site web professionnel, il est capital de choisir un nom de domaine et un hébergeur. Le nom de domaine est
+						l&apos;adresse web du site, donc il est primordial de choisir un nom qui soit facile à retenir et qui reflète l&apos;entreprise ou marque. Il sera possible de
 						vérifier la disponibilité d&apos;un nom de domaine sur des sites web spécialisés.
 					</p>
 					<p>
 						En ce qui concerne l&apos;hébergement, il s&apos;agit du service qui permet de stocker les fichiers du site web sur un serveur et de les rendre
-						accessibles aux utilisateurs. Il existe de nombreux fournisseurs d&apos;hébergement disponibles, il est donc important de choisir celui qui
+						accessibles aux utilisateurs. Il existe de nombreux fournisseurs d&apos;hébergement disponibles, il est donc nécessaire de choisir celui qui
 						correspond le mieux à vos besoins en termes de capacité de stockage, de bande passante, de support technique, etc.
 					</p>
 				</section>
@@ -120,7 +120,7 @@ export default function CreationSiteWeb() {
 					<p>
 						La sixième étape qui permet la créationde site web époustouflant est d&apos;ajouter des éléments multimédias. Tels que les images (Afin
 						d&apos;illustrer vos produits ou services), les vidéos qui présente l&apos;entreprise et les infographies (Afin de visualiser des données
-						complexes) peuvent aider à rendre le site web attractif et à susciter l&apos;engagement de vos visiteurs. Il est important de choisir des éléments
+						complexes) peuvent aider à rendre le site web attractif et à susciter l&apos;engagement de vos visiteurs. Il est utile de choisir des éléments
 						multimédias qui ont une cohérence avec l&apos;image de marque et qui soutiennent le texte.
 					</p>
 				</section>
@@ -132,7 +132,7 @@ export default function CreationSiteWeb() {
 						mots clés pertinents de votre secteur d&apos;activité. Intégrez ces mots clés au texte de manière naturelle.
 					</p>
 					<p>
-						2. Optimisez vos balises méta : Les balises méta sont des éléments importants en vue du référencement naturel. S&apos;assurez d&apos;inclure des
+						2. Optimisez vos balises méta : Les balises méta sont des éléments fondamentaux en vue du référencement naturel. S&apos;assurez d&apos;inclure des
 						balises méta titre et description pertinentes à chaque page du site web.
 					</p>
 					<p>
@@ -149,7 +149,7 @@ export default function CreationSiteWeb() {
 					</p>
 					<p>
 						6. Créez des liens internes : Les liens internes aident les moteurs de recherche à naviguer et à indexer le site web. Créez des liens entre les
-						différentes pages, ce qui facilitera la navigation.
+						différents fichiers, ce qui facilitera la navigation.
 					</p>
 					<p>
 						En suivant ces conseils d&apos;optimisation en vue des moteurs de recherche, cela augmentera la visibilité du site web professionnel et attirerez
@@ -171,7 +171,7 @@ export default function CreationSiteWeb() {
 						plateforme de site web et de vos plugins qui garantissent la sécurité et la compatibilité des navigateurs.{" "}
 					</p>
 					<p>
-						Vous pouvez également effectuer des tests de sécurité réguliers afin de détecter les vulnérabilités potentielles. En outre, il est important
+						Vous pouvez également effectuer des tests de sécurité réguliers afin de détecter les vulnérabilités potentielles. En outre, il est nécessaire de
 						publier régulièrement de nouvelles publications sur le site web qui permet de conserver vos visiteurs intéressés. Vous pouvez utiliser un calendrier éditorial qui
 						planifiera vos publications.
 					</p>
@@ -240,7 +240,7 @@ export default function CreationSiteWeb() {
 							</p>
 							<p>
 								Les images et les descriptions de produits jouent un rôle essentiel dans la réussite du site e-commerce. Les clients veulent voir à
-								quoi ressemble le produit avant de l&apos;acheter, il est donc important de fournir des images de haute qualité qui montrent clairement
+								quoi ressemble le produit avant de l&apos;acheter, il est donc préférable de fournir des images de haute qualité qui montrent clairement
 								les détails du produit.
 							</p>
 							<p>
@@ -284,7 +284,7 @@ export default function CreationSiteWeb() {
 					<div className={styles.webSiteStyle}>
 						<Image
 							src={creationSitePortfolio}
-							alt="Représentation d'un portfolio de plusieurs pages"
+							alt="Représentation d'un portfolio"
 							placeholder="blur"
 							quality={100}
 							className={`${styles.webSiteStyleImg} ${styles.floatRight}`}
@@ -301,13 +301,13 @@ export default function CreationSiteWeb() {
 							</p>
 							<p>
 								La première étape de la création d&apos;un portfolio est de sélectionner soigneusement les travaux que vous souhaitez inclure. Il est
-								important de choisir des projets qui représentent bien vos compétences et vos intérêts. Il est également judicieux d&apos;inclure une
+								hautement recommandé de choisir des projets qui représentent bien vos compétences et vos intérêts. Il est également judicieux d&apos;inclure une
 								variété de travaux en vue de montrer votre polyvalence. Toutefois, gardez à l&apos;esprit que la qualité doit primer sur la quantité. Il
 								est préférable d&apos;avoir un portfolio contenant quelques projets de haute qualité plutôt qu&apos;une multitude de projets de moindre
 								qualité.
 							</p>
 							<p>
-								Une fois les projets à inclure avez sélectionné, il est important de les présenter de manière attrayante et professionnelle. Cela signifie
+								Une fois les projets à inclure avez sélectionné, il est fortement conseillé de les présenter de manière attrayante et professionnelle. Cela signifie
 								que vous devez prendre le temps de photographier ou de numériser vos travaux, de rédiger des descriptions détaillées de chaque projet, et
 								de concevoir une mise en page qui mette en valeur vos créations. Le but est de faciliter la navigation des internautes à travers le
 								portfolio et de leur offrir une expérience visuelle agréable.
@@ -325,7 +325,7 @@ export default function CreationSiteWeb() {
 					<div className={styles.webSiteStyle}>
 						<Image
 							src={creationSiteMobileFirst}
-							alt="3 pages d'un site mobile-first sur un Iphone"
+							alt="site mobile-first sur un Iphone"
 							placeholder="blur"
 							quality={100}
 							className={`${styles.webSiteStyleImg} ${styles.floatLeft}`}
@@ -346,14 +346,14 @@ export default function CreationSiteWeb() {
 								utilisent un ordinateur de bureau, un smartphone ou une tablette.
 							</p>
 							<p>
-								La création d&apos;un site web mobile responsive commence par la conception. Il est important de penser à l&apos;expérience mobile dès le
+								La création d&apos;un site web mobile responsive commence par la conception. Il est primordial de penser à l&apos;expérience mobile dès le
 								début, en considérant comment le texte sera affiché sur différents appareils et tailles d&apos;écran. Les designers utilisent souvent
 								une approche dite mobile first, où ils commencent par concevoir la version mobile du site avant d&apos;adapter le design aux écrans ++
 								grands. Cela aide à s&apos;assurer que l&apos;expérience mobile est aussi complète et satisfaisante que possible.
 							</p>
 							<p>
 								Au-delà de la simple adaptation à différentes tailles d&apos;écran, un bon design responsive prend également en compte d&apos;autres
-								aspects de l&apos;expérience mobile. Par exemple, il est important de s&apos;assurer que les boutons et les liens soient suffisamment grands
+								aspects de l&apos;expérience mobile. Par exemple, il est utile de s&apos;assurer que les boutons et les liens soient suffisamment grands
 								et espacés afin d&apos;être facilement utilisables sur un écran tactile. De même, le texte doit être concis et facile à lire sur un
 								petit écran, et les images et autres médias doivent être optimisés en vue de s&apos;assurer d&apos;un chargement rapide.
 							</p>
@@ -424,7 +424,7 @@ export default function CreationSiteWeb() {
 							</p>
 							<p>
 								Afin de rendre vos appels à l&apos;action (CTA) efficaces, s&apos;assurer qu&apos;ils sont clairement visibles sur la landing page. Utilisez
-								des couleurs vives ou des boutons attrayants qui les mettront en évidence. Placez-les également à des endroits stratégiques de la page,
+								des couleurs vives ou des boutons attrayants qui les mettront en évidence. Placez-les également à des endroits stratégiques,
 								tels que près du haut de la page ou à la fin d&apos;un texte persuasif.
 							</p>
 						</div>
