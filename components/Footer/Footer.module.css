@@ -15,6 +15,7 @@
 }
 .HFooter {
 	font-size: 20px;
+	margin: 0;
 }
 .avis {
 	display: flex;
