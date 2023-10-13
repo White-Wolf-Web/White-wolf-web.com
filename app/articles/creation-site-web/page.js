@@ -41,7 +41,7 @@ export default function CreationSiteWeb() {
 					<h2>Comprendre le public ciblé</h2>
 					<p>
 						La première étape si l&apos;on désire créer un site web époustouflant est de comprendre le public ciblé. Avant de commencer à concevoir un site,
-						il est important d&apos; avoir une idée claire de qui vous voulez atteindre avec le contenu. Quel est l&apos;âge, le sexe, l&apos;emplacement
+						il est important d&apos; avoir une idée claire de qui vous voulez atteindre. Quel est l&apos;âge, le sexe, l&apos;emplacement
 						géographique et les intérêts du public ciblé ? Quels sont les problèmes que vous pouvez résoudre ? En répondant à ces questions, vous pouvez créer
 						un contenu qui répond à leurs besoins et qui les incite à revenir. Une autre façon de comprendre le public ciblé est d&apos;examiner les sites web
 						de vos concurrents.
@@ -59,8 +59,8 @@ export default function CreationSiteWeb() {
 					<h2>Choisir un nom de domaine et un hébergeur.</h2>
 					<p>
 						Avant de commencer la création de un site web professionnel, il est important de choisir un nom de domaine et un hébergeur. Le nom de domaine est
-						l&apos;adresse web du site, donc il est important de choisir un nom qui soit facile à retenir et qui reflète l&apos;entreprise ou marque. Vous
-						pouvez vérifier la disponibilité d&apos;un nom de domaine sur des sites web spécialisés.
+						l&apos;adresse web du site, donc il est important de choisir un nom qui soit facile à retenir et qui reflète l&apos;entreprise ou marque. Il sera possible de
+						vérifier la disponibilité d&apos;un nom de domaine sur des sites web spécialisés.
 					</p>
 					<p>
 						En ce qui concerne l&apos;hébergement, il s&apos;agit du service qui permet de stocker les fichiers du site web sur un serveur et de les rendre
@@ -81,12 +81,12 @@ export default function CreationSiteWeb() {
 					<h2>Si le choix se dirige vers une plateforme de site web</h2>
 					<p>
 						Il existe de nombreuses options disponibles, chacune avec ses propres avantages et inconvénients. Les deux options les plus populaires sont
-						WordPress et Joomla. WordPress est une plateforme de gestion de contenu (CMS) open source qui offre une grande flexibilité et des fonctionnalités
+						WordPress et Joomla. WordPress est une plateforme de gestion (CMS) open source qui offre une grande flexibilité et des fonctionnalités
 						avancées. Il est facile à personnaliser et à intégrer à l&apos;aide des outils de marketing en ligne. Joomla est lui aussi une plateforme de
-						gestion de contenu, également très complet, ils offrent aussi de nombreuses options.
+						gestion, également très complet, ils offrent aussi de nombreuses options.
 					</p>
 					<p>
-						La plupart des plateformes de site web offrent des thèmes ou des modèles prêts à l&apos;emploi qui peuvent être personnalisés en fonction de vos
+						La plupart des plateformes web offrent des thèmes ou des modèles prêts à l&apos;emploi qui peuvent être personnalisés en fonction de vos
 						besoins. Lors de la sélection d&apos;un thème ou d&apos;un modèle, il est important de tenir compte de le public ciblé et de vos objectifs
 						commerciaux. Le thème ou le modèle que choisi doit être cohérent avec image de marque choisi et vous aider à atteindre vos objectifs.
 					</p>
@@ -121,7 +121,7 @@ export default function CreationSiteWeb() {
 						La sixième étape qui permet de créer un site web époustouflant est d&apos;ajouter des éléments multimédias. Tels que les images (Afin
 						d&apos;illustrer vos produits ou services), les vidéos pour présenter l&apos;entreprise et les infographies (Afin de visualiser des données
 						complexes) peuvent aider à rendre le site web attractif et à susciter l&apos;engagement de vos visiteurs. Il est important de choisir des éléments
-						multimédias qui sont cohérents avec l&apos;image de marque et qui soutiennent son contenu.
+						multimédias qui ont une cohérence avec l&apos;image de marque et qui soutiennent son votre texte.
 					</p>
 				</section>
 				<div className={styles.longDivider}></div>
@@ -129,27 +129,27 @@ export default function CreationSiteWeb() {
 					<h2>Optimisation du site web pour les moteurs de recherche.</h2>
 					<p>
 						1. Effectuez une recherche de mots clés : Utilisez des outils de recherche de mots clés tels que Google Keyword Planner qui permet de trouver les
-						mots clés pertinents de votre secteur d&apos;activité. Intégrez ces mots clés au contenu de manière naturelle.
+						mots clés pertinents de votre secteur d&apos;activité. Intégrez ces mots clés au texte de manière naturelle.
 					</p>
 					<p>
 						2. Optimisez vos balises méta : Les balises méta sont des éléments importants en vue du référencement naturel. S&apos;assurez d&apos;inclure des
 						balises méta titre et description pertinentes à chaque page de votre site web.
 					</p>
 					<p>
-						3. Utilisez des URL conviviales : Les URL conviviales sont courtes, descriptives et contiennent des mots clés pertinents. Elles aident les moteurs
+						3. Utilisez des URL conviviales : Des URL conviviales courtes, descriptives et contiennent des mots clés pertinents. Elles aident les moteurs
 						de recherche à comprendre le contenu de la page.
 					</p>
 					<p>
-						4. Créez un contenu de qualité : Les moteurs de recherche valorisent le contenu de qualité. S&apos;assurez d&apos;écrire du contenu informatif,
+						4. Créez un contenu de qualité : Les moteurs de recherche valorisent un texte de qualité. S&apos;assurez d&apos;écrire du contenu informatif,
 						utile et engageant pour vos visiteurs.
 					</p>
 					<p>
 						5. Optimisez vos images : Utilisez des balises alt qui décrira vos images et incluez des mots clés pertinents. Cela permet aux moteurs de
-						recherche de comprendre le contenu de vos images.
+						recherche de comprendre vos images.
 					</p>
 					<p>
 						6. Créez des liens internes : Les liens internes aident les moteurs de recherche à naviguer et à indexer le site web. Créez des liens entre les
-						différentes pages du site web qui facilitera la navigation.
+						différentes pages, ce qui facilitera la navigation.
 					</p>
 					<p>
 						En suivant ces conseils d&apos;optimisation en vue des moteurs de recherche, cela augmentera la visibilité du site web professionnel et attirerez
@@ -158,7 +158,7 @@ export default function CreationSiteWeb() {
 					<p>
 						L&apos;optimisation du site web en vue des moteurs de recherche est essentielle s&apos;il on désire augmenter sa visibilité et attirer de nombreux
 						visiteurs. En effectuant une recherche de mots clés pertinents, en optimisant vos balises méta, en utilisant des URL conviviales, en créant un
-						contenu de qualité, en optimisant vos images et en créant des liens internes, vous pouvez améliorer le classement du site web au niveau des
+						contenu de qualité, en optimisant vos images et en créant des liens internes, cel améliorera le classement des sites web au niveau des
 						résultats de recherche. Suivez ces conseils afin optimiser ce site web et obtenir de meilleurs résultats.
 					</p>
 				</section>
@@ -166,14 +166,14 @@ export default function CreationSiteWeb() {
 				<section className={styles.sectionArticle}>
 					<h2>Maintenance et mises à jour du site web</h2>
 					<p>
-						La dernière étape qui permettra de créer un site web époustouflant est la maintenance et les mises à jour du site web. Un site web nécessite une
-						maintenance régulière afin de garantir un fonctionnement correct et une sécurité accrue. Vous devez effectuer des mises à jour régulières de la
+						La dernière étape qui permettra de créer un site web époustouflant est la maintenance et les mises à jour du site web. Il nécessite une
+						maintenance régulière afin de garantir un fonctionnement correct et une sécurité accrue. Il est important d&apos;effectuer des mises à jour régulières de la
 						plateforme de site web et de vos plugins qui garantissent la sécurité et la compatibilité des navigateurs.{" "}
 					</p>
 					<p>
 						Vous pouvez également effectuer des tests de sécurité réguliers afin de détecter les vulnérabilités potentielles. En outre, il est important
-						publier régulièrement du nouveau contenu sur le site web pour garder vos visiteurs intéressés. Vous pouvez utiliser un calendrier éditorial qui
-						planifiera vos publications et s&apos;assurer de publiez du contenu de qualité régulièrement.
+						publier régulièrement de nouvelles publications sur le site web pour garder vos visiteurs intéressés. Vous pouvez utiliser un calendrier éditorial qui
+						planifiera vos publications.
 					</p>
 				</section>
 
@@ -209,7 +209,7 @@ export default function CreationSiteWeb() {
 							</p>
 							<p>
 								Un site vitrine est un outil précieux qui peut aider une entreprise à se faire connaître, à se connecter avec son public et à se démarquer
-								de la concurrence. Une conception réfléchie et un contenu attrayant, un site vitrine peut être un puissant moteur de croissance pour une
+								de la concurrence. Une conception réfléchie et un texte attrayant, un site vitrine peut être un puissant moteur de croissance pour une
 								entreprise.
 							</p>
 						</div>
@@ -270,7 +270,7 @@ export default function CreationSiteWeb() {
 								Site d&apos;Informations
 							</h3>
 							<p>
-								Les sites d&apos;information sont conçus en vue d&apos;offrir des informations et des nouvelles relatives à un sujet spécifique. Leur
+								Les sites d&apos;information ont été conçus en vue d&apos;offrir des informations et des nouvelles relatives à un sujet spécifique. Leur
 								contenu est mis à jour fréquemment avec des informations pertinentes et actuelles en vue de maintenir l&apos;intérêt des visiteurs.
 							</p>
 							<p>
@@ -315,7 +315,7 @@ export default function CreationSiteWeb() {
 							<p>
 								En conclusion, un portfolio est un outil de marketing puissant qui peut aider à établir votre réputation, à montrer votre style et
 								créativité, et à attirer de nouveaux clients. Il doit être bien conçu, professionnel, à jour, et facilement accessible. Avec un peu de
-								temps et d&apos;effort, la création d&apos;un portfolio qui vous représente bien et qui met en valeur le travail effectué de manière
+								temps et d&apos;effort, la création d&apos;un portfolio qui représente bien et qui met en valeur le travail effectué de manière
 								efficace.
 							</p>
 						</div>
@@ -341,20 +341,20 @@ export default function CreationSiteWeb() {
 							</p>
 							<p>
 								Le design responsive, ou adaptatif, fait référence à la pratique de créer des sites web qui s&apos;adaptent automatiquement à la taille de
-								l&apos;écran de l&apos;utilisateur. En d&apos;autres termes, un site web responsive change de disposition en fonction de l&apos;appareil
+								l&apos;écran de l&apos;utilisateur. En d&apos;autres termes, les sites web responsives change de disposition en fonction de l&apos;appareil
 								sur lequel il est visualisé, garantissant ainsi que les utilisateurs bénéficient d&apos;une expérience de navigation optimale, qu&apos;ils
 								utilisent un ordinateur de bureau, un smartphone ou une tablette.
 							</p>
 							<p>
 								La création d&apos;un site web mobile responsive commence par la conception. Il est important de penser à l&apos;expérience mobile dès le
-								début, en considérant comment le contenu sera affiché sur différents appareils et tailles d&apos;écran. Les designers utilisent souvent
+								début, en considérant comment le texte sera affiché sur différents appareils et tailles d&apos;écran. Les designers utilisent souvent
 								une approche dite mobile first, où ils commencent par concevoir la version mobile du site avant d&apos;adapter le design aux écrans ++
 								grands. Cela aide à s&apos;assurer que l&apos;expérience mobile est aussi complète et satisfaisante que possible.
 							</p>
 							<p>
 								Au-delà de la simple adaptation à différentes tailles d&apos;écran, un bon design responsive prend également en compte d&apos;autres
-								aspects de l&apos;expérience mobile. Par exemple, il est important de s&apos;assurer que les boutons et les liens sont suffisamment grands
-								et espacés afin d&apos;être facilement utilisables sur un écran tactile. De même, le contenu doit être concis et facile à lire sur un
+								aspects de l&apos;expérience mobile. Par exemple, il est important de s&apos;assurer que les boutons et les liens soient suffisamment grands
+								et espacés afin d&apos;être facilement utilisables sur un écran tactile. De même, le texte doit être concis et facile à lire sur un
 								petit écran, et les images et autres médias doivent être optimisés en vue de s&apos;assurer d&apos;un chargement rapide.
 							</p>
 							<p>
@@ -378,13 +378,13 @@ export default function CreationSiteWeb() {
 								Site Multilingue
 							</h3>
 							<p>
-								Un site multilingue est un site web offrant du contenu dans plusieurs langues, afin de s&apos;adresser à un public international. Ces
+								Les sites multilingues sont des sites web offrant du contenu dans plusieurs langues, afin de s&apos;adresser à un public international. Ces
 								sites sont essentiels pour les entreprises désirant attirer et servir des clients du monde entier, mais aussi les lieux où plusieurs
-								langues sont utilisées.
+								langues seront utilisées.
 							</p>
 							<p>
-								En proposant du contenu dans la langue maternelle de vos utilisateurs cibles, vous facilitez leur compréhension et renforcez leur
-								engagement. Un site multilingue témoigne également de votre engagement envers la diversité culturelle et linguistique.
+								En proposant du texte dans la langue maternelle de vos utilisateurs cibles, cela facilitera leur compréhension et renforcera leur
+								engagement. Les sites multilingue témoigne également de votre engagement envers la diversité culturelle et linguistique.
 							</p>
 						</div>
 					</div>
@@ -420,12 +420,12 @@ export default function CreationSiteWeb() {
 							<p>
 								N&apos;oubliez pas d&apos;inclure des appels à l&apos;action (CTA) clairs et visibles, incitant les visiteurs à prendre des mesures
 								spécifiques, telles que s&apos;inscrire à une newsletter, télécharger un ebook ou effectuer un achat. S&apos;assurer également
-								d&apos;optimiser le contenu pour les moteurs de recherche en utilisant des mots-clés pertinents.
+								d&apos;optimiser le texte pour les moteurs de recherche en utilisant des mots-clés pertinents.
 							</p>
 							<p>
 								Pour rendre vos appels à l&apos;action (CTA) efficaces, s&apos;assurer qu&apos;ils sont clairement visibles sur la landing page. Utilisez
 								des couleurs vives ou des boutons attrayants qui les mettront en évidence. Placez-les également à des endroits stratégiques de la page,
-								tels que près du haut de la page ou à la fin du contenu persuasif.
+								tels que près du haut de la page ou à la fin d&apos;un texte persuasif.
 							</p>
 						</div>
 					</div>
@@ -444,13 +444,13 @@ export default function CreationSiteWeb() {
 								Wordpress
 							</h3>
 							<p>
-								WordPress est une plateforme de gestion de contenu (CMS) largement appréciée, permettant de créer facilement des sites web de qualité
+								WordPress est une plateforme de gestion (CMS) largement appréciée, permettant de créer facilement des sites web de qualité
 								professionnelle sans nécessiter de compétences en programmation. WordPress propose une variété de thèmes et de plugins dans le but de
 								personnaliser l&apos;apparence et les fonctionnalités du site web.{" "}
 							</p>
 							<p>
 								L&apos;une des principales forces de WordPress est sa convivialité pour les débutants. L&apos;interface conviviale et le système de
-								gestion de contenu simplifié permettant de créer et de gérer facilement vos pages, vos articles de blog et tout autre contenu du site.
+								gestion simplifié permettant de créer et de gérer facilement vos pages, vos articles de blog et tout autre contenu du site.
 								Vous pouvez ajouter du texte, des images, des vidéos, et même des formulaires directement depuis l&apos;éditeur de texte WordPress.
 							</p>
 							<p>
@@ -476,7 +476,7 @@ export default function CreationSiteWeb() {
 								Joomla
 							</h3>
 							<p>
-								Joomla est l&apos;un des systèmes de gestion de contenu (CMS) les plus populaires et respectés dans le monde du web. Il offre une
+								Joomla est l&apos;un des systèmes de gestion (CMS) les plus populaires et respectés dans le monde du web. Il offre une
 								flexibilité remarquable, une grande variété d&apos;extensions et un système robuste qui permet aux utilisateurs de créer des sites web
 								complexes et sophistiqués.
 							</p>
