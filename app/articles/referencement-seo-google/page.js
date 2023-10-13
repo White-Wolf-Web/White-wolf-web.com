@@ -6,7 +6,7 @@ import referencementSeo6 from "@/public/Assets/Images/Webp/seo/referencement-seo
 
 export const metadata = {
 	title: "Référencement SEO: Soyez en tête des résultats de Google 🥇",
-	description: "L'importance d'un référencement naturel efficace pour assurer le succès de votre projet en ligne. Le SEO est le nerf de la guerre, les meilleurs l’emportent.",
+	description: "L'importance d'un référencement naturel efficace pour assurer le succès de votre projet en ligne. Le SEO permet de gagner en visivilité sur les moteurs de recherche.",
 	canonical: "https://www.white-wolf-web.com/articles/referencement-seo-google",
 };
 
@@ -22,7 +22,7 @@ export default function ReferencementSEO() {
 			"https://www.white-wolf-web.com/public/Assets/Images/Webp/seo/seo-3.webp",
 		],
 		datePublished: "2023-07-05T08:00:00+08:00",
-		dateModified: "2015-07-07T09:20:00+08:00",
+		dateModified: "2023-10-07T09:20:00+08:00",
 		author: {
 			"@type": "Person",
 			name: "Stephane Gamot",
@@ -41,7 +41,7 @@ export default function ReferencementSEO() {
 					className={`${styles.image} ${styles.imageArticle}`}
 				/>
 				<br />
-				<h2 className={styles.titleH2}>Soyez en tête des résultats de recherche 🥇🔍</h2>
+				<h2 className={styles.titleH2}>Soyez en tête des résultats des moteurs de recherche 🥇🔍</h2>
 
 				<p>
 					Le référencement naturel pour les moteurs de recherche, communément appelé SEO (Search Engine Optimization), est une discipline cruciale dans le contexte
