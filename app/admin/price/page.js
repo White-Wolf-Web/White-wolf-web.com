@@ -38,10 +38,10 @@ export default function Price() {
       <caption id="tableTitle">Tableau des Prix des Prestations</caption>
       <thead>
         <tr>
-          <th scope="col" aria-sort="ascending">Prestation</th>
+          <th scope="col" aria-sort="ascending" class="firstTableHeadPrice" >Prestation</th>
           <th scope="col">Prix minimum</th>
           <th scope="col">Prix moyen</th>
-          <th scope="col">Prix Maximum</th>
+       
         </tr>
       </thead>
       <tbody>
@@ -49,49 +49,49 @@ export default function Price() {
           <th scope="row">Site Vitrine</th>
           <td>700€</td>
           <td>1500€</td>
-          <td>+10.000€</td>
+        
         </tr>
         <tr>
           <th scope="row">E-commerce</th>
           <td>1500€</td>
           <td>4000€</td>
-          <td>+100.000€</td>
+         
         </tr>
         <tr>
           <th scope="row">Landing Page</th>
           <td>600€</td>
           <td>900€</td>
-          <td>4500€</td>
+         
         </tr>
         <tr>
           <th scope="row">Site sur Mesure</th>
           <td>2000€</td>
           <td>7000€</td>
-          <td>100.000€</td>
+         
         </tr>
         <tr>
           <th scope="row">Hébergement</th>
           <td>5€ / mois</td>
           <td>50€ / mois</td>
-          <td>400€ / mois</td>
+        
         </tr>
         <tr>
           <th scope="row">Maintenance</th>
           <td>40€ / mois</td>
           <td>100€ / mois</td>
-          <td>+1000€ / mois</td>
+        
         </tr>
         <tr>
           <th scope="row">Référencement</th>
           <td>150€ / mois</td>
           <td>700€ / mois</td>
-          <td>4000€ / mois</td>
+        
         </tr>
         <tr>
           <th scope="row">Marketing Digital</th>
           <td>200€ / mois</td>
           <td>990€ / mois</td>
-          <td>8000€ / mois</td>
+       
         </tr>
       </tbody>
 </table>

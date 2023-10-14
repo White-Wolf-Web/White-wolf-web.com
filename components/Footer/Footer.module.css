@@ -86,8 +86,11 @@
 .avis, .paymentIcons {
 margin: auto;
 }
+.HFooter,  .middleLeftFooterH3 {
+	text-align: center;
 }
-@media (max-width: 525px) {
+}
+@media (max-width: 550px) {
 	.bottomFooter {		
 		display: block;
 	}
@@ -97,6 +100,7 @@ margin: auto;
 	}
 	.socialNetwork {
 		margin: auto;
+		width: 100%;
 	}
 	.middleFooter {
 		display: block;

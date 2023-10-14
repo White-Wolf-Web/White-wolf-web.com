@@ -94,7 +94,7 @@
 }
 @media (max-width: 376px) {
 	.cardBlogImageResponsive {
-		width: 365px;
+		width: 100% !important;
 		height: auto;
 	}
 }

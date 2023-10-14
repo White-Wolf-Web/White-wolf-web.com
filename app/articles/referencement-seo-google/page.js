@@ -3,6 +3,7 @@ import Image from "next/image";
 import referencementSeo1 from "@/public/Assets/Images/Webp/seo/referencement-seo-1.webp";
 import referencementSeo4 from "@/public/Assets/Images/Webp/seo/referencement-seo-4.webp";
 import referencementSeo6 from "@/public/Assets/Images/Webp/seo/referencement-seo-6.webp";
+import MetadataSEO from "@/components/Metadata/MetadataSEO"
 
 export const metadata = {
 	title: "Référencement SEO: Votre site en tête des recherches Google🥇",
@@ -11,23 +12,7 @@ export const metadata = {
 };
 
 export default function ReferencementSEO() {
-	const jsonLd = {
-		"@context": "https://schema.org",
-		"@type": "NewsArticle",
-		headline: "Référencement SEO: Soyez en tête des résultats de Google",
-		url: "https://www.white-wolf-web.com/articles/referencement-seo-google",
-		image: [
-			"https://www.white-wolf-web.com/public/Assets/Images/Webp/seo/seo-1.webp",
-			"https://www.white-wolf-web.com/public/Assets/Images/Webp/seo/seo-2.webp",
-			"https://www.white-wolf-web.com/public/Assets/Images/Webp/seo/seo-3.webp",
-		],
-		datePublished: "2023-07-05T08:00:00+08:00",
-		dateModified: "2023-10-07T09:20:00+08:00",
-		author: {
-			"@type": "Person",
-			name: "Stephane Gamot",
-		},
-	};
+	
 	return (
 		<div className={styles.container}>
 			<main className={styles.main}>
@@ -74,7 +59,7 @@ export default function ReferencementSEO() {
 					résultats de recherche. La mise en place de campagnes de <strong>netlinking</strong> ciblées permet de renforcer la réputation et l&apos;autorité de votre site. C&apos;est le 3e point le plus important pour un bon SEO.
 				</p>
 				<br />
-				<h2>L&apos;importance de l&apos;expérience utilisateur (UX) dans le SEO</h2>
+				<h2>L&apos;importance de l&apos;expérience utilisateur (UX) dans le SEO du site web</h2>
 				<p>
 					L&apos;expérience utilisateur (UX) joue également un rôle déterminant au niveau du <strong>référencement naturel</strong> - <strong>SEO</strong>. Un site bien structuré, facile à naviguer et à utiliser,
 					peut engager plus efficacement les visiteurs et les inciter à rester plus longtemps. Des facteurs tels que la vitesse de chargement, le maillage
@@ -138,7 +123,7 @@ export default function ReferencementSEO() {
 					précieux. Une bonne compréhension des nuances du SEO et l&apos;application de stratégies adéquates peuvent transformer les visiteurs en clients
 					fidèles, propulsant <strong>votre site web </strong>vers les sommets des résultats de recherche.
 				</p>
-				<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+				<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(MetadataSEO) }} />
 			</main>
 		</div>
 	);

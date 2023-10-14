@@ -90,7 +90,8 @@
 	justify-content: center;
 	}
 	.logo {
-		margin: 10px auto;
+		display: block;
+		margin: 10px auto ;
 	}
 	.navbar {
 		margin: auto;

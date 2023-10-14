@@ -31,7 +31,6 @@ export default function MyNavbar() {
 							<NavDropdown.Item href="/articles/creation-site-web">Création de site web</NavDropdown.Item>
 							<NavDropdown.Item href="/articles/referencement-seo-google">SEO & Référencement</NavDropdown.Item>
 							<NavDropdown.Item href="/articles/reseaux-sociaux">Réseaux Sociaux</NavDropdown.Item>
-							<NavDropdown.Item href="/portfolio">Mon Portfolio</NavDropdown.Item>
 							<NavDropdown.Item href="/faq">FAQ</NavDropdown.Item>
 						</NavDropdown>
 						<Nav.Link href="/portfolio" className={styles.navbarMyStyle}>

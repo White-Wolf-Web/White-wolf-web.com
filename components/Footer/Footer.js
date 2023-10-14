@@ -41,7 +41,7 @@ export default function Footer() {
 			</div>
 			<div className={styles.middleFooter}>
 				<div className={styles.middleLeftFooter}>
-					<h3>Services Web</h3>
+					<h3 className={styles.middleLeftFooterH3}>Services Web</h3>
 					<ul>
 						<li>
 							<Link href="/articles/creation-site-web"><strong>Création de site web</strong></Link>
@@ -68,7 +68,7 @@ export default function Footer() {
 					</ul>
 				</div>
 				<div className={styles.middleCenterFooter}>
-					<h3>Sites Web</h3>
+				<h3 className={styles.middleLeftFooterH3}>Sites Web</h3>
 					<ul>
 						<li>
 							<Link href="/articles/creation-site-web#site-vitrine"><strong>Site Vitrine</strong></Link>
@@ -94,7 +94,7 @@ export default function Footer() {
 					</ul>
 				</div>
 				<div className={styles.middleRightFooter}>
-					<h3>A propos</h3>
+				<h3 className={styles.middleLeftFooterH3}>A propos</h3>
 					<ul>
 					<li>
 							<Link href="/portfolio">Mon Portfolio</Link>

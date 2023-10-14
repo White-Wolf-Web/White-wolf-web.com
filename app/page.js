@@ -1,7 +1,6 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 import Link from "next/link";
-//import { StormContainerCard, cards } from "@/components/Cards/StormContainerCard";
 import GreenLine from "@/utils/greenLine";
 import { LangageCards } from "@/components/Cards/cardLangage";
 import SeeOtherButton from "@/utils/seeOtherButton";
@@ -174,11 +173,6 @@ export default function Home() {
 					du web. Ensemble, nous pouvons réaliser de grandes choses. Notre agence web est impatients de travailler avec votre entreprise !
 				</p>
 			</section>
-			{/*
-			<section className={styles.storm}>
-				<h2>Services Web</h2>
-				<StormContainerCard cards={cards} />
-			</section> */}
 			<ContainerBlog />
 			<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(MetadataHomePage) }} />
 		</>
