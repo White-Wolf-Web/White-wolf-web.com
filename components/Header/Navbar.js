@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import Modal from "@/utils/Modal";
+//import Modal from "@/utils/Modal";
 import styles from "./Header.module.css";
 import { Navbar, Container, Nav, NavDropdown } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -43,13 +43,13 @@ export default function MyNavbar() {
 							Avis
 						</Nav.Link>
 
-						<Nav.Link href="#" onClick={openModal} className={styles.navbarMyStyle}>
+						{/*<Nav.Link href="#" onClick={openModal} className={styles.navbarMyStyle}>
 							Contact
-						</Nav.Link>
+						</Nav.Link>*/}
 					</Nav>
 				</Navbar.Collapse>
 			</Container>
-			<Modal isOpen={modalIsOpen} closeModal={closeModal} />
+			{/*<Modal isOpen={modalIsOpen} closeModal={closeModal} />*/}
 		</Navbar>
 	);
 }

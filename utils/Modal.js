@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Modal as BootstrapModal, Button, Alert } from "react-bootstrap";
 import styles from "./modal.module.css";
 
+
 export default function Modal({ isOpen, closeModal }) {
 	const alphaRegex = /^[a-zA-Zéêëèîïâäàçù ,.'-]{2,70}$/;
 	const emailRegex = /^([a-zA-Z0-9.-_--]+[@]{1}[a-zA-Z0-9.-_--]+[.]{1}[a-z]{2,3}){0,90}$/;
@@ -170,23 +171,41 @@ export default function Modal({ isOpen, closeModal }) {
 		const ishowCanWeHelpValid = tournamenthowCanWeHelp();
 		const isConditionValid = readAndApprove();
 		if (isFirstNameValid && isLastNameValid && isEmailValid && ishowCanWeHelpValid && isConditionValid) {
-			const res = await fetch("/api/send-email", {
+    
+			try {
+			  // Tentative d'envoi de l'e-mail
+			  const res = await fetch(handler, {
 				method: "POST",
 				headers: { "Content-Type": "application/json" },
 				body: JSON.stringify({ firstName, lastName, email, birthdate, howCanWeHelp, siteType, comment }),
-			});
-			if (res.ok) {
+			  });
+			  
+			  
+			  // Vérification de la réponse du serveur
+			  if (res.ok) {
 				console.log("E-mail envoyé avec succès");
 				setAlertMessage("E-mail envoyé avec succès");
-				setShowAlert(true);
-				setTimeout(() => setShowAlert(false), 7000);
-				closeModal();
-			} else {
+			  } else {
 				console.log("Erreur lors de l'envoi de l'e-mail");
 				setAlertMessage("Erreur lors de l'envoi de l'e-mail");
-				setShowAlert(true);
+			  }
+			} catch (error) {
+			  // Gestion des erreurs réseau ou de requête
+			  console.error("Erreur lors de l'envoi de l'e-mail", error);
+			  setAlertMessage("Erreur lors de l'envoi de l'e-mail");
+			} finally {
+			  // Affichage de l'alerte et fermeture du modal
+			  setShowAlert(true);
+			  setTimeout(() => setShowAlert(false), 7000);
+			  closeModal();
 			}
-		}
+		  } else {
+			// Gestion du cas où les validations échouent
+			console.error("Validation échouée");
+			setAlertMessage("Veuillez vérifier les informations saisies");
+			setShowAlert(true);
+			setTimeout(() => setShowAlert(false), 7000);
+		  }
 	};
 
 	return (
