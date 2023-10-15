@@ -4,6 +4,9 @@ import "../styles/custom-bootstrap.css";
 import { Inter } from "next/font/google";
 import Header from "@/components/Header/Header";
 import Footer from "@/components/Footer/Footer";
+import GoogleAnalytics from "@/components/GoogleAnalytics/GoogleAnalytics";
+import CookieBanner from "@/components/cookies/cookiebanner";
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -63,7 +66,6 @@ export const metadata = {
 		siteId: "@whitewo26072430",
 		site: "Agence White Wolf Web",
 		creator: "@whitewo26072430",
-		//creatorId: "1467726470533754880",
 		images: ["https://twitter.com/whitewo26072430/header_photo"],
 		imageAlt:"Moi derriere mon PC"
 	},
@@ -79,9 +81,11 @@ export default function RootLayout({ children }) {
 	return (
 		<html lang="fr">
 			<body className={inter.className}>
+			<GoogleAnalytics GA_MEASUREMENT_ID={process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID} />
 				<Header />
 				<main> {children}</main>
 				<Footer />
+				<CookieBanner />
 			</body>
 		</html>
 	);
