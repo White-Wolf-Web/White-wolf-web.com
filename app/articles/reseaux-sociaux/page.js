@@ -1,5 +1,6 @@
 import styles from "@/app/page.module.css";
 import SocialNetwork from "@/components/Reseaux-sociaux/SocialNetwork";
+import MetadataSocialNetwork from "@/components/Metadata/MetadataSocialNetwork";
 
 export const metadata = {
 	title: "Facebook, Instagram, Youtube… Les réseaux sociaux et le SEO",
@@ -221,6 +222,7 @@ export default function ReseauxSociaux() {
 				</ul>
 				<SocialNetwork />
 			</main>
+			<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(MetadataSocialNetwork) }} />
 		</div>
 	);
 }

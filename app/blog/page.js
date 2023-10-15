@@ -4,6 +4,7 @@ import styles from "@/app/page.module.css";
 //import { v4 as uuidv4 } from "uuid";
 import BlogCardData from "@/data/blogCardData";
 import CardBlog from "@/components/Blog/CardBlog";
+import MetadataBlog from "@/components/Metadata/MetadataBlog";
 
 export const metadata = {
 	title: "Articles et Guides Experts sur le Développement Web, le SEO et encore +++",
@@ -20,6 +21,7 @@ export default function Blog() {
 					return <CardBlog key={index} title={blog.title} image={blog.image} description={blog.description} alt={blog.alt} href={blog.href} text={blog.text} />;
 				})}
 			</div>
+			<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(MetadataBlog) }} />
 		</main>
 	);
 }

@@ -10,7 +10,7 @@ export default function CardBlog({ title, image, description, alt, href, text })
 				<h3 className={styles.cardBlogTitleH3}>{description}</h3>
 				<div className={styles.cardBlogImgAndText} >
 				<div className={styles.cardBlogImage} >
-				<Image src={image} alt={alt}  quality={100} sizes="100vw" className={styles.cardBlogImageResponsive} width={400} height={231} /></div>
+				<Image src={image} alt={alt}  quality={100} sizes="100vw" className={styles.cardBlogImageResponsive}  layout="responsive" width={400} height={231} /></div>
 			<div className={styles.cardBlogTextAndButton} >	<p className={styles.cardBlogText}>{text}</p>
 				<button className={styles.cardBlogBtn}>Voir en Détail</button></div></div>
 			</Link>
