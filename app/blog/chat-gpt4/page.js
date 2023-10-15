@@ -10,7 +10,7 @@ import ChatGPT4Mini5 from "@/public/Assets/Images/Webp/blog/ChatGPT4/Chat-GPT4-m
 import ChatGPT4Mini6 from "@/public/Assets/Images/Webp/blog/ChatGPT4/Chat-GPT4-mini-6.webp";
 
 export const metadata = {
-	title: "Comment ChatGPT-4 Révolutionne le Monde de l'Intelligence Artificielle",
+	title: "Comment ChatGPT-4 Révolutionne l'Intelligence Artificielle",
 	description:
 		"Vous êtes curieux de savoir ce qui différencie ChatGPT-4 des autres modèles d'IA ? Cet article couvre tout, des technologies sous-jacentes aux implications éthiques.",
 	canonical: "https://www.white-wolf-web.com/blog/chat-gpt4",

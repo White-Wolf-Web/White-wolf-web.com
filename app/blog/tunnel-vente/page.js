@@ -10,7 +10,7 @@ import tunnelMini5 from "@/public/Assets/Images/Webp/blog/Tunnel/tunnel-mini-5.w
 import tunnelMini6 from "@/public/Assets/Images/Webp/blog/Tunnel/tunnel-mini-6.webp";
 
 export const metadata = {
-	title: "Décryptage des Tunnels de Vente : Optimisez Votre Stratégie Marketing",
+	title: "Décryptage des Tunnels de Vente, votre Stratégie Marketing",
 	description:
 		"Découvrez comment un tunnel de vente bien conçu peut transformer des prospects en clients fidèles. Nous vous guidons étape par étape à travers le processus.",
 	canonical: "https://www.white-wolf-web.com/blog/tunnel-vente",

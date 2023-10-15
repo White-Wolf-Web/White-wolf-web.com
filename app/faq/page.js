@@ -3,6 +3,13 @@ import Head from "next/head";
 import styles from "@/app/page.module.css";
 import { useState } from "react";
 
+export const metadata = {
+	title: "FAQ - Question et reponse facile à comprendre",
+	description:
+		"Série de questions - réponses facile à comprendre pour vous aider",
+	canonical: "https://www.white-wolf-web.com/faq",
+};
+
 export default function Faq() {
 	const [visibleSections, setVisibleSections] = useState({});
 
@@ -15,11 +22,7 @@ export default function Faq() {
 
 	return (
 		<div className={styles.container}>
-			<Head>
-				<title>FAQ - Question et reponse facile à comprendre</title>
-				<meta name="description" content="Série de questions - réponses facile à comprendre pour vous aider" />
-				<link rel="canonical" href="https://www.white-wolf-web.com/faq" />
-			</Head>
+
 			<main className={styles.main}>
 				<section>
 					<h1>FAQ - Foire Aux Questions</h1>
