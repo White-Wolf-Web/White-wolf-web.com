@@ -33,7 +33,7 @@ export default function CookieBanner() {
         <div className={`${styles.cookieBanner} ${cookieConsent != null ? styles.hidden : ""}`}>
 
             <div className={styles.cookieText}>
-                <Link href="/info/cookies">
+                <Link href="/admin/conditions-generales">
                     <p>
                         Nous utilisons des{" "}
                         <span className={styles.fontBold}>cookies</span> sur ce site.
