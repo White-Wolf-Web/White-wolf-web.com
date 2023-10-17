@@ -81,7 +81,7 @@ export default function RootLayout({ children }) {
 	return (
 		<html lang="fr">
 			<body className={inter.className}>
-			<GoogleAnalytics GA_MEASUREMENT_ID={process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID} />
+			<GoogleAnalytics GA_MEASUREMENT_ID={G-BZZKC4KW80} />
 				<Header />
 				<main> {children}</main>
 				<Footer />
