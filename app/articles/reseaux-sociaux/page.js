@@ -1,6 +1,7 @@
 import styles from "@/app/page.module.css";
 import SocialNetwork from "@/components/Reseaux-sociaux/SocialNetwork";
 import MetadataSocialNetwork from "@/components/Metadata/MetadataSocialNetwork";
+import Link from "next/link";
 
 export const metadata = {
 	title: "Facebook, Instagram, Youtube… Les réseaux sociaux et le SEO",
@@ -55,9 +56,10 @@ export default function ReseauxSociaux() {
 				</ul>
 				<br />
 				<h2>Les différentes plateformes de réseaux sociaux et leur utilité</h2> <br />
+				<Link href="https://www.facebook.com/profile.php?id=100087896780441" target="_blank" rel="noopener noreferrer" >
 				<h3 className={styles.colorFacebook} id="facebook">
 					Facebook
-				</h3>
+				</h3></Link>
 				<p>
 					Avec plus de 2,8 milliards d&apos;utilisateurs actifs mensuels, Facebook est la plateforme idéale si l&apos;on désire toucher un large public. Les entreprises
 					peuvent créer des pages professionnelles, partager du contenu, organiser des événements et lancer des campagnes publicitaires ciblées. En créant une
@@ -84,9 +86,10 @@ export default function ReseauxSociaux() {
 					cible et les incite à visiter votre site web.
 				</p>{" "}
 				<br />
+				<Link href="https://www.youtube.com/channel/UC5ULuDpWVjQslz9yllAOT6w" target="_blank" rel="noopener noreferrer" >
 				<h3 className={styles.colorYoutube} id="youtube">
 					Youtube
-				</h3>{" "}
+				</h3></Link>{" "}
 				<p>
 					Avec plus de 2 milliards d&apos;utilisateurs connectés chaque mois, YouTube est devenu la plateforme vidéo la plus populaire sur Internet. En plus de
 					servir de plateforme de divertissement, YouTube offre une opportunité unique pour les sites web d&apos;atteindre et d&apos;engager un large public.
@@ -131,9 +134,10 @@ export default function ReseauxSociaux() {
 					vocaux et vidéo de haute qualité, même avec une connexion Internet faible.
 				</p>{" "}
 				<br />
+				<Link href="https://www.pinterest.com/whitewolfweb/" target="_blank" rel="noopener noreferrer" >
 				<h3 className={styles.colorLinkedin} id="linkedin">
 					LinkedIn
-				</h3>
+				</h3></Link>
 				C&apos;est une plateforme professionnelle par excellence, LinkedIn permet aux entreprises de partager du contenu professionnel, de publier des offres
 				d&apos;emploi et de se connecter avec d&apos;autres professionnels du secteur.
 				<p>
