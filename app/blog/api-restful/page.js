@@ -71,7 +71,7 @@ export default function ApiRestful() {
 					Enfin, l&apos;API Fetch offre une flexibilité exceptionnelle. Elle peut être utilisée afin de récupérer toutes sortes de ressources grâce aux requêtes HTTP, y compris des
 					fichiers JSON, des images, des fichiers texte, etc. Elle peut également être utilisée si l&apos;on désire envoyer des données à un serveur, ce qui permet aux
 					développeurs de créer des applications web interactives et dynamiques. Grâce à sa simplicité, à sa flexibilité et à sa compatibilité, l&apos;API Fetch RESTful
-					est devenue l&apos;une des API les plus populaires qui permet la récupération de données à partir de serveurs à l'aide des requêtes HTTP.
+					est devenue l&apos;une des API les plus populaires qui permet la récupération de données à partir de serveurs à l&apos;aide des requêtes HTTP.
 				</p>
 			</section>
 			<br /> <br />
