@@ -36,7 +36,7 @@ export default function Footer() {
 					<Image src={VisaCard} className={styles.paymentCard} width={32} height={20} alt={"Visa Card"} title="Paiement par Carte Visa"  />
 					<Image src={MaestroCard} className={styles.paymentCard} width={32} height={20} alt={"Maestro Card"} title="Paiement par Maestro Card"  />
 					<Image src={MasterCard} className={styles.paymentCard} width={32} height={20} alt={"Master Card"} title="Paiement par MasterCard"  />
-					<Image src={Paypal} className={styles.paymentCard} width={20} height={20} alt={"Paiement par Paypal"} title="Paiement par Paypal" />
+					<Image src={Paypal} className={styles.paymentCard} width={20} height={20} alt={"Paypal"} title="Paiement par Paypal" />
 				</div>
 			</div>
 			<div className={styles.middleFooter}>
