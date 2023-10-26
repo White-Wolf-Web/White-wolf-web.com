@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./Header.module.css";
 import Image from "next/image";
-import Logo from "../../public/Assets/Images/Webp/logowww.webp";
+import Logo from "../../public/Assets/Images/Webp/logo.webp";
 import Navbar from "./Navbar";
 import Link from "next/link";
 
