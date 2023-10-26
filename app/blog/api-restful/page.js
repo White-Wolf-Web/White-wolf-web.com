@@ -76,7 +76,7 @@ export default function ApiRestful() {
 			</section>
 			<br /> <br />
 			<section>
-				<h2 className={styles.textCenter}>Comprendre les API RESTful et les requêtes HTTP.</h2>
+				<h2 className={styles.textCenter}>Comprendre les API RESTful et les requêtes HTTP</h2>
 				<Image
 					src={ApiRestFulMini2}
 					alt="un nuage electronique representant une api restful connectée"
