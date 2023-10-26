@@ -12,7 +12,7 @@ import MetadataBlogApiRest from "@/components/Metadata/MetadataBlogApiRest";
 
 export const metadata = {
 	title: "API RESTful Fetch Démystifiée: Tutoriel et Bonnes Pratiques",
-	description: "Maîtrisez l'API RESTful Fetch étape par étape. Apprenez comment faire des requêtes HTTP asynchrones comme un pro !",
+	description: "Maîtrisez l'API RESTful Fetch étape par étape. Apprenez comment faire des requêtes HTTP (POST, GET, DELETE, PUT & PATCH) asynchrones comme un pro !",
 	canonical: "https://www.white-wolf-web.com/blog/api-restful",
 };
 
@@ -76,7 +76,7 @@ export default function ApiRestful() {
 			</section>
 			<br /> <br />
 			<section>
-				<h2 className={styles.textCenter}>Comprendre les API RESTful et les requêtes HTTP</h2>
+				<h2 className={styles.textCenter}>Comprendre les API RESTful et les requêtes HTTP </h2>
 				<Image
 					src={ApiRestFulMini2}
 					alt="un nuage electronique representant une api restful connectée"
@@ -175,7 +175,7 @@ export default function ApiRestful() {
 				<p>
 					Enfin, il est important de suivre les meilleures pratiques lors de l&apos;utilisation de l&apos;API Fetch RESTful. Il est recommandé d&apos;utiliser des
 					en-têtes de requête en vue de spécifier des informations supplémentaires sur la requête, de gérer les erreurs de manière efficace, d&apos;utiliser la mise
-					en cache ce qui permet de réduire le temps de chargement des pages, et d&apos;utiliser des promesses et Async/Await afin de faciliter la gestion des requêtes et des
+					en cache ce qui permet de réduire le temps de chargement des pages, et d&apos;utiliser des promesses et Async/Await afin de faciliter la gestion des requêtes HTTP et des
 					réponses.
 				</p>
 			</section>
