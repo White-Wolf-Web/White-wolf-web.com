@@ -12,7 +12,7 @@ import MetadataBlogApiRest from "@/components/Metadata/MetadataBlogApiRest";
 
 export const metadata = {
 	title: "API RESTful Fetch Démystifiée: Tutoriel et Bonnes Pratiques",
-	description: "Maîtrisez l'API RESTful Fetch étape par étape. Apprenez comment faire des requêtes HTTP (POST, GET, DELETE, PUT & PATCH) asynchrones comme un pro !",
+	description: "Maîtrisez l'API RESTful Fetch avec notre guide étape par étape. Apprenez comment faire des requêtes HTTP (POST, GET, DELETE, PUT & PATCH) asynchrones comme un pro !",
 	canonical: "https://www.white-wolf-web.com/blog/api-restful",
 };
 
