@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "@/app/page.module.css";
+import { Metadata } from "next";
 import BlogDateAuthorOther from "@/components/Blog/BlogDateAuthorOther";
 import ChatGPT4Banniere from "@/public/Assets/Images/Webp/blog/ChatGPT4/Chat-GPT4-banniere.webp";
 import ChatGPT4Mini1 from "@/public/Assets/Images/Webp/blog/ChatGPT4/Chat-GPT4-mini-1.webp";
@@ -13,7 +14,9 @@ export const metadata = {
 	title: "Comment ChatGPT-4 Révolutionne l'Intelligence Artificielle",
 	description:
 		"Vous êtes curieux de savoir ce qui différencie ChatGPT-4 des autres modèles d'IA ? Cet article couvre tout, des technologies sous-jacentes aux implications éthiques.",
-	canonical: "https://www.white-wolf-web.com/blog/chat-gpt4",
+		alternates: {
+			canonical: "https://www.white-wolf-web.com/blog/chat-gpt4",
+		}
 };
 
 export default function ChatGPT4() {

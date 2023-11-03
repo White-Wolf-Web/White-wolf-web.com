@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import styles from "@/app/page.module.css";
 import Link from "next/link";
+import { Metadata } from "next";
 import portfolioSkifbImac from "@/public/Assets/Images/Webp/portfolio/portfolio-skifb-IMac.webp";
 import portfolioSkifbMacBook from "@/public/Assets/Images/Webp/portfolio/portfolio-skifb-MacBook.webp";
 import portfolioSkifbIphone from "@/public/Assets/Images/Webp/portfolio/portfolio-skifb-Iphone.webp";
@@ -40,7 +41,9 @@ import wordpressLogo from "@/public/Assets/Icons/portfolio/portfolio-wordpress-i
 export const metadata = {
 	title: "Mon Portfolio avec certaines de mes réalisations de sites web",
 	description: "Vous retrouverez ici certaines de mes oeuvres web, en format responsive",
-	canonical: "https://www.white-wolf-web.com/portfolio",
+	alternates: {
+		canonical: "https://www.white-wolf-web.com/portfolio"
+	}
 };
 
 export default function portfolio() {

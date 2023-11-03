@@ -1,5 +1,6 @@
 import styles from "@/app/page.module.css";
 import Image from "next/image";
+import { Metadata } from "next";
 import creationWeb1 from "@/public/Assets/Images/Webp/creation-site/creation-site-web-1-XL.webp";
 import creationWeb2 from "@/public/Assets/Images/Webp/creation-site/creation-site-web-2-XXL.webp";
 import creationWeb3 from "@/public/Assets/Images/Webp/creation-site/creation-site-web-3-XXL.webp";
@@ -18,7 +19,7 @@ export const metadata = {
 	title: "Guide complet sur la création de site web professionnel",
 	description:
 		"Vous souhaitez créer un site web professionnel ? Ce guide complet vous fournira les ressources nécessaires afin de réussir votre projet de création de site web",
-	canonical: "https://www.white-wolf-web.com/articles/creation-site-web",
+	alternates: { canonical: "https://www.white-wolf-web.com/articles/creation-site-web" },
 };
 
 export default function CreationSiteWeb() {
@@ -41,10 +42,10 @@ export default function CreationSiteWeb() {
 					<h2>Comprendre le public ciblé</h2>
 					<p>
 						La première étape si l&apos;on désire créer un site web époustouflant est de comprendre le public ciblé. Avant de commencer à concevoir un site,
-						il est primordial d&apos; avoir une idée claire de qui vous voulez atteindre. Quel est l&apos;âge, le sexe, l&apos;emplacement
-						géographique et les intérêts du public ciblé ? Quels sont les problèmes que vous pouvez résoudre ? En répondant à ces questions, vous pouvez créer
-						un contenu qui répond à leurs besoins et qui les incite à revenir. Une autre façon de comprendre le public ciblé est d&apos;examiner les sites web
-						de vos concurrents.
+						il est primordial d&apos; avoir une idée claire de qui vous voulez atteindre. Quel est l&apos;âge, le sexe, l&apos;emplacement géographique et les
+						intérêts du public ciblé ? Quels sont les problèmes que vous pouvez résoudre ? En répondant à ces questions, vous pouvez créer un contenu qui
+						répond à leurs besoins et qui les incite à revenir. Une autre façon de comprendre le public ciblé est d&apos;examiner les sites web de vos
+						concurrents.
 					</p>
 					<p>
 						Quels sont les éléments qui attirent leur attention ? Quels sont les contenus qu&apos;ils proposent ? Quels sont les éléments qu&apos;ils ont omis
@@ -59,8 +60,8 @@ export default function CreationSiteWeb() {
 					<h2>Choisir un nom de domaine et un hébergeur.</h2>
 					<p>
 						Avant de commencer la création de un site web professionnel, il est capital de choisir un nom de domaine et un hébergeur. Le nom de domaine est
-						l&apos;adresse web du site, donc il est primordial de choisir un nom qui soit facile à retenir et qui reflète l&apos;entreprise ou marque. Il sera possible de
-						vérifier la disponibilité d&apos;un nom de domaine sur des sites web spécialisés.
+						l&apos;adresse web du site, donc il est primordial de choisir un nom qui soit facile à retenir et qui reflète l&apos;entreprise ou marque. Il sera
+						possible de vérifier la disponibilité d&apos;un nom de domaine sur des sites web spécialisés.
 					</p>
 					<p>
 						En ce qui concerne l&apos;hébergement, il s&apos;agit du service qui permet de stocker les fichiers du site web sur un serveur et de les rendre
@@ -81,14 +82,14 @@ export default function CreationSiteWeb() {
 					<h2>Si le choix se dirige vers une plateforme de site web</h2>
 					<p>
 						Il existe de nombreuses options disponibles, chacune avec ses propres avantages et inconvénients. Les deux options les plus populaires sont
-						WordPress et Joomla. WordPress est une plateforme de gestion (CMS) open source qui offre une grande flexibilité et des fonctionnalités
-						avancées. Il est facile à personnaliser et à intégrer à l&apos;aide des outils de marketing en ligne. Joomla est lui aussi une plateforme de
-						gestion, également très complet, ils offrent aussi de nombreuses options.
+						WordPress et Joomla. WordPress est une plateforme de gestion (CMS) open source qui offre une grande flexibilité et des fonctionnalités avancées.
+						Il est facile à personnaliser et à intégrer à l&apos;aide des outils de marketing en ligne. Joomla est lui aussi une plateforme de gestion,
+						également très complet, ils offrent aussi de nombreuses options.
 					</p>
 					<p>
-						La plupart des plateformes web offrent des thèmes ou des modèles prêts à l&apos;emploi qui peuvent être personnalisés en fonction de vos
-						besoins. Lors de la sélection d&apos;un thème ou d&apos;un modèle, il est important de tenir compte de le public ciblé et de vos objectifs
-						commerciaux. Le thème ou le modèle que choisi doit être cohérent avec image de marque choisi et vous aider à atteindre vos objectifs.
+						La plupart des plateformes web offrent des thèmes ou des modèles prêts à l&apos;emploi qui peuvent être personnalisés en fonction de vos besoins.
+						Lors de la sélection d&apos;un thème ou d&apos;un modèle, il est important de tenir compte de le public ciblé et de vos objectifs commerciaux. Le
+						thème ou le modèle que choisi doit être cohérent avec image de marque choisi et vous aider à atteindre vos objectifs.
 					</p>
 				</section>
 
@@ -102,9 +103,9 @@ export default function CreationSiteWeb() {
 						visuels qui rendent le contenu attrayant et engageant.
 					</p>
 					<p>
-						Enfin, organisez le contenu de manière logique et intuitive. Utilisez des menus et des liens permetant aux internautes de naviguer facilement entre
-						les différentes pages du site web. S&apos;assurez également d&apos;inclure des appels à l&apos;action clairs qui permet d&apos;encourager les
-						visiteurs à prendre des mesures, comme s&apos;inscrire à une newsletter ou acheter un produit.
+						Enfin, organisez le contenu de manière logique et intuitive. Utilisez des menus et des liens permetant aux internautes de naviguer facilement
+						entre les différentes pages du site web. S&apos;assurez également d&apos;inclure des appels à l&apos;action clairs qui permet d&apos;encourager
+						les visiteurs à prendre des mesures, comme s&apos;inscrire à une newsletter ou acheter un produit.
 					</p>
 				</section>
 				<Image
@@ -136,8 +137,8 @@ export default function CreationSiteWeb() {
 						balises méta titre et description pertinentes à chaque page du site web.
 					</p>
 					<p>
-						3. Utilisez des URL conviviales : Des URL conviviales courtes, descriptives et contiennent des mots clés pertinents. Elles aident les moteurs
-						de recherche à comprendre le contenu de la page.
+						3. Utilisez des URL conviviales : Des URL conviviales courtes, descriptives et contiennent des mots clés pertinents. Elles aident les moteurs de
+						recherche à comprendre le contenu de la page.
 					</p>
 					<p>
 						4. Créez un contenu de qualité : Les moteurs de recherche valorisent un texte de qualité. S&apos;assurez d&apos;écrire du contenu informatif,
@@ -158,8 +159,8 @@ export default function CreationSiteWeb() {
 					<p>
 						L&apos;optimisation du site web en vue des moteurs de recherche est essentielle s&apos;il on désire augmenter sa visibilité et attirer de nombreux
 						internautes. En effectuant une recherche de mots clés pertinents, en optimisant vos balises méta, en utilisant des URL conviviales, en créant un
-						contenu de qualité, en optimisant vos images et en créant des liens internes, cel améliorera le classement des sites web au niveau des
-						résultats de recherche. Suivez ces conseils afin optimiser ce site web et obtenir de meilleurs résultats.
+						contenu de qualité, en optimisant vos images et en créant des liens internes, cel améliorera le classement des sites web au niveau des résultats
+						de recherche. Suivez ces conseils afin optimiser ce site web et obtenir de meilleurs résultats.
 					</p>
 				</section>
 				<div className={styles.longDivider}></div>
@@ -167,13 +168,13 @@ export default function CreationSiteWeb() {
 					<h2>Maintenance et mises à jour du site web</h2>
 					<p>
 						La dernière étape qui permettra de créer un site web époustouflant est la maintenance et les mises à jour du site web. Il nécessite une
-						maintenance régulière afin de garantir un fonctionnement correct et une sécurité accrue. Il est important d&apos;effectuer des mises à jour régulières de la
-						plateforme de site web et de vos plugins qui garantissent la sécurité et la compatibilité des navigateurs.{" "}
+						maintenance régulière afin de garantir un fonctionnement correct et une sécurité accrue. Il est important d&apos;effectuer des mises à jour
+						régulières de la plateforme de site web et de vos plugins qui garantissent la sécurité et la compatibilité des navigateurs.{" "}
 					</p>
 					<p>
 						Vous pouvez également effectuer des tests de sécurité réguliers afin de détecter les vulnérabilités potentielles. En outre, il est nécessaire de
-						publier régulièrement de nouvelles publications sur le site web qui permet de conserver vos visiteurs intéressés. Vous pouvez utiliser un calendrier éditorial qui
-						planifiera vos publications.
+						publier régulièrement de nouvelles publications sur le site web qui permet de conserver vos visiteurs intéressés. Vous pouvez utiliser un
+						calendrier éditorial qui planifiera vos publications.
 					</p>
 				</section>
 
@@ -239,9 +240,9 @@ export default function CreationSiteWeb() {
 								aider à atteindre vos objectifs commerciaux.
 							</p>
 							<p>
-								Les images et les descriptions de produits jouent un rôle essentiel dans la réussite du site e-commerce. Les clients veulent voir à
-								quoi ressemble le produit avant de l&apos;acheter, il est donc préférable de fournir des images de haute qualité qui montrent clairement
-								les détails du produit.
+								Les images et les descriptions de produits jouent un rôle essentiel dans la réussite du site e-commerce. Les clients veulent voir à quoi
+								ressemble le produit avant de l&apos;acheter, il est donc préférable de fournir des images de haute qualité qui montrent clairement les
+								détails du produit.
 							</p>
 							<p>
 								Le processus de paiement est un autre élément clé qui permet de convertir les internautes en clients. Un processus de paiement complexe ou
@@ -274,8 +275,9 @@ export default function CreationSiteWeb() {
 								contenu est mis à jour fréquemment avec des informations pertinentes et actuelles en vue de maintenir l&apos;intérêt des visiteurs.
 							</p>
 							<p>
-							Le site d&apos;information est parfois destinés à fournir des ressources pédagogiques et des informations relatives à un domaine d&apos;étude spécifique. Ils
-								peuvent comprendre des articles, des vidéos, des quiz et des forums de discussion qui favorisent l&apos;apprentissage et la collaboration.
+								Le site d&apos;information est parfois destinés à fournir des ressources pédagogiques et des informations relatives à un domaine
+								d&apos;étude spécifique. Ils peuvent comprendre des articles, des vidéos, des quiz et des forums de discussion qui favorisent
+								l&apos;apprentissage et la collaboration.
 							</p>
 						</div>
 					</div>
@@ -301,22 +303,21 @@ export default function CreationSiteWeb() {
 							</p>
 							<p>
 								La première étape de la création d&apos;un portfolio est de sélectionner soigneusement les travaux que vous souhaitez inclure. Il est
-								hautement recommandé de choisir des projets qui représentent bien vos compétences et vos intérêts. Il est également judicieux d&apos;inclure une
-								variété de travaux en vue de montrer votre polyvalence. Toutefois, gardez à l&apos;esprit que la qualité doit primer sur la quantité. Il
-								est préférable d&apos;avoir un portfolio contenant quelques projets de haute qualité plutôt qu&apos;une multitude de projets de moindre
-								qualité.
+								hautement recommandé de choisir des projets qui représentent bien vos compétences et vos intérêts. Il est également judicieux
+								d&apos;inclure une variété de travaux en vue de montrer votre polyvalence. Toutefois, gardez à l&apos;esprit que la qualité doit primer
+								sur la quantité. Il est préférable d&apos;avoir un portfolio contenant quelques projets de haute qualité plutôt qu&apos;une multitude de
+								projets de moindre qualité.
 							</p>
 							<p>
-								Une fois les projets à inclure avez sélectionné, il est fortement conseillé de les présenter de manière attrayante et professionnelle. Cela signifie
-								que vous devez prendre le temps de photographier ou de numériser vos travaux, de rédiger des descriptions détaillées de chaque projet, et
-								de concevoir une mise en page qui mette en valeur vos créations. Le but est de faciliter la navigation des internautes à travers le
-								portfolio et de leur offrir une expérience visuelle agréable.
+								Une fois les projets à inclure avez sélectionné, il est fortement conseillé de les présenter de manière attrayante et professionnelle.
+								Cela signifie que vous devez prendre le temps de photographier ou de numériser vos travaux, de rédiger des descriptions détaillées de
+								chaque projet, et de concevoir une mise en page qui mette en valeur vos créations. Le but est de faciliter la navigation des internautes à
+								travers le portfolio et de leur offrir une expérience visuelle agréable.
 							</p>
 							<p>
 								En conclusion, un portfolio est un outil de marketing puissant qui peut aider à établir votre réputation, à montrer votre style et
 								créativité, et à attirer de nouveaux clients. Il doit être bien conçu, professionnel, à jour, et facilement accessible. Avec un peu de
-								temps et d&apos;effort, la création d&apos;un portfolio qui représente bien et qui met en valeur le travail effectué de manière
-								efficace.
+								temps et d&apos;effort, la création d&apos;un portfolio qui représente bien et qui met en valeur le travail effectué de manière efficace.
 							</p>
 						</div>
 					</div>{" "}
@@ -341,21 +342,21 @@ export default function CreationSiteWeb() {
 							</p>
 							<p>
 								Le design responsive, ou adaptatif, fait référence à la pratique de créer des sites web qui s&apos;adaptent automatiquement à la taille de
-								l&apos;écran de l&apos;utilisateur. En d&apos;autres termes, les sites web responsives change de disposition en fonction de l&apos;appareil
-								sur lequel il est visualisé, garantissant ainsi que les utilisateurs bénéficient d&apos;une expérience de navigation optimale, qu&apos;ils
-								utilisent un ordinateur de bureau, un smartphone ou une tablette.
+								l&apos;écran de l&apos;utilisateur. En d&apos;autres termes, les sites web responsives change de disposition en fonction de
+								l&apos;appareil sur lequel il est visualisé, garantissant ainsi que les utilisateurs bénéficient d&apos;une expérience de navigation
+								optimale, qu&apos;ils utilisent un ordinateur de bureau, un smartphone ou une tablette.
 							</p>
 							<p>
 								La création d&apos;un site web mobile responsive commence par la conception. Il est primordial de penser à l&apos;expérience mobile dès le
-								début, en considérant comment le texte sera affiché sur différents appareils et tailles d&apos;écran. Les designers utilisent souvent
-								une approche dite mobile first, où ils commencent par concevoir la version mobile du site avant d&apos;adapter le design aux écrans ++
-								grands. Cela aide à s&apos;assurer que l&apos;expérience mobile est aussi complète et satisfaisante que possible.
+								début, en considérant comment le texte sera affiché sur différents appareils et tailles d&apos;écran. Les designers utilisent souvent une
+								approche dite mobile first, où ils commencent par concevoir la version mobile du site avant d&apos;adapter le design aux écrans ++ grands.
+								Cela aide à s&apos;assurer que l&apos;expérience mobile est aussi complète et satisfaisante que possible.
 							</p>
 							<p>
 								Au-delà de la simple adaptation à différentes tailles d&apos;écran, un bon design responsive prend également en compte d&apos;autres
 								aspects de l&apos;expérience mobile. Par exemple, il est utile de s&apos;assurer que les boutons et les liens soient suffisamment grands
-								et espacés afin d&apos;être facilement utilisables sur un écran tactile. De même, le texte doit être concis et facile à lire sur un
-								petit écran, et les images et autres médias doivent être optimisés en vue de s&apos;assurer d&apos;un chargement rapide.
+								et espacés afin d&apos;être facilement utilisables sur un écran tactile. De même, le texte doit être concis et facile à lire sur un petit
+								écran, et les images et autres médias doivent être optimisés en vue de s&apos;assurer d&apos;un chargement rapide.
 							</p>
 							<p>
 								Google favorise les sites mobile-friendly dans ses résultats de recherche. En fin de compte, un site web responsive est une étape
@@ -378,9 +379,9 @@ export default function CreationSiteWeb() {
 								Site Multilingue
 							</h3>
 							<p>
-								Le site multilingue est un site web offrant du texte dans plusieurs langues, afin de s&apos;adresser à un public international. Ce
-								site est essentiel pour les entreprises désirant attirer et servir des clients du monde entier, mais aussi les lieux où plusieurs
-								langues seront utilisées.
+								Le site multilingue est un site web offrant du texte dans plusieurs langues, afin de s&apos;adresser à un public international. Ce site
+								est essentiel pour les entreprises désirant attirer et servir des clients du monde entier, mais aussi les lieux où plusieurs langues
+								seront utilisées.
 							</p>
 							<p>
 								En proposant du texte dans la langue maternelle de vos utilisateurs cibles, cela facilitera leur compréhension et renforcera leur
@@ -423,9 +424,9 @@ export default function CreationSiteWeb() {
 								d&apos;optimiser le texte pour les moteurs de recherche en utilisant des mots-clés pertinents.
 							</p>
 							<p>
-								Afin de rendre vos appels à l&apos;action (CTA) efficaces, s&apos;assurer qu&apos;ils sont clairement visibles sur la landing page. Utilisez
-								des couleurs vives ou des boutons attrayants qui les mettront en évidence. Placez-les également à des endroits stratégiques,
-								tels que près du haut de la page ou à la fin d&apos;un texte persuasif.
+								Afin de rendre vos appels à l&apos;action (CTA) efficaces, s&apos;assurer qu&apos;ils sont clairement visibles sur la landing page.
+								Utilisez des couleurs vives ou des boutons attrayants qui les mettront en évidence. Placez-les également à des endroits stratégiques, tels
+								que près du haut de la page ou à la fin d&apos;un texte persuasif.
 							</p>
 						</div>
 					</div>
@@ -444,19 +445,19 @@ export default function CreationSiteWeb() {
 								Wordpress
 							</h3>
 							<p>
-								WordPress est une plateforme de gestion (CMS) largement appréciée, permettant de créer facilement des sites web de qualité
-								professionnelle sans nécessiter de compétences en programmation. Il propose une variété de thèmes et de plugins dans le but de
-								personnaliser l&apos;apparence et les fonctionnalités du site web.{" "}
+								WordPress est une plateforme de gestion (CMS) largement appréciée, permettant de créer facilement des sites web de qualité professionnelle
+								sans nécessiter de compétences en programmation. Il propose une variété de thèmes et de plugins dans le but de personnaliser
+								l&apos;apparence et les fonctionnalités du site web.{" "}
 							</p>
 							<p>
 								L&apos;une des principales forces de WordPress est sa convivialité pour les débutants. L&apos;interface conviviale et le système de
-								gestion simplifié permettant de créer et de gérer facilement vos pages, vos articles de blog et tout autre composant du site.
-								Vous pouvez ajouter du texte, des images, des vidéos, et même des formulaires directement depuis l&apos;éditeur de texte WordPress.
+								gestion simplifié permettant de créer et de gérer facilement vos pages, vos articles de blog et tout autre composant du site. Vous pouvez
+								ajouter du texte, des images, des vidéos, et même des formulaires directement depuis l&apos;éditeur de texte WordPress.
 							</p>
 							<p>
-								La création d&apos;un site web avec WordPress est un processus relativement simple et accessible même aux débutants. Il offre une
-								gamme de thèmes, de plugins et d&apos;outils de personnalisation, vous pouvez créer un site professionnel avec son propre nom de domaine
-								en quelques clics. Si le souhait est de créer une simple vitrine web ou une boutique e-commerce, WordPress offre les fonctionnalités
+								La création d&apos;un site web avec WordPress est un processus relativement simple et accessible même aux débutants. Il offre une gamme de
+								thèmes, de plugins et d&apos;outils de personnalisation, vous pouvez créer un site professionnel avec son propre nom de domaine en
+								quelques clics. Si le souhait est de créer une simple vitrine web ou une boutique e-commerce, WordPress offre les fonctionnalités
 								nécessaires qui permet de réaliser son projet web.
 							</p>
 						</div>
@@ -476,9 +477,9 @@ export default function CreationSiteWeb() {
 								Joomla
 							</h3>
 							<p>
-								Joomla est l&apos;un des systèmes de gestion (CMS) les plus populaires et respectés dans le monde du web. Il offre une
-								flexibilité remarquable, une grande variété d&apos;extensions et un système robuste qui permet aux utilisateurs la création de sites web
-								complexes et sophistiqués.
+								Joomla est l&apos;un des systèmes de gestion (CMS) les plus populaires et respectés dans le monde du web. Il offre une flexibilité
+								remarquable, une grande variété d&apos;extensions et un système robuste qui permet aux utilisateurs la création de sites web complexes et
+								sophistiqués.
 							</p>
 							<p>
 								Joomla offre une interface conviviale qui est facile à comprendre et à utiliser, même pour les débutants. Il possede une courbe
@@ -486,8 +487,8 @@ export default function CreationSiteWeb() {
 								apprendre le codage complexe.
 							</p>
 							<p>
-								Il possede des milliers d&apos;extensions disponibles, il offre une grande flexibilité qui permet de personnaliser un site web. Si
-								le besoin d&apos;un formulaire de contact, d&apos;une galerie de photos, d&apos;un forum, d&apos;un système de réservation ou d&apos;une
+								Il possede des milliers d&apos;extensions disponibles, il offre une grande flexibilité qui permet de personnaliser un site web. Si le
+								besoin d&apos;un formulaire de contact, d&apos;une galerie de photos, d&apos;un forum, d&apos;un système de réservation ou d&apos;une
 								boutique en ligne, Joomla a probablement une extension qui répond à vos besoins.
 							</p>
 							<p>

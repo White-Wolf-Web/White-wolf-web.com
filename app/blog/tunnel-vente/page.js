@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "@/app/page.module.css";
+import { Metadata } from "next";
 import BlogDateAuthorOther from "@/components/Blog/BlogDateAuthorOther";
 import tunnelBanniere from "@/public/Assets/Images/Webp/blog/Tunnel/tunnel-banniere.webp";
 import tunnelMini1 from "@/public/Assets/Images/Webp/blog/Tunnel/tunnel-mini-1.webp";
@@ -13,7 +14,7 @@ export const metadata = {
 	title: "Décryptage des Tunnels de Vente, votre Stratégie Marketing",
 	description:
 		"Découvrez comment un tunnel de vente bien conçu peut transformer des prospects en clients fidèles. Nous vous guidons étape par étape à travers le processus.",
-	canonical: "https://www.white-wolf-web.com/blog/tunnel-vente",
+	alternates: { canonical: "https://www.white-wolf-web.com/blog/tunnel-vente" },
 };
 
 export default function TunneldeVente() {
@@ -53,18 +54,18 @@ export default function TunneldeVente() {
 
 				<p>
 					Avant de plonger dans les différentes étapes du tunnel de vente, il est important de comprendre pourquoi il est crucial pour votre entreprise. En
-					comprenant comment les clients se comportent tout au long du processus d&apos;achat, on peut identifier les points faibles de votre tunnel de
-					vente et les améliorer en vue d&apos;augmenter vos ventes.
+					comprenant comment les clients se comportent tout au long du processus d&apos;achat, on peut identifier les points faibles de votre tunnel de vente et
+					les améliorer en vue d&apos;augmenter vos ventes.
 				</p>
 				<p>
 					Le tunnel de vente se compose de quatre étapes principales : la sensibilisation, l&apos;intérêt, la décision et l&apos;action. À chaque étape, les
-					clients potentiels ont des besoins et des attentes différents. En comprenant ces besoins et attentes, il est important d&apos;adapter la stratégie de vente
-					afin de mieux répondre aux besoins de vos clients.
+					clients potentiels ont des besoins et des attentes différents. En comprenant ces besoins et attentes, il est important d&apos;adapter la stratégie de
+					vente afin de mieux répondre aux besoins de vos clients.
 				</p>
 				<p>
-					Pour optimiser le tunnel de vente, vous devez également comprendre les différents canaux de vente utiliseés. Par exemple, si ce sont
-					des produits en ligne, vous devrez optimiser votre site Web dans le but d&apos;une conversion. Si ce sont des produits en magasin, vous devrez peut-être utiliser
-					des tactiques de marketing en magasin afin attirer les clients.
+					Pour optimiser le tunnel de vente, vous devez également comprendre les différents canaux de vente utiliseés. Par exemple, si ce sont des produits en
+					ligne, vous devrez optimiser votre site Web dans le but d&apos;une conversion. Si ce sont des produits en magasin, vous devrez peut-être utiliser des
+					tactiques de marketing en magasin afin attirer les clients.
 				</p>
 			</section>
 			<br /> <br />
@@ -85,19 +86,19 @@ export default function TunneldeVente() {
 					connaissent peut-être pas votre entreprise. Votre objectif est de les attirer et de susciter leur intérêt pour votre produit ou service.
 				</p>
 				<p>
-					Pour atteindre cet objectif, il est possible utiliser une variété de tactiques de marketing, telles que la publicité en ligne, le marketing par e-mail, le
-					marketing de contenu et les médias sociaux. L&apos;objectif est de créer un buzz autour de votre entreprise & produit ou service.
+					Pour atteindre cet objectif, il est possible utiliser une variété de tactiques de marketing, telles que la publicité en ligne, le marketing par
+					e-mail, le marketing de contenu et les médias sociaux. L&apos;objectif est de créer un buzz autour de votre entreprise & produit ou service.
 				</p>
 
 				<p>
 					<strong>Étape 2 : Intérêt</strong>
-					Une fois l&apos;attention des clients potentiels attiré, vous devez les intéresser davantage. À ce stade, les clients potentiels en
-					savent un peu plus sur l&apos;entreprise et commencent à envisager sérieusement votre produit ou service.
+					Une fois l&apos;attention des clients potentiels attiré, vous devez les intéresser davantage. À ce stade, les clients potentiels en savent un peu plus
+					sur l&apos;entreprise et commencent à envisager sérieusement votre produit ou service.
 				</p>
 				<p>
-					Pour encourager l&apos;intérêt, il serait intéréssant de fournir des informations plus détaillées sur le produit ou service mis en avant, telles que des descriptions de
-					produits, des vidéos de démonstration et des témoignages de clients. Vous pouvez également offrir des promotions en vue d&apos;encourager les clients
-					potentiels à acheter.
+					Pour encourager l&apos;intérêt, il serait intéréssant de fournir des informations plus détaillées sur le produit ou service mis en avant, telles que
+					des descriptions de produits, des vidéos de démonstration et des témoignages de clients. Vous pouvez également offrir des promotions en vue
+					d&apos;encourager les clients potentiels à acheter.
 				</p>
 
 				<p>
@@ -106,8 +107,8 @@ export default function TunneldeVente() {
 					objectif est de convertir les clients potentiels en clients payants.
 				</p>
 				<p>
-					Pour encourager la décision d&apos;achat, une solution est d&apos;offrir des garanties de satisfaction, des offres spéciales et des réductions. Vous pouvez
-					également fournir des informations plus détaillées sur les avantages de du produit ou service par rapport à la concurrence.
+					Pour encourager la décision d&apos;achat, une solution est d&apos;offrir des garanties de satisfaction, des offres spéciales et des réductions. Vous
+					pouvez également fournir des informations plus détaillées sur les avantages de du produit ou service par rapport à la concurrence.
 				</p>
 
 				<p>
@@ -115,9 +116,7 @@ export default function TunneldeVente() {
 					La dernière étape du tunnel de vente est l&apos;action. À ce stade, les clients ont pris la décision d&apos;achat et effectuent l&apos;achat. Votre
 					objectif est de rendre le processus d&apos;achat aussi facile et transparent que possible.
 				</p>
-				<p>
-					Pour encourager l&apos;action, offrez des moyens faciles de payer, des options de livraison rapides et des remises pour les achats futurs.
-				</p>
+				<p>Pour encourager l&apos;action, offrez des moyens faciles de payer, des options de livraison rapides et des remises pour les achats futurs.</p>
 			</section>
 			<br /> <br />
 			<section>
@@ -134,9 +133,10 @@ export default function TunneldeVente() {
 
 				<p>
 					<strong>Étape 1 : Sensibilisation</strong>
-					Pour optimiser la sensibilisation, il sera nécessaire de se concentrer sur les canaux de marketing qui attirent le plus de clients potentiels. Par exemple, si
-					la vente des produits en ligne, l&apos;utilisation des publicités ciblées sur les moteurs de recherche qui aidera à attirer les clients potentiels. Si
-					c&apos;est de la vente de produits en magasin, alors on peut utiliser des affiches et des publicités en magasin en vue d&apos;attirer les clients.
+					Pour optimiser la sensibilisation, il sera nécessaire de se concentrer sur les canaux de marketing qui attirent le plus de clients potentiels. Par
+					exemple, si la vente des produits en ligne, l&apos;utilisation des publicités ciblées sur les moteurs de recherche qui aidera à attirer les clients
+					potentiels. Si c&apos;est de la vente de produits en magasin, alors on peut utiliser des affiches et des publicités en magasin en vue d&apos;attirer
+					les clients.
 				</p>
 
 				<p>
@@ -155,8 +155,8 @@ export default function TunneldeVente() {
 
 				<p>
 					<strong>Étape 4 : Action</strong>
-					Pour optimiser l&apos;action, le processus d&apos;achat doit être rendu aussi facile et transparent que possible. Cela peut inclure des moyens
-					faciles de payer, des options de livraison rapides et des remises pour les achats futurs.
+					Pour optimiser l&apos;action, le processus d&apos;achat doit être rendu aussi facile et transparent que possible. Cela peut inclure des moyens faciles
+					de payer, des options de livraison rapides et des remises pour les achats futurs.
 				</p>
 			</section>
 			<br /> <br />
@@ -195,8 +195,9 @@ export default function TunneldeVente() {
 				<h2 className={styles.textCenter}>Outils et ressources afin de suivre son tunnel de vente</h2>
 
 				<p>
-					Pour suivre vos ventes, il est possible d&apos;utiliser une variété d&apos;outils et de ressources, tels que Google Analytics, les tableaux de bord de vente et
-					les logiciels de CRM. Ces outils permettent de suivre les prospects tout au long du tunnel de vente et d&apos;optimiser la stratégie de vente.
+					Pour suivre vos ventes, il est possible d&apos;utiliser une variété d&apos;outils et de ressources, tels que Google Analytics, les tableaux de bord de
+					vente et les logiciels de CRM. Ces outils permettent de suivre les prospects tout au long du tunnel de vente et d&apos;optimiser la stratégie de
+					vente.
 				</p>
 			</section>
 			<br /> <br />
@@ -213,13 +214,13 @@ export default function TunneldeVente() {
 				<p>Pour aider à mieux comprendre comment optimiser son tunnel de vente, voici quelques exemples de stratégies réussies de tunnel de vente :</p>
 
 				<p>
-					<strong>Amazon</strong> utilise une stratégie de recommandation de produits en vue d&apos;encourager les clients à acheter des produits supplémentaires.
-					Lorsqu&apos;un client ajoute un produit à son panier, Amazon recommande des produits similaires qu&apos;il pourrait également aimer.
+					<strong>Amazon</strong> utilise une stratégie de recommandation de produits en vue d&apos;encourager les clients à acheter des produits
+					supplémentaires. Lorsqu&apos;un client ajoute un produit à son panier, Amazon recommande des produits similaires qu&apos;il pourrait également aimer.
 				</p>
 
 				<p>
-					<strong>Dropbox</strong> utilise une stratégie de marketing par e-mail en vue d&apos;encourager les prospects à acheter. Lorsqu&apos;un prospect s&apos;inscrit
-					pour un compte gratuit, Dropbox envoie des e-mails de suivi pour encourager l&apos;achat d&apos;un compte premium.
+					<strong>Dropbox</strong> utilise une stratégie de marketing par e-mail en vue d&apos;encourager les prospects à acheter. Lorsqu&apos;un prospect
+					s&apos;inscrit pour un compte gratuit, Dropbox envoie des e-mails de suivi pour encourager l&apos;achat d&apos;un compte premium.
 				</p>
 			</section>
 			<br /> <br />
@@ -233,8 +234,8 @@ export default function TunneldeVente() {
 					className={`${styles.blogStyleImg} ${styles.floatRight}`}
 				/>
 				<p>
-					Maintenant que vous avez une meilleure compréhension du tunnel de vente, vous pouvez créer un tunnel de vente pour son entreprise. Pour ce faire,
-					vous devez :
+					Maintenant que vous avez une meilleure compréhension du tunnel de vente, vous pouvez créer un tunnel de vente pour son entreprise. Pour ce faire, vous
+					devez :
 				</p>
 				<p>
 					<strong>Étape 1 : Identifier les besoins des clients</strong>
@@ -253,21 +254,21 @@ export default function TunneldeVente() {
 				</p>
 				<p>
 					<strong>Étape 4 : Suivre les prospects</strong>
-					Enfin, il est important de suivre les prospects tout au long du processus de vente en vue de les convertir en clients payants. Cela peut inclure des e-mails de
-					suivi, des offres spéciales et des promotions.
+					Enfin, il est important de suivre les prospects tout au long du processus de vente en vue de les convertir en clients payants. Cela peut inclure des
+					e-mails de suivi, des offres spéciales et des promotions.
 				</p>
 				<br /> <br />
 				<p>
 					<strong>Mesurer et analyser le succès de son tunnel de vente. </strong>
-					Pour mesurer et analyser le succès de son tunnel de vente, vous pouvez utiliser des outils d&apos;analyse tels que Google Analytics et les tableaux
-					de bord de vente. Cela permet de voir où les clients abandonnent le processus de vente et où l&apos; doit améliorer la stratégie de vente.
+					Pour mesurer et analyser le succès de son tunnel de vente, vous pouvez utiliser des outils d&apos;analyse tels que Google Analytics et les tableaux de
+					bord de vente. Cela permet de voir où les clients abandonnent le processus de vente et où l&apos; doit améliorer la stratégie de vente.
 				</p>
 				<br /> <br />
 				<h3>Conclusion : Mise en oeuvre du tunnel de vente pour une croissance maximale des ventes</h3>
 				<p>
-					Le tunnel de vente est un élément crucial afind&apos;augmenter les ventes de l&apos;entreprise. En comprenant les différentes étapes du processus et en
-					optimisant chaque étape, il est de votre devoir de rationaliser le parcours du client et augmenter vos ventes. Avec les bons outils et ressources, il est possible
-					suivre et mesurer le succès de votre tunnel de vente en vue d&apos;optimiser la stratégie de vente à l&apos;avenir.
+					Le tunnel de vente est un élément crucial afind&apos;augmenter les ventes de l&apos;entreprise. En comprenant les différentes étapes du processus et
+					en optimisant chaque étape, il est de votre devoir de rationaliser le parcours du client et augmenter vos ventes. Avec les bons outils et ressources,
+					il est possible suivre et mesurer le succès de votre tunnel de vente en vue d&apos;optimiser la stratégie de vente à l&apos;avenir.
 				</p>
 			</section>
 		</div>

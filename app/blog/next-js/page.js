@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "@/app/page.module.css";
+import { Metadata } from "next";
 import BlogDateAuthorOther from "@/components/Blog/BlogDateAuthorOther";
 import NextBanniere from "@/public/Assets/Images/Webp/blog/Next/Next-banniere.webp";
 import NextMini1 from "@/public/Assets/Images/Webp/blog/Next/Next-mini-1.webp";
@@ -16,7 +17,9 @@ export const metadata = {
 	title: "Comment Next.js Révolutionne le Développement Web Front-End",
 	description:
 		"Explorez comment Next.js, le framework de développement web en React, peut simplifier votre processus de développement et améliorer les performances de votre application.",
-	canonical: "https://www.white-wolf-web.com/blog/next-js",
+	alternates: {
+		canonical: "https://www.white-wolf-web.com/blog/next-js",
+	},
 };
 
 export default function Nextjspage() {
@@ -40,8 +43,8 @@ export default function Nextjspage() {
 				</p>
 				<p>
 					Dans cet article, nous allons examiner de plus près pourquoi Next.js est l&apos;avenir du développement web et pourquoi vous devriez envisager de
-					l&apos;utiliser en vue de votre prochain projet. Que vous soyez un développeur chevronné ou un débutant, lisez la suite afin de découvrir pourquoi Next.js est
-					le framework à suivre dans les années à venir.
+					l&apos;utiliser en vue de votre prochain projet. Que vous soyez un développeur chevronné ou un débutant, lisez la suite afin de découvrir pourquoi
+					Next.js est le framework à suivre dans les années à venir.
 				</p>
 			</section>
 			<br /> <br />
@@ -114,8 +117,8 @@ export default function Nextjspage() {
 					entraîner des problèmes de performance si les applications web sont plus complexes.
 				</p>
 				<p>
-					Next.js résout ce problème en utilisant le rendu côté serveur afin de pré-rendre les pages web. Cela signifie que les pages sont envoyées au navigateur
-					en HTML pur, ce qui peut améliorer la vitesse de chargement des pages et la convivialité en vue des moteurs de recherche.
+					Next.js résout ce problème en utilisant le rendu côté serveur afin de pré-rendre les pages web. Cela signifie que les pages sont envoyées au
+					navigateur en HTML pur, ce qui peut améliorer la vitesse de chargement des pages et la convivialité en vue des moteurs de recherche.
 				</p>
 				<p>
 					En outre, Next.js offre des fonctionnalités telles que le routage automatique et la prévisualisation des pages, ce qui peut aider les développeurs à
@@ -192,8 +195,8 @@ export default function Nextjspage() {
 				/>
 				<div></div>
 				<p>
-					Next.js est conçu dans le but d&apos;être facile à intégrer avec d&apos;autres technologies et frameworks. Il peut être utilisé avec des bibliothèques de gestion
-					d&apos;état comme Redux et MobX, ainsi qu&apos;avec des frameworks d&apos;interface utilisateur comme Material UI et Bootstrap.
+					Next.js est conçu dans le but d&apos;être facile à intégrer avec d&apos;autres technologies et frameworks. Il peut être utilisé avec des bibliothèques
+					de gestion d&apos;état comme Redux et MobX, ainsi qu&apos;avec des frameworks d&apos;interface utilisateur comme Material UI et Bootstrap.
 				</p>
 				<p>
 					Il peut également être facilement intégré avec des plates-formes de cloud computing comme AWS et Google Cloud, ce qui peut aider les développeurs à
@@ -216,9 +219,9 @@ export default function Nextjspage() {
 					choisi Next.js pour ses avantages de performance et de référencement.
 				</p>
 				<p>
-					Airbnb a utilisé Next.js afin d&apos;améliorer les performances de leur application web et améliorer leur référencement. Netflix a utilisé Next.js en vue de créer
-					une expérience de visionnage plus fluide pour les utilisateurs. Enfin, Uber a utilisé Next.js afin de créer une application web rapide et conviviale pour
-					les moteurs de recherche.
+					Airbnb a utilisé Next.js afin d&apos;améliorer les performances de leur application web et améliorer leur référencement. Netflix a utilisé Next.js en
+					vue de créer une expérience de visionnage plus fluide pour les utilisateurs. Enfin, Uber a utilisé Next.js afin de créer une application web rapide et
+					conviviale pour les moteurs de recherche.
 				</p>
 			</section>{" "}
 			<br /> <br />
@@ -231,8 +234,8 @@ export default function Nextjspage() {
 					nombreuses grandes entreprises pour ses avantages de performance et de référencement.
 				</p>
 				<p>
-					Si vous êtes un développeur qui veut créer des applications web rapides, évolutives pour les moteurs de recherche, Next.js est le
-					framework à suivre dans les années à venir.
+					Si vous êtes un développeur qui veut créer des applications web rapides, évolutives pour les moteurs de recherche, Next.js est le framework à suivre
+					dans les années à venir.
 				</p>
 			</section>
 		</div>

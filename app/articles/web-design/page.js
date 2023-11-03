@@ -1,9 +1,12 @@
 import styles from "@/app/page.module.css";
+import { Metadata } from "next";
 
 export const metadata = {
 	title: "L importance du web-design dans la création du site web",
 	description: "Passionnés par la création de sites web qui allient design attrayant, ergonomie bien pensée et une expérience utilisateur exceptionnelle (UX).",
-	canonical: "https://www.white-wolf-web.com/articles/web-design",
+	alternates: {
+		canonical: "https://www.white-wolf-web.com/articles/web-design"
+	}
 };
 
 export default function Design() {

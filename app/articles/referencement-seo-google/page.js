@@ -1,5 +1,6 @@
 import styles from "@/app/page.module.css";
 import Image from "next/image";
+import { Metadata } from "next";
 import referencementSeo1 from "@/public/Assets/Images/Webp/seo/referencement-seo-1.webp";
 import referencementSeo4 from "@/public/Assets/Images/Webp/seo/referencement-seo-4.webp";
 import referencementSeo6 from "@/public/Assets/Images/Webp/seo/referencement-seo-6.webp";
@@ -8,7 +9,9 @@ import MetadataSEO from "@/components/Metadata/MetadataSEO"
 export const metadata = {
 	title: "Référencement SEO: Votre site en tête des recherches Google🥇",
 	description: "L'importance d'un référencement naturel efficace pour assurer le succès de votre projet en ligne. Le SEO permet de gagner en visibilité sur les moteurs de recherche.",
+	alternates: {
 	canonical: "https://www.white-wolf-web.com/articles/referencement-seo-google",
+	}
 };
 
 export default function ReferencementSEO() {

@@ -2,6 +2,7 @@
 import Head from "next/head";
 import styles from "@/app/page.module.css";
 import { useState } from "react";
+import { Metadata } from "next";
 
 export default function Faq() {
 	const [visibleSections, setVisibleSections] = useState({});

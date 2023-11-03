@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "@/app/page.module.css";
+import { Metadata } from "next";
 import BlogDateAuthorOther from "@/components/Blog/BlogDateAuthorOther";
 import IABanniere from "@/public/Assets/Images/Webp/blog/IA-turing-a-tesla/IA-banniere.webp";
 import IAMini1 from "@/public/Assets/Images/Webp/blog/IA-turing-a-tesla/IA-mini-1.webp";
@@ -16,7 +17,9 @@ export const metadata = {
 	title: "De Turing à Tesla: Le Chemin de l'Intelligence Artificielle",
 	description:
 		"De l'ordinateur universel de Turing aux voitures autonomes de Tesla, cet article explore les progrès étonnants de l'intelligence artificielle au fil des décennies.",
-	canonical: "https://www.white-wolf-web.com/blog/ia-turing-a-tesla",
+		alternates: {
+			canonical: "https://www.white-wolf-web.com/blog/ia-turing-a-tesla",
+		}
 };
 
 export default function IaTuringTesla() {

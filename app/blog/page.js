@@ -5,11 +5,14 @@ import styles from "@/app/page.module.css";
 import BlogCardData from "@/data/blogCardData";
 import CardBlog from "@/components/Blog/CardBlog";
 import MetadataBlog from "@/components/Metadata/MetadataBlog";
+import { Metadata } from "next";
 
 export const metadata = {
 	title: "Articles et Guides Experts sur le Développement Web, SEO",
 	description: "Que vous soyez débutant ou professionnel, vous trouverez ici des ressources, des conseils et des astuces pour parfaire vos compétences en développement web",
-	canonical: "https://www.white-wolf-web.com/blog",
+	alternates: {
+		canonical: "https://www.white-wolf-web.com/blog"
+	}
 };
 
 export default function Blog() {

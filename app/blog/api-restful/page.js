@@ -9,11 +9,14 @@ import ApiRestFulMini3 from "@/public/Assets/Images/Webp/blog/Api-restful-mini-3
 import ApiRestFulMini4 from "@/public/Assets/Images/Webp/blog/Api-restful-mini-4.webp";
 import ApiRestFulMini5 from "@/public/Assets/Images/Webp/blog/Api-restful-mini-5.webp";
 import MetadataBlogApiRest from "@/components/Metadata/MetadataBlogApiRest";
+import { Metadata } from "next";
 
 export const metadata = {
 	title: "API RESTful Fetch Démystifiée: Tutoriel et Bonnes Pratiques",
 	description: "Maîtrisez l'API RESTful Fetch avec notre guide étape par étape. Apprenez comment faire des requêtes HTTP (POST, GET, DELETE, PUT & PATCH) asynchrones comme un pro !",
-	canonical: "https://www.white-wolf-web.com/blog/api-restful",
+	alternates: {
+		canonical: "https://www.white-wolf-web.com/blog/api-restful"
+	}
 };
 
 export default function ApiRestful() {

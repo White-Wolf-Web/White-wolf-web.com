@@ -6,6 +6,7 @@ import Header from "@/components/Header/Header";
 import Footer from "@/components/Footer/Footer";
 import GoogleAnalytics from "@/components/GoogleAnalytics/GoogleAnalytics";
 import CookieBanner from "@/components/cookies/cookiebanner";
+import { Metadata } from "next";
 
 const inter = Inter({ subsets: ["latin"] });
 

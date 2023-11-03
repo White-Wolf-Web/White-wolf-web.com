@@ -2,12 +2,15 @@ import styles from "@/app/page.module.css";
 import SocialNetwork from "@/components/Reseaux-sociaux/SocialNetwork";
 import MetadataSocialNetwork from "@/components/Metadata/MetadataSocialNetwork";
 import Link from "next/link";
+import { Metadata } from "next";
 
 export const metadata = {
 	title: "Facebook, Instagram, Youtube… Les réseaux sociaux et le SEO",
 	description:
 		"Les réseaux sociaux tels que Facebook, Instagram, Youtube … Ont une très grande importance, ils peuvent apporter une certaine plus-value pour votre site.",
-	canonical: "https://www.white-wolf-web.com/articles/reseaux-sociaux",
+		alternates: {
+			canonical: "https://www.white-wolf-web.com/articles/reseaux-sociaux",
+		}
 };
 
 export default function ReseauxSociaux() {
