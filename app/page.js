@@ -7,7 +7,7 @@ import SeeOtherButton from "@/utils/seeOtherButton";
 import { ContainerBigCardHomePage } from "@/components/Cards/ContainerBigCardHomePage";
 import ContainerBlog from "@/components/Blog/ContainerBlog";
 import MetadataHomePage from "@/components/Metadata/MetadataHomePage";
-import { Metadata } from "next";
+//import { Metadata } from "next";
 
 export const metadata = {
 	title: "Agence experte en création de sites web 💻 - SEO",
