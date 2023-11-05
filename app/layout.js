@@ -4,7 +4,7 @@ import "../styles/custom-bootstrap.css";
 import { Inter } from "next/font/google";
 import Header from "@/components/Header/Header";
 import Footer from "@/components/Footer/Footer";
-import GoogleAnalytics from "@/components/GoogleAnalytics/GoogleAnalytics";
+//import GoogleAnalytics from "@/components/GoogleAnalytics/GoogleAnalytics";
 import CookieBanner from "@/components/cookies/cookiebanner";
 import { Metadata } from "next";
 
@@ -82,11 +82,11 @@ export default function RootLayout({ children }) {
 	return (
 		<html lang="fr">
 			<body className={inter.className}>
-			<GoogleAnalytics GA_MEASUREMENT_ID={process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID} />
+			{/*<GoogleAnalytics GA_MEASUREMENT_ID={process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID} />*/}
 				<Header />
 				<main> {children}</main>
 				<Footer />
-				<CookieBanner />
+				{/*<CookieBanner />*/}
 			</body>
 		</html>
 	);
