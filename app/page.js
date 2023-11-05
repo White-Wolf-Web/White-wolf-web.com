@@ -10,9 +10,9 @@ import MetadataHomePage from "@/components/Metadata/MetadataHomePage";
 import { Metadata } from "next";
 
 export const metadata = {
-	title: "Agence experte en création de sites web 💻 - SEO",
+	title: "Expert en création de site web | référencement-SEO💻",
 	description:
-		"Agence Web innovante: création de site web, e-commerce, design, accessibilité, référencement SEO et marketing digital afin de propulser votre succès en ligne!🚀💻",
+		"Agence Web innovante: création de site web, internet, design, référencement naturel SEO et marketing digital afin de propulser votre succès en ligne!🚀💻",
 	alternates: {
 		canonical: "https://www.white-wolf-web.com/",
 	}
@@ -22,9 +22,9 @@ export default function Home() {
 		<>
 			<div className={styles.bienvenueContent}>
 				<h1>
-					Agence White Wolf Web
+					White Wolf Web
 					<br />
-					Experte en création de site web & SEO
+					Expert en création de site internet - web & SEO 
 				</h1>
 				<p>
 					Bienvenue chez White Wolf Web, l&apos;<strong>agence web</strong> innovante qui vous accompagne dans la {" "}
@@ -147,13 +147,13 @@ export default function Home() {
 				<LangageCards />
 			</div>
 			<section className={styles.sectionHomePage}>
-				<h2 className={styles.homeH2MarginTop}>Les coûts de création d&apos;un site web</h2>
+				<h2 className={styles.homeH2MarginTop}>Les coûts de création d&apos;un site internet</h2>
 				<p>
 					À l&apos;ère du numérique, disposer d&apos;un <strong>site web</strong> est essentiel pour toute entreprise ou tout particulier désireux d&apos;établir une <Link  href="/articles/referencement-seo-google" className={styles.internalLink}>forte
-					présence en ligne</Link>. Toutefois, les coûts associés à la <strong>création d&apos;un site web</strong> peuvent souvent sembler insurmontables et déroutants, ce qui fait
+					présence en ligne</Link>. Toutefois, les coûts associés à la <strong>création d&apos;un site internet</strong> peuvent souvent sembler insurmontables et déroutants, ce qui fait
 					que de nombreuses personnes ne savent pas par où commencer. C&apos;est pourquoi ce guide complet a été créé, afin de démystifier les coûts de
 					<strong>création d&apos;un site web</strong>. De l&apos;enregistrement du domaine et des frais d&apos;hébergement aux coûts de <strong>conception</strong> et de <strong>développement</strong>,
-					 les dépenses liées à la création d&apos;un site web et donnons des indications précieuses sur la manière de maîtriser les coûts. Que
+					 les dépenses liées à la création d&apos;un site internet et donnons des indications précieuses sur la manière de maîtriser les coûts. Que
 					l&apos;on soit propriétaire d&apos;une petite entreprise ou un blogueur désireux de créer son propre <strong>site web</strong>, ce guide apportera les connaissances
 					et les outils nécessaires afin de créer un <strong>site web professionnel</strong> et efficace sans se ruiner. Alors, commençons et dévoilons les secrets des coûts de <strong>création d&apos;un site web</strong> !
 				</p>
