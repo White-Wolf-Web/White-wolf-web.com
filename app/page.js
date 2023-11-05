@@ -8,7 +8,6 @@ import { ContainerBigCardHomePage } from "@/components/Cards/ContainerBigCardHom
 import ContainerBlog from "@/components/Blog/ContainerBlog";
 import MetadataHomePage from "@/components/Metadata/MetadataHomePage";
 import { Metadata } from "next";
-import Head from "next/head";
 
 export const metadata = {
 	title: "Agence experte en création de sites web 💻 - SEO",

@@ -124,10 +124,13 @@ export default function Footer() {
 			<div className={styles.bottomFooter}>
 				<p className={styles.copyright}>&copy; Copyright 2023</p>
 				<div className={styles.socialNetwork}>
+				<Link href="https://www.pinterest.com/whitewolfweb/" target="_blank" rel="noopener noreferrer" title="Pinterest">
+						<Image src={instagramIcon} className={styles.skills} width={40} height={40} alt={"Direction Pinterest"} />
+					</Link>
 					<Link href="https://www.facebook.com/people/White-Wolf-Web/100087896780441/" target="_blank" rel="noopener noreferrer" title="Facebook">
 						<Image src={facebookIcon} className={`${styles.skills} ${styles.facebook}`} width={40} height={40} alt={"Direction Facebook"}  />
 					</Link>
-					<Link href="https://www.instagram.com/white_wolf_web/" target="_blank" rel="noopener noreferrer" title="Instagram">
+					<Link href="https://www.instagram.com/whitewolfweb/" target="_blank" rel="noopener noreferrer" title="Instagram">
 						<Image src={instagramIcon} className={styles.skills} width={40} height={40} alt={"Direction Instagram"} />
 					</Link>
 					<Link href="https://wa.me/32477131993" target="_blank" rel="noopener noreferrer" title="Whats'app">
