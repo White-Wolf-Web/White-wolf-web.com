@@ -17,7 +17,7 @@ export const metadata = {
 		canonical: "https://www.white-wolf-web.com/",
 	}
 };
-export function Home() {
+export default function Home() {
 	return (
 		<>
 			<div className={styles.bienvenueContent}>
