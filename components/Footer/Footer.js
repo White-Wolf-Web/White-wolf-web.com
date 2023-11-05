@@ -6,6 +6,7 @@ import facebookIcon from "@/public/Assets/Icons/facebook-icon.webp";
 import instagramIcon from "@/public/Assets/Icons/instagram-icon.webp";
 import twitterIcon from "@/public/Assets/Icons/twitter-icon.webp";
 import whatsappIcon from "@/public/Assets/Icons/whatapp-icon.webp";
+import pinterestIcon from "@/public/Assets/Images/Webp/reseaux-sociaux/mini-pinterest.webp"
 import Gsm from "@/public/Assets/Icons/gsm.webp";
 import Mail from "@/public/Assets/Icons/mail.webp";
 import starIcon from "@/public/Assets/Icons/star-icon.webp";
@@ -125,7 +126,7 @@ export default function Footer() {
 				<p className={styles.copyright}>&copy; Copyright 2023</p>
 				<div className={styles.socialNetwork}>
 				<Link href="https://www.pinterest.com/whitewolfweb/" target="_blank" rel="noopener noreferrer" title="Pinterest">
-						<Image src={instagramIcon} className={styles.skills} width={40} height={40} alt={"Direction Pinterest"} />
+						<Image src={pinterestIcon} className={styles.skills} width={40} height={40} alt={"Direction Pinterest"} />
 					</Link>
 					<Link href="https://www.facebook.com/people/White-Wolf-Web/100087896780441/" target="_blank" rel="noopener noreferrer" title="Facebook">
 						<Image src={facebookIcon} className={`${styles.skills} ${styles.facebook}`} width={40} height={40} alt={"Direction Facebook"}  />
