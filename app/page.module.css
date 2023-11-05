@@ -186,6 +186,7 @@
 }
 .colorFacebook {
 	color: #1877f2;
+  font-weight: 700;
 }
 
 .colorFacebook:hover {
@@ -197,6 +198,7 @@
 
 .colorInstagram {
 	color: #ba5cfb;
+  font-weight: 700;
 }
 
 .colorInstagram:hover {
@@ -205,6 +207,7 @@
 
 .colorYoutube {
 	color: #ff0000;
+  font-weight: 700;
 }
 
 .colorYoutube:hover {
@@ -221,10 +224,12 @@
 
 .colorTwitter {
 	color: #1da1f2;
+  font-weight: 700;
 }
 
 .colorTwitter:hover {
 	color: #1686cc;
+  font-weight: 700;
 }
 
 .colorDiscord {
@@ -237,6 +242,7 @@
 
 .colorLinkedin {
 	color: #0a66c2;
+  font-weight: 700;
 }
 
 .colorLinkedin:hover {
@@ -245,6 +251,7 @@
 
 .colorPinterest {
 	color: #e60023;
+  font-weight: 700;
 }
 
 .colorPinterest:hover {
