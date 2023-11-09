@@ -4,7 +4,9 @@ export const metadata = {
 	title: "Accessibilité: Un web accessible à tous grâce à WAI-ARIA 🌐",
 	description:
 		"VNous mettons un point d’honneur à concevoir des sites web accessibles, conformes aux normes WAI-ARIA, pour offrir une meilleure expérience en ligne à tous.",
-	canonical: "https://www.white-wolf-web.com/articles/miscellaneous/accessibilite",
+		alternates: {
+			canonical: "https://www.white-wolf-web.com/articles/miscellaneous/accessibilite",
+		}
 };
 
 export default function Accessibility() {

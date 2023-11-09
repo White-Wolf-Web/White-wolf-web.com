@@ -3,7 +3,9 @@ import styles from "@/app/page.module.css";
 export const metadata = {
 	title: "Marketing, SEO, formation et accompagnement",
 	description: "White Wolf Web propose un service de formation et d’accompagnement pour vous aider au niveau de votre marketing digital, SEO, votre présence en ligne...",
-	canonical: "https://www.white-wolf-web.com/articles/miscellaneous/formation-accompagnement",
+	alternates: {
+		canonical:  "https://www.white-wolf-web.com/articles/miscellaneous/formation-accompagnement",
+	}
 };
 
 export default function TrainingAndSupport() {

@@ -3,7 +3,9 @@ import styles from "@/app/page.module.css";
 export const metadata = {
 	title: "Contenu web: Les clés pour séduire Google et les lecteurs",
 	description: "Apprenez les clés pour créer un contenu attrayant pour Google et ses lecteurs en rédigeant des articles de qualité. Ils auront envie de vous lire.",
-	canonical: "https://www.white-wolf-web.com/articles/miscellaneous/contenu-et-redaction-votre-site-internet",
+	alternates: {
+		canonical: "https://www.white-wolf-web.com/articles/miscellaneous/contenu-et-redaction-votre-site-internet",
+	}
 };
 
 export default function ContenuAndRedaction() {

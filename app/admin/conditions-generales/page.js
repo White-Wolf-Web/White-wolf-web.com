@@ -4,7 +4,9 @@ export const metadata = {
 	title: "Conditions générales du site de l'agence white wolf web",
 	description:
 		"Vous retrouverez ici les conditions générales du site web whitewolfweb.com",
-	canonical: "https://www.white-wolf-web.com/admin/conditions-generales",
+		alternates: {
+			canonical: "https://www.white-wolf-web.com/admin/conditions-generales",
+		}
 };
 
 

@@ -4,7 +4,9 @@ import styles from "@/app/page.module.css"
 export const metadata = {
 	title: "Les tarifs proposés pour tous les sites web",
 	description: "Vous trouverez les fourchettes de prix pour tous les sites web proposés",
-	canonical: "https://www.white-wolf-web.com/admin/price",
+  alternates: {
+		canonical: "https://www.white-wolf-web.com/admin/price",
+	}
 };
 
 export default function Price() {

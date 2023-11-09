@@ -4,7 +4,9 @@ export const metadata = {
 	title: "Analyse, Audit et Performance: les 🔑 pour l’optimisation",
 	description:
 		"L'analyse et la performance (un audit) d'un site web vont permettre d’optimiser votre présence en ligne et maximiser le retour sur votre investissement.",
-	canonical: "https://www.white-wolf-web.com/articles/miscellaneous/analyse-audit-performance-votre-site-web",
+		alternates: {
+			canonical: "https://www.white-wolf-web.com/articles/miscellaneous/analyse-audit-performance-votre-site-web",
+		}
 };
 
 export default function AnalysePerformance() {
