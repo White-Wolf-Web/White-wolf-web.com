@@ -8,37 +8,29 @@ const MetadataHomePage = {
   "inLanguage": "fr-FR",
   "datePublished": "2018-01-01T00:00:00+01:00",
   "dateModified": "2023-09-30T11:19:14+01:00",
-  "isPartOf": {
-    "@type": "WebSite",
-    "@id": "https://www.white-wolf-web.com/",
-    "url": "https://www.white-wolf-web.com/",
-    "name": "Agence création de site internet & SEO White Wolf Web",
-    "description": "Création de site Internet Site optimisé pour le référencement SEO",
-    "inLanguage": "fr-FR",
-    "publisher": {
-      "@type": "Organization",
-      "name": "Agence creation Web: White Wolf Web",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://www.white-wolf-web.com/logo.png"
-      },
-      "contactPoint": {
-        "@type": "ContactPoint",
-        "telephone": "+32 477 13 19 93",
-        "contactType": "customer service",
-        "email": "white-wolf-web@outlook.com",
-        "areaServed": "BE",
-        "availableLanguage": ["French", "English"]
-      }
+  "publisher": {
+    "@type": "Organization",
+    "name": "Agence creation Web: White Wolf Web",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.white-wolf-web.com/logo.png"
+    },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+32 477 13 19 93",
+      "contactType": "customer service",
+      "email": "white-wolf-web@outlook.com",
+      "areaServed": "BE",
+      "availableLanguage": ["French", "English"]
     }
   },
-  "mainEntityOfPage": {
+  "mainEntity": {
     "@type": "LocalBusiness",
-    "name": "Expert en creation de site web & SEO - White Wolf Web",
+    "name": "White Wolf Web",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "Octaaf de kerchove d'exaerdstraat 193",
-      "addressLocality": "Hal",
+      "streetAddress": "Octaaf de kerchove d'exaerdestraat 193",
+      "addressLocality": "Halle",
       "postalCode": "1501",
       "addressCountry": "BE"
     },
