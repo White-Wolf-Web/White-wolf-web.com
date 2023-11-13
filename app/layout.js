@@ -75,6 +75,7 @@ export const metadata = {
 		yandex: "yandex",
 		yahoo: "yahoo",
 	},
+	other: { name:"google-site-verification", content:"WL5ydAdydKW5gLPtllpJYiLeNE8Lu3Q6I7x1pDduq" },
 };
 
 export default function RootLayout({ children }) {
