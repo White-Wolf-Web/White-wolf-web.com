@@ -21,7 +21,7 @@ export default function Home() {
 	return (
 		<>
 			<div className={styles.bienvenueContent}>
-				<h1>Expert en création de site internet - web & SEO</h1>
+				<h1>Expert en création de site internet & SEO</h1>
 				<p>
 					Bienvenue chez White Wolf Web, l&apos;<strong>agence web</strong> innovante qui vous accompagne dans la{" "}
 					<Link href="/articles/creation-site-web" className={styles.internalLink}>
