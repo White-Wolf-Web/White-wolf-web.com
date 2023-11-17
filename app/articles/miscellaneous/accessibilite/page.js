@@ -6,7 +6,10 @@ export const metadata = {
 		"VNous mettons un point d’honneur à concevoir des sites web accessibles, conformes aux normes WAI-ARIA, pour offrir une meilleure expérience en ligne à tous.",
 		alternates: {
 			canonical: "https://www.white-wolf-web.com/articles/miscellaneous/accessibilite",
-		}
+		}, 
+		openGraph: {
+			url: "https://www.white-wolf-web.com/articles/miscellaneous/accessibilite",
+	},
 };
 
 export default function Accessibility() {

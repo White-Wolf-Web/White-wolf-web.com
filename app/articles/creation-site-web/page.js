@@ -20,6 +20,9 @@ export const metadata = {
 	description:
 		"Vous souhaitez créer un site web professionnel ? Ce guide complet vous fournira les ressources nécessaires afin de réussir votre projet de création de site web",
 	alternates: { canonical: "https://www.white-wolf-web.com/articles/creation-site-web" },
+	openGraph: {
+		url: "https://www.white-wolf-web.com/articles/creation-site-web",
+},
 };
 
 export default function CreationSiteWeb() {

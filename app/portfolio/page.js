@@ -40,7 +40,7 @@ import wordpressLogo from "@/public/Assets/Icons/portfolio/portfolio-wordpress-i
 
 export const metadata = {
 	title: "Mon Portfolio avec certaines de mes réalisations de sites web",
-	description: "Vous retrouverez ici certaines de mes oeuvres web, en format responsive",
+	description: "Vous retrouverez ici certaines de mes œuvres web, en format responsive. Ce sont des projets internet qui ont répondu à toutes les attentes du client",
 	alternates: {
 		canonical: "https://www.white-wolf-web.com/portfolio"
 	}

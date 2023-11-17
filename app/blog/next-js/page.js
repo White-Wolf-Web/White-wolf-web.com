@@ -16,10 +16,13 @@ import NextMini9 from "@/public/Assets/Images/Webp/blog/Next/Next-mini-9.webp";
 export const metadata = {
 	title: "Comment Next.js Révolutionne le Développement Web Front-End",
 	description:
-		"Explorez comment Next.js, le framework de développement web en React, peut simplifier votre processus de développement et améliorer les performances de votre application.",
+		"Explorez Next.js, le framework de développement web en React, peut simplifier votre processus de développement et améliorer les performances de votre application",
 	alternates: {
 		canonical: "https://www.white-wolf-web.com/blog/next-js",
 	},
+	openGraph: {
+		url: "https://www.white-wolf-web.com/blog/next-js",
+},
 };
 
 export default function Nextjspage() {

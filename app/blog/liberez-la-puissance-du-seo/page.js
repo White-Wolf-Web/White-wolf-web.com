@@ -16,10 +16,13 @@ import SEOMini9 from "@/public/Assets/Images/Webp/blog/Seo/SEO-mini-9.webp";
 export const metadata = {
 	title: "Comment le SEO Peut Transformer la Visibilité de Votre Site Web",
 	description:
-		"Apprenez à améliorer la visibilité de votre site web avec des techniques de référencement éprouvées. Du choix des mots-clés à l'optimisation des balises méta, découvrez comment attirer plus de trafic.",
+		"Améliorer la visibilité de votre site web en ciblant le choix des mots-clés à l'optimisation des balises méta, découvrez comment attirer plus de trafic",
 		alternates: {
 			canonical: "https://www.white-wolf-web.com/blog/liberez-la-puissance-du-seo",
-		}
+		},
+		openGraph: {
+			url: "https://www.white-wolf-web.com/blog/liberez-la-puissance-du-seo",
+	},
 };
 
 export default function SEOPower() {

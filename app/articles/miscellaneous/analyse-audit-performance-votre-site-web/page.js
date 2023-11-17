@@ -6,7 +6,10 @@ export const metadata = {
 		"L'analyse et la performance (un audit) d'un site web vont permettre d’optimiser votre présence en ligne et maximiser le retour sur votre investissement.",
 		alternates: {
 			canonical: "https://www.white-wolf-web.com/articles/miscellaneous/analyse-audit-performance-votre-site-web",
-		}
+		},
+		openGraph: {
+			url: "https://www.white-wolf-web.com/articles/miscellaneous/analyse-audit-performance-votre-site-web",
+	},
 };
 
 export default function AnalysePerformance() {

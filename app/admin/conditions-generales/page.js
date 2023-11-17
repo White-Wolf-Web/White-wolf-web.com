@@ -3,7 +3,7 @@ import styles from "@/app/page.module.css";
 export const metadata = {
 	title: "Conditions générales du site de l'agence white wolf web",
 	description:
-		"Vous retrouverez ici les conditions générales du site web whitewolfweb.com",
+		"Vous retrouverez ici les conditions générales du site web whitewolfweb.com, la SRL white wolf Web dépend des tribunaux de Bruxelles.",
 		alternates: {
 			canonical: "https://www.white-wolf-web.com/admin/conditions-generales",
 		}

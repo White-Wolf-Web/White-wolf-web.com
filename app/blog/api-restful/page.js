@@ -13,10 +13,12 @@ import { Metadata } from "next";
 
 export const metadata = {
 	title: "API RESTful Fetch Démystifiée: Tutoriel et Bonnes Pratiques",
-	description: "Maîtrisez l'API RESTful Fetch avec notre guide étape par étape. Apprenez comment faire des requêtes HTTP (POST, GET, DELETE, PUT & PATCH) asynchrones comme un pro !",
+	description: "Maîtrisez l'API RESTful Fetch avec notre guide. Apprenez comment faire des requêtes HTTP (POST, GET, DELETE, PUT & PATCH) asynchrones comme un pro !",
 	alternates: {
 		canonical: "https://www.white-wolf-web.com/blog/api-restful"
-	}
+	}, openGraph: {
+		url: "https://www.white-wolf-web.com/blog/api-restful",
+},
 };
 
 export default function ApiRestful() {

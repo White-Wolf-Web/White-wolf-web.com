@@ -16,10 +16,13 @@ import IAMini9 from "@/public/Assets/Images/Webp/blog/IA-turing-a-tesla/IA-mini-
 export const metadata = {
 	title: "De Turing à Tesla: Le Chemin de l'Intelligence Artificielle",
 	description:
-		"De l'ordinateur universel de Turing aux voitures autonomes de Tesla, cet article explore les progrès étonnants de l'intelligence artificielle au fil des décennies.",
+		"De l'ordinateur universel de Turing aux voitures autonomes de Tesla, cet article explore les progrès étonnants de l'intelligence artificielle au fil des temps",
 		alternates: {
 			canonical: "https://www.white-wolf-web.com/blog/ia-turing-a-tesla",
-		}
+		}, 
+		openGraph: {
+			url: "https://www.white-wolf-web.com/blog/ia-turing-a-tesla",
+	},
 };
 
 export default function IaTuringTesla() {

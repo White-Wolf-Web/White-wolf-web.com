@@ -3,7 +3,7 @@ import styles from "@/app/page.module.css"
 
 export const metadata = {
 	title: "Les tarifs proposés pour tous les sites web",
-	description: "Vous trouverez les fourchettes de prix pour tous les sites web proposés",
+	description: "Vous trouverez les fourchettes de prix pour tous les sites web proposés, ces tarifs sont là pour vous donnez une idée … Tout est négociable.",
   alternates: {
 		canonical: "https://www.white-wolf-web.com/admin/price",
 	}
