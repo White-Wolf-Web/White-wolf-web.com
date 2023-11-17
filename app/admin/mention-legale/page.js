@@ -6,7 +6,25 @@ export const metadata = {
 		"Vous retrouverez ici les mentions legales du site web whitewolfweb.com. Elles sont liées aux conditions générales du site.",
 		alternates: {
 			canonical: "https://www.white-wolf-web.com/admin/mention-legale",
-		}
+		},
+		openGraph: {
+			title: "Mentions légales du site de l'agence white wolf web",
+			description:
+				"Vous retrouverez ici les mentions legales du site web whitewolfweb.com. Elles sont liées aux conditions générales du site.",
+			url: "https://www.white-wolf-web.com/admin/mention-legale",
+			siteName: "API rest",
+			images: [
+				{
+					url: "https://www.white-wolf-web.com/Assets/Images/Jpg/facebook/moi-facebook.jpg",
+					width: 800,
+					height: 600,
+					alt: "moi un jour quand je serais à la retraite",
+				},
+			],
+			locale: "fr-fr",
+			type: "website",
+		},
+	
 };
 export default function MentionLegale() {
 	return (

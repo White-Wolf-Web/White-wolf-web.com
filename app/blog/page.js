@@ -11,7 +11,24 @@ export const metadata = {
 	title: "Articles et Guides Experts sur le Développement Web, SEO",
 	description: "Que vous soyez débutant ou professionnel, vous trouverez ici des ressources, des conseils et des astuces pour parfaire vos compétences en développement web",
 	alternates: {
-		canonical: "https://www.white-wolf-web.com/blog"
+		canonical: "https://www.white-wolf-web.com/blog",
+		openGraph: {
+			title: "Articles et Guides Experts sur le Développement Web, SEO",
+			description:
+				"Que vous soyez débutant ou professionnel, vous trouverez ici des ressources, des conseils et des astuces pour parfaire vos compétences en développement web",
+			url: "https://www.white-wolf-web.com/blog",
+			siteName: "API rest",
+			images: [
+				{
+					url: "https://www.white-wolf-web.com/Assets/Images/Jpg/facebook/moi-facebook.jpg",
+					width: 800,
+					height: 600,
+					alt: "moi un jour quand je serais à la retraite",
+				},
+			],
+			locale: "fr-fr",
+			type: "website",
+		},
 	}
 };
 

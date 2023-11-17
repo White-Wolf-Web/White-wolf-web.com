@@ -43,7 +43,7 @@
         "title": "Next.js  ...  le futur ",
         "alt": "Un grand N en blanc sur fond Noir, logo de Next.js",
         "image": "/Assets/Images/Webp/blog/Next-mini.webp",
-        "description": "Explorez l'avenir du développement web avec Next.js, un framework React ...",
+        "description": "Explorez l'avenir du développement web avec Next.js, un framework React",
         "href":"/blog/next-js",
       "tooltip": "Le framework NEXT"
       }

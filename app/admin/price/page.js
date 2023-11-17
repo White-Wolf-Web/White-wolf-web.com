@@ -6,8 +6,26 @@ export const metadata = {
 	description: "Vous trouverez les fourchettes de prix pour tous les sites web proposés, ces tarifs sont là pour vous donnez une idée … Tout est négociable.",
   alternates: {
 		canonical: "https://www.white-wolf-web.com/admin/price",
-	}
-};
+	},
+  openGraph: {
+    title: "Les tarifs proposés pour tous les sites web",
+    description:
+      "Vous trouverez les fourchettes de prix pour tous les sites web proposés, ces tarifs sont là pour vous donnez une idée … Tout est négociable.",
+    url: "https://www.white-wolf-web.com/admin/price",
+    siteName: "API rest",
+    images: [
+      {
+        url: "https://www.white-wolf-web.com/Assets/Images/Jpg/facebook/moi-facebook.jpg",
+        width: 800,
+        height: 600,
+        alt: "moi un jour quand je serais à la retraite",
+      },
+    ],
+    locale: "fr-fr",
+    type: "website",
+  },
+}
+
 
 export default function Price() {
   return (
