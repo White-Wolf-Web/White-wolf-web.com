@@ -5,6 +5,23 @@ export const metadata = {
 	description: "Apprenez les clés pour créer un contenu attrayant pour Google et ses lecteurs en rédigeant des articles de qualité. Ils auront envie de vous lire.",
 	alternates: {
 		canonical: "https://www.white-wolf-web.com/articles/miscellaneous/contenu-et-redaction-votre-site-internet",
+		openGraph: {
+			title: "Contenu web: Les clés pour séduire Google et les lecteurs",
+			description:
+				"Apprenez les clés pour créer un contenu attrayant pour Google et ses lecteurs en rédigeant des articles de qualité. Ils auront envie de vous lire.",
+			url: "https://www.white-wolf-web.com/articles/miscellaneous/contenu-et-redaction-votre-site-internet",
+			siteName: "Contenu Web",
+			images: [
+				{
+					url: "https://www.white-wolf-web.com/Assets/Images/Jpg/facebook/moi-facebook.jpg",
+					width: 800,
+					height: 600,
+					alt: "moi un jour quand je serais à la retraite",
+				},
+			],
+			locale: "fr-fr",
+			type: "website",
+		},
 	}
 };
 

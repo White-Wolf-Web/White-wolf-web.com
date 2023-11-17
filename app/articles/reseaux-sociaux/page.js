@@ -10,7 +10,24 @@ export const metadata = {
 		"Les réseaux sociaux tels que Facebook, Instagram, Youtube … Ont une très grande importance, ils peuvent apporter une certaine plus-value pour votre site.",
 		alternates: {
 			canonical: "https://www.white-wolf-web.com/articles/reseaux-sociaux",
-		}
+		},
+		openGraph: {
+			title: "Facebook, Instagram, Youtube… Les réseaux sociaux et le SEO",
+			description:
+				"Les réseaux sociaux tels que Facebook, Instagram, Youtube … Ont une très grande importance, ils peuvent apporter une certaine plus-value pour votre site.",
+			url: "https://www.white-wolf-web.com/articles/reseaux-sociaux",
+			siteName: "Les réseaux sociaux et le SEO",
+			images: [
+				{
+					url: "https://www.white-wolf-web.com/Assets/Images/Jpg/facebook/moi-facebook.jpg",
+					width: 800,
+					height: 600,
+					alt: "moi un jour quand je serais à la retraite",
+				},
+			],
+			locale: "fr-fr",
+			type: "website",
+		},
 };
 
 export default function ReseauxSociaux() {

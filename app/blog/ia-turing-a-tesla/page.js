@@ -23,6 +23,23 @@ export const metadata = {
 		openGraph: {
 			url: "https://www.white-wolf-web.com/blog/ia-turing-a-tesla",
 	},
+	openGraph: {
+		title: "De Turing à Tesla: Le Chemin de l'Intelligence Artificielle",
+		description:
+			"De l'ordinateur universel de Turing aux voitures autonomes de Tesla, cet article explore les progrès étonnants de l'intelligence artificielle au fil des temps",
+		url: "https://www.white-wolf-web.com/blog/ia-turing-a-tesla",
+		siteName: "Agence White Wolf Web",
+		images: [
+			{
+				url: "https://www.white-wolf-web.com/Assets/Images/Jpg/facebook/moi-facebook.jpg",
+				width: 800,
+				height: 600,
+				alt: "moi un jour quand je serais à la retraite",
+			},
+		],
+		locale: "fr-fr",
+		type: "website",
+	},
 };
 
 export default function IaTuringTesla() {

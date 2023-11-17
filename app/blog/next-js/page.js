@@ -14,15 +14,28 @@ import NextMini8 from "@/public/Assets/Images/Webp/blog/Next/Next-mini-8.webp";
 import NextMini9 from "@/public/Assets/Images/Webp/blog/Next/Next-mini-9.webp";
 
 export const metadata = {
-	title: "Comment Next.js Révolutionne le Développement Web Front-End",
+	title: "Comment Next.js révolutionne le développement web front-end",
 	description:
-		"Explorez Next.js, le framework de développement web en React, peut simplifier votre processus de développement et améliorer les performances de votre application",
+		"Explorez Next.js, le framework de développement web React, peut simplifier votre processus de développement et améliorer les performances de votre application",
 	alternates: {
 		canonical: "https://www.white-wolf-web.com/blog/next-js",
-	},
-	openGraph: {
+	},openGraph: {
+		title: "Comment Next.js Révolutionne le Développement Web Front-End",
+		description:
+			"Explorez Next.js, le framework de développement web React, peut simplifier votre processus de développement et améliorer les performances de votre application",
 		url: "https://www.white-wolf-web.com/blog/next-js",
-},
+		siteName: "Agence White Wolf Web",
+		images: [
+			{
+				url: "https://www.white-wolf-web.com/Assets/Images/Jpg/facebook/moi-facebook.jpg",
+				width: 800,
+				height: 600,
+				alt: "moi un jour quand je serais à la retraite",
+			},
+		],
+		locale: "fr-fr",
+		type: "website",
+	},
 };
 
 export default function Nextjspage() {

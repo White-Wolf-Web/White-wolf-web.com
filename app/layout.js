@@ -50,7 +50,7 @@ export const metadata = {
 		siteName: "Agence White Wolf Web",
 		images: [
 			{
-				url: "https://www.white-wolf-web.com/public/Assets/Images/Jpg/facebook/moi-facebook.jpg",
+				url: "https://www.white-wolf-web.com/Assets/Images/Jpg/facebook/moi-facebook.jpg",
 				width: 800,
 				height: 600,
 				alt: "moi un jour quand je serais à la retraite",

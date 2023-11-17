@@ -16,8 +16,23 @@ export const metadata = {
 		"Vous êtes curieux de savoir ce qui différencie ChatGPT-4 des autres modèles d'IA ? Cet article couvre les technologies sous-jacentes aux implications éthiques.",
 		alternates: {
 			canonical: "https://www.white-wolf-web.com/blog/chat-gpt4",
-		}, openGraph: {
-			url: "https://www.white-wolf-web.com/blog/chat-gpt4",
+		},
+	openGraph: {
+		title: "Comment ChatGPT-4 Révolutionne l'Intelligence Artificielle",
+		description:
+			"Vous êtes curieux de savoir ce qui différencie ChatGPT-4 des autres modèles d'IA ? Cet article couvre les technologies sous-jacentes aux implications éthiques.",
+		url: "https://www.white-wolf-web.com/blog/chat-gpt4",
+		siteName: "Agence White Wolf Web",
+		images: [
+			{
+				url: "https://www.white-wolf-web.com/Assets/Images/Jpg/facebook/moi-facebook.jpg",
+				width: 800,
+				height: 600,
+				alt: "moi un jour quand je serais à la retraite",
+			},
+		],
+		locale: "fr-fr",
+		type: "website",
 	},
 };
 

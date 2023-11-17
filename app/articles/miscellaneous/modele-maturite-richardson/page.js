@@ -6,7 +6,24 @@ export const metadata = {
 		"Une des conceptions d'API les plus populaires est l'API REST. Je vous explique comment elle peut être évaluée en utilisant le modèle de maturité de Richardson",
 		alternates: {
 			canonical:  "https://www.white-wolf-web.com/articles/miscellaneous/modele-maturite-richardson",
-		}
+		},
+		openGraph: {
+			title: "Comprendre le modèle de maturité de Richardson pour API REST",
+			description:
+				"Une des conceptions d'API les plus populaires est l'API REST. Je vous explique comment elle peut être évaluée en utilisant le modèle de maturité de Richardson",
+			url: "https://www.white-wolf-web.com/articles/miscellaneous/modele-maturite-richardson",
+			siteName: "modèle de maturité de Richardson pour API REST",
+			images: [
+				{
+					url: "https://www.white-wolf-web.com/Assets/Images/Jpg/facebook/moi-facebook.jpg",
+					width: 800,
+					height: 600,
+					alt: "moi un jour quand je serais à la retraite",
+				},
+			],
+			locale: "fr-fr",
+			type: "website",
+		},
 };
 
 export default function ModeleMaturiteRichardson() {

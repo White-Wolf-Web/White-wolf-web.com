@@ -20,9 +20,24 @@ export const metadata = {
 	description:
 		"Vous souhaitez créer un site web professionnel ? Ce guide complet vous fournira les ressources nécessaires afin de réussir votre projet de création de site web",
 	alternates: { canonical: "https://www.white-wolf-web.com/articles/creation-site-web" },
+
 	openGraph: {
+		title: "Guide complet sur la création de site web professionnel",
+		description:
+			"Vous souhaitez créer un site web professionnel ? Ce guide complet vous fournira les ressources nécessaires afin de réussir votre projet de création de site web",
 		url: "https://www.white-wolf-web.com/articles/creation-site-web",
-},
+		siteName: "Agence White Wolf Web",
+		images: [
+			{
+				url: "https://www.white-wolf-web.com/Assets/Images/Jpg/facebook/moi-facebook.jpg",
+				width: 800,
+				height: 600,
+				alt: "moi un jour quand je serais à la retraite",
+			},
+		],
+		locale: "fr-fr",
+		type: "website",
+	},
 };
 
 export default function CreationSiteWeb() {

@@ -43,7 +43,24 @@ export const metadata = {
 	description: "Vous retrouverez ici certaines de mes œuvres web, en format responsive. Ce sont des projets internet qui ont répondu à toutes les attentes du client",
 	alternates: {
 		canonical: "https://www.white-wolf-web.com/portfolio"
-	}
+	},
+	openGraph: {
+		title: "Mon Portfolio avec certaines de mes réalisations de sites web",
+		description:
+			"Vous retrouverez ici certaines de mes œuvres web, en format responsive. Ce sont des projets internet qui ont répondu à toutes les attentes du client",
+		url: "https://www.white-wolf-web.com/portfolio",
+		siteName: "Agence White Wolf Web",
+		images: [
+			{
+				url: "https://www.white-wolf-web.com/Assets/Images/Jpg/facebook/moi-facebook.jpg",
+				width: 800,
+				height: 600,
+				alt: "moi un jour quand je serais à la retraite",
+			},
+		],
+		locale: "fr-fr",
+		type: "website",
+	},
 };
 
 export default function portfolio() {

@@ -3,13 +3,26 @@ import styles from "@/app/page.module.css";
 export const metadata = {
 	title: "Accessibilité: Un web accessible à tous grâce à WAI-ARIA 🌐",
 	description:
-		"VNous mettons un point d’honneur à concevoir des sites web accessibles, conformes aux normes WAI-ARIA, pour offrir une meilleure expérience en ligne à tous.",
+		"Nous mettons un point d’honneur à concevoir des sites web accessibles, conformes aux normes WAI-ARIA, pour offrir une meilleure expérience en ligne à tous.",
 		alternates: {
 			canonical: "https://www.white-wolf-web.com/articles/miscellaneous/accessibilite",
-		}, 
-		openGraph: {
+		}, openGraph: {
+			title: "Accessibilité: Un web accessible à tous grâce à WAI-ARIA 🌐",
+			description:
+				"Nous mettons un point d’honneur à concevoir des sites web accessibles, conformes aux normes WAI-ARIA, pour offrir une meilleure expérience en ligne à tous.",
 			url: "https://www.white-wolf-web.com/articles/miscellaneous/accessibilite",
-	},
+			siteName: "Agence White Wolf Web",
+			images: [
+				{
+					url: "https://www.white-wolf-web.com/Assets/Images/Jpg/facebook/moi-facebook.jpg",
+					width: 800,
+					height: 600,
+					alt: "moi un jour quand je serais à la retraite",
+				},
+			],
+			locale: "fr-fr",
+			type: "website",
+		},
 };
 
 export default function Accessibility() {

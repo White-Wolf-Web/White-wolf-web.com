@@ -5,7 +5,24 @@ export const metadata = {
 	description: "White Wolf Web propose un service de formation et d’accompagnement pour vous aider au niveau de votre marketing digital, SEO, votre présence en ligne...",
 	alternates: {
 		canonical:  "https://www.white-wolf-web.com/articles/miscellaneous/formation-accompagnement",
-	}
+	},
+	openGraph: {
+		title: "Marketing, SEO, formation et accompagnement",
+		description:
+			"White Wolf Web propose un service de formation et d’accompagnement pour vous aider au niveau de votre marketing digital, SEO, votre présence en ligne...",
+		url: "https://www.white-wolf-web.com/articles/miscellaneous/formation-accompagnement",
+		siteName: "Agence White Wolf Web",
+		images: [
+			{
+				url: "https://www.white-wolf-web.com/Assets/Images/Jpg/facebook/moi-facebook.jpg",
+				width: 800,
+				height: 600,
+				alt: "moi un jour quand je serais à la retraite",
+			},
+		],
+		locale: "fr-fr",
+		type: "website",
+	},
 };
 
 export default function TrainingAndSupport() {

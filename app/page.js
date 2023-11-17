@@ -10,7 +10,7 @@ import MetadataHomePage from "@/components/Metadata/MetadataHomePage";
 import { Metadata } from "next";
 
 export const metadata = {
-	title: "Creation de site internet | référencement SEO 💻",
+	title: "Creation de site internet - référencement SEO 💻",
 	description:
 		"Agence Web innovante: création de site web, internet, design, référencement naturel SEO et marketing digital afin de propulser votre succès en ligne!🚀💻",
 	alternates: {

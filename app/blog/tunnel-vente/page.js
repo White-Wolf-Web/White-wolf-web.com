@@ -15,6 +15,23 @@ export const metadata = {
 	description:
 		"Découvrez comment un tunnel de vente bien conçu peut transformer des prospects en clients fidèles. Nous vous guidons étape par étape à travers le processus.",
 	alternates: { canonical: "https://www.white-wolf-web.com/blog/tunnel-vente" },
+	openGraph: {
+		title: "Décryptage des Tunnels de Vente, votre Stratégie Marketing",
+		description:
+			"Découvrez comment un tunnel de vente bien conçu peut transformer des prospects en clients fidèles. Nous vous guidons étape par étape à travers le processus.",
+		url: "https://www.white-wolf-web.com/blog/tunnel-vente",
+		siteName: "Agence White Wolf Web",
+		images: [
+			{
+				url: "https://www.white-wolf-web.com/Assets/Images/Jpg/facebook/moi-facebook.jpg",
+				width: 800,
+				height: 600,
+				alt: "moi un jour quand je serais à la retraite",
+			},
+		],
+		locale: "fr-fr",
+		type: "website",
+	},
 };
 
 export default function TunneldeVente() {

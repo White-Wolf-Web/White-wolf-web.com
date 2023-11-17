@@ -16,8 +16,23 @@ export const metadata = {
 	description: "Maîtrisez l'API RESTful Fetch avec notre guide. Apprenez comment faire des requêtes HTTP (POST, GET, DELETE, PUT & PATCH) asynchrones comme un pro !",
 	alternates: {
 		canonical: "https://www.white-wolf-web.com/blog/api-restful"
-	}, openGraph: {
-		url: "https://www.white-wolf-web.com/blog/api-restful",
+	},
+openGraph: {
+	title: "API RESTful Fetch Démystifiée: Tutoriel et Bonnes Pratiques",
+	description:
+		"Maîtrisez l'API RESTful Fetch avec notre guide. Apprenez comment faire des requêtes HTTP (POST, GET, DELETE, PUT & PATCH) asynchrones comme un pro",
+	url: "https://www.white-wolf-web.com/blog/api-restful",
+	siteName: "API rest",
+	images: [
+		{
+			url: "https://www.white-wolf-web.com/Assets/Images/Jpg/facebook/moi-facebook.jpg",
+			width: 800,
+			height: 600,
+			alt: "moi un jour quand je serais à la retraite",
+		},
+	],
+	locale: "fr-fr",
+	type: "website",
 },
 };
 

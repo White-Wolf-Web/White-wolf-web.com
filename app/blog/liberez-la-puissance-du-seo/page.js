@@ -14,14 +14,31 @@ import SEOMini8 from "@/public/Assets/Images/Webp/blog/Seo/SEO-mini-8.webp";
 import SEOMini9 from "@/public/Assets/Images/Webp/blog/Seo/SEO-mini-9.webp";
 
 export const metadata = {
-	title: "Comment le SEO Peut Transformer la Visibilité de Votre Site Web",
+	title: "Comment le SEO Transforme la Visibilité de Votre Site Web",
 	description:
 		"Améliorer la visibilité de votre site web en ciblant le choix des mots-clés à l'optimisation des balises méta, découvrez comment attirer plus de trafic",
 		alternates: {
 			canonical: "https://www.white-wolf-web.com/blog/liberez-la-puissance-du-seo",
 		},
 		openGraph: {
+			title: "Comment le SEO Transforme la Visibilité de Votre Site Web",
+			description:
+				"Améliorer la visibilité de votre site web en ciblant le choix des mots-clés à l'optimisation des balises méta, découvrez comment attirer plus de trafic",
 			url: "https://www.white-wolf-web.com/blog/liberez-la-puissance-du-seo",
+			siteName: "Agence White Wolf Web",
+			images: [
+				{
+					url: "https://www.white-wolf-web.com/Assets/Images/Jpg/facebook/moi-facebook.jpg",
+					width: 800,
+					height: 600,
+					alt: "moi un jour quand je serais à la retraite",
+				},
+			],
+			locale: "fr-fr",
+			type: "website",
+		},
+		openGraph: {
+			url: "",
 	},
 };
 

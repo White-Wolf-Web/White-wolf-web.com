@@ -1,14 +1,28 @@
 import styles from "@/app/page.module.css";
 
 export const metadata = {
-	title: "Analyse, Audit et Performance: les 🔑 pour l’optimisation",
+	title: "Analyse, Audit et Performance: les clés pour l’optimisation",
 	description:
 		"L'analyse et la performance (un audit) d'un site web vont permettre d’optimiser votre présence en ligne et maximiser le retour sur votre investissement.",
-		alternates: {
-			canonical: "https://www.white-wolf-web.com/articles/miscellaneous/analyse-audit-performance-votre-site-web",
-		},
-		openGraph: {
-			url: "https://www.white-wolf-web.com/articles/miscellaneous/analyse-audit-performance-votre-site-web",
+	alternates: {
+		canonical: "https://www.white-wolf-web.com/articles/miscellaneous/analyse-audit-performance-votre-site-web",
+	},
+	openGraph: {
+		title: "Analyse, Audit et Performance: les 🔑 pour l’optimisation",
+		description:
+			"L'analyse et la performance (un audit) d'un site web vont permettre d’optimiser votre présence en ligne et maximiser le retour sur votre investissement",
+		url: "https://www.white-wolf-web.com/articles/miscellaneous/analyse-audit-performance-votre-site-web",
+		siteName: "Agence White Wolf Web",
+		images: [
+			{
+				url: "https://www.white-wolf-web.com/Assets/Images/Jpg/facebook/moi-facebook.jpg",
+				width: 800,
+				height: 600,
+				alt: "moi un jour quand je serais à la retraite",
+			},
+		],
+		locale: "fr-fr",
+		type: "website",
 	},
 };
 

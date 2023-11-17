@@ -13,7 +13,24 @@ export const metadata = {
 	canonical: "https://www.white-wolf-web.com/articles/referencement-seo-google",
 	}, 
 	openGraph: {
-			url: "https://www.white-wolf-web.com/articles/referencement-seo-google",
+		title: "Référencement SEO: Votre site en tête des recherches Google🥇",
+		description:
+			"L'importance d'un référencement naturel efficace pour assurer le succès de votre projet. Le SEO permet de gagner en visibilité sur les moteurs de recherche",
+		url: "https://www.white-wolf-web.com/articles/referencement-seo-google",
+		siteName: "Référencement Naturel - SEO ",
+		images: [
+			{
+				url: "https://www.white-wolf-web.com/Assets/Images/Jpg/facebook/moi-facebook.jpg",
+				width: 800,
+				height: 600,
+				alt: "moi un jour quand je serais à la retraite",
+			},
+		],
+		locale: "fr-fr",
+		type: "website",
+	},
+	openGraph: {
+			url: "",
 	},
 };
 
