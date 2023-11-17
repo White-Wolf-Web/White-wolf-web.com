@@ -2,7 +2,7 @@ import styles from "./Blog.module.css";
 import Link from "next/link";
 import Image from "next/image";
 
-export default function CardBlog({ title, image, description, alt, href, text }) {
+export default function CardBlog({ title, image, description, alt, href, text, tooltip }) {
 	return (
 		<div className={styles.cardBlogContainer}>
 			<Link href={href}>
@@ -10,7 +10,7 @@ export default function CardBlog({ title, image, description, alt, href, text })
 				<h3 className={styles.cardBlogTitleH3}>{description}</h3>
 				<div className={styles.cardBlogImgAndText} >
 				<div className={styles.cardBlogImage} >
-				<Image src={image} alt={alt}  quality={100} sizes="100vw" className={styles.cardBlogImageResponsive}  layout="responsive" width={400} height={231} /></div>
+				<Image src={image} alt={alt}  quality={100} sizes="100vw" className={styles.cardBlogImageResponsive}  layout="responsive" width={400} height={231} title={tooltip} /></div>
 			<div className={styles.cardBlogTextAndButton} >	<p className={styles.cardBlogText}>{text}</p>
 				<button className={styles.cardBlogBtn}>Voir en Détail</button></div></div>
 			</Link>

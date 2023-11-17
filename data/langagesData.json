@@ -6,7 +6,8 @@
 		"description": "HTML5 est la structure de base de toute création site web. C'est un langage de balisage qui permet de créer des pages web statiques. C'est le standard de l'industrie, donc tout navigateur web est capable de l'interpréter.",
 		"backgroundColor": "#E34F26",
 		"color": "black",
-		"href": "/articles/languages/html5"
+		"href": "/articles/languages/html5",
+		"imgTitle": "Le logo HTML"
 	},
 	{
 		"title": "CSS3",
@@ -15,7 +16,8 @@
 		"description": "CSS3 c'est la mise en page. Il permet de contrôler l'apparence des pages (couleurs, tailles, polices, espacements, etc.) afin de rendre un site web plus attrayant, plus fluide, plus responsive.",
 		"backgroundColor": "#1984D1",
 		"color": "black",
-		"href": "/articles/languages/css3"
+		"href": "/articles/languages/css3",
+		"imgTitle": "Le logo CSS"
 	},
 	{
 		"title": "JavaScript",
@@ -24,7 +26,8 @@
 		"description": "Javascript est un langage de programmation qui permet la création de sites interactifs. Il est exécuté coté client (dans le navigateur) et permet d'ajouter des fonctionnalités dynamiques à un site web statique.",
 		"backgroundColor": "#F7DF1E",
 		"color": "black",
-		"href": "/articles/languages/javascript"
+		"href": "/articles/languages/javascript",
+		"imgTitle": "Le logo de JavaScript"
 	},
 	{
 		"title": "React",
@@ -33,7 +36,8 @@
 		"description": "React est une bibliothèque JavaScript crée et utilisé par Facebook (et donc Instagram) qui facilite la création d'interfaces utilisateur interactives. Il permet une mise à jour et un rendu efficaces des composants.",
 		"backgroundColor": "#61DAFB",
 		"color": "black",
-		"href": "/articles/languages/react"
+		"href": "/articles/languages/react",
+		"imgTitle": "Le logo de React (facebook)"
 	},
 	{
 		"title": "Next.js",
@@ -42,7 +46,8 @@
 		"description": "Next.js est un framework React qui fournit de nombreuses fonctionnalités supplémentaires comme le rendu côté serveur et la génération de sites statiques. Il améliore les performances de votre site. C’est l’avenir.",
 		"backgroundColor": "black",
 		"color": "white",
-		"href": "/articles/languages/next"
+		"href": "/articles/languages/next",
+		"imgTitle": "Le logo de Next (vercel)"
 	},
 	{
 		"title": "Bootstrap",
@@ -51,6 +56,7 @@
 		"description": "Bootstrap est un framework CSS qui facilite la création de designs responsifs. Il comprend une multitude de composants réutilisables dans la navigation, les modales, qui facilitent la mise en page d'un site web.",
 		"backgroundColor": "#9364D9",
 		"color": "black",
-		"href": "/articles/languages/bootstrap"
+		"href": "/articles/languages/bootstrap",
+		"imgTitle": "Le logo de BootStrap"
 	}
 ]

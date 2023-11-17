@@ -2,12 +2,12 @@ import styles from "./Card.module.css";
 import Image from "next/image";
 import LangageData from "../../data/langagesData.json";
 
-function CardLangage({ title, alt, image, description, color, backgroundColor }) {
+function CardLangage({ title, alt, image, description, color, backgroundColor, imgTitle }) {
 	return (
 		<div className={styles.langageCardWrap}>
 			
 				<div className={styles.langageCardHeader}>
-					<Image src={image} alt={alt} width={50} height={50} />
+					<Image src={image} alt={alt} width={50} height={50} title={imgTitle}/>
 				</div>
 				<div className={styles.langageCardContent}>
 					<h3 className={styles.langageCardTitle}>{title}</h3>
