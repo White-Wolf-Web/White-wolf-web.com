@@ -29,9 +29,6 @@ export const metadata = {
 		locale: "fr-fr",
 		type: "website",
 	},
-	openGraph: {
-			url: "",
-	},
 };
 
 export default function ReferencementSEO() {

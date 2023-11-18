@@ -5,7 +5,7 @@ import styles from "@/app/page.module.css";
 import BlogCardData from "@/data/blogCardData";
 import CardBlog from "@/components/Blog/CardBlog";
 import MetadataBlog from "@/components/Metadata/MetadataBlog";
-import { Metadata } from "next";
+// import { Metadata } from "next";
 
 export const metadata = {
 	title: "Articles et Guides Experts sur le Développement Web, SEO",

@@ -1,4 +1,4 @@
-import Image from "next/image";
+// import Image from "next/image";
 import styles from "./page.module.css";
 import Link from "next/link";
 import GreenLine from "@/utils/greenLine";
@@ -7,7 +7,7 @@ import SeeOtherButton from "@/utils/seeOtherButton";
 import { ContainerBigCardHomePage } from "@/components/Cards/ContainerBigCardHomePage";
 import ContainerBlog from "@/components/Blog/ContainerBlog";
 import MetadataHomePage from "@/components/Metadata/MetadataHomePage";
-import { Metadata } from "next";
+// import { Metadata } from "next";
 
 export const metadata = {
 	title: "Creation de site internet - référencement SEO 💻",

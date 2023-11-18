@@ -6,7 +6,25 @@ export const metadata = {
 		"Vous retrouverez ici les conditions générales du site web whitewolfweb.com, la SRL white wolf Web dépend des tribunaux de Bruxelles.",
 		alternates: {
 			canonical: "https://www.white-wolf-web.com/admin/conditions-generales",
+			openGraph: {
+				title: "Conditions générales du site de l'agence internet 'white wolf web'",
+				description:
+					"Vous retrouverez ici les conditions générales du site web whitewolfweb.com, la SRL white wolf Web dépend des tribunaux de Bruxelles.",
+				url: "https://www.white-wolf-web.com/admin/conditions-generales",
+				siteName: "Contenu Web",
+				images: [
+					{
+						url: "https://www.white-wolf-web.com/Assets/Images/Jpg/facebook/moi-facebook.jpg",
+						width: 800,
+						height: 600,
+						alt: "moi un jour quand je serais à la retraite",
+					},
+				],
+				locale: "fr-fr",
+				type: "website",
+			},
 		}
+		
 };
 
 
