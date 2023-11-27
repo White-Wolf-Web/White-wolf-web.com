@@ -11,14 +11,13 @@ import Footer from "@/components/Footer/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-	title: "Agence experte en création de sites web 💻 - SEO",
+	title: "Agence experte en création de sites web - SEO",
 	description:
 		"Agence Web innovante: création de site web, e-commerce, design, accessibilité, référencement SEO et marketing digital afin de propulser votre succès en ligne!🚀💻",
 	referrer: "origin-when-cross-origin",
-	authors: "Stephane Gamot",
+	authors: "Stephane Gamot", 
 	colorScheme: "dark",
-	themeColor: 'black',
-	metadataBase: new URL('https://www.white-wolf-web.com'),
+	themeColor: "black",
 	robots: {
 		index: true,
 		follow: true,
@@ -33,8 +32,7 @@ export const metadata = {
 	},
 	viewport: {
 		width: "device-width",
-		initialScale: 1
-		
+		initialScale: 1,
 	},
 	manifest: "/manifest.json",
 	icons: {
@@ -43,11 +41,11 @@ export const metadata = {
 	},
 
 	openGraph: {
-		title: "White Wolf Web - Agence experte en création de sites web 💻 - SEO",
+		title: "Agence experte en création de sites web - SEO",
 		description:
 			"Agence Web innovante: création de site web, e-commerce, design, accessibilité, référencement SEO et marketing digital afin de propulser votre succès en ligne!🚀💻",
 		url: "https://www.white-wolf-web.com",
-		siteName: "Agence White Wolf Web",
+		siteName: "Création site web & SEO",
 		images: [
 			{
 				url: "https://www.white-wolf-web.com/Assets/Images/Jpg/facebook/moi-facebook.jpg",
@@ -63,12 +61,12 @@ export const metadata = {
 	twitter: {
 		card: "summary_large_image",
 		title: "Agence Web innovante: création de sites web, e-commerce pour propulser votre succès en ligne!🚀",
-		description: "White Wolf Web, c'est l'alliance du design attrayant et des fonctionnalités optimales pour créer des sites web performants et élégants.",
+		description: "C'est l'alliance du design attrayant et des fonctionnalités optimales pour créer des sites web performants et élégants.",
 		siteId: "@whitewo26072430",
 		site: "Agence White Wolf Web",
 		creator: "@whitewo26072430",
 		images: ["https://twitter.com/whitewo26072430/header_photo"],
-		imageAlt:"Moi derriere mon PC"
+		imageAlt: "Moi derriere mon PC",
 	},
 	verification: {
 		google: "google",
@@ -79,11 +77,10 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
-	
 	return (
 		<html lang="fr">
 			<body className={inter.className}>
-			{/*<GoogleAnalytics GA_MEASUREMENT_ID={process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID} />*/}
+				{/*<GoogleAnalytics GA_MEASUREMENT_ID={process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID} />*/}
 				<Header />
 				<main> {children}</main>
 				<Footer />
