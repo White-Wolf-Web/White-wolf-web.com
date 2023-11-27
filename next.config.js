@@ -18,6 +18,10 @@ module.exports = {
 				source: "/reseaux-sociaux/snapchat",
 				destination: "/articles/reseaux-sociaux#snapchat",
 				permanent: true,
+			},{
+				source: "/articles/reseaux-sociaux/snapchat",
+				destination: "/articles/reseaux-sociaux#snapchat",
+				permanent: true,
 			},
 			{
 				source: "/articles/contenu-et-redaction-votre-site-internet",
