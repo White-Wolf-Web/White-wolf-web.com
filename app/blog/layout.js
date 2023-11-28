@@ -1,5 +1,4 @@
-import React from 'react'
-import Link from 'next/link'
+//import Link from 'next/link'
 import Image from 'next/image';
 import styles from "@/app/page.module.css"
 import starIcon from "@/public/Assets/Icons/star-icon.webp";
