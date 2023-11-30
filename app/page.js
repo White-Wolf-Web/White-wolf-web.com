@@ -10,9 +10,9 @@ import MetadataHomePage from "@/components/Metadata/MetadataHomePage";
 // import { Metadata } from "next";
 
 export const metadata = {
-	title: "Creation de site internet - référencement SEO 💻",
+	title: "Création de site internet - référencement SEO 💻",
 	description:
-		"Agence Web innovante: création de site web, internet, design, référencement naturel SEO et marketing digital afin de propulser votre succès en ligne!🚀💻",
+		"Agence Web innovante: création de site internet - web, design, référencement naturel SEO et marketing digital afin de propulser votre succès en ligne!🚀💻",
 	alternates: {
 		canonical: "https://www.white-wolf-web.com/",
 	},
@@ -21,7 +21,7 @@ export default function Home() {
 	return (
 		<>
 			<div className={styles.bienvenueContent}>
-				<h1>Expert en création de site internet & SEO</h1>
+				<h1>Expert en création de site internet & SEO - référencement naturel</h1>
 				<p>
 					Bienvenue chez White Wolf Web, l&apos;<strong>agence web</strong> innovante qui vous accompagne dans la{" "}
 					<Link href="/articles/creation-site-web" className={styles.internalLink}>
