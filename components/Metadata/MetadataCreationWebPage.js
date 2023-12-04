@@ -3,7 +3,7 @@ const MetadataCreationWebPage = {
   "context": "https://schema.org",
   "@type": "Service",
   "name": "White Wolf Web",
-  "url": "https://www.white-wolf-web.com/",
+  "url": "https://www.white-wolf-web.com/articles/creation-site-web",
   "logo": "https://www.white-wolf-web.com/Assets/Favicons/icon-512x512.png",
   "image": [
     "https://www.white-wolf-web.com/Assets/Images/Webp/creation-site/creation-site-web-1-XL.webp",

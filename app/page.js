@@ -39,14 +39,18 @@ export default function Home() {
 					<Link href="/articles/referencement-seo-google" className={styles.internalLink}>
 						référencement naturel - SEO
 					</Link>{" "}
-					(optimisation des moteurs de recherche tel que Google) ainsi que le marketing digital afin de propulser votre succès en ligne ! 🚀💻{" "}
+					(optimisation des moteurs de recherche tel que Google) ainsi que le <Link href="/articles/reseaux-sociaux" className={styles.internalLink}>
+					marketing digital
+					</Link> afin de propulser votre succès en ligne ! 🚀💻{" "}
 				</p>
 				<p>
 					Chaque projet internet est unique et mérite une attention particulière. Wild Wolf Web est là pour guider & aider à développer votre entreprise sur le
 					web, en offrant des solutions personnalisées adaptées à vos besoins et à votre budget.
 				</p>
 				<p>
-					La refonte d&apos;un <strong>site web professionnel</strong> n&apos;est pas seulement une question de changement de web-design, elle contribue
+					La refonte d&apos;un <strong>site web professionnel</strong> n&apos;est pas seulement une question de changement de <Link href="/articles/web-design" className={styles.internalLink}>
+					web-design
+					</Link>, elle contribue
 					également d&apos;optimiser l&apos;utilisation des mots-clés & des <strong>techniques SEO</strong> qui permette d&apos;améliorer le{" "}
 					<strong>référencement naturel</strong>, en particulier si vous prévoyez de créer une <strong>boutique en ligne</strong>.
 				</p>
