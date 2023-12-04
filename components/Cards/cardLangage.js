@@ -24,7 +24,7 @@ function CardLangage({ title, alt, image, description, color, backgroundColor, i
 export function LangageCards() {
 	return (
 		<div>
-			<h2 className={styles.cardHomeH2MarginTop}>Les langages web et Framework utilisés</h2>
+			<h2 className={styles.cardHomeH2MarginTop}>Maîtrise des Langages Web et Frameworks pour des Sites Performants</h2>
 			<div className={styles.langageContainerCard}>
 				{LangageData.map((langage, index) => {
 					return <CardLangage key={index} {...langage} />;

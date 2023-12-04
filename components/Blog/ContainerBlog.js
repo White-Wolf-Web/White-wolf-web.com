@@ -20,7 +20,7 @@ export default function ContainerBlog () {
 
   return (
     <section id="blogLast" className={style.blogSection}>
-      <h3 className={style.cardHomeH2Blog}>Le blog</h3>
+      <h3 className={style.cardHomeH2Blog}>Blog : Astuces et Tendances du Web</h3>
       <div className={style.blogContainer}>
         {blogsData.slice(0, numBlogsToShow).map((article, index) => (
           <CardArticles key={index} title={article.title} image={article.image} alt={article.alt} description={article.description} href={article.href} />

@@ -36,7 +36,7 @@ export default function ReferencementSEO() {
 	return (
 		<div className={styles.container}>
 			<main className={styles.main}>
-				<h1 className={styles.title}>Un guide complet sur le référencement naturel - SEO :</h1>
+				<h1 className={styles.title}>Optimisation SEO pour une Visibilité Maximale en Ligne</h1>
 				<Image
 					src={referencementSeo1}
 					alt="SEO en lettres d'or sur un mur noir"

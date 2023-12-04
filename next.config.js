@@ -69,6 +69,11 @@ module.exports = {
 				permanent: true,
 			},
 			{
+				source: "/trainingAndSupport",
+				destination: "/articles/miscellaneous/formation-accompagnement",
+				permanent: true,
+			},
+			{
 				source: "/cybersecurite",
 				destination: "/",
 				permanent: true,
@@ -121,6 +126,33 @@ module.exports = {
 			{
 				source: "/articles/analyse-audit-performance-votre-site-web",
 				destination: "/articles/miscellaneous/analyse-audit-performance-votre-site-web",
+				permanent: true,
+			},{
+				source: "/optimisationSEO",
+				destination: "/articles/referencement-seo-google",
+				permanent: true,
+			},
+
+
+			{
+				source: "/createWebsite",
+				destination: "/articles/creation-site-web",
+				permanent: true,
+			},{
+				source: "/cyberSecurity",
+				destination: "/articles/referencement-seo-google",
+				permanent: true,
+			},{
+				source: "/contenuAndRedaction",
+				destination: "/articles/miscellaneous/contenu-et-redaction-votre-site-internet",
+				permanent: true,
+			},{
+				source: "/ecommerce",
+				destination: "/articles/creation-site-web#site-Ecommerce",
+				permanent: true,
+			},{
+				source: "/emailMarketingAutomatisation",
+				destination: "/articles/miscellaneous/contenu-et-redaction-votre-site-internet",
 				permanent: true,
 			},
 		];

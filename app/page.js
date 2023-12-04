@@ -10,7 +10,7 @@ import MetadataHomePage from "@/components/Metadata/MetadataHomePage";
 // import { Metadata } from "next";
 
 export const metadata = {
-	title: "Création de site internet - référencement SEO 💻",
+	title: "Création Site Web et SEO par White Wolf Web | Agence Web Belgique",
 	description:
 		"Agence Web innovante: création de site internet - web, design, référencement naturel SEO et marketing digital afin de propulser votre succès en ligne!🚀💻",
 	alternates: {
@@ -21,7 +21,7 @@ export default function Home() {
 	return (
 		<>
 			<div className={styles.bienvenueContent}>
-				<h1>Expert en création de site internet & SEO - référencement naturel</h1>
+				<h1>Expert en création de site internet & SEO - référencement naturel en Belgique</h1>
 				<p>
 					Bienvenue chez White Wolf Web, l&apos;<strong>agence web</strong> innovante qui vous accompagne dans la{" "}
 					<Link href="/articles/creation-site-web" className={styles.internalLink}>
@@ -77,7 +77,7 @@ export default function Home() {
 			</div>
 
 			<section className={styles.sectionHomePage}>
-				<h2 className={styles.homeH2MarginTop}>La création de site internet professionnel</h2>
+				<h2 className={styles.homeH2MarginTop}>Conception Professionnelle de Sites Web : Qualité et Performance</h2>
 				<p>
 					<strong>Notre agence web</strong> est situé en <strong>Belgique</strong>, au sud de <strong>Bruxelles</strong>. Le but est de vous guider dans la
 					jungle du <strong>web</strong>-design et l&apos;univers du web développeur, afin de transformer votre vision d’un{" "}
@@ -148,7 +148,7 @@ export default function Home() {
 				<LangageCards />
 			</div>
 			<section className={styles.sectionHomePage}>
-				<h2 className={styles.homeH2MarginTop}>Les coûts de création d&apos;un site internet</h2>
+				<h2 className={styles.homeH2MarginTop}>Comprendre les Coûts : Investir dans un Site Web de Qualité</h2>
 				<p>
 					À l&apos;ère du numérique, disposer d&apos;un <strong>site web</strong> est essentiel pour toute entreprise ou tout particulier désireux
 					d&apos;établir une{" "}
@@ -171,7 +171,7 @@ export default function Home() {
 			</section>
 
 			<section className={styles.conclusionHomePage}>
-				<h2 className={styles.homeH2}>Notre mission est de fournir un site web d&apos;excellence</h2>
+				<h2 className={styles.homeH2}>Notre Engagement : Excellence et Innovation dans la Création Web</h2>
 				<p>
 					La{" "}
 					<Link href="/articles/creation-site-web" className={styles.internalLink}>
