@@ -10,7 +10,7 @@ import MetadataHomePage from "@/components/Metadata/MetadataHomePage";
 // import { Metadata } from "next";
 
 export const metadata = {
-	title: "Création Site Web et SEO par White Wolf Web | Agence Web Belgique",
+	title: "Création Site internet Pro & référencement naturel - SEO",
 	description:
 		"Agence Web innovante: création de site internet - web, design, référencement naturel SEO et marketing digital afin de propulser votre succès en ligne!🚀💻",
 	alternates: {

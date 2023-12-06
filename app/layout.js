@@ -60,7 +60,7 @@ export const metadata = {
 				alt: "moi un jour quand je serais à la retraite",
 			},
 		],
-		locale: "fr-fr",
+		locale: "fr-be",
 		type: "website",
 	},
 
