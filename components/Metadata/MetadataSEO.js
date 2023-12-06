@@ -1,31 +1,36 @@
 const  MetadataSEO = {
-    
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "name": "White Wolf Web - SEO",
-        "url": "https://www.white-wolf-web.com/articles/referencement-seo-google",
-        "logo": "https://www.white-wolf-web.com/Assets/Favicons/icon-512x512.png",
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "name": "Guide complet sur la création le référencement naturel & professionnel - SEO",
+   "headline": "Les Étapes Essentielles pour optimiser le référencement naturel de votre site",
+   "url": "https://www.white-wolf-web.com/articles/referencement-seo-google",
+   "author": {
+    "@type": "Person",
+    "name": "Stéphane G",
+    "url": "https://www.white-wolf-web.com/" 
+  },
+         "description": "Agence Web spécialisée dans la création de sites web, le SEO et l'audit de sites basée en Belgique.",
+  "publisher": {
+    "@type": "Organization",
+    "name": "White Wolf Web",
+    "url": "https://www.white-wolf-web.com"
+  },
         "image": [
           "https://www.white-wolf-web.com/Assets/Images/Webp/seo/referencement-seo-1.webp",
           "https://www.white-wolf-web.com/Assets/Images/Webp/seo/referencement-seo-4.webp",
           "https://www.white-wolf-web.com/Assets/Images/Webp/seo/referencement-seo-6.webp"
         ],
-        "areaServed": ["Belgique", "France", "Luxembourg", "Suisse"],
-        "serviceArea": {
-          "@type": "AdministrativeArea",
-          "name": "Europe"
-        },
-        "description": "Agence Web spécialisée dans la création de sites web, le SEO et l'audit de sites basée en Belgique.",
         "sameAs": [
           "https://www.facebook.com/profile.php?id=100087896780441",
           "https://twitter.com/whitewo26072430"
         ],
-        "offers": {
-          "@type": "Offer",
-          "description": "Création de site web optimisé pour le SEO",
-          "priceCurrency": "Euro",
-          "lowPrice": "400",
-        }
-        }
+        "datePublished": "2023-07-01T10:00:00+02:00",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.white-wolf-web.com/articles/referencement-seo-google"
+        },
+        "articleSection": "Création de sites web"
+      };
+        
 
 export default MetadataSEO;
