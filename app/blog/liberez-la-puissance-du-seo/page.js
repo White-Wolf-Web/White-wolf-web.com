@@ -12,6 +12,7 @@ import SEOMini6 from "@/public/Assets/Images/Webp/blog/Seo/SEO-mini-6.webp";
 import SEOMini7 from "@/public/Assets/Images/Webp/blog/Seo/SEO-mini-7.webp";
 import SEOMini8 from "@/public/Assets/Images/Webp/blog/Seo/SEO-mini-8.webp";
 import SEOMini9 from "@/public/Assets/Images/Webp/blog/Seo/SEO-mini-9.webp";
+import MetadataSeoPower from "@/components/Metadata/MetadataSeoPower";
 
 export const metadata = {
 	title: "Comment le SEO Transforme la Visibilité de Votre Site Web",
@@ -189,6 +190,7 @@ export default function SEOPower() {
 					plus jamais le même.
 				</p>
 			</section>
+			<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(MetadataSeoPower) }} />
 		</div>
 	);
 }

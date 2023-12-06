@@ -1,21 +1,35 @@
 
 const MetadataSocialNetwork = {
-    "context": "https://schema.org",
-    "@type": "Service",
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "name": "Expertise sur les réseaux sociaux et référencement naturel SEO",
+   "headline": "Les Étapes Essentielles pour optimiser les réseaux sociaux pour le référencement de votre site",
+   "url": "https://www.white-wolf-web.com/articles/reseaux-sociaux",
+   "author": {
+    "@type": "Person",
+    "name": "Stéphane G",
+    "url": "https://www.white-wolf-web.com/" 
+  },
+         "description": "Agence Web spécialisée dans la création de sites web, le SEO et l'audit de sites basée en Belgique.",
+  "publisher": {
+    "@type": "Organization",
     "name": "White Wolf Web",
-    "url": "https://www.white-wolf-web.com/articles/reseaux-sociaux",
-    "logo": "https://www.white-wolf-web.com/Assets/Favicons/icon-512x512.png",
-    "areaServed": ["Belgique", "France", "Luxembourg", "Suisse"],
-    "serviceArea": {
-      "@type": "AdministrativeArea",
-      "name": "Europe"
-    },
-    "description": "Agence Web spécialisée dans la création de sites web, le SEO et l'audit de sites basée en Belgique.",
-    "sameAs": [
-      "https://www.facebook.com/profile.php?id=100087896780441",
-      "https://twitter.com/whitewo26072430"
-    ],
-    "offers" : "Création de site web optimisé pour le SEO"
-    }
+    "url": "https://www.white-wolf-web.com"
+  },
+        "image": [
+          "https://www.white-wolf-web.com/Assets/Images/Webp/reseaux-sociaux/mini-facebook.webp",
+          "https://www.white-wolf-web.com/Assets/Images/Webp/reseaux-sociaux/mini-pinterest.webp"
+        ],
+        "sameAs": [
+          "https://www.facebook.com/profile.php?id=100087896780441",
+          "https://twitter.com/whitewo26072430"
+        ],
+        "datePublished": "2023-07-01T10:00:00+02:00",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.white-wolf-web.com/articles/reseaux-sociaux"
+        },
+        "articleSection": "SEO et les réseaux sociaux"
+      };
   export default  MetadataSocialNetwork;
   

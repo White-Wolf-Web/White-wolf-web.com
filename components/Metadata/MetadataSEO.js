@@ -29,7 +29,7 @@ const  MetadataSEO = {
           "@type": "WebPage",
           "@id": "https://www.white-wolf-web.com/articles/referencement-seo-google"
         },
-        "articleSection": "Création de sites web"
+        "articleSection": "SEO et référencement de site web"
       };
         
 

@@ -1,25 +1,34 @@
 
 const MetadataBlogApiRest = {
-    "context": "https://schema.org",
-    "@type": "Article",
-    "headline": "API RESTful Fetch : Guide complet pour les développeurs web",
-    "description": "Un guide complet sur l'API RESTful Fetch, une technologie moderne pour récupérer les données des serveurs.",
-  
-    "url": "https://www.white-wolf-web.com/blog/api-restful",
-    "logo": "https://www.white-wolf-web.com/Assets/Favicons/icon-512x512.png",
-    "image": {
-        "@type": "ImageObject",
-        "url": "https://www.white-wolf-web.com/Assets/Images/Webp/blog/Api-restful-mini-2.webp",
-        "height": 167,
-        "width": 250
+"@context": "http://schema.org",
+"@type": "Article",
+"name": "Création d'une apiRest",
+ "headline": "Les Étapes Essentielles pour une ApiRest",
+ "url": "https://www.white-wolf-web.com/blog/api-restful",
+ "author": {
+  "@type": "Person",
+  "name": "Stéphane G",
+  "url": "https://www.white-wolf-web.com/" 
+},
+       "description": "guide de l'ApiRestFul",
+"publisher": {
+  "@type": "Organization",
+  "name": "White Wolf Web",
+  "url": "https://www.white-wolf-web.com"
+},
+      "image": 
+        "https://www.white-wolf-web.com/Assets/Images/Webp/blog/blogCardImgApi.webp",
+      "sameAs": [
+        "https://www.facebook.com/profile.php?id=100087896780441",
+        "https://twitter.com/whitewo26072430"
+      ],
+      "datePublished": "2023-08-05T10:00:00+02:00",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.white-wolf-web.com/blog/api-restful"
       },
-      "datePublished": "2023-07-01",
-      "dateModified": "2023-07-01",
+      "articleSection": "La puissance de lApiRestFul"
+    };
       
-    "mainEntityOfPage": {
-      "@type": "WebPage",
-      "@id": "https://www.white-wolf-web.com/blog/api-restful"
-    }
-    }
   export default  MetadataBlogApiRest;
   

@@ -12,6 +12,7 @@ import NextMini6 from "@/public/Assets/Images/Webp/blog/Next/Next-mini-6.webp";
 import NextMini7 from "@/public/Assets/Images/Webp/blog/Next/Next-mini-7.webp";
 import NextMini8 from "@/public/Assets/Images/Webp/blog/Next/Next-mini-8.webp";
 import NextMini9 from "@/public/Assets/Images/Webp/blog/Next/Next-mini-9.webp";
+import MetadataNext from "@/components/Metadata/MetadataNext";
 
 export const metadata = {
 	title: "Comment Next.js révolutionne le développement web front-end",
@@ -222,6 +223,7 @@ export default function Nextjspage() {
 				</p>
 				<p>Si vous êtes un développeur qui veut créer des applications web rapides, évolutives pour les moteurs de recherche, Next.js est le framework à suivre dans les années à venir.</p>
 			</section>
+			<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(MetadataNext) }} />
 		</div>
 	);
 }
