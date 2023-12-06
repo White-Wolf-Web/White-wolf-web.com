@@ -185,6 +185,13 @@ color: #F0F0F0;
 
 .moreArticlesButton:hover {
   background-color: #6B0103;
+
+}
+
+.moreArticlesButton:active {
+	background-color: white;
+	color: #840104;
+  font-weight: 700;
 }
 
 /* RESEAUX SOCIAUX  */

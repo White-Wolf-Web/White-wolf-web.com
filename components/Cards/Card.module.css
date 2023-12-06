@@ -295,6 +295,15 @@
 	background-color: #6b0103;
 }
 
+.moreArticlesButton:active {
+	background-color: white;
+	color: #840104;
+  font-weight: 700;
+}
+
+
+
+
 @media (min-width: 768px) {
 	.col-md-4 {
 		flex: 0 0 auto;
