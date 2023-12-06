@@ -131,10 +131,7 @@ module.exports = {
 				source: "/optimisationSEO",
 				destination: "/articles/referencement-seo-google",
 				permanent: true,
-			},
-
-
-			{
+			},{
 				source: "/createWebsite",
 				destination: "/articles/creation-site-web",
 				permanent: true,
@@ -153,6 +150,10 @@ module.exports = {
 			},{
 				source: "/emailMarketingAutomatisation",
 				destination: "/articles/miscellaneous/contenu-et-redaction-votre-site-internet",
+				permanent: true,
+			},{
+				source: "/articles/creation-site-web/joomla",
+				destination: "/articles/creation-site-web#joomla",
 				permanent: true,
 			},
 		];
