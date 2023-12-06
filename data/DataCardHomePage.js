@@ -6,7 +6,7 @@ export const DataCardHomePage = [
 			title: "Création de sites web 🌐🛍️",
 			title2: "Création de sites web personnalisés 🌐🛍️",
 			titleAlt: "le monde du web et ses sites",
-			text: "Notre agence se spécialise dans la conception et le développement de sites web et de boutiques en ligne attrayants, fonctionnels et faciles à utiliser. L'agence web met l'accent sur l'expérience utilisateur (UX) et le design dans le but de créer des sites web qui attirent l'attention et encouragent les visiteurs à devenir des clients fidèles. Que l'on est besoin d'un site vitrine ou le projet d'une boutique en ligne complète afin de présenter l'entreprise, l'équipe est là pour transformer vos idées en réalité et à optimiser son référencement naturel - SEO en vue d'attirer plus de clients.",
+			text: "Notre agence se spécialise dans la conception et le développement de sites web et de boutiques en ligne attrayants, fonctionnels et faciles à utiliser. L'agence web met l'accent sur l'expérience utilisateur (UX) et le design dans le but de créer des sites web qui attirent l'attention et encouragent les visiteurs à devenir des clients fidèles. Que l'on est besoin d'un site vitrine ou le projet d'une boutique en ligne complète afin de présenter l'entreprise, l'équipe est là pour transformer vos idées en réalité et à optimiser son référencement naturel - SEO.",
 			link: "/articles/creation-site-web",
 		},
 		card2: {
