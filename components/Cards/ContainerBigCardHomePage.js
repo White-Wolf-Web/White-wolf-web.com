@@ -54,11 +54,11 @@ export const ContainerBigCardHomePage = () => {
 			</div>
 			<div className={styles.moreArticlesButtonContainer}>
 				<button onClick={showMoreCards} className={styles.moreArticlesButton}>
-					Voir +++ 
+					Voir ++
 				</button>
 				{cardsToShow > 6 && (
 					<button onClick={showLessCards} className={`${styles.moreArticlesButton} ${styles.showLessCards}`}>
-						Voir --- 
+						Voir --
 					</button>
 				)}
 			</div>

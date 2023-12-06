@@ -28,10 +28,10 @@ export default function ContainerBlog () {
       </div>
       <div className={style.moreArticlesButtonContainer}>
       {blogsData.length > numBlogsToShow && (
-        <button className={style.moreArticlesButton} onClick={showMoreBlogs}>Voir +++ de Blog</button>
+        <button className={style.moreArticlesButton} onClick={showMoreBlogs}>Voir ++ de Blog</button>
       )}
       {numBlogsToShow > 6 && (
-        <button className={`${style.moreArticlesButton} ${style.showLessCards}`} onClick={showLessBlogs}>Voir --- de blog</button>
+        <button className={`${style.moreArticlesButton} ${style.showLessCards}`} onClick={showLessBlogs}>Voir -- de blog</button>
       )}</div>
      
     </section>

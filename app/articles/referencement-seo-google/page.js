@@ -37,7 +37,7 @@ export default function ReferencementSEO() {
 				<h1 className={styles.title}>Optimisation SEO pour une Visibilité Maximale en Ligne</h1>
 				<Image src={referencementSeo1} alt="SEO en lettres d'or sur un mur noir" placeholder="blur" quality={100} sizes="100vw" className={`${styles.image} ${styles.imageArticle}`} />
 				<br />
-				<h2 className={styles.titleH2}>Soyez en tête des résultats des moteurs de recherche 🥇🔍</h2>
+				<h2>Soyez en tête des résultats des moteurs de recherche 🥇🔍</h2>
 
 				<p>
 					Le référencement naturel pour les moteurs de recherche, communément appelé SEO (Search Engine Optimization), est une discipline cruciale dans le contexte numérique actuel. Il
@@ -53,10 +53,16 @@ export default function ReferencementSEO() {
 				</p>
 
 				<p>
-					1. <strong>Optimisation technique</strong>: Ce pilier du SEO concerne les aspects techniques de votre site web qui peuvent influencer son <strong>positionnement</strong> dans les
-					moteurs de recherche. Une optimisation technique efficace commence par un audit approfondi du site afin d&apos;identifier les améliorations nécessaires et les opportunités de
-					croissance. Le SEO englobe l&apos;optimisation du code, la structure du site, l&apos;adaptabilité mobile (responsive design), et la vitesse de chargement des pages.
+					1. <strong>Optimisation technique</strong>: Ce pilier fondamental du SEO englobe les aspects techniques de votre site web qui influencent directement son positionnement dans les
+					moteurs de recherche. Une optimisation technique efficace commence par un audit approfondi du site pour identifier les améliorations nécessaires et les opportunités de croissance.
+					Cela inclut :
 				</p>
+				<p className={styles.smallGapLeft}><strong>* Optimisation du Code: </strong>Simplifier et structurer le code source pour qu&apos;il soit facilement interprétable par les moteurs de recherche. Cela implique l&apos;utilisation de balises HTML appropriées, la minimisation du code JavaScript et CSS, et l&apos;élimination des éléments redondants ou inutilisés.</p>
+				<p className={styles.smallGapLeft}><strong>* Structure du Site: </strong> Organiser le contenu de votre site de manière logique et intuitive. Utilisez une hiérarchie claire avec des URL bien structurées, et assurez-vous que chaque page est accessible en quelques clics depuis la page d&apos;accueil.</p>
+				<p className={styles.smallGapLeft}><strong>* Responsive Design (Adaptabilité Mobile):</strong>Avec l&apos;augmentation constante du trafic mobile, il est crucial que votre site soit entièrement fonctionnel et visuellement attrayant sur tous les appareils. Cela signifie concevoir des interfaces adaptatives qui se redimensionnent et s&apos;adaptent à différents écrans.</p>
+				<p className={styles.smallGapLeft}><strong>* Vitesse de Chargement des Pages: </strong>La vitesse de chargement est un facteur clé de l&apos;expérience utilisateur et du référencement. Optimisez les images, utilisez la mise en cache du navigateur, et envisagez l&apos;implémentation de la technologie AMP (Accelerated Mobile Pages) pour accélérer le chargement sur les appareils mobiles.</p>
+				<p className={styles.smallGapLeft}><strong>* Sécurité du Site: </strong>La sécurité joue un rôle majeur dans la perception de votre site par les moteurs de recherche et les utilisateurs. Assurez-vous que votre site est sécurisé avec HTTPS, et mettez en place des mesures pour protéger contre les menaces courantes telles que les attaques par injection SQL et le cross-site scripting (XSS).</p>
+				<p className={styles.smallGapLeft}><strong>* Accessibilité Web: </strong>Un site accessible non seulement ouvre votre contenu à un public plus large, mais améliore également votre SEO. Cela comprend l&apos;utilisation de balises alt pour les images, des contrastes de couleur suffisants, et la navigation au clavier.</p>
 				<p>
 					2. <strong>La création de contenu de qualité</strong>: L&apos;adage &apos;le contenu est roi&apos; prend tout son sens dans le monde du <strong>SEO</strong>. La création de contenu
 					de qualité et pertinent pour les utilisateurs et les moteurs de recherche est un levier puissant pour améliorer le positionnement d&apos;un site. Cela implique la rédaction de
@@ -127,9 +133,9 @@ export default function ReferencementSEO() {
 				<br />
 				<h2>Le potentiel des recherches vocales et mobiles en SEO est immense</h2>
 				<p>
-					À l&apos;ère du numérique, les utilisateurs s&apos;orientent de plus en plus vers les commandes vocales pour effectuer des recherches rapides et pratiques. Ainsi, optimiser votre contenu
-					pour la recherche vocale, en intégrant des mots-clés conversationnels et des questions fréquemment posées, peut considérablement améliorer votre visibilité. De même, assurer que
-					votre site est mobile-friendly est essentiel, car une grande partie des recherches se fait désormais sur des appareils mobiles.
+					À l&apos;ère du numérique, les utilisateurs s&apos;orientent de plus en plus vers les commandes vocales pour effectuer des recherches rapides et pratiques. Ainsi, optimiser votre
+					contenu pour la recherche vocale, en intégrant des mots-clés conversationnels et des questions fréquemment posées, peut considérablement améliorer votre visibilité. De même,
+					assurer que votre site est mobile-friendly est essentiel, car une grande partie des recherches se fait désormais sur des appareils mobiles.
 				</p>
 				<br />
 				<h2>Conclusion</h2>

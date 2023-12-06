@@ -1,6 +1,6 @@
 const  MetadataSEO = {
     
-        "context": "https://schema.org",
+        "@context": "https://schema.org",
         "@type": "Service",
         "name": "White Wolf Web - SEO",
         "url": "https://www.white-wolf-web.com/articles/referencement-seo-google",
@@ -20,7 +20,12 @@ const  MetadataSEO = {
           "https://www.facebook.com/profile.php?id=100087896780441",
           "https://twitter.com/whitewo26072430"
         ],
-        "offers" : "Création de site web optimisé pour le SEO"
+        "offers": {
+          "@type": "Offer",
+          "description": "Création de site web optimisé pour le SEO",
+          "priceCurrency": "Euro",
+          "lowPrice": "400",
+        }
         }
 
 export default MetadataSEO;

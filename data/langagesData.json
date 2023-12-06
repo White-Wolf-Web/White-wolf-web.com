@@ -1,62 +1,62 @@
 [
 	{
 		"title": "HTML5",
-		"alt": "Logo html5",
+		"alt": "Html5 qui permet de créer une structuration de contenu SEO-friendly",
 		"image": "/Assets/Icons/HTML5-L.webp",
-		"description": "HTML5 est la structure de base de toute création site web. C'est un langage de balisage qui permet de créer des pages web statiques. C'est le standard de l'industrie, donc tout navigateur web est capable de l'interpréter.",
+		"description": "HTML5 est la structure de base de toute création site web. C'est un langage de balisage pour la création des pages web statiques. Tout navigateur web est capable de l'interpréter.",
 		"backgroundColor": "#E34F26",
 		"color": "black",
 		"href": "/articles/languages/html5",
-		"imgTitle": "Le logo HTML"
+		"imgTitle": "La connaissance du HTML permet la création de site web professionnel"
 	},
 	{
 		"title": "CSS3",
-		"alt": "Logo CSS3",
+		"alt": "Le CSS3, il permet un design moderne",
 		"image": "/Assets/Icons/CSS3-L.webp",
-		"description": "CSS3 c'est la mise en page. Il permet de contrôler l'apparence des pages (couleurs, tailles, polices, espacements, etc.) afin de rendre un site web plus attrayant, plus fluide, plus responsive.",
+		"description": "CSS3 c'est la mise en page. Il contrôle l'apparence des pages (couleurs, tailles, polices, espacements, etc.) afin de rendre un site web plus attrayant, plus fluide, plus responsive.",
 		"backgroundColor": "#1984D1",
 		"color": "black",
 		"href": "/articles/languages/css3",
-		"imgTitle": "Le logo CSS"
+		"imgTitle": "Conception CSS personnalisée qui permet des animations et transitions"
 	},
 	{
 		"title": "JavaScript",
-		"alt": "Logo JS.",
+		"alt": "javaScript, pour interfaces dynamique et interactif",
 		"image": "/Assets/Icons/javascript-L.webp",
-		"description": "Javascript est un langage de programmation qui permet la création de sites interactifs. Il est exécuté coté client (dans le navigateur) et permet d'ajouter des fonctionnalités dynamiques à un site web statique.",
+		"description": "Javascript est un langage de programmation qui permet la création de sites interactifs. Il permet d'ajouter des fonctionnalités dynamiques à un site web statique.",
 		"backgroundColor": "#F7DF1E",
 		"color": "black",
 		"href": "/articles/languages/javascript",
-		"imgTitle": "Le logo de JavaScript"
+		"imgTitle": "JavaScript langage de programmation web"
 	},
-	{
+	{ 
 		"title": "React",
-		"alt": "Logo React",
+		"alt": "React qui utilise des composants réutilisables",
 		"image": "/Assets/Icons/react-L.webp",
-		"description": "React est une bibliothèque JavaScript crée et utilisé par Facebook (et donc Instagram) qui facilite la création d'interfaces utilisateur interactives. Il permet une mise à jour et un rendu efficaces des composants.",
+		"description": "React est une bibliothèque JavaScript crée par Facebook (et donc Instagram) qui facilite la création d'interfaces UI. Il permet une mise à jour et un rendu efficaces des composants.",
 		"backgroundColor": "#61DAFB",
 		"color": "black",
 		"href": "/articles/languages/react",
-		"imgTitle": "Le logo de React (facebook)"
+		"imgTitle": "React JS le + du développement web (facebook)"
 	},
 	{
 		"title": "Next.js",
-		"alt": "Logo Next",
+		"alt": "Logo Next, optimisé pour des sites web performants",
 		"image": "/Assets/Icons/next-L.webp",
-		"description": "Next.js est un framework React qui fournit de nombreuses fonctionnalités supplémentaires comme le rendu côté serveur et la génération de sites statiques. Il améliore les performances de votre site. C’est l’avenir.",
+		"description": "Next.js est un framework React qui offre des fonctionnalités avancées, dont la génération de sites statiques. Il booste les performances, il représente l'avenir du développement.",
 		"backgroundColor": "black",
 		"color": "white",
 		"href": "/articles/languages/next",
-		"imgTitle": "Le logo de Next (vercel)"
+		"imgTitle": "Next (vercel), framework optimisé pour SEO"
 	},
 	{
 		"title": "Bootstrap",
-		"alt": "Logo Bootstrap",
+		"alt": "Bootstrap, pour des interfaces mobiles",
 		"image": "/Assets/Icons/bootstrap-L.webp",
-		"description": "Bootstrap est un framework CSS qui facilite la création de designs responsifs. Il comprend une multitude de composants réutilisables dans la navigation, les modales, qui facilitent la mise en page d'un site web.",
+		"description": "Bootstrap est un framework CSS qui facilite la création de designs responsifs. Il comprend une multitude de composants réutilisables qui facilitent la mise en page d'un site web.",
 		"backgroundColor": "#9364D9",
 		"color": "black",
 		"href": "/articles/languages/bootstrap",
-		"imgTitle": "Le logo de BootStrap"
+		"imgTitle": "BootStrap, sa force c'est le responsive design"
 	}
 ]

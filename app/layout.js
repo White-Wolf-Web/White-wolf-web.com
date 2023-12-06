@@ -1,7 +1,7 @@
 import "./globals.css";
 import "bootstrap/dist/css/bootstrap.min.css"; // Importer le bootstrap CSS import "../styles/globals.css" ;
 import "../styles/custom-bootstrap.css";
-import { Inter } from "next/font/google";
+import { Inter, EB_Garamond } from "next/font/google";
 import Header from "@/components/Header/Header";
 import Footer from "@/components/Footer/Footer";
 //import GoogleAnalytics from "@/components/GoogleAnalytics/GoogleAnalytics";
@@ -9,6 +9,12 @@ import Footer from "@/components/Footer/Footer";
 // import { Metadata } from "next";
 
 const inter = Inter({ subsets: ["latin"] });
+const garamond = EB_Garamond ({
+	weight: ['400', '700'],
+	style: ['normal', 'italic'],
+	subsets: ['latin'],
+	display: 'swap',
+  })
 
 export const metadata = {
 	title: "Agence experte en création de sites web - SEO",
@@ -79,6 +85,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
 	return (
 		<html lang="fr">
+		
 			<body className={inter.className}>
 				{/*<GoogleAnalytics GA_MEASUREMENT_ID={process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID} />*/}
 				<Header />

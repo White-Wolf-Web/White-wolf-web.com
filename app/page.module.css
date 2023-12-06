@@ -28,6 +28,10 @@
 	margin: 0 auto;
 }
 
+.colorLightGrey {
+color: #F0F0F0;
+
+}
 .sectionHomePage {
 	max-width: 1200px;
 	margin: 25px auto 0 auto;
@@ -52,6 +56,9 @@
 
 .textCenter {
 	text-align: center;
+}
+.smallGapLeft {
+  padding-left: 10px;
 }
 .homeH2 {
 	margin: 0.5rem 0 2rem 0;
@@ -83,6 +90,8 @@
 
 .linkHomePage {
   color: aliceblue;
+  font-weight: 400;
+  font-size: 18px;
 }
 
 .title {
@@ -101,6 +110,9 @@
 }
 .startLeft {
 	margin-left: 0;
+}
+.textAlignCenter {
+  text-align: center;
 }
 .red {
 	color: red;

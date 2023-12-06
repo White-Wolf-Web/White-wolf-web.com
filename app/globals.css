@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;700&family=EB+Garamond:wght@400;700&display=swap');
 
 * {
   box-sizing: border-box;
@@ -57,7 +58,7 @@ h1 {
 
 h2 {
   font-family: 'EB Garamond', serif;
-  font-weight: 700;
+  font-weight: 700 !important;
   text-align: left;
   margin: 2rem auto 1rem auto;
   font-size: 2rem;
@@ -66,24 +67,25 @@ h2 {
 
 h3 {
   font-size: 1.5rem;
-  font-family:"montserrat";
+  font-family: 'EB Garamond', serif;
   font-weight: 700;
   text-align: start;
   margin: 30px auto 20px auto;
 }
 
 P {
-  text-align: justify;
+  font-weight: 400;
   line-height: 1.5;
-  font-size: 1.25rem;
-  font-family:"montserrat";
+  font-size: 1.1rem;
+  font-family:"Open Sans";
+  color: #C0C0C0;
 }
  ul {
   font-size: 1.25rem;
   line-height: 1.5;
   text-align:left;
-  font-family:"montserrat";
-  list-style-type: none;  /* Enlève les puces par défaut */
+  font-family:"Open Sans";
+  list-style-type: none;  
  }
 
 li {

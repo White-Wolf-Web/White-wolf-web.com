@@ -49,7 +49,7 @@ export default function CreationSiteWeb() {
 
 				<Image src={creationWeb1} alt="Un site web sur un mac ipad et iphone" placeholder="blur" quality={100} sizes="100vw" className={`${styles.image} ${styles.imageArticle}`} />
 				<section className={styles.sectionArticle}>
-					<h2>Comprendre le public ciblé</h2>
+				<h2 className={styles.textAlignCenter}>Comprendre le public ciblé</h2>
 					<p>
 						La première étape si l&apos;on désire créer un site web époustouflant est de comprendre le public ciblé. Avant de commencer à concevoir un site, il est primordial d&apos; avoir
 						une idée claire de qui vous voulez atteindre. Quel est l&apos;âge, le sexe, l&apos;emplacement géographique et les intérêts du public ciblé ? Quels sont les problèmes que vous
@@ -65,7 +65,7 @@ export default function CreationSiteWeb() {
 				</section>
 				<div className={styles.longDivider}></div>
 				<section className={styles.sectionArticle}>
-					<h2>Choisir un nom de domaine et un hébergeur.</h2>
+				<h2 className={styles.textAlignCenter}>Choisir un nom de domaine et un hébergeur.</h2>
 					<p>
 						Avant de commencer la création de un site web professionnel, il est capital de choisir un nom de domaine et un hébergeur. Le nom de domaine est l&apos;adresse web du site, donc
 						il est primordial de choisir un nom qui soit facile à retenir et qui reflète l&apos;entreprise ou marque. Il sera possible de vérifier la disponibilité d&apos;un nom de domaine
@@ -87,7 +87,7 @@ export default function CreationSiteWeb() {
 				/>
 				<br></br>
 				<section className={styles.sectionArticle}>
-					<h2>Si le choix se dirige vers une plateforme de site web</h2>
+				<h2 className={styles.textAlignCenter}>Si le choix se dirige vers une plateforme de site web</h2>
 					<p>
 						Il existe de nombreuses options disponibles, chacune avec ses propres avantages et inconvénients. Les deux options les plus populaires sont WordPress et Joomla. WordPress est
 						une plateforme de gestion (CMS) open source qui offre une grande flexibilité et des fonctionnalités avancées. Il est facile à personnaliser et à intégrer à l&apos;aide des
@@ -102,7 +102,7 @@ export default function CreationSiteWeb() {
 
 				<div className={styles.longDivider}></div>
 				<section className={styles.sectionArticle}>
-					<h2>Créez et organisez le contenu.</h2>
+				<h2 className={styles.textAlignCenter}>Créez et organisez le contenu.</h2>
 					<p>
 						Une fois la structure du site web professionnel déterminé, il est temps de créer et d&apos;organiser son contenu. Le contenu du site web est ce qui attirera les visiteurs et
 						les incitera à rester et à explorer davantage. Utilisez un langage simple et évitez les termes techniques ou jargonnants qui pourraient être difficiles à comprendre pour les
@@ -123,7 +123,7 @@ export default function CreationSiteWeb() {
 					className={`${styles.image} ${styles.imageArticle}`}
 				/>
 				<section className={styles.sectionArticle}>
-					<h2>Ajouter des éléments multimédias</h2>
+				<h2 className={styles.textAlignCenter}>Ajouter des éléments multimédias</h2>
 					<p>
 						La sixième étape qui permet la créationde site web époustouflant est d&apos;ajouter des éléments multimédias. Tels que les images (Afin d&apos;illustrer vos produits ou
 						services), les vidéos qui présente l&apos;entreprise et les{" "}
@@ -136,7 +136,7 @@ export default function CreationSiteWeb() {
 				</section>
 				<div className={styles.longDivider}></div>
 				<section className={styles.sectionArticle}>
-					<h2>Optimisation du site web pour les moteurs de recherche.</h2>
+				<h2 className={styles.textAlignCenter}>Optimisation du site web pour les moteurs de recherche.</h2>
 					<p>
 						1. Effectuez une recherche de mots clés : Utilisez des outils de recherche de mots clés tels que Google Keyword Planner qui permet de trouver les mots clés pertinents de votre
 						secteur d&apos;activité. Intégrez ces mots clés au texte de manière naturelle.
@@ -168,7 +168,7 @@ export default function CreationSiteWeb() {
 				</section>
 				<div className={styles.longDivider}></div>
 				<section className={styles.sectionArticle}>
-					<h2>Maintenance et mises à jour du site web</h2>
+				<h2 className={styles.textAlignCenter}>Maintenance et mises à jour du site web</h2>
 					<p>
 						La dernière étape qui permettra de créer un site web époustouflant est la maintenance et les mises à jour du site web. Il nécessite une maintenance régulière afin de garantir
 						un fonctionnement correct et une sécurité accrue. Il est important d&apos;effectuer des mises à jour régulières de la plateforme de site web et de vos plugins qui garantissent
@@ -182,7 +182,7 @@ export default function CreationSiteWeb() {
 
 				<div className={styles.longDivider}></div>
 				<section className={styles.sectionArticle}>
-					<h2 className={styles.textCenter}>Il existe de nombreuses style de site internet</h2>
+				<h2 className={styles.textAlignCenter}>Il existe de nombreuses style de site internet</h2>
 					<div className={styles.webSiteStyle}>
 						<Image src={creationSiteVitrine} alt="Représentation d'un site vitrine" placeholder="blur" quality={100} className={`${styles.webSiteStyleImg} ${styles.floatLeft}`} />
 						<div>
