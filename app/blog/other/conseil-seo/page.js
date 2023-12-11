@@ -11,12 +11,12 @@ export const metadata = {
 	title: "5 conseils SEO pour améliorer votre positionnement",
 	description: "Améliorer le positionnement Google de votre projet web est essentiel pour maintenir la compétitivité. C'est pourquoi il est normal de rechercher des conseils SEO",
 	alternates: {
-		canonical: "https://www.white-wolf-web.com/blog/other/conseilseo/page.js",
+		canonical: "https://www.white-wolf-web.com/blog/other/conseil-seo/page.js",
 	},
 	openGraph: {
 		title: "5 conseils SEO pour améliorer votre positionnement",
 		description: "Améliorer le positionnement Google de votre projet web est essentiel pour maintenir la compétitivité. C'est pourquoi il est normal de rechercher des conseils SEO",
-		url: "https://www.white-wolf-web.com/blog/other/conseilseo/page.js",
+		url: "https://www.white-wolf-web.com/blog/other/conseil-seo/page.js",
 		siteName: "Agence White Wolf Web",
 		images: [
 			{
@@ -95,14 +95,7 @@ export default function adviceSeo() {
 					risquent de rester invisibles dans l&apos;océan numérique. Heureusement, Next.js, un framework populaire basé sur React, offre des avantages significatifs pour améliorer le
 					référencement de votre site.
 				</p>
-				<p>
-					En utilisant le rendu côté serveur, Next.js peut pré-rendre les pages et les envoyer au navigateur en HTML pur. Cela signifie que les pages peuvent être lues par les moteurs de
-					recherche, ce qui peut améliorer la visibilité de votre site web dans les résultats de recherche.
-				</p>
-				<p>
-					En outre, Next.js offre une prise en charge intégrée pour les balises meta et les sitemaps XML, ce qui peut aider à améliorer encore davantage la convivialité des moteurs de
-					recherche.
-				</p>
+			
 			</section>
 			<br /> <br />
 			<section>
