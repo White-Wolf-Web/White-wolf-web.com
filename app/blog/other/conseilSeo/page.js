@@ -3,7 +3,7 @@ import styles from "@/app/page.module.css";
 import Link from "next/link";
 import { Metadata } from "next";
 import BlogDateAuthorOther from "@/components/Blog/BlogDateAuthorOther";
-import ConseilSeoBanniere from "@app/blog/other/conseilSeo/conseilSeoBanniere.webp";
+import ConseilSeoBanniere from "@/Assets/Images/Webp/blog/other/conseilSeo/conseilSeoBanniere.webpapp/blog/other/conseilSeo/conseilSeoBanniere.webp";
 
 import MetadataNext from "@/components/Metadata/MetadataNext";
 
@@ -11,12 +11,12 @@ export const metadata = {
 	title: "5 conseils SEO pour améliorer votre positionnement",
 	description: "Améliorer le positionnement Google de votre projet web est essentiel pour maintenir la compétitivité. C'est pourquoi il est normal de rechercher des conseils SEO",
 	alternates: {
-		canonical: "https://www.white-wolf-web.com/blog/other/conseilSeo/page.js",
+		canonical: "https://www.white-wolf-web.com/blog/other/conseilseo/page.js",
 	},
 	openGraph: {
 		title: "5 conseils SEO pour améliorer votre positionnement",
 		description: "Améliorer le positionnement Google de votre projet web est essentiel pour maintenir la compétitivité. C'est pourquoi il est normal de rechercher des conseils SEO",
-		url: "https://www.white-wolf-web.com/blog/other/conseilSeo/page.js",
+		url: "https://www.white-wolf-web.com/blog/other/conseilseo/page.js",
 		siteName: "Agence White Wolf Web",
 		images: [
 			{
