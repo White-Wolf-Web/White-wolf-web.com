@@ -48,20 +48,21 @@ export default function adviceSeo() {
 					moteurs de recherche.{" "}
 				</p>
 			</section>
-			
 			<section>
 				<h2 className={styles.textCenter}>1&#41; Placez les mots-clés aux endroits appropriés</h2>
 
 				<p>
-					Comme nous l&apos;avons déjà dit à d&apos;autres occasions, les mots-clés sont fondamentaux pour <Link href="https://itconsulting-prod.com/services/seo-specialisee" className={styles.internalLink}>améliorer le référencement</Link>. Mais il ne suffit pas de savoir ce qui vient d’être dit
-					ou simplement de connaître les mots-clés les plus pertinents pour votre projet.
+					Comme nous l&apos;avons déjà dit à d&apos;autres occasions, les mots-clés sont fondamentaux pour{" "}
+					<Link href="https://itconsulting-prod.com/services/seo-specialisee" className={styles.internalLink}>
+						améliorer le référencement
+					</Link>
+					. Mais il ne suffit pas de savoir ce qui vient d’être dit ou simplement de connaître les mots-clés les plus pertinents pour votre projet.
 				</p>
 				<p>
 					Il est important de savoir où placer vos mots-clés et à quelle fréquence vous le faites. En effet, il existe certains sites où il est essentiel qu&apos;ils apparaissent à certains
 					points stratégiques, comme dans le titre, l&apos;URL de la page et dans les 100 premiers mots du contenu, de préférence dans le premier paragraphe.
 				</p>
 			</section>
-			
 			<section>
 				<h2 className={styles.textCenter}>2&#41; Supprimer les pages « zombies »</h2>
 
@@ -71,9 +72,19 @@ export default function adviceSeo() {
 					intéressant et de supprimer tout ce que vous voyez qui n’a pas un volume de visites acceptable.
 				</p>
 			</section>
-			
 			<section>
 				<h2 className={styles.textCenter}>3&#41; Connaissez votre créneau</h2>
+				<p>
+					La meilleure façon d’obtenir des liens de qualité est de très bien connaître le créneau dans lequel vous vous trouvez et de devenir une référence. De cette façon, au lieu de
+					rechercher des liens pour créer une stratégie de création de liens, d&apos;autres feront directement référence à votre contenu. Avec ce pouvoir, vous améliorerez naturellement votre
+					classement. Bien sûr, il ne suffit pas de dire que vous connaissez votre créneau, il faut le démontrer. Par exemple, vous pouvez publier un rapport sur l&apos;état de votre secteur,
+					fournissant des données et des informations intéressantes. Vous pensez peut-être que votre public n&apos;est pas intéressé, mais il y a certainement un groupe qui sera prêt à le
+					partager, un groupe assez pertinent. Si vous obtenez un lien naturel provenant d&apos;un journal, ce sera comme dire à Google que votre contenu mérite d&apos;être indexé. Cela augmentera vos
+					chances d’apparaître en haut des recherches.
+				</p>
+			</section>
+			<section>
+				<h2 className={styles.textCenter}>4&#41; Publier des textes avec un contenu visuel</h2>
 
 				<p>
 					Les contenus visuels tels que les images, les infographies ou les vidéos sont d’une importance vitale et aident l’utilisateur à mieux comprendre certains concepts clés. Cependant,
@@ -86,18 +97,6 @@ export default function adviceSeo() {
 				</p>
 				<p>Placez des mots-clés dans les descriptions pour aider les robots à comprendre de quoi parle l&apos;image et à mettre à l&apos;échelle les positions.</p>
 			</section>
-			
-			<section>
-				<h2 className={styles.textCenter}>4&#41; Publier des textes avec un contenu visuel</h2>
-
-				<p>
-					Le référencement (SEO) est un pilier fondamental de toute stratégie de marketing numérique efficace. Sans une stratégie de référencement solide, même les sites web les mieux conçus
-					risquent de rester invisibles dans l&apos;océan numérique. Heureusement, Next.js, un framework populaire basé sur React, offre des avantages significatifs pour améliorer le
-					référencement de votre site.
-				</p>
-			
-			</section>
-			
 			<section>
 				<h2 className={styles.textCenter}>5&#41; Renouveler les anciennes pages</h2>
 
@@ -117,7 +116,6 @@ export default function adviceSeo() {
 					internes pointant vers cette page.
 				</p>
 			</section>
-			
 			<section>
 				<h2 className={styles.textCenter}>Conclusion</h2>
 
