@@ -5,7 +5,7 @@ import { Metadata } from "next";
 import BlogDateAuthorOther from "@/components/Blog/BlogDateAuthorOther";
 import ConseilSeoBanniere from "@/public/Assets/Images/Webp/blog/other/conseilSeo/conseilSeoBanniere.webp";
 
-import MetadataNext from "@/components/Metadata/MetadataNext";
+import MetadataSeoPower from "@/components/Metadata/MetadataSeoPower";
 
 export const metadata = {
 	title: "5 conseils SEO pour améliorer votre positionnement",
@@ -124,7 +124,7 @@ export default function adviceSeo() {
 					n&apos;avez pas le temps ou ne savez pas par où commencer, contactez-nous et nous vous aiderons à créer la meilleure stratégie Web.
 				</p>
 			</section>
-			<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(MetadataNext) }} />
+			<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(MetadataSeoPower) }} />
 		</div>
 	);
 }
