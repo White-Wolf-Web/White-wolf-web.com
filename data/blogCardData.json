@@ -46,5 +46,13 @@
 		"href": "/blog/liberez-la-puissance-du-seo",
 		"alt": "en lettres d'or vu à la loupe on peut lire SEO",
 		"text": "la Puissance du SEO explore les techniques clés pour optimiser la visibilité de son site sur les moteurs de recherche. L'article démystifie le référencement naturel, exposant les meilleures pratiques et outils afin d&apos;améliorer le positionnement de vos pages. Il s'agit d'une lecture incontournable pour les marketeurs et entrepreneurs désireux d'attirer plus de visiteurs et de convertir efficacement grâce à un trafic de qualité."
+	},
+	{
+		"title": "5 conseils SEO",
+		"description": "Améliorer le positionnement Google de votre projet web est essentiel pour maintenir la compétitivité.",
+		"image": "/Assets/Images/Webp/blog/blogCardImgSEO.webp",
+		"href": "/blog/other/conseil-seo/page.js",
+		"alt": "Conseils permettant d'améliorer son classement SEO",
+		"text": "Toutes les astuces que vous trouverez sur internet ne fonctionnent pas, c’est pourquoi nous avons sélectionné les 5 astuces SEO les plus pertinentes concernant l’optimisation de votre site internet. Préparez-vous à les mettre en pratique si vous souhaitez améliorer la visibilité de votre site internet dans les moteurs de recherche tel que Google, Yandex ou Bing."
 	}
 ]
