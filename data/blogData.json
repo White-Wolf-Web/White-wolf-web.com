@@ -46,6 +46,14 @@
         "description": "Explorez l'avenir du développement web avec Next.js, un framework React",
         "href":"/blog/next-js",
       "tooltip": "Le framework NEXT"
+      },
+      {
+        "title": "5 conseils SEO ",
+        "alt": "Clavier permettant 'améliorer notre classement sur les moteurs de recherche",
+        "image": "/Assets/Images/Webp/blog/other/conseilSeo/conseilSEO.webp",
+        "description": "Explorez l'avenir du développement web avec Next.js, un framework React",
+        "href":"/blog/next-js",
+      "tooltip": "Le framework NEXT"
       }
       
   ]
