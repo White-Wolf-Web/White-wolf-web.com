@@ -11,12 +11,12 @@ export const metadata = {
 	title: "5 conseils SEO pour améliorer votre positionnement",
 	description: "Améliorer le positionnement Google de votre projet web est essentiel pour maintenir la compétitivité. C'est pourquoi il est normal de rechercher des conseils SEO",
 	alternates: {
-		canonical: "https://www.white-wolf-web.com/blog/other/conseil-seo/page.js",
+		canonical: "https://www.white-wolf-web.com/blog/other/conseil-seo",
 	},
 	openGraph: {
 		title: "5 conseils SEO pour améliorer votre positionnement",
 		description: "Améliorer le positionnement Google de votre projet web est essentiel pour maintenir la compétitivité. C'est pourquoi il est normal de rechercher des conseils SEO",
-		url: "https://www.white-wolf-web.com/blog/other/conseil-seo/page.js",
+		url: "https://www.white-wolf-web.com/blog/other/conseil-seo",
 		siteName: "Agence White Wolf Web",
 		images: [
 			{
@@ -48,7 +48,7 @@ export default function adviceSeo() {
 					moteurs de recherche.{" "}
 				</p>
 			</section>
-			<br /> <br />
+			
 			<section>
 				<h2 className={styles.textCenter}>1&#41; Placez les mots-clés aux endroits appropriés</h2>
 
@@ -61,7 +61,7 @@ export default function adviceSeo() {
 					points stratégiques, comme dans le titre, l&apos;URL de la page et dans les 100 premiers mots du contenu, de préférence dans le premier paragraphe.
 				</p>
 			</section>
-			<br /> <br />
+			
 			<section>
 				<h2 className={styles.textCenter}>2&#41; Supprimer les pages « zombies »</h2>
 
@@ -71,7 +71,7 @@ export default function adviceSeo() {
 					intéressant et de supprimer tout ce que vous voyez qui n’a pas un volume de visites acceptable.
 				</p>
 			</section>
-			<br /> <br />
+			
 			<section>
 				<h2 className={styles.textCenter}>3&#41; Connaissez votre créneau</h2>
 
@@ -86,7 +86,7 @@ export default function adviceSeo() {
 				</p>
 				<p>Placez des mots-clés dans les descriptions pour aider les robots à comprendre de quoi parle l&apos;image et à mettre à l&apos;échelle les positions.</p>
 			</section>
-			<br /> <br />
+			
 			<section>
 				<h2 className={styles.textCenter}>4&#41; Publier des textes avec un contenu visuel</h2>
 
@@ -97,7 +97,7 @@ export default function adviceSeo() {
 				</p>
 			
 			</section>
-			<br /> <br />
+			
 			<section>
 				<h2 className={styles.textCenter}>5&#41; Renouveler les anciennes pages</h2>
 
@@ -117,7 +117,7 @@ export default function adviceSeo() {
 					internes pointant vers cette page.
 				</p>
 			</section>
-			<br /> <br />
+			
 			<section>
 				<h2 className={styles.textCenter}>Conclusion</h2>
 
