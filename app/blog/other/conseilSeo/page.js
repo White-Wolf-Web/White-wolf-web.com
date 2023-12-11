@@ -3,7 +3,7 @@ import styles from "@/app/page.module.css";
 import Link from "next/link";
 import { Metadata } from "next";
 import BlogDateAuthorOther from "@/components/Blog/BlogDateAuthorOther";
-import ConseilSeoBanniere from "@/Assets/Images/Webp/blog/other/conseilSeo/conseilSeoBanniere.webpapp/blog/other/conseilSeo/conseilSeoBanniere.webp";
+import ConseilSeoBanniere from "@/Assets/Images/Webp/blog/other/conseilSeo/conseilSeoBanniere.webp";
 
 import MetadataNext from "@/components/Metadata/MetadataNext";
 
