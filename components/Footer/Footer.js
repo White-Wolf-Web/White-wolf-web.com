@@ -144,9 +144,9 @@ export default function Footer() {
 						<Image src={twitterIcon} className={styles.skills} width={40} height={40} alt={"Direction Twitter"} />
 					</Link>
 					<div className={styles.coordonnees}>
-						<Link href="tel:+32477131993" target="_blank" rel="noopener noreferrer" title="Cliquer & appeler au 0477 13 19 93">
+						
 							<Image src={Gsm} className={styles.skills} width={40} height={40} alt={"Cliquer & appeler"} />
-						</Link>
+						
 						<Link
 							href="mailto:white-wolf-web@outlook.com"
 							target="_blank"

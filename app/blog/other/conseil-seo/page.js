@@ -9,13 +9,13 @@ import MetadataSeoPower from "@/components/Metadata/MetadataSeoPower";
 
 export const metadata = {
 	title: "5 conseils SEO pour améliorer votre positionnement",
-	description: "Améliorer le positionnement Google de votre projet web est essentiel pour maintenir la compétitivité. C'est pourquoi il est normal de rechercher des conseils SEO",
+	description: "Améliorer le positionnement Google de votre projet web est essentiel pour maintenir la compétitivité. Il est normal de rechercher des conseils SEO",
 	alternates: {
 		canonical: "https://www.white-wolf-web.com/blog/other/conseil-seo",
 	},
 	openGraph: {
 		title: "5 conseils SEO pour améliorer votre positionnement",
-		description: "Améliorer le positionnement Google de votre projet web est essentiel pour maintenir la compétitivité. C'est pourquoi il est normal de rechercher des conseils SEO",
+		description: "Améliorer le positionnement Google de votre projet web est essentiel pour maintenir la compétitivité. Il est normal de rechercher des conseils SEO",
 		url: "https://www.white-wolf-web.com/blog/other/conseil-seo",
 		siteName: "Agence White Wolf Web",
 		images: [
