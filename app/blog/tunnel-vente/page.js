@@ -1,6 +1,7 @@
 import Image from "next/image";
 import styles from "@/app/page.module.css";
 import { Metadata } from "next";
+import Link from "next/link";
 import BlogDateAuthorOther from "@/components/Blog/BlogDateAuthorOther";
 import tunnelBanniere from "@/public/Assets/Images/Webp/blog/Tunnel/tunnel-banniere.webp";
 import tunnelMini1 from "@/public/Assets/Images/Webp/blog/Tunnel/tunnel-mini-1.webp";
@@ -260,7 +261,7 @@ export default function TunneldeVente() {
 					clients et des analyses de données.
 				</p>
 				<p>
-					<strong>Étape 2 : Créer une stratégie de marketing </strong>
+					<strong>Étape 2 : Créer une <Link href="https://www.rev3days.fr/" className={styles.internalLink}>stratégie de marketing</Link> </strong>
 					Une fois que les besoins des clients identifié, vous pouvez créer une stratégie de marketing pen vue d&apos;attirer les clients potentiels. Cela peut
 					inclure des publicités en ligne, des médias sociaux, du marketing de contenu et du marketing par e-mail.
 				</p>
