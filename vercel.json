@@ -3,12 +3,12 @@
       {
         "source": "/robots.txt",
         "destination": "/robots.txt",
-        "permanent": false
+        "statusCode": 200
       },
       {
         "source": "/sitemap.xml",
         "destination": "/sitemap.xml",
-        "permanent": false
+        "statusCode": 200
       },
       {
         "source": "/(.*)",
