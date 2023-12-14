@@ -1,6 +1,11 @@
 {
     "routes": [
       {
+        "src": "/(robots.txt|sitemap.xml)",
+        "dest": "/$1",
+        "continue": true
+      },
+      {
         "src": "/(.*)",
         "headers": {
           "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
