@@ -1,20 +1,6 @@
 {
     "redirects": [
-      {
-        "source": "/robots.txt",
-        "destination": "/robots.txt",
-        "permanent": false
-      },
-      {
-        "source": "/sitemap.xml",
-        "destination": "/sitemap.xml",
-        "permanent": false
-      },
-      {
-        "source": "/(.*)",
-        "destination": "https://www.white-wolf-web.com/$1",
-        "permanent": true
-      }
+      { "source": "/(.*)", "destination": "/", "statusCode": 301 }
     ]
   }
   
