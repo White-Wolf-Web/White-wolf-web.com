@@ -1,27 +1,35 @@
 {
-    "routes": [
+    "redirects": [
       {
-        "src": "/(robots.txt|sitemap.xml)",
-        "dest": "/$1",
-        "continue": true
+        "source": "/robots.txt",
+        "destination": "/robots.txt",
+        "permanent": false
       },
       {
-        "src": "/(.*)",
-        "headers": {
-          "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
-          "X-Frame-Options": "SAMEORIGIN"
-        },
-        "continue": true
+        "source": "/sitemap.xml",
+        "destination": "/sitemap.xml",
+        "permanent": false
       },
       {
-        "src": "/(.*)",
-        "dest": "/",
-        "continue": true
-      },
+        "source": "/(.*)",
+        "destination": "https://www.white-wolf-web.com/$1",
+        "permanent": true,
+        "statusCode": 301
+      }
+    ],
+    "headers": [
       {
-        "src": "/(.*)",
-        "dest": "https://www.white-wolf-web.com/$1",
-        "status": 301
+        "source": "/(.*)",
+        "headers": [
+          {
+            "key": "Strict-Transport-Security",
+            "value": "max-age=31536000; includeSubDomains; preload"
+          },
+          {
+            "key": "X-Frame-Options",
+            "value": "SAMEORIGIN"
+          }
+        ]
       }
     ]
   }
