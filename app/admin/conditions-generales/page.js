@@ -10,7 +10,7 @@ export const metadata = {
 				title: "Conditions générales du site de l'agence internet 'white wolf web'",
 				description:
 					"Vous retrouverez ici les conditions générales du site web whitewolfweb.com, la SRL white wolf Web dépend des tribunaux de Bruxelles.",
-				url: "https://www.white-wolf-web.com/admin/conditions-generales",
+					url: "https://www.white-wolf-web.com/admin/conditions-generales",
 				siteName: "Contenu Web",
 				images: [
 					{

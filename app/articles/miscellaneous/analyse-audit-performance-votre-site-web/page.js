@@ -1,7 +1,7 @@
 import styles from "@/app/page.module.css";
 
 export const metadata = {
-	title: "Analyse, Audit et Performance: les clés pour l’optimisation",
+	title: "Analyse, Audit et Performance d'un site web",
 	description:
 		"L'analyse et la performance (un audit) d'un site web vont permettre d’optimiser votre présence en ligne et maximiser le retour sur votre investissement.",
 	alternates: {
@@ -11,7 +11,7 @@ export const metadata = {
 		title: "Analyse, Audit et Performance: les 🔑 pour l’optimisation",
 		description:
 			"L'analyse et la performance (un audit) d'un site web vont permettre d’optimiser votre présence en ligne et maximiser le retour sur votre investissement",
-		url: "https://www.white-wolf-web.com/articles/miscellaneous/analyse-audit-performance-votre-site-web",
+			url: "https://www.white-wolf-web.com/articles/miscellaneous/analyse-audit-performance-votre-site-web",
 		siteName: "Agence White Wolf Web",
 		images: [
 			{

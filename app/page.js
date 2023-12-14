@@ -12,7 +12,7 @@ import MetadataHomePage from "@/components/Metadata/MetadataHomePage";
 export const metadata = {
 	title: "Création de Site internet Pro & référencement naturel - SEO",
 	description:
-		"Agence Web innovante: création de site internet - web, design, référencement naturel SEO et marketing digital afin de propulser votre succès en ligne!🚀💻",
+		"Agence Web innovante: création de site internet - web, design, référencement naturel SEO et marketing digital afin de propulser votre succès en ligne!",
 	alternates: {
 		canonical: "https://www.white-wolf-web.com/",
 	},

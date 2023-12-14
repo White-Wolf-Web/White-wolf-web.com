@@ -7,13 +7,13 @@ import referencementSeo6 from "@/public/Assets/Images/Webp/seo/referencement-seo
 import MetadataSEO from "@/components/Metadata/MetadataSEO";
 
 export const metadata = {
-	title: "Référencement SEO: Votre site en tête des recherches Google🥇",
+	title: "Référencement SEO: Votre site en tête des recherches Google",
 	description: "L'importance d'un référencement naturel efficace pour assurer le succès de votre projet. Le SEO permet de gagner en visibilité sur les moteurs de recherche",
 	alternates: {
 		canonical: "https://www.white-wolf-web.com/articles/referencement-seo-google",
 	},
 	openGraph: {
-		title: "Référencement SEO: Votre site en tête des recherches Google🥇",
+		title: "Référencement SEO: Votre site en tête des recherches Google",
 		description: "L'importance d'un référencement naturel efficace pour assurer le succès de votre projet. Le SEO permet de gagner en visibilité sur les moteurs de recherche",
 		url: "https://www.white-wolf-web.com/articles/referencement-seo-google",
 		siteName: "Référencement Naturel - SEO ",
