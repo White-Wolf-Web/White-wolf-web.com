@@ -33,8 +33,9 @@ module.exports = {
 				destination: "/articles/reseaux-sociaux#facebook",
 				permanent: true,
 			},
+			
 			{
-				source: "/reseaux-sociaux/linkedin",
+				source: "/articles/reseaux-sociaux/linkedin",
 				destination: "/articles/reseaux-sociaux#linkedin",
 				permanent: true,
 			},
@@ -154,6 +155,36 @@ module.exports = {
 			},{
 				source: "/articles/creation-site-web/joomla",
 				destination: "/articles/creation-site-web#joomla",
+				permanent: true,
+			},{
+				source: "/articles/accessibilite",
+				destination: "/articles/miscellaneous/accessibilite",
+				permanent: true,
+			},{
+				source: "/creation-site-web/site-vitrine",
+				destination: "/articles/creation-site-web#site-vitrine",
+				permanent: true,
+			},{
+				source: "/referencement-seo-google",
+				destination: "/articles/referencement-seo-google",
+				permanent: true,
+			},
+
+			{
+				source: "/articles/creation-site-web/",
+				destination: "/articles/creation-site-web",
+				permanent: true,
+			},{
+				source: "/articles/creation-site-web/joomla",
+				destination: "/articles/creation-site-web#joomla",
+				permanent: true,
+			},{
+				source: "/referencement-seo-google",
+				destination: "/articles/referencement-seo-google",
+				permanent: true,
+			},{
+				source: "/referencement-seo-google",
+				destination: "/articles/referencement-seo-google",
 				permanent: true,
 			},
 		];

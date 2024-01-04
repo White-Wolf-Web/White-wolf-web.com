@@ -1,4 +1,3 @@
-// import Image from "next/image";
 import styles from "./page.module.css";
 import Link from "next/link";
 import GreenLine from "@/utils/greenLine";
@@ -7,10 +6,9 @@ import SeeOtherButton from "@/utils/seeOtherButton";
 import { ContainerBigCardHomePage } from "@/components/Cards/ContainerBigCardHomePage";
 import ContainerBlog from "@/components/Blog/ContainerBlog";
 import MetadataHomePage from "@/components/Metadata/MetadataHomePage";
-// import { Metadata } from "next";
 
 export const metadata = {
-	title: "Création de Site internet Pro & référencement naturel - SEO",
+	title: "Création de Site Internet Pro & SEO - Référencement Naturel",
 	description:
 		"Agence Web innovante: création de site internet - web, design, référencement naturel SEO et marketing digital afin de propulser votre succès en ligne!",
 	alternates: {
@@ -21,9 +19,9 @@ export default function Home() {
 	return (
 		<>
 			<div className={styles.bienvenueContent}>
-				<h1>Expert en création de site internet & SEO - Référencement naturel</h1>
+				<h1>Expert en création de site internet & SEO</h1>
 				<p>
-					Bienvenue chez White Wolf Web, l&apos;<span className={styles.colorLightGrey}></span><strong>agence web</strong> innovante qui vous accompagne dans la{" "}
+					Bienvenue à l&apos;<span className={styles.colorLightGrey}></span><strong>agence web</strong> innovante qui vous accompagne dans la{" "}
 					<Link href="/articles/creation-site-web" className={styles.internalLink}>
 						création de site web
 					</Link>{" "}
