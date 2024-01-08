@@ -10,7 +10,7 @@ export default function Header(props) {
 	return (
 		<div className={styles.header}>
 		<Link href="/">
-			<Image src={Logo} alt="Logo de l'agence White wolf Web" width={125} height={160} className={styles.logo} placeholder="blur" />
+			<Image src={Logo} alt="Logo de l'agence Web" width={125} height={160} className={styles.logo} placeholder="blur" />
 </Link>
 			<Navbar />
 			{props.children}

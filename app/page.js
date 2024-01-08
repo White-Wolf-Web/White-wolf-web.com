@@ -181,7 +181,7 @@ export default function Home() {
 					</Link>{" "}
 					et la gestion d&apos;une boutique en ligne peut être un défi, en particulier les auto-entrepreneurs ou une petites entreprises. C&apos;est pourquoi
 					l&apos;agence de création web met tout en œuvre afin d&apos;aider à surmonter ces obstacles. </p> <p>
-					L&apos;équipe de white wolf web est composée de dévouée <span className={styles.colorLightGrey}><strong>développeurs web</strong></span>, de <span className={styles.colorLightGrey}><strong>webdesigners</strong></span>, de{" "}
+					Notre équipe est composée de dévouée <span className={styles.colorLightGrey}><strong>développeurs web</strong></span>, de <span className={styles.colorLightGrey}><strong>webdesigners</strong></span>, de{" "}
 					<Link href="/blog" className={styles.internalLink}>
 						spécialistes du blog
 					</Link>
