@@ -3,14 +3,14 @@ const MetadataHomePage = {
   "@type": "WebPage",
   "@id": "https://www.white-wolf-web.com/",
   "url": "https://www.white-wolf-web.com/",
-  "name": "Création site Internet & expertise en SEO || White Wolf Web",
+  "name": "Agence web créatrice de site internet & SEO",
   "description": "Création de site Internet || Référencement Naturel - SEO || Belgique, Bruxelles, Paris, Lille, Halle, Charleroi, Namur, Tournai, Mons, Liège || 0477131993",
   "inLanguage": "fr-FR",
   "datePublished": "2018-01-01T00:00:00+01:00",
   "dateModified": "2023-09-30T11:19:14+01:00",
   "publisher": {
     "@type": "Organization",
-    "name": "Agence creation Web: White Wolf Web",
+    "name": "Agence web créatrice de site internet & SEO",
     "logo": {
       "@type": "ImageObject",
       "url": "https://www.white-wolf-web.com/logo.png"
@@ -26,7 +26,7 @@ const MetadataHomePage = {
   },
   "mainEntity": {
     "@type": "LocalBusiness",
-    "name": "White Wolf Web",
+    "name": "Agence web créatrice de site internet & SEO",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Octaaf de kerchove d'exaerdestraat 193",

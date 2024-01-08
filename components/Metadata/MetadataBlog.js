@@ -2,7 +2,7 @@
 const MetadataBlog = {
   "@context": "http://schema.org",
   "@type": "Article",
-  "name": "Création de son site web avec Next.js",
+  "name": "Agence web créatrice de site internet & SEO",
    "headline": "Les Étapes Essentielles pour optimiser son site web avec Next.js",
    "url": "https://www.white-wolf-web.com/blog",
    "author": {
@@ -13,7 +13,7 @@ const MetadataBlog = {
          "description": "Blog de développement web",
   "publisher": {
     "@type": "Organization",
-    "name": "White Wolf Web",
+    "name": "Agence web créatrice de site internet & SEO",
     "url": "https://www.white-wolf-web.com"
   },
   "image": [

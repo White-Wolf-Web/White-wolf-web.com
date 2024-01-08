@@ -12,7 +12,7 @@ const MetadataCreationWebPage = {
   "description": "Un article détaillé offrant des conseils et des stratégies pour la création de sites web professionnels, couvrant des sujets tels que la compréhension du public ciblé, le choix d'un nom de domaine, l'utilisation de plateformes CMS, la création de contenu, le SEO, et la maintenance.",
   "publisher": {
     "@type": "Organization",
-    "name": "White Wolf Web",
+    "name": "Agence web créatrice de site internet & SEO",
     "url": "https://www.white-wolf-web.com"
   },
 	"image": [

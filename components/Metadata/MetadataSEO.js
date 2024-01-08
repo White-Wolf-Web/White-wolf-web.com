@@ -12,7 +12,7 @@ const  MetadataSEO = {
          "description": "Agence Web spécialisée dans la création de sites web, le SEO et l'audit de sites basée en Belgique.",
   "publisher": {
     "@type": "Organization",
-    "name": "White Wolf Web",
+    "name": "Agence web créatrice de site internet & SEO",
     "url": "https://www.white-wolf-web.com"
   },
         "image": [

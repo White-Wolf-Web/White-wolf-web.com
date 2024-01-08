@@ -13,7 +13,7 @@ const MetadataBlogApiRest = {
        "description": "guide de l'ApiRestFul",
 "publisher": {
   "@type": "Organization",
-  "name": "White Wolf Web",
+  "name": "Agence web créatrice de site internet & SEO",
   "url": "https://www.white-wolf-web.com"
 },
       "image": 
