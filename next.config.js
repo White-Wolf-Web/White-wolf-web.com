@@ -169,6 +169,19 @@ module.exports = {
 				destination: "/articles/referencement-seo-google",
 				permanent: true,
 			},
+			{
+				source: "/articles/reseaux-sociaux/facebook",
+				destination: "/articles/reseaux-sociaux#facebook",
+				permanent: true,
+			},{
+				source: "/reseaux-sociaux/youtube",
+				destination: "/articles/reseaux-sociaux#youtube",
+				permanent: true,
+			},{
+				source: "/articles/reseaux-sociaux/instagram",
+				destination: "/articles/reseaux-sociaux#instagram",
+				permanent: true,
+			},
 
 			{
 				source: "/articles/creation-site-web/",
