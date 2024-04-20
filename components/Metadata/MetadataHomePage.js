@@ -8,29 +8,7 @@ const MetadataHomePage = [{
   "inLanguage": "fr-FR",
   "datePublished": "2018-01-01T00:00:00+01:00",
   "dateModified": "2023-09-30T11:19:14+01:00",
-  "address": {
-		"@type": "PostalAddress",
-		"streetAddress": "Rue de Chapelle 54",
-		"addressLocality": "Trazegnies",
-		"postalCode": "6183",
-		"addressCountry": "BE"
-	  },
-	  "openingHoursSpecification": [
-		{
-		  "@type": "OpeningHoursSpecification",
-		  "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-		  "opens": "10:00",
-		  "closes": "20:00"
-		},
-		{
-		  "@type": "OpeningHoursSpecification",
-		  "dayOfWeek": "Saturday",
-		  "opens": "10:00",
-		  "closes": "20:00"
-		}
-	  ],
-	  "telephone": "O477131993",
-    "email": "white-wolf-web@outlook.com",
+ 
     "sameAs": [
       "https://www.facebook.com/profile.php?id=100087896780441",
       "https://twitter.com/whitewo26072430"
