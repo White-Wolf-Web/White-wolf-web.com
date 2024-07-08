@@ -4,9 +4,6 @@ const withPWA = require("next-pwa")({
 
 module.exports = withPWA({
 	// next.js config
-});
-
-module.exports = {
 	async redirects() {
 		return [
 			{
@@ -34,7 +31,6 @@ module.exports = {
 				destination: "/articles/reseaux-sociaux#facebook",
 				permanent: true,
 			},
-
 			{
 				source: "/articles/reseaux-sociaux/linkedin",
 				destination: "/articles/reseaux-sociaux#linkedin",
@@ -181,11 +177,6 @@ module.exports = {
 				permanent: true,
 			},
 			{
-				source: "/articles/reseaux-sociaux/facebook",
-				destination: "/articles/reseaux-sociaux#facebook",
-				permanent: true,
-			},
-			{
 				source: "/reseaux-sociaux/youtube",
 				destination: "/articles/reseaux-sociaux#youtube",
 				permanent: true,
@@ -216,42 +207,13 @@ module.exports = {
 				permanent: true,
 			},
 			{
-				source: "/referencement-seo-google",
-				destination: "/articles/referencement-seo-google",
-				permanent: true,
-			},
-			{
 				source: "/reseaux-sociaux/tiktok",
 				destination: "/articles/reseaux-sociaux#tiktok",
 				permanent: true,
-			},
-			{},
-			{
-				source: "/articles/email-marketing-automatisation",
-				destination: "/",
-				permanent: true,
-			},
-			{},
-			{
-				source: "/creation-site-web/portfolio",
-				destination: "/articles/creation-site-web#portfolio",
-				permanent: true,
-			},
-			{},
-			{
-				source: "/articles/reseaux-sociaux/linkedin",
-				destination: "/articles/reseaux-sociaux#linkedin",
-				permanent: true,
-			},
-			{},
-			{
-				source: "/creation-site-web/portail-web",
-				destination: "/articles/creation-site-web#portail-web",
-				permanent: true,
-			},
+			}
 		];
 	},
-};
+});
 
 /* const withPWA = require("next-pwa");
 
