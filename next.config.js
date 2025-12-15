@@ -6,6 +6,11 @@ module.exports = withPWA({
 	// next.js config
 	async redirects() {
 		return [
+			 {
+      source: "/:path*",
+      destination: "https://www.stephanegamot.com/",
+      permanent: true,
+    }, /*
 			{
 				source: "/reseaux-sociaux",
 				destination: "/articles/reseaux-sociaux",
@@ -210,7 +215,7 @@ module.exports = withPWA({
 				source: "/reseaux-sociaux/tiktok",
 				destination: "/articles/reseaux-sociaux#tiktok",
 				permanent: true,
-			}
+			}  */
 		];
 	},
 });
